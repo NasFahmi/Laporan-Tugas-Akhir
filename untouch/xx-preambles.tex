@@ -4,6 +4,10 @@
 
 %% DILARANG EDIT BAGIAN INI
 
+% Mengatur warna tabel di jadwal Penelitian
+\usepackage[table]{xcolor}
+\usepackage{colortbl}
+
 % Mengatur bahasa dokumen ke Bahasa Indonesia dan encoding karakter
 \usepackage[indonesian]{babel}
 \usepackage[utf8]{inputenc}
@@ -33,7 +37,7 @@
 \cftsetpnumwidth{1.5em}
 \cftsetrmarg{2em}
 \setlength{\cftsecnumwidth}{1.5em}
-\setlength{\cftsubsecnumwidth}{1.5em}
+\setlength{\cftsubsecnumwidth}{2.5em}
 \renewcommand{\cftchapdotsep}{\cftdotsep}
 \setlength{\cftbeforechapskip}{3pt}
 
@@ -46,7 +50,7 @@
 
 % Pengaturan format dan penomoran judul bab
 \usepackage{titlesec}
-\titleformat{\chapter}{\doublespacing\fontsize{14pt}{16pt}\bfseries}{\MakeUppercase{\chaptertitlename\ \arabic{chapter}}\filcenter}{0.15cm}{\centering\uppercase}
+\titleformat{\chapter}{\doublespacing\fontsize{14pt}{14pt}\bfseries}{\MakeUppercase{\chaptertitlename\ \arabic{chapter}}\filcenter}{0.15cm}{\centering\uppercase}
 \titleformat{\section}{\fontsize{12}{14}\bfseries}{\thesection}{0.4cm}{}
 \titleformat{\subsection}{\fontsize{12}{14}\bfseries}{\thesubsection}{0.675cm}{}
 
@@ -77,13 +81,14 @@
 \usepackage{tabularx}
 \usepackage{multirow}
 
-% Pengaturan margin halaman
 \usepackage{geometry}
 \geometry{
-    left=3cm,          % Margin kiri
-    top=2cm,           % Margin atas
-    right=2cm,         % Margin kanan
-    bottom=2cm,        % Margin bawah
+	twoside,
+	inner=3cm,          % Margin dalam (untuk jilid)
+	outer=3cm,          % Margin luar (SAMA dengan inner)
+	top=2cm,
+	bottom=2cm,
+	bindingoffset=0cm   % Tidak perlu offset tambahan
 }
 
 % Paket untuk notasi matematika
@@ -195,4 +200,61 @@
 
 %untuk if-then
 \usepackage{ifthen}
+
+%untuk if-then
+\usepackage{ifthen}
+
+% Package untuk halaman kosong yang bersih
+\usepackage{emptypage}
+
+%==================================================================
+% Konfigurasi untuk pencetakan bolak-balik (duplex)
+%==================================================================
+
+% Perintah untuk membuat halaman kosong dengan teks DAN nomor halaman
+\newcommand{\blankpage}{
+	\clearpage
+	\null
+	\vfill
+	\begin{center}
+		\textit{---Halaman ini sengaja dikosongkan---}
+	\end{center}
+	\vfill
+	\clearpage
+}
+
+% Perintah untuk halaman benar-benar kosong tanpa teks (tetap ada nomor)
+\newcommand{\trulyblankpage}{
+	\clearpage
+	\mbox{}
+	\clearpage
+}
+
+% Custom cleardoublepage yang menambah halaman kosong dengan teks DAN nomor halaman
+\makeatletter
+\renewcommand{\cleardoublepage}{
+	\clearpage
+	\if@twoside
+	\ifodd\c@page
+	\else
+	% Halaman kosong DENGAN nomor halaman
+	\null
+	\vfill
+	\begin{center}
+		\textit{---Halaman ini sengaja dikosongkan---}
+	\end{center}
+	\vfill
+	\clearpage
+	\fi
+	\fi
+}
+\makeatother
+
+% Membuat bab selalu dimulai di halaman ganjil
+\let\origchapter\chapter
+\renewcommand{\chapter}{%
+	\cleardoublepage
+	\origchapter
+}
+
 %% DILARANG EDIT BAGIAN INI

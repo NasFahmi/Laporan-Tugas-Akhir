@@ -3,71 +3,91 @@
 %==================================================================
 
 %% DILARANG EDIT BAGIAN INI
-\documentclass[12pt, a4paper, onecolumn, oneside, final]{report}
-
+\documentclass[12pt, a4paper, onecolumn, twoside, openright, final]{report}
 \input{a0-identitas}
 \input{untouch/xx-preambles}
 \input{a1-database.hyphenate}
-
 %\newcommand{\Jenis}{Proposal} %Pilih salah satu antara Proposal atau Laporan
 \newcommand{\Jenis}{Laporan} %Pilih salah satu antara Proposal atau Laporan
-
 \begin{document}
-\ifthenelse{\equal{\Jenis}{Proposal}}{
-	\include{untouch/xx-sampul-proposal}
-	\pagenumbering{roman}
-	\include{untouch/xx-sampuldalam-proposal}
-	\include{untouch/xx-persetujuan-proposal}
-
-	\begin{spacing}{1.2}
-		\include{untouch/xx-daftar}
-	\end{spacing}
-
-	\pagenumbering{arabic}
-
-	\begin{spacing}{1.5}
-		\include{b1-bab1}
-		\include{b2-bab2}
-		\include{b3-bab3}
-		\include{b6-bab6} %HANYA TUTORIAL HAPUS SAAT PENULISAN
-	\end{spacing}
-}{
-
-	\include{untouch/xx-sampul-laporan}
-	\pagenumbering{roman}
-	\include{untouch/xx-sampuldalam-laporan}
-
-	\begin{spacing}{1.2}
-		\include{a4-persembahan}
-		%\include{a9-motto} % Uncomment jika ingin menggunakan halaman motto
-	\end{spacing}
-
-	\begin{spacing}{1.5}
-		\include{untouch/xx-pernyataan-poliwangi}
-	\end{spacing}
-
-	\include{untouch/xx-persetujuan-ujian}
-	\include{untouch/xx-pengesahan}
-
-	\begin{spacing}{1.2}
-		\include{a2-abstrak}
-		\include{a3-abstract}
-		\include{a5-katapengantar}
-		\include{untouch/xx-daftar}
-	\end{spacing}
-
-	\pagenumbering{arabic}
-
-	\begin{spacing}{1.5}
-		\include{b1-bab1}
-		\include{b2-bab2}
-		\include{b3-bab3}
-		\include{b4-bab4}
-		\include{b5-bab5}
-		\include{b6-bab6} %HANYA TUTORIAL HAPUS SAAT PENULISAN
-	\end{spacing}
-}
-\input{untouch/xx-daftarpustaka}
-\input{a8-lampiran}
+	\ifthenelse{\equal{\Jenis}{Proposal}}{
+		\include{untouch/xx-sampul-proposal}
+		\cleardoublepage  % Halaman kosong jika perlu
+		
+		\pagenumbering{roman}
+		\include{untouch/xx-sampuldalam-proposal}
+		\cleardoublepage  % Halaman kosong jika perlu
+		
+		\include{untouch/xx-persetujuan-proposal}
+		\cleardoublepage  % Halaman kosong jika perlu
+		
+		\begin{spacing}{1.2}
+			\include{untouch/xx-daftar}
+		\end{spacing}
+		
+		\cleardoublepage  % Sebelum ganti ke arabic
+		\pagenumbering{arabic}
+		
+		\begin{spacing}{1.5}
+			\include{b1-bab1}
+			\include{b2-bab2}
+			\include{b3-bab3}
+		\end{spacing}
+	}{
+		\include{untouch/xx-sampul-laporan}
+		\cleardoublepage  % Halaman kosong jika sampul di genap
+		
+		\pagenumbering{roman}
+		\include{untouch/xx-sampuldalam-laporan}
+		\cleardoublepage  % Halaman kosong jika sampul dalam di genap
+		
+		\begin{spacing}{1.2}
+			\include{a4-persembahan}
+			\cleardoublepage  % Halaman kosong jika persembahan di genap
+			
+			\include{a9-motto}
+			\cleardoublepage  % Halaman kosong jika motto di genap
+		\end{spacing}
+		
+		\begin{spacing}{1.5}
+			\include{untouch/xx-pernyataan-poliwangi}
+			\cleardoublepage  % Halaman kosong jika pernyataan di genap
+		\end{spacing}
+		
+		\include{untouch/xx-persetujuan-ujian}
+		\cleardoublepage  % Halaman kosong jika persetujuan di genap
+		
+		\include{untouch/xx-pengesahan}
+		\cleardoublepage  % Halaman kosong jika pengesahan di genap
+		
+		\begin{spacing}{1.2}
+			\include{a2-abstrak}
+			\cleardoublepage  % Halaman kosong jika abstrak di genap
+			
+			\include{a3-abstract}
+			\cleardoublepage  % Halaman kosong jika abstract di genap
+			
+			\include{a5-katapengantar}
+			\cleardoublepage  % Halaman kosong jika kata pengantar di genap
+			
+			\include{untouch/xx-daftar}
+		\end{spacing}
+		
+		\cleardoublepage  % PENTING! Sebelum ganti ke arabic
+		\pagenumbering{arabic}
+		
+		\begin{spacing}{1.5}
+			% BAB akan otomatis dapat halaman kosong dari redefinisi \chapter
+			\include{b1-bab1}
+			\include{b2-bab2}
+			\include{b3-bab3}
+			\include{b4-bab4}
+			\include{b5-bab5}
+		\end{spacing}
+	}
+	
+	\input{untouch/xx-daftarpustaka}
+	\input{a8-lampiran}
+	
 \end{document}
 %% DILARANG EDIT BAGIAN INI
