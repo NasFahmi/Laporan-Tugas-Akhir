@@ -4,15 +4,11 @@
 %==================================================================
 
 \chapter[METODOLOGI PENELITIAN]{\\ METODOLOGI PENELITIAN}
-
 \section{Waktu dan Jadwal penelitian}
-
 \subsection{Waktu Pelaksanaan Penelitian}
 Waktu pelaksanaan penelitian ini direncanakan selama 6 bulan, yaitu dimulai pada bulan Agustus 2025 dan berakhir pada bulan Januari 2026. Rentang waktu tersebut dipilih untuk memastikan seluruh tahapan penelitian dapat dilaksanakan secara sistematis dan terstruktur, mulai dari analisis kebutuhan, perancangan sistem, implementasi, hingga pengujian dan evaluasi. Pembagian waktu penelitian disusun secara bertahap agar setiap aktivitas penelitian dapat dilakukan secara optimal sesuai dengan metode yang digunakan, serta memberikan ruang untuk penyesuaian apabila ditemukan kendala selama proses pengembangan sistem.
-
 % tambahkan beberapa kalimat agar tidak 1 paragarf 1 kalimat
 \subsection{Jadwal Kegiatan Penelitian}
-
 Berikut adalah serangkaian jadwal kegiatan yang dilakukan selama pelaksanaan penelitian ini, yang diuraikan pada Tabel \ref{tab:jadwal-kegiatan}.
 \setlength{\arrayrulewidth}{0.8pt}
 \renewcommand{\arraystretch}{1.4}
@@ -92,605 +88,440 @@ Analisis Hasil Pengujian dan Penyusunan Laporan &
 
 \end{longtable}
 % ini nanti perllu di tambah kan ngapain saja di setiap bulan dan kegiatan
-
 Berdasarkan jadwal kegiatan penelitian yang telah disusun, pelaksanaan penelitian diawali pada bulan Agustus 2025 dengan tahap analisis kebutuhan sistem. Pada tahap ini dilakukan identifikasi permasalahan, pengumpulan kebutuhan pengguna, serta menyusun kebutuhan terhadap data dan API yang digunakan sebagai sumber data dashboard analisis sentimen. Tahap analisis ini menjadi dasar bagi tahapan penelitian selanjutnya.
-
 Pada bulan September 2025, kegiatan penelitian difokuskan pada perancangan sistem, yang meliputi perancangan arsitektur frontend, perancangan Client Data Layer, serta perancangan antarmuka pengguna (UI). Tahap perancangan bertujuan untuk menghasilkan rancangan sistem yang terstruktur dan sesuai dengan kebutuhan yang telah dianalisis sebelumnya.
-
 Pada periode bulan September hingga Desember 2025, kegiatan penelitian difokuskan pada tahapan perancangan dan implementasi sistem yang dilakukan secara iteratif dan saling tumpang tindih. Pada periode ini, proses perancangan antarmuka pengguna (desain antarmuka), perancangan sistem, perancangan arsitektur frontend dan Client Data Layer, serta implementasi frontend menggunakan TanStack Query tidak dilakukan secara terpisah dan linier, melainkan berjalan secara bersamaan sesuai dengan karakteristik metode Fountain yang fleksibel.
-
 Pendekatan ini memungkinkan hasil dari tahap implementasi frontend untuk secara langsung dievaluasi dan digunakan sebagai dasar penyesuaian pada tahap perancangan sistem maupun perancangan arsitektur frontend. Sebaliknya, perubahan pada desain antarmuka atau struktur arsitektur juga dapat segera diimplementasikan dan diuji tanpa harus menunggu selesainya seluruh tahapan sebelumnya. Dengan demikian, proses pengembangan sistem dapat berjalan lebih adaptif terhadap kebutuhan dan temuan selama penelitian.
-
 Pelaksanaan tahapan-tahapan tersebut secara paralel bertujuan untuk menjaga konsistensi antara rancangan arsitektur, mekanisme pengelolaan data pada Client Data Layer, serta implementasi antarmuka pengguna. Pola kerja ini sejalan dengan prinsip metode Fountain yang memungkinkan terjadinya pengulangan dan penyesuaian antar-tahapan pengembangan tanpa mengganggu keseluruhan alur penelitian.
-
-
-\section{Metode Penelitian}
-
-Metode penelitian yang digunakan dalam penelitian ini merupakan metode pengembangan perangkat lunak yang disesuaikan dengan karakteristik permasalahan dan tujuan penelitian. Penelitian ini berfokus pada pengembangan aplikasi frontend dashboard analisis sentimen yang bersifat data-driven dan membutuhkan pengelolaan data secara fleksibel serta evaluasi berulang selama proses pengembangan. Oleh karena itu, diperlukan metode penelitian yang mampu mendukung tahapan pengembangan yang tidak bersifat linier dan memungkinkan adanya penyesuaian pada setiap tahapan penelitian.
-
-Berdasarkan pertimbangan tersebut, penelitian ini menggunakan metode Fountain sebagai pendekatan dalam proses pengembangan sistem. Metode Fountain dipilih karena memiliki karakteristik iteratif dan fleksibel, sehingga sesuai untuk mendukung pengembangan frontend yang melibatkan perancangan arsitektur, implementasi, dan pengujian secara saling tumpang tindih. Penjelasan lebih lanjut mengenai metode Fountain dan tahapan penerapannya dalam penelitian ini diuraikan pada subbab berikutnya.
-
-
-\subsection{Metode Fountain}
-
+\section{Metode Fountain}
 Berdasarkan landasan teori dan pembahasan metode penelitian yang telah diuraikan pada Bab II, penelitian ini menggunakan metode Fountain sebagai pendekatan dalam pengembangan sistem. Metode Fountain dipilih karena memiliki karakteristik fleksibel dan iteratif, sehingga memungkinkan tahapan analisis, perancangan, implementasi, dan pengujian dilakukan secara saling tumpang tindih sesuai dengan kebutuhan penelitian. Karakteristik tersebut dinilai sesuai dengan pengembangan aplikasi frontend yang bersifat data-driven dan memerlukan evaluasi berulang terhadap arsitektur dan pengelolaan data.
-
 Pada Bab III ini, metode Fountain diterapkan secara sistematis pada penelitian yang dilakukan. Pembahasan difokuskan pada tahapan penerapan metode Fountain dalam konteks pengembangan Dashboard Analisis Sentimen, mulai dari tahap analisis hingga tahap evaluasi. Uraian pada setiap tahapan menjelaskan aktivitas yang dilakukan dalam penelitian ini tanpa mengulang pembahasan teoritis yang telah disampaikan pada Bab II.
-
-\subsection{Tahapan Penerapan Metode Fountain}
-
 Pemilihan metode Software Development Life Cycle (SDLC) yang tepat merupakan langkah strategis yang krusial untuk memastikan keberhasilan proyek serta mencegah pembengkakan biaya dan waktu pengembangan \citep{Aniley2024}. Berdasarkan pertimbangan tersebut, penelitian ini mengadopsi metode Fountain yang dinilai relevan karena memiliki karakteristik fleksibel namun tetap terstruktur. Efektivitas metode ini didukung oleh penelitian \citep{Sastra2023} pada perancangan sistem SIP-PTK, yang menunjukkan bahwa model Fountain mampu memandu tahapan analisis, desain, implementasi, hingga pengujian secara efektif pada sistem yang memiliki kebutuhan pengolahan data yang spesifik.
-
 Relevansi metode Fountain juga sejalan dengan fokus penelitian ini, yaitu pengembangan aplikasi frontend yang bersifat data-driven dan memiliki ketergantungan tinggi terhadap interaksi antar-komponen. Dalam pengembangan frontend, tahapan perancangan arsitektur, implementasi, dan pengujian tidak berjalan secara linier, melainkan saling berkaitan dan sering memerlukan penyesuaian berdasarkan hasil evaluasi sistem. Penerapan metode Fountain memungkinkan tahapan pengembangan dan evaluasi berjalan secara paralel serta saling tumpang tindih (overlapping) tanpa menghilangkan struktur dan urutan penelitian yang jelas.
-
 Melalui pendekatan ini, aktivitas analisis kebutuhan, perancangan arsitektur frontend, implementasi Client Data Layer, serta pengujian sistem dapat dilakukan secara berulang dan saling mempengaruhi. Hasil evaluasi pada satu tahapan dapat langsung digunakan sebagai dasar penyesuaian pada tahapan lainnya, seperti perubahan struktur data atau mekanisme sinkronisasi, tanpa harus menunggu seluruh siklus pengembangan selesai. Dengan demikian, proses pengembangan sistem menjadi lebih adaptif dan terkontrol, sehingga diharapkan mampu menghasilkan hasil penelitian yang sesuai dengan tujuan penelitian secara optimal.
-
 Tahapan penerapan metode fountain dalam penelitian ini terdiri atas beberapa tahap sebagai berikut:
-
-
-\begin{packed_enum}
-  \item \textbf{Analysis}
- 
+\subsection{Analysis}
   Pada tahap analisis, penelitian ini mengkaji kebutuhan dan permasalahan pada pengembangan aplikasi frontend berbasis web yang berfungsi sebagai dashboard analisis sentimen UMKM. Analisis dilakukan terhadap kebutuhan penyajian hasil analisis sentimen media sosial dalam bentuk visualisasi yang informatif, ringkas, dan mudah dipahami oleh pengguna. Informasi yang dianalisis mencakup kebutuhan penampilan ringkasan sentimen, distribusi sentimen, serta indikator lain yang relevan untuk memantau persepsi konsumen secara umum.
-
   Analisis juga difokuskan pada alur pengelolaan data antara backend dan frontend. Pada penelitian ini, proses pengumpulan data media sosial dan analisis sentimen sepenuhnya dilakukan di sisi backend, sementara frontend bertugas mengonsumsi data hasil analisis melalui REST API. Kondisi ini menuntut adanya mekanisme pengelolaan data frontend yang mampu menerima data secara konsisten dan menyajikannya ke berbagai komponen dashboard tanpa menimbulkan inkonsistensi informasi.
-
   Selain itu, pada tahap analisis diidentifikasi permasalahan pengelolaan data frontend pada aplikasi dashboard yang bersifat data-driven, khususnya ketika data yang sama digunakan oleh banyak komponen antarmuka secara bersamaan. Permasalahan yang dianalisis meliputi potensi terjadinya permintaan data berulang, kesulitan sinkronisasi data antar-komponen, serta kebutuhan pembaruan data secara terkontrol. Hasil analisis ini menjadi dasar dalam menentukan kebutuhan arsitektur frontend yang lebih terstruktur dan efisien.
-
   Pengguna sistem dalam penelitian ini dianalisis sebagai pengguna umum atau pelaku UMKM yang memanfaatkan dashboard untuk memantau informasi sentimen. Aktivitas pengguna dibatasi pada pengamatan dan eksplorasi informasi yang ditampilkan, tanpa keterlibatan langsung dalam proses pengolahan data. Dengan karakteristik pengguna tersebut, analisis sistem difokuskan pada aspek penyajian informasi dan pengelolaan data di sisi frontend agar sesuai dengan tujuan penelitian.
-
-  \item \textbf{Requirement Specification}
-  
+\subsection{Requirement Specification}
   Tahap \textit{requirement specification} bertujuan untuk merumuskan kebutuhan sistem secara terstruktur berdasarkan hasil analisis yang telah dilakukan pada tahap sebelumnya. Pada penelitian ini, spesifikasi kebutuhan difokuskan pada sisi frontend dashboard analisis sentimen UMKM, dengan mempertimbangkan karakteristik sistem yang bersifat data-driven dan bergantung pada data hasil analisis sentimen dari backend.
-
   Kebutuhan fungsional sistem mencakup kemampuan aplikasi frontend untuk mengonsumsi data hasil analisis sentimen yang disediakan melalui REST API dan menyajikannya dalam berbagai komponen dashboard. Sistem harus mampu menampilkan ringkasan sentimen, distribusi sentimen, serta indikator pendukung lainnya secara konsisten pada seluruh komponen antarmuka. Selain itu, sistem perlu mendukung pembaruan data secara berkala agar informasi yang ditampilkan tetap relevan dengan kondisi terbaru tanpa memerlukan interaksi manual yang berlebihan dari pengguna.
-
   Selain kebutuhan fungsional, sistem juga memiliki kebutuhan non-fungsional yang berkaitan dengan kualitas pengelolaan data dan performa aplikasi frontend. Kebutuhan non-fungsional tersebut meliputi konsistensi data antar-komponen antarmuka, efisiensi dalam pengambilan data dari API, serta mekanisme pengelolaan cache untuk mengurangi permintaan data yang tidak diperlukan. Sistem diharapkan mampu mengelola data secara terpusat di sisi frontend sehingga setiap komponen menggunakan sumber data yang sama dan tersinkronisasi.
-
   Kebutuhan lain yang menjadi perhatian pada tahap ini adalah kebutuhan kemudahan pengembangan dan pemeliharaan sistem. Struktur pengelolaan data frontend harus memungkinkan penambahan atau perubahan komponen dashboard tanpa memengaruhi keseluruhan sistem secara signifikan. Dengan demikian, spesifikasi kebutuhan ini menjadi dasar dalam perancangan arsitektur frontend dan penerapan Client Data Layer pada tahap desain dan implementasi selanjutnya.
-
-  \item \textbf{Design}
-
+\subsection{\textit{Design}}
   Tahap \textit{design} merupakan tahapan perancangan solusi berdasarkan spesifikasi kebutuhan sistem yang telah dirumuskan pada tahap \textit{requirement specification}. Pada tahap ini, kebutuhan sistem yang bersifat konseptual diterjemahkan ke dalam rancangan teknis yang menjadi acuan dalam proses implementasi frontend dashboard analisis sentimen. Perancangan difokuskan pada bagaimana sistem frontend mengelola dan menyajikan data secara terstruktur, konsisten, dan mudah dikembangkan sesuai dengan tujuan penelitian.
-
   Pada penelitian ini, tahap \textit{design} mencakup beberapa aspek utama, yaitu perancangan arsitektur frontend, perancangan \textit{Client Data Layer} sebagai mekanisme pengelolaan data dari API, serta perancangan antarmuka pengguna dalam bentuk \textit{wireframe}. Setiap aspek perancangan memiliki peran yang saling berkaitan dalam membangun sistem frontend yang bersifat \textit{data-driven}.
-
-  \begin{itemize}
-    \item \textbf{Perancangan Arsitektur Frontend}
-
-    Penelitian ini menerapkan prinsip \textit{component-based architecture}, di mana antarmuka pengguna dibangun dari komponen-komponen modular yang memiliki tanggung jawab spesifik dan dapat digunakan kembali. Setiap komponen difokuskan pada penyajian data dan interaksi pengguna, sementara logika pengelolaan data dipisahkan ke dalam lapisan tersendiri agar struktur aplikasi lebih terorganisasi dan mudah dipelihara.
-
-    Arsitektur frontend dirancang dengan pendekatan \textit{data-driven}, di mana tampilan antarmuka sepenuhnya bergantung pada data yang dikelola oleh sistem. Untuk mendukung hal tersebut, prinsip \textit{separation of concerns} diterapkan dengan memisahkan lapisan presentasi dan lapisan pengelolaan data, sehingga komponen antarmuka tidak berinteraksi langsung dengan REST API. Pendekatan ini mendukung pengembangan frontend yang lebih terstruktur dan fleksibel sesuai dengan metode Fountain yang digunakan dalam penelitian ini.
-  
-
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.5\textwidth]{diagram-architecture.png}
-    \caption{Diagram Arsitektur Frontend}
-    \label{fig:frontend-architecture}
-  \end{figure}
-
-  Diagram arsitektur frontend pada Gambar~\ref{fig:frontend-architecture} digunakan untuk menggambarkan pembagian lapisan sistem serta alur pengelolaan data pada sistem yang dikembangkan. Diagram ini menunjukkan bagaimana data dari REST API dikelola melalui \textit{Client Data Layer} sebelum disajikan pada komponen antarmuka pengguna.
-
-  Lapisan REST API diposisikan sebagai sumber data eksternal yang menyediakan data hasil analisis sentimen. Seluruh proses pengolahan data, termasuk pengambilan data media sosial dan analisis sentimen, dilakukan pada sisi backend dan berada di luar ruang lingkup penelitian ini. Frontend berperan sebagai konsumen data yang mengakses informasi tersebut melalui antarmuka REST API.
-
-  Lapisan \textit{Client Data Layer} berfungsi sebagai lapisan perantara antara REST API dan komponen antarmuka pengguna. Data yang diperoleh dari REST API dikelola dan dimodelkan secara terpusat sebelum disajikan pada komponen antarmuka pengguna. Lapisan ini bertanggung jawab dalam proses pengambilan data, penyimpanan sementara (\textit{caching}), serta sinkronisasi data antar-komponen.
-
-  Lapisan \textit{UI Components} merupakan lapisan presentasi yang bertugas menampilkan data kepada pengguna dan menangani interaksi pengguna dengan sistem. Komponen pada lapisan ini menerima data yang telah dikelola oleh \textit{Client Data Layer} dan menyajikannya dalam bentuk visualisasi seperti grafik dan tabel.
-
-
-
-  \item \textbf{Perancangan Client Data Layer}
-
-  Perancangan Client Data Layer dilakukan untuk mengelola data yang bersumber dari backend secara terpusat pada sisi frontend sebelum disajikan pada komponen antarmuka pengguna. Pada aplikasi dashboard yang bersifat data-driven, data yang sama dapat digunakan oleh berbagai komponen secara bersamaan dan diperbarui secara dinamis. Oleh karena itu, diperlukan suatu lapisan pengelolaan data yang mampu mengatur alur data, menjaga konsistensi informasi, serta mengendalikan interaksi antara frontend dan REST API.
-
-  Client Data Layer diposisikan sebagai lapisan perantara antara REST API dan komponen antarmuka pengguna, sebagaimana ditunjukkan pada Gambar \ref{fig:frontend-architecture} diagram arsitektur frontend. Seluruh data yang diperoleh dari backend tidak langsung digunakan oleh komponen antarmuka, melainkan terlebih dahulu dikelola melalui Client Data Layer. Dengan pendekatan ini, komponen antarmuka tidak perlu mengetahui detail proses pengambilan data dari API, sehingga fokus komponen dapat diarahkan pada penyajian data dan interaksi pengguna.
-
-  Secara konseptual, Client Data Layer memiliki beberapa tanggung jawab utama dalam sistem frontend. Tanggung jawab tersebut meliputi proses pengambilan data dari REST API, pengelolaan server state, penyimpanan sementara data melalui mekanisme caching, serta sinkronisasi data antar-komponen antarmuka. Dengan pengelolaan data yang terpusat, permintaan data yang bersifat berulang dapat dikendalikan dan setiap komponen antarmuka memperoleh data yang konsisten sesuai dengan kondisi sistem.
-
-  Selain pengelolaan alur data, Client Data Layer juga dirancang untuk menangani pemodelan data sebelum digunakan oleh komponen antarmuka. Data yang diperoleh dari REST API dimodelkan secara terstruktur pada Client Data Layer agar memiliki bentuk dan konsistensi yang jelas. Pendekatan ini bertujuan untuk meminimalkan ketergantungan komponen antarmuka terhadap struktur data mentah dari backend serta mempermudah proses pengembangan dan pemeliharaan sistem frontend.
-
-  Dalam penelitian ini, Client Data Layer dirancang untuk diimplementasikan menggunakan TanStack Query sebagai pustaka pengelolaan server state pada frontend. Pemilihan TanStack Query didasarkan pada kemampuannya dalam menyediakan mekanisme pengelolaan data asinkron secara terpusat, termasuk caching, sinkronisasi data, dan pengendalian permintaan data. Dengan memanfaatkan pustaka tersebut, Client Data Layer diharapkan mampu mendukung pengelolaan data frontend yang lebih terstruktur, konsisten, dan efisien sesuai dengan kebutuhan dashboard analisis sentimen.
-
-
-  \item \textbf{Perancangan Penggunaan TanStack Query}
-
-  Perancangan penggunaan TanStack Query pada penelitian ini mengacu pada dokumentasi resmi TanStack Query sebagai pustaka server state management untuk aplikasi frontend. Berdasarkan dokumentasi resmi TanStack Query \citep{TanstackLCC2025}, pustaka ini dirancang untuk mengelola data asinkron yang bersumber dari API secara terpusat melalui mekanisme pengambilan data, penyimpanan sementara (caching), serta sinkronisasi data antar-komponen antarmuka. Pendekatan tersebut memungkinkan komponen frontend memperoleh data yang konsisten tanpa harus melakukan permintaan data secara langsung ke REST API, sehingga pemisahan tanggung jawab antara lapisan presentasi dan lapisan pengelolaan data dapat terjaga. Dengan karakteristik tersebut, TanStack Query dinilai sesuai untuk diimplementasikan sebagai Client Data Layer pada aplikasi frontend yang bersifat data-driven, khususnya dalam konteks dashboard analisis sentimen yang membutuhkan konsistensi data dan pembaruan informasi secara terkontrol.
-  
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.5\textwidth]{gambar/tanstack-works.jpg}
-    \caption{Cara Kerja TanStack Query}
-    \label{fig:tanstack-works}
-  \end{figure}
-
-  Gambar \ref{fig:tanstack-works} menunjukkan alur pengelolaan data asinkron pada sisi frontend menggunakan TanStack Query. Ketika komponen antarmuka membutuhkan data, permintaan tidak langsung dikirimkan ke REST API, melainkan terlebih dahulu dikelola oleh Client Data Layer.
-
-  TanStack Query melakukan pengecekan terhadap cache untuk menentukan apakah data yang diminta masih valid. Jika data tersedia dan masih relevan, data langsung dikembalikan ke komponen antarmuka tanpa melakukan pemanggilan ulang ke server. Sebaliknya, apabila data tidak tersedia atau sudah tidak valid, sistem akan melakukan proses fetching ke REST API dan menyimpan hasilnya ke dalam cache sebelum disajikan ke antarmuka pengguna.
-
-  Mekanisme ini memungkinkan pengelolaan data yang lebih efisien, mengurangi jumlah permintaan API yang tidak perlu, serta menjaga konsistensi data antar-komponen pada frontend dashboard analisis sentimen.
-
-
-  \item \textbf{Perancangan Antarmuka}
-  
-  Rancangan antarmuka dilakukan sebagai tindak lanjut dari struktur arsitektur yang telah ditetapkan, dengan tujuan memastikan bahwa data hasil analisis sentimen yang dikelola oleh sistem dapat disajikan kepada pengguna secara informatif, mudah dipahami, dan konsisten. Antarmuka pengguna dirancang untuk merepresentasikan kebutuhan fungsional sistem dalam bentuk visual, sekaligus menjadi media interaksi antara pengguna dan sistem frontend dashboard analisis sentimen.
-
-  Sebagai bentuk konkret dari perancangan antarmuka pengguna, dilakukan penyusunan wireframe yang menggambarkan tata letak komponen, alur navigasi, serta penyajian informasi pada setiap halaman utama sistem. Wireframe digunakan sebagai rancangan awal antarmuka sebelum tahap implementasi, sehingga pengembangan sistem dapat dilakukan secara terstruktur dan selaras dengan kebutuhan pengguna yang telah dianalisis pada tahap sebelumnya.
-
-  % wireframe landing page
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\textwidth]{gambar/landing-page.jpeg}
-    \caption{Wireframe Landing Page}
-    \label{fig:landing-page}
-  \end{figure}
-
-  Landing Page pada Gambar \ref{fig:landing-page} dirancang sebagai halaman awal yang pertama kali diakses oleh pengguna ketika membuka sistem. Halaman ini berfungsi untuk memberikan gambaran umum mengenai tujuan dan fitur utama sistem sebelum pengguna melakukan proses autentikasi. Struktur halaman dirancang sederhana dengan penekanan pada informasi pengenalan sistem serta elemen navigasi utama yang mengarahkan pengguna ke halaman login atau registrasi. Perancangan wireframe ini bertujuan untuk memastikan pengguna dapat memahami konteks sistem secara cepat dan memiliki alur navigasi yang jelas menuju fitur utama yang disediakan.
-
-  % wireframe login
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{gambar/login.jpeg}
-    \caption{Wireframe Halaman Login}
-    \label{fig:login}
-  \end{figure}
-
-  Halaman Login pada Gambar \ref{fig:login} dirancang sebagai antarmuka autentikasi pengguna untuk mengakses fitur utama sistem. Halaman ini menyediakan elemen input untuk memasukkan kredensial pengguna untuk memproses autentikasi. pengguna dapat melakukan proses login sebelum diarahkan ke halaman dashboard. Halaman ini dirancang untuk mendukung keamanan akses sistem dengan memastikan bahwa hanya pengguna yang telah terautentikasi yang dapat mengakses fitur-fitur utama aplikasi.
-
-  % wireframe register
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{gambar/register.jpeg}
-    \caption{Wireframe Halaman Register}
-    \label{fig:register}
-  \end{figure}
-
-  Halaman Register pada Gambar \ref{fig:register} dirancang sebagai antarmuka pendaftaran pengguna baru sebelum dapat mengakses sistem. Halaman ini menyediakan form untuk pengisian data pengguna yang diperlukan dalam proses registrasi. Pengguna dapat melakukan proses pendaftaran secara sistematis. Halaman ini juga berfungsi sebagai bagian dari mekanisme kontrol akses dengan memastikan bahwa data pengguna dikumpulkan dan diproses sebelum akun dapat digunakan untuk mengakses fitur utama sistem.
-
-  % wireframe dashboard
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.6\textwidth]{gambar/dashboard.png}
-    \caption{Wireframe Halaman Dashboard}
-    \label{fig:dashboard}
-  \end{figure}
-
-  Halaman Dashboard pada Gambar \ref{fig:dashboard} dirancang sebagai halaman utama setelah pengguna berhasil melakukan autentikasi. Halaman ini berfungsi sebagai pusat informasi yang menampilkan ringkasan data dan visualisasi utama dari sistem. Struktur dashboard dirancang untuk memudahkan pengguna dalam memantau kondisi data secara keseluruhan serta mengakses fitur-fitur utama melalui navigasi yang tersedia. Perancangan wireframe ini bertujuan untuk memastikan penyajian informasi yang terstruktur dan mudah dipahami, sehingga pengguna dapat memperoleh gambaran umum hasil analisis secara cepat sebelum melakukan eksplorasi data lebih lanjut.
-
-  % wireframe sentiment
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.6\textwidth]{gambar/sentiment.png}
-    \caption{Wireframe Halaman Sentiment}
-    \label{fig:sentiment}
-  \end{figure}
-
-  Halaman Sentiment pada Gambar \ref{fig:sentiment} dirancang untuk menampilkan hasil analisis sentimen aspect based sentiment analysis secara lebih rinci dibandingkan halaman dashboard. Halaman ini menyajikan informasi sentimen dalam bentuk visualisasi data yang memudahkan pengguna dalam memahami distribusi dan kecenderungan sentimen. Perancangan struktur halaman difokuskan pada penyajian data yang terorganisasi dan mudah diinterpretasikan, sehingga pengguna dapat melakukan analisis sentimen secara lebih mendalam sesuai dengan kebutuhan informasi yang diinginkan.
-
-  % wireframe scraper
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.6\textwidth]{gambar/scraper.png}
-    \caption{Wireframe Halaman Scraper}
-    \label{fig:scraper}
-  \end{figure}
-
-  Halaman Scraper pada Gambar \ref{fig:scraper} dirancang sebagai antarmuka yang memfasilitasi proses pengumpulan dan pemantauan data yang bersumber dari media sosial. Halaman ini menyajikan data hasil proses scraping yang dilakukan pada sisi server, sehingga pengguna dapat mengetahui data yang tersedia dan data yang mana yang akan digunakan oleh sistem pada tahap analisis.
-
-  % wireframe recomendation
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.6\textwidth]{gambar/recomendation.png}
-    \caption{Wireframe Halaman Recomendation}
-    \label{fig:recomendation}
-  \end{figure}
-
-  Halaman Recommendation pada Gambar \ref{fig:recomendation} dirancang sebagai antarmuka yang menyajikan rekomendasi berdasarkan hasil analisis sentimen yang telah diproses secara otomatis oleh sistem. Halaman ini menampilkan informasi rekomendasi yang diperoleh dari pengolahan data sentimen, sehingga pengguna dapat memahami insight yang dihasilkan dari data media sosial. Hasil rekomendasi yang ditampilkan pada halaman ini juga disajikan secara lebih detail sebagai bagian dari informasi rekomendasi utama. Halaman ini bertujuan untuk memudahkan pengguna dalam mengakses rekomendasi dan memahami hasil analisis sentimen secara terstruktur.
-
-
-  \end{itemize}
-
-  
-  \item Coding (Implementation)
-  
-  Pada tahap persiapan implementasi, dilakukan penyiapan lingkungan pengembangan frontend serta penyesuaian struktur proyek agar sesuai dengan rancangan arsitektur yang telah ditetapkan. Framework React dipilih sebagai dasar pengembangan antarmuka pengguna, sementara TanStack Query digunakan sebagai mekanisme pengelolaan server state dan Client Data Layer pada aplikasi frontend.
-
-  Selain itu, pada tahap ini juga dilakukan penyiapan komponen pendukung dan mekanisme integrasi data dengan backend melalui API. Persiapan tersebut bertujuan untuk memastikan proses implementasi dapat berjalan secara terstruktur, konsisten, dan sesuai dengan kebutuhan sistem yang telah didefinisikan pada tahap sebelumnya.
-
-  \item Testing
-  
- 
-  Metode pengujian yang digunakan dalam penelitian ini mengacu pada konsep black-box testing yang telah dijelaskan pada Bab II, dengan pendekatan scenario-based testing. Pengujian dilakukan dengan mengamati perilaku sistem berdasarkan skenario penggunaan tanpa memperhatikan struktur internal kode program. Pendekatan ini menempatkan sistem sebagai sebuah kesatuan yang diuji dari sudut pandang pengguna, sehingga pengujian difokuskan pada kesesuaian fungsi dan respons sistem terhadap alur penggunaan yang dirancang.
-
-  Pemilihan pendekatan scenario-based testing didasarkan pada karakteristik sistem yang dikembangkan, yaitu dashboard analitik yang bersifat data-driven dan mengandalkan interaksi antar-komponen antarmuka. Oleh karena itu, pengujian diarahkan pada evaluasi perilaku sistem dalam menampilkan data, menjaga konsistensi informasi, serta merespons pembaruan data sesuai dengan kondisi yang terjadi.
-
-  Ruang lingkup pengujian pada penelitian ini difokuskan pada perilaku sistem frontend, khususnya pada pengelolaan data melalui Client Data Layer dan penyajian data pada antarmuka pengguna. Pengujian tidak mencakup evaluasi terhadap algoritma analisis sentimen maupun proses pengolahan data pada sisi backend.
-
-  
-  Skenario pengujian disusun berdasarkan fitur utama sistem dan merepresentasikan alur penggunaan dari sudut pandang pengguna. Setiap skenario dirancang untuk mengevaluasi perilaku sistem frontend dalam merespons interaksi pengguna serta memastikan kesesuaian fungsi sistem dengan rancangan yang telah ditetapkan. Skenario pengujian dalam penelitian ini terdiri atas beberapa pengujian sebagai berikut:
-
-  % landing page
   \begin{packed_enum}
+    \item Perancangan Arsitektur Frontend \hfill \\
+      Penelitian ini menerapkan prinsip \textit{component-based architecture}, di mana antarmuka pengguna dibangun dari komponen-komponen modular yang memiliki tanggung jawab spesifik dan dapat digunakan kembali. Setiap komponen difokuskan pada penyajian data dan interaksi pengguna, sementara logika pengelolaan data dipisahkan ke dalam lapisan tersendiri agar struktur aplikasi lebih terorganisasi dan mudah dipelihara.
+      Arsitektur frontend dirancang dengan pendekatan \textit{data-driven}, di mana tampilan antarmuka sepenuhnya bergantung pada data yang dikelola oleh sistem. Untuk mendukung hal tersebut, prinsip \textit{separation of concerns} diterapkan dengan memisahkan lapisan presentasi dan lapisan pengelolaan data, sehingga komponen antarmuka tidak berinteraksi langsung dengan REST API.
+      \begin{figure}[htbp]
+        \centering
+        \includegraphics[width=0.5\textwidth]{diagram-architecture.png}
+        \caption{Diagram Arsitektur Frontend}
+        \label{fig:frontend-architecture}
+      \end{figure}
+      \FloatBarrier
 
+      Diagram arsitektur frontend pada Gambar~\ref{fig:frontend-architecture} digunakan untuk menggambarkan pembagian lapisan sistem serta alur pengelolaan data pada sistem yang dikembangkan. Diagram ini menunjukkan bagaimana data dari REST API dikelola melalui \textit{Client Data Layer} sebelum disajikan pada komponen antarmuka pengguna.
+      Lapisan REST API diposisikan sebagai sumber data eksternal yang menyediakan data hasil analisis sentimen. Seluruh proses pengolahan data, termasuk pengambilan data media sosial dan analisis sentimen, dilakukan pada sisi backend dan berada di luar ruang lingkup penelitian ini. Frontend berperan sebagai konsumen data yang mengakses informasi tersebut melalui antarmuka REST API.
+      Lapisan \textit{Client Data Layer} berfungsi sebagai lapisan perantara antara REST API dan komponen antarmuka pengguna. Data yang diperoleh dari REST API dikelola dan dimodelkan secara terpusat sebelum disajikan pada komponen antarmuka pengguna. Lapisan ini bertanggung jawab dalam proses pengambilan data, penyimpanan sementara (\textit{caching}), serta sinkronisasi data antar-komponen.
+      Lapisan \textit{UI Components} merupakan lapisan presentasi yang bertugas menampilkan data kepada pengguna dan menangani interaksi pengguna dengan sistem. Komponen pada lapisan ini menerima data yang telah dikelola oleh \textit{Client Data Layer} dan menyajikannya dalam bentuk visualisasi seperti grafik dan tabel.
+    \item Perancangan Client Data Layer \hfill \\
+      Perancangan Client Data Layer dilakukan untuk mengelola data yang bersumber dari backend secara terpusat pada sisi frontend sebelum disajikan pada komponen antarmuka pengguna. Pada aplikasi dashboard yang bersifat data-driven, data yang sama dapat digunakan oleh berbagai komponen secara bersamaan dan diperbarui secara dinamis. Oleh karena itu, diperlukan suatu lapisan pengelolaan data yang mampu mengatur alur data, menjaga konsistensi informasi, serta mengendalikan interaksi antara frontend dan REST API.
+      Client Data Layer diposisikan sebagai lapisan perantara antara REST API dan komponen antarmuka pengguna, sebagaimana ditunjukkan pada Gambar \ref{fig:frontend-architecture} diagram arsitektur frontend. Seluruh data yang diperoleh dari backend tidak langsung digunakan oleh komponen antarmuka, melainkan terlebih dahulu dikelola melalui Client Data Layer. Dengan pendekatan ini, komponen antarmuka tidak perlu mengetahui detail proses pengambilan data dari API, sehingga fokus komponen dapat diarahkan pada penyajian data dan interaksi pengguna.
+      Secara konseptual, Client Data Layer memiliki beberapa tanggung jawab utama dalam sistem frontend. Tanggung jawab tersebut meliputi proses pengambilan data dari REST API, pengelolaan server state, penyimpanan sementara data melalui mekanisme caching, serta sinkronisasi data antar-komponen antarmuka. Dengan pengelolaan data yang terpusat, permintaan data yang bersifat berulang dapat dikendalikan dan setiap komponen antarmuka memperoleh data yang konsisten sesuai dengan kondisi sistem.
+      Selain pengelolaan alur data, Client Data Layer juga dirancang untuk menangani pemodelan data sebelum digunakan oleh komponen antarmuka. Data yang diperoleh dari REST API dimodelkan secara terstruktur pada Client Data Layer agar memiliki bentuk dan konsistensi yang jelas. Pendekatan ini bertujuan untuk meminimalkan ketergantungan komponen antarmuka terhadap struktur data mentah dari backend serta mempermudah proses pengembangan dan pemeliharaan sistem frontend.
+      Dalam penelitian ini, Client Data Layer dirancang untuk diimplementasikan menggunakan TanStack Query sebagai pustaka pengelolaan server state pada frontend. Pemilihan TanStack Query didasarkan pada kemampuannya dalam menyediakan mekanisme pengelolaan data asinkron secara terpusat, termasuk caching, sinkronisasi data, dan pengendalian permintaan data. Dengan memanfaatkan pustaka tersebut, Client Data Layer diharapkan mampu mendukung pengelolaan data frontend yang lebih terstruktur, konsisten, dan efisien sesuai dengan kebutuhan dashboard analisis sentimen.
+    \item Perancangan Penggunaan TanStack Query \hfill \\
+      Perancangan penggunaan TanStack Query pada penelitian ini mengacu pada dokumentasi resmi TanStack Query sebagai pustaka server state management untuk aplikasi frontend. Berdasarkan dokumentasi resmi TanStack Query \citep{TanstackLCC2025}, pustaka ini dirancang untuk mengelola data asinkron yang bersumber dari API secara terpusat melalui mekanisme pengambilan data, penyimpanan sementara (caching), serta sinkronisasi data antar-komponen antarmuka. Pendekatan tersebut memungkinkan komponen frontend memperoleh data yang konsisten tanpa harus melakukan permintaan data secara langsung ke REST API, sehingga pemisahan tanggung jawab antara lapisan presentasi dan lapisan pengelolaan data dapat terjaga. Dengan karakteristik tersebut, TanStack Query dinilai sesuai untuk diimplementasikan sebagai Client Data Layer pada aplikasi frontend yang bersifat data-driven, khususnya dalam konteks dashboard analisis sentimen yang membutuhkan konsistensi data dan pembaruan informasi secara terkontrol.
+      \begin{figure}[htbp]
+        \centering
+        \includegraphics[width=0.5\textwidth]{gambar/tanstack-works.jpg}
+        \caption{Cara Kerja TanStack Query}
+        \label{fig:tanstack-works}
+      \end{figure}
+      \FloatBarrier
+
+      Gambar \ref{fig:tanstack-works} menunjukkan alur pengelolaan data asinkron pada sisi frontend menggunakan TanStack Query. Ketika komponen antarmuka membutuhkan data, permintaan tidak langsung dikirimkan ke REST API, melainkan terlebih dahulu dikelola oleh Client Data Layer.
+      TanStack Query melakukan pengecekan terhadap cache untuk menentukan apakah data yang diminta masih valid. Jika data tersedia dan masih relevan, data langsung dikembalikan ke komponen antarmuka tanpa melakukan pemanggilan ulang ke server. Sebaliknya, apabila data tidak tersedia atau sudah tidak valid, sistem akan melakukan proses fetching ke REST API dan menyimpan hasilnya ke dalam cache sebelum disajikan ke antarmuka pengguna.
+      Mekanisme ini memungkinkan pengelolaan data yang lebih efisien, mengurangi jumlah permintaan API yang tidak perlu, serta menjaga konsistensi data antar-komponen pada frontend dashboard analisis sentimen.
+    \item Perancangan Antarmuka \hfill \\
+      Rancangan antarmuka dilakukan sebagai tindak lanjut dari struktur arsitektur yang telah ditetapkan, dengan tujuan memastikan bahwa data hasil analisis sentimen yang dikelola oleh sistem dapat disajikan kepada pengguna secara informatif, mudah dipahami, dan konsisten. Antarmuka pengguna dirancang untuk merepresentasikan kebutuhan fungsional sistem dalam bentuk visual, sekaligus menjadi media interaksi antara pengguna dan sistem frontend dashboard analisis sentimen.
+      Sebagai bentuk konkret dari perancangan antarmuka pengguna, dilakukan penyusunan wireframe yang menggambarkan tata letak komponen, alur navigasi, serta penyajian informasi pada setiap halaman utama sistem. Wireframe digunakan sebagai rancangan awal antarmuka sebelum tahap implementasi, sehingga pengembangan sistem dapat dilakukan secara terstruktur dan selaras dengan kebutuhan pengguna yang telah dianalisis pada tahap sebelumnya.
+      \noindent
+      \begin{center}
+        \includegraphics[width=1\textwidth, keepaspectratio]{gambar/landing-page.jpeg}
+        \captionof{figure}{Wireframe Landing Page}
+        \label{fig:landing-page}
+      \end{center}
+      
+      Landing Page pada Gambar \ref{fig:landing-page} dirancang sebagai halaman awal yang pertama kali diakses oleh pengguna ketika membuka sistem. Halaman ini berfungsi untuk memberikan gambaran umum mengenai tujuan dan fitur utama sistem sebelum pengguna melakukan proses autentikasi. Struktur halaman dirancang sederhana dengan penekanan pada informasi pengenalan sistem serta elemen navigasi utama yang mengarahkan pengguna ke halaman login atau registrasi. Perancangan wireframe ini bertujuan untuk memastikan pengguna dapat memahami konteks sistem secara cepat dan memiliki alur navigasi yang jelas menuju fitur utama yang disediakan.
+      \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.9\textwidth]{gambar/login.jpeg}
+        \caption{Wireframe Halaman Login}
+        \label{fig:login}
+      \end{figure}
+      Halaman Login pada Gambar \ref{fig:login} dirancang sebagai antarmuka autentikasi pengguna untuk mengakses fitur utama sistem. Halaman ini menyediakan elemen input untuk memasukkan kredensial pengguna untuk memproses autentikasi. pengguna dapat melakukan proses login sebelum diarahkan ke halaman dashboard. Halaman ini dirancang untuk mendukung keamanan akses sistem dengan memastikan bahwa hanya pengguna yang telah terautentikasi yang dapat mengakses fitur-fitur utama aplikasi.
+      \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.9\textwidth]{gambar/register.jpeg}
+        \caption{Wireframe Halaman Register}
+        \label{fig:register}
+      \end{figure}
+      Halaman Register pada Gambar \ref{fig:register} dirancang sebagai antarmuka pendaftaran pengguna baru sebelum dapat mengakses sistem. Halaman ini menyediakan form untuk pengisian data pengguna yang diperlukan dalam proses registrasi. Pengguna dapat melakukan proses pendaftaran secara sistematis. Halaman ini juga berfungsi sebagai bagian dari mekanisme kontrol akses dengan memastikan bahwa data pengguna dikumpulkan dan diproses sebelum akun dapat digunakan untuk mengakses fitur utama sistem.
+      \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.7\textwidth]{gambar/dashboard.png}
+        \caption{Wireframe Halaman Dashboard}
+        \label{fig:dashboard}
+      \end{figure}
+      Halaman Dashboard pada Gambar \ref{fig:dashboard} dirancang sebagai halaman utama setelah pengguna berhasil melakukan autentikasi. Halaman ini berfungsi sebagai pusat informasi yang menampilkan ringkasan data dan visualisasi utama dari sistem. Struktur dashboard dirancang untuk memudahkan pengguna dalam memantau kondisi data secara keseluruhan serta mengakses fitur-fitur utama melalui navigasi yang tersedia. Perancangan wireframe ini bertujuan untuk memastikan penyajian informasi yang terstruktur dan mudah dipahami, sehingga pengguna dapat memperoleh gambaran umum hasil analisis secara cepat sebelum melakukan eksplorasi data lebih lanjut.
+      \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.7\textwidth]{gambar/sentiment.png}
+        \caption{Wireframe Halaman Sentiment}
+        \label{fig:sentiment}
+      \end{figure}
+      Halaman Sentiment pada Gambar \ref{fig:sentiment} dirancang untuk menampilkan hasil analisis sentimen aspect based sentiment analysis secara lebih rinci dibandingkan halaman dashboard. Halaman ini menyajikan informasi sentimen dalam bentuk visualisasi data yang memudahkan pengguna dalam memahami distribusi dan kecenderungan sentimen. Perancangan struktur halaman difokuskan pada penyajian data yang terorganisasi dan mudah diinterpretasikan, sehingga pengguna dapat melakukan analisis sentimen secara lebih mendalam sesuai dengan kebutuhan informasi yang diinginkan.
+      \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.7\textwidth]{gambar/scraper.png}
+        \caption{Wireframe Halaman Scraper}
+        \label{fig:scraper}
+      \end{figure}
+      Halaman Scraper pada Gambar \ref{fig:scraper} dirancang sebagai antarmuka yang memfasilitasi proses pengumpulan dan pemantauan data yang bersumber dari media sosial. Halaman ini menyajikan data hasil proses scraping yang dilakukan pada sisi server, sehingga pengguna dapat mengetahui data yang tersedia dan data yang mana yang akan digunakan oleh sistem pada tahap analisis.
+      \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.7\textwidth]{gambar/recomendation.png}
+        \caption{Wireframe Halaman Recomendation}
+        \label{fig:recomendation}
+      \end{figure}
+      Halaman Recommendation pada Gambar \ref{fig:recomendation} dirancang sebagai antarmuka yang menyajikan rekomendasi berdasarkan hasil analisis sentimen yang telah diproses secara otomatis oleh sistem. Halaman ini menampilkan informasi rekomendasi yang diperoleh dari pengolahan data sentimen, sehingga pengguna dapat memahami insight yang dihasilkan dari data media sosial. Hasil rekomendasi yang ditampilkan pada halaman ini juga disajikan secara lebih detail sebagai bagian dari informasi rekomendasi utama. Halaman ini bertujuan untuk memudahkan pengguna dalam mengakses rekomendasi dan memahami hasil analisis sentimen secara terstruktur.
+    \end{packed_enum}
+\subsection{Coding (Implementation)}
+  Pada tahap persiapan implementasi, dilakukan penyiapan lingkungan pengembangan frontend serta penyesuaian struktur proyek agar sesuai dengan rancangan arsitektur yang telah ditetapkan. Framework React dipilih sebagai dasar pengembangan antarmuka pengguna, sementara TanStack Query digunakan sebagai mekanisme pengelolaan server state dan Client Data Layer pada aplikasi frontend.
+  Selain itu, pada tahap ini juga dilakukan penyiapan komponen pendukung dan mekanisme integrasi data dengan backend melalui API. Persiapan tersebut bertujuan untuk memastikan proses implementasi dapat berjalan secara terstruktur, konsisten, dan sesuai dengan kebutuhan sistem yang telah didefinisikan pada tahap sebelumnya.
+\subsection{Testing}
+  Metode pengujian yang digunakan dalam penelitian ini mengacu pada konsep black-box testing yang telah dijelaskan pada Bab II, dengan pendekatan scenario-based testing. Pengujian dilakukan dengan mengamati perilaku sistem berdasarkan skenario penggunaan tanpa memperhatikan struktur internal kode program. Pendekatan ini menempatkan sistem sebagai sebuah kesatuan yang diuji dari sudut pandang pengguna, sehingga pengujian difokuskan pada kesesuaian fungsi dan respons sistem terhadap alur penggunaan yang dirancang.
+  Pemilihan pendekatan scenario-based testing didasarkan pada karakteristik sistem yang dikembangkan, yaitu dashboard analitik yang bersifat data-driven dan mengandalkan interaksi antar-komponen antarmuka. Oleh karena itu, pengujian diarahkan pada evaluasi perilaku sistem dalam menampilkan data, menjaga konsistensi informasi, serta merespons pembaruan data sesuai dengan kondisi yang terjadi.
+  Ruang lingkup pengujian pada penelitian ini difokuskan pada perilaku sistem frontend, khususnya pada pengelolaan data melalui Client Data Layer dan penyajian data pada antarmuka pengguna. Pengujian tidak mencakup evaluasi terhadap algoritma analisis sentimen maupun proses pengolahan data pada sisi backend.
+  Skenario pengujian disusun berdasarkan fitur utama sistem dan merepresentasikan alur penggunaan dari sudut pandang pengguna. Setiap skenario dirancang untuk mengevaluasi perilaku sistem frontend dalam merespons interaksi pengguna serta memastikan kesesuaian fungsi sistem dengan rancangan yang telah ditetapkan. Skenario pengujian dalam penelitian ini terdiri atas beberapa pengujian sebagai berikut:
+  \begin{packed_enum}
     \item Landing Page
-    \setlength{\arrayrulewidth}{0.8pt}
-    \renewcommand{\arraystretch}{1.4}
-    \setlength{\tabcolsep}{6pt}
+      \setlength{\arrayrulewidth}{0.8pt}
+      \renewcommand{\arraystretch}{1.4}
+      \setlength{\tabcolsep}{6pt}
 
-    \begin{longtable}{|c|p{2cm}|p{3cm}|p{3cm}|p{4cm}|}
-    \caption{Skenario Pengujian Landing Page}
-    \label{tab:pengujian-landing-page} \\
+      \begin{longtable}{|c|p{2cm}|p{3cm}|p{3cm}|p{4cm}|}
+      \caption{Skenario Pengujian Landing Page}
+      \label{tab:pengujian-landing-page} \\
 
-    \hline
-    \textbf{ID} &
-    \textbf{Fitur} &
-    \textbf{Skenario Pengujian} &
-    \textbf{Data Uji} &
-    \textbf{Hasil yang Diharapkan} \\
-    \hline
-    \endfirsthead
+      \hline
+      \textbf{ID} &
+      \textbf{Fitur} &
+      \textbf{Skenario Pengujian} &
+      \textbf{Data Uji} &
+      \textbf{Hasil yang Diharapkan} \\
+      \hline
+      \endfirsthead
 
-    \multicolumn{5}{c}{\tablename\ \thetable\ -- \textit{Lanjutan dari halaman sebelumnya}} \\
-    \hline
-    \textbf{ID} &
-    \textbf{Fitur} &
-    \textbf{Skenario Pengujian} &
-    \textbf{Data Uji} &
-    \textbf{Hasil yang Diharapkan} \\
-    \hline
-    \endhead
+      \multicolumn{5}{c}{\tablename\ \thetable\ -- \textit{Lanjutan dari halaman sebelumnya}} \\
+      \hline
+      \textbf{ID} &
+      \textbf{Fitur} &
+      \textbf{Skenario Pengujian} &
+      \textbf{Data Uji} &
+      \textbf{Hasil yang Diharapkan} \\
+      \hline
+      \endhead
 
-    \hline
-    \multicolumn{5}{r}{\textit{Berlanjut ke halaman berikutnya}} \\
-    \endfoot
+      \endfoot
 
-    \hline
-    \endlastfoot
+      \hline
+      \endlastfoot
 
-    TC-01 &
-    Landing Page &
-    Pengguna membuka aplikasi tanpa melakukan proses login &
-    -- &
-    Halaman landing tampil dengan informasi sistem serta navigasi menuju halaman login dan registrasi. \\
-    \hline
+      TC-LP-01 &
+      Landing Page &
+      Pengguna membuka aplikasi tanpa melakukan proses login &
+      -- &
+      Halaman landing tampil dengan informasi sistem serta navigasi menuju halaman login dan registrasi. \\
+      \hline
+      \end{longtable}
+    \item Login
+      \begin{longtable}{|c|p{2cm}|p{3cm}|p{3cm}|p{4cm}|}
+      \caption{Skenario Pengujian Halaman Login}
+      \label{tab:login-testing} \\
+
+      \hline
+      \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
+      \hline
+      \endfirsthead
+
+      \multicolumn{5}{c}{\tablename\ \thetable\ -- \textit{Lanjutan dari halaman sebelumnya}} \\
+      \hline
+      \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
+      \hline
+      \endhead
+
+      \endfoot
+
+      \hline
+      \endlastfoot
+
+      TC-LG-01 & Login & Pengguna melakukan login dengan kredensial yang valid & Email dan kata sandi valid & Sistem berhasil mengautentikasi pengguna dan mengarahkan ke halaman dashboard \\
+      \hline
+      TC-LG-02 & Login & Pengguna melakukan login dengan kata sandi yang salah & Email valid, kata sandi salah & Sistem menampilkan pesan kesalahan dan tetap berada di halaman login \\
+      \hline
+      TC-LG-03 & Login & Pengguna melakukan login dengan email yang tidak terdaftar & Email tidak terdaftar & Sistem menampilkan pesan bahwa akun tidak ditemukan \\
+      \hline
+      TC-LG-04 & Login & Pengguna mengirimkan formulir login dengan field kosong & Email atau kata sandi kosong & Sistem menampilkan validasi bahwa seluruh field wajib diisi \\
+      \hline
+      TC-LG-05 & Login & Pengguna berhasil login setelah sebelumnya gagal login & Kredensial valid & Sistem menerima kredensial dan mengarahkan pengguna ke halaman dashboard \\
+      \hline
+
+      \end{longtable}
+    \item Register
+      \begin{longtable}{|c|p{2cm}|p{3cm}|p{3cm}|p{4cm}|}
+      \caption{Skenario Pengujian Halaman Register}
+      \label{tab:register-testing} \\
+
+      \hline
+      \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
+      \hline
+      \endfirsthead
+
+      \multicolumn{5}{c}{\tablename\ \thetable\ -- \textit{Lanjutan dari halaman sebelumnya}} \\
+      \hline
+      \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
+      \hline
+      \endhead
+      \endfoot
+
+      \hline
+      \endlastfoot
+
+      TC-RG-01 & Register & Pengguna melakukan pendaftaran dengan data yang valid & Data registrasi lengkap dan valid & Sistem berhasil menyimpan data pengguna dan akun dapat digunakan untuk login \\
+      \hline
+      TC-RG-02 & Register & Pengguna melakukan pendaftaran dengan data tidak lengkap & Salah satu atau beberapa field kosong & Sistem menampilkan pesan validasi bahwa data registrasi harus diisi lengkap \\
+      \hline
+      TC-RG-03 & Register & Pengguna melakukan pendaftaran dengan format data tidak sesuai & Format email tidak valid & Sistem menampilkan pesan kesalahan format data \\
+      \hline
+      TC-RG-04 & Register & Pengguna mendaftarkan akun dengan email yang sudah terdaftar & Email sudah terdaftar & Sistem menampilkan pesan bahwa akun sudah terdaftar \\
+      \hline
+      TC-RG-05 & Register & Pengguna mengirimkan ulang data registrasi setelah terjadi kesalahan & Data registrasi valid & Sistem menerima data dan proses registrasi berhasil \\
+      \hline
+
+      \end{longtable}
+    \item Dashboard
+      \begin{longtable}{|c|p{2cm}|p{3cm}|p{3cm}|p{4cm}|}
+      \caption{Skenario Pengujian Halaman Dashboard}
+      \label{tab:dashboard-testing} \\
+
+      \hline
+      \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
+      \hline
+      \endfirsthead
+
+      \multicolumn{5}{c}{\tablename\ \thetable\ -- \textit{Lanjutan dari halaman sebelumnya}} \\
+      \hline
+      \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
+      \hline
+      \endhead
 
 
-    \end{longtable}
+      \endfoot
 
+      \hline
+      \endlastfoot
 
-  % login 
-  \item Login
-  \begin{longtable}{|c|p{2cm}|p{3cm}|p{3cm}|p{4cm}|}
-  \caption{Skenario Pengujian Halaman Login}
-  \label{tab:login-testing} \\
+      TC-DB-01 & Dashboard & Pengguna membuka halaman dashboard setelah login & Data dashboard tersedia & Sistem menampilkan ringkasan data dan visualisasi utama pada dashboard \\
+      \hline
+      TC-DB-02 & Dashboard & Pengguna membuka dashboard dengan data belum tersedia & Data belum tersedia & Sistem menampilkan indikator pemuatan atau pesan informasi \\
+      \hline
+      TC-DB-03 & Dashboard & Pengguna melakukan navigasi ke menu lain dan kembali ke dashboard & -- & Sistem menampilkan data dashboard secara konsisten tanpa kehilangan data \\
+      \hline
+      TC-DB-04 & Dashboard & Pembaruan data dashboard dari server & Data diperbarui & Sistem memperbarui tampilan dashboard sesuai data terbaru \\
+      \hline
+      TC-DB-05 & Dashboard & Beberapa komponen menggunakan sumber data yang sama & Data yang sama digunakan & Sistem menampilkan data yang konsisten pada seluruh komponen dashboard \\
+      \hline
 
-  \hline
-  \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
-  \hline
-  \endfirsthead
-
-  \multicolumn{5}{c}{\tablename\ \thetable\ -- \textit{Lanjutan dari halaman sebelumnya}} \\
-  \hline
-  \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
-  \hline
-  \endhead
-
-  \hline
-  \multicolumn{5}{r}{\textit{Berlanjut ke halaman berikutnya}} \\
-  \endfoot
-
-  \hline
-  \endlastfoot
-
-  TC-LG-01 & Login & Pengguna melakukan login dengan kredensial yang valid & Email dan kata sandi valid & Sistem berhasil mengautentikasi pengguna dan mengarahkan ke halaman dashboard \\
-  \hline
-  TC-LG-02 & Login & Pengguna melakukan login dengan kata sandi yang salah & Email valid, kata sandi salah & Sistem menampilkan pesan kesalahan dan tetap berada di halaman login \\
-  \hline
-  TC-LG-03 & Login & Pengguna melakukan login dengan email yang tidak terdaftar & Email tidak terdaftar & Sistem menampilkan pesan bahwa akun tidak ditemukan \\
-  \hline
-  TC-LG-04 & Login & Pengguna mengirimkan formulir login dengan field kosong & Email atau kata sandi kosong & Sistem menampilkan validasi bahwa seluruh field wajib diisi \\
-  \hline
-  TC-LG-05 & Login & Pengguna berhasil login setelah sebelumnya gagal login & Kredensial valid & Sistem menerima kredensial dan mengarahkan pengguna ke halaman dashboard \\
-  \hline
-
-  \end{longtable}
-
-
-  % register
-  \item Register
+      \end{longtable}
+    \item Sentiment
   
-  \begin{longtable}{|c|p{2cm}|p{3cm}|p{3cm}|p{4cm}|}
-  \caption{Skenario Pengujian Halaman Register}
-  \label{tab:register-testing} \\
+      \begin{longtable}{|c|p{2cm}|p{3cm}|p{3cm}|p{4cm}|}
+      \caption{Skenario Pengujian Halaman Dashboard Sentiment}
+      \label{tab:sentiment-testing} \\
 
-  \hline
-  \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
-  \hline
-  \endfirsthead
+      \hline
+      \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
+      \hline
+      \endfirsthead
 
-  \multicolumn{5}{c}{\tablename\ \thetable\ -- \textit{Lanjutan dari halaman sebelumnya}} \\
-  \hline
-  \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
-  \hline
-  \endhead
+      \multicolumn{5}{c}{\tablename\ \thetable\ -- \textit{Lanjutan dari halaman sebelumnya}} \\
+      \hline
+      \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
+      \hline
+      \endhead
 
-  \hline
-  \multicolumn{5}{r}{\textit{Berlanjut ke halaman berikutnya}} \\
-  \endfoot
+      \endfoot
 
-  \hline
-  \endlastfoot
+      \hline
+      \endlastfoot
 
-  TC-RG-01 & Register & Pengguna melakukan pendaftaran dengan data yang valid & Data registrasi lengkap dan valid & Sistem berhasil menyimpan data pengguna dan akun dapat digunakan untuk login \\
-  \hline
-  TC-RG-02 & Register & Pengguna melakukan pendaftaran dengan data tidak lengkap & Salah satu atau beberapa field kosong & Sistem menampilkan pesan validasi bahwa data registrasi harus diisi lengkap \\
-  \hline
-  TC-RG-03 & Register & Pengguna melakukan pendaftaran dengan format data tidak sesuai & Format email tidak valid & Sistem menampilkan pesan kesalahan format data \\
-  \hline
-  TC-RG-04 & Register & Pengguna mendaftarkan akun dengan email yang sudah terdaftar & Email sudah terdaftar & Sistem menampilkan pesan bahwa akun sudah terdaftar \\
-  \hline
-  TC-RG-05 & Register & Pengguna mengirimkan ulang data registrasi setelah terjadi kesalahan & Data registrasi valid & Sistem menerima data dan proses registrasi berhasil \\
-  \hline
+      TC-ST-01 & Dashboard Sentiment & Pengguna membuka halaman dashboard sentiment & Data sentimen tersedia & Sistem menampilkan visualisasi dan ringkasan hasil analisis sentimen \\
+      \hline
+      TC-ST-02 & Dashboard Sentiment & Pengguna membuka halaman sentiment dengan data belum tersedia & Data sentimen belum tersedia & Sistem menampilkan indikator pemuatan atau pesan informasi \\
+      \hline
+      TC-ST-03 & Dashboard Sentiment & Pembaruan data sentimen dari server & Data sentimen diperbarui & Sistem memperbarui visualisasi sesuai data sentimen terbaru \\
+      \hline
+      TC-ST-04 & Dashboard Sentiment & Navigasi ke halaman lain dan kembali ke dashboard sentiment & -- & Sistem menampilkan data sentimen secara konsisten tanpa kehilangan data \\
+      \hline
+      TC-ST-05 & Dashboard Sentiment & Beberapa komponen menampilkan data sentimen yang sama & Data sentimen yang sama digunakan & Sistem menampilkan data yang konsisten pada seluruh komponen visualisasi \\
+      \hline
 
-  \end{longtable}
-  
-  \vspace{10cm}
+      \end{longtable}
+    \item Recommendation
 
-  \item Dashboard
-  \begin{longtable}{|c|p{2cm}|p{3cm}|p{3cm}|p{4cm}|}
-  \caption{Skenario Pengujian Halaman Dashboard}
-  \label{tab:dashboard-testing} \\
+      \begin{longtable}{|c|p{2cm}|p{3cm}|p{3cm}|p{4cm}|}
+      \caption{Skenario Pengujian Halaman Dashboard Rekomendasi Konten}
+      \label{tab:recommendation-testing} \\
 
-  \hline
-  \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
-  \hline
-  \endfirsthead
+      \hline
+      \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
+      \hline
+      \endfirsthead
 
-  \multicolumn{5}{c}{\tablename\ \thetable\ -- \textit{Lanjutan dari halaman sebelumnya}} \\
-  \hline
-  \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
-  \hline
-  \endhead
+      \multicolumn{5}{c}{\tablename\ \thetable\ -- \textit{Lanjutan dari halaman sebelumnya}} \\
+      \hline
+      \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
+      \hline
+      \endhead
+      \endfoot
 
-  \hline
-  \multicolumn{5}{r}{\textit{Berlanjut ke halaman berikutnya}} \\
-  \endfoot
+      \hline
+      \endlastfoot
 
-  \hline
-  \endlastfoot
+      TC-RC-01 & Dashboard Rekomendasi & Pengguna membuka halaman dashboard rekomendasi konten & Data rekomendasi tersedia & Sistem menampilkan daftar rekomendasi berdasarkan hasil analisis sentimen \\
+      \hline
+      TC-RC-02 & Dashboard Rekomendasi & Pengguna membuka halaman rekomendasi dengan data belum tersedia & Data rekomendasi belum tersedia & Sistem menampilkan indikator pemuatan atau pesan informasi \\
+      \hline
+      TC-RC-03 & Dashboard Rekomendasi & Pembaruan data rekomendasi dari server & Data rekomendasi diperbarui & Sistem memperbarui tampilan rekomendasi sesuai data terbaru \\
+      \hline
+      TC-RC-04 & Dashboard Rekomendasi & Navigasi ke halaman lain dan kembali ke dashboard rekomendasi & -- & Sistem menampilkan data rekomendasi secara konsisten \\
+      \hline
+      TC-RC-05 & Dashboard Rekomendasi & Konsistensi rekomendasi dengan data sentimen & Data sentimen terkait berubah & Rekomendasi konten menyesuaikan perubahan data sentimen \\
+      \hline
 
-  TC-DB-01 & Dashboard & Pengguna membuka halaman dashboard setelah login & Data dashboard tersedia & Sistem menampilkan ringkasan data dan visualisasi utama pada dashboard \\
-  \hline
-  TC-DB-02 & Dashboard & Pengguna membuka dashboard dengan data belum tersedia & Data belum tersedia & Sistem menampilkan indikator pemuatan atau pesan informasi \\
-  \hline
-  TC-DB-03 & Dashboard & Pengguna melakukan navigasi ke menu lain dan kembali ke dashboard & -- & Sistem menampilkan data dashboard secara konsisten tanpa kehilangan data \\
-  \hline
-  TC-DB-04 & Dashboard & Pembaruan data dashboard dari server & Data diperbarui & Sistem memperbarui tampilan dashboard sesuai data terbaru \\
-  \hline
-  TC-DB-05 & Dashboard & Beberapa komponen menggunakan sumber data yang sama & Data yang sama digunakan & Sistem menampilkan data yang konsisten pada seluruh komponen dashboard \\
-  \hline
+      \end{longtable}
+    \item Scraper
+      \begin{longtable}{|c|p{2cm}|p{3cm}|p{3cm}|p{4cm}|}
+      \caption{Skenario Pengujian Halaman Data Scraper}
+      \label{tab:scraper-testing} \\
 
-  \end{longtable}
-  
-  \vspace{5cm}
+      \hline
+      \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
+      \hline
+      \endfirsthead
 
-  \item Sentiment
-  
-  \begin{longtable}{|c|p{2cm}|p{3cm}|p{3cm}|p{4cm}|}
-  \caption{Skenario Pengujian Halaman Dashboard Sentiment}
-  \label{tab:sentiment-testing} \\
+      \multicolumn{5}{c}{\tablename\ \thetable\ -- \textit{Lanjutan dari halaman sebelumnya}} \\
+      \hline
+      \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
+      \hline
+      \endhead
 
-  \hline
-  \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
-  \hline
-  \endfirsthead
+      \endfoot
 
-  \multicolumn{5}{c}{\tablename\ \thetable\ -- \textit{Lanjutan dari halaman sebelumnya}} \\
-  \hline
-  \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
-  \hline
-  \endhead
+      \hline
+      \endlastfoot
 
-  \hline
-  \multicolumn{5}{r}{\textit{Berlanjut ke halaman berikutnya}} \\
-  \endfoot
+      TC-SC-01 & Data Scraper & Pengguna membuka halaman data scraper & Data hasil scraping tersedia & Sistem menampilkan daftar data hasil scraping yang diperoleh dari server \\
+      \hline
+      TC-SC-02 & Data Scraper & Pengguna membuka halaman scraper dengan data belum tersedia & Data belum tersedia & Sistem menampilkan indikator pemuatan atau pesan informasi \\
+      \hline
+      TC-SC-03 & Data Scraper & Pengguna memilih data untuk dianalisis & Dataset tertentu dipilih & Sistem menandai data terpilih untuk digunakan pada proses analisis \\
+      \hline
+      TC-SC-04 & Data Scraper & Navigasi ke halaman lain dan kembali ke data scraper & -- & Sistem menampilkan data scraper secara konsisten tanpa kehilangan data \\
+      \hline
 
-  \hline
-  \endlastfoot
+      \end{longtable}
+    \item Chatbot
+      \begin{longtable}{|c|p{2cm}|p{3cm}|p{3cm}|p{4cm}|}
+      \caption{Skenario Pengujian Chatbot}
+      \label{tab:chatbot-testing} \\
 
-  TC-ST-01 & Dashboard Sentiment & Pengguna membuka halaman dashboard sentiment & Data sentimen tersedia & Sistem menampilkan visualisasi dan ringkasan hasil analisis sentimen \\
-  \hline
-  TC-ST-02 & Dashboard Sentiment & Pengguna membuka halaman sentiment dengan data belum tersedia & Data sentimen belum tersedia & Sistem menampilkan indikator pemuatan atau pesan informasi \\
-  \hline
-  TC-ST-03 & Dashboard Sentiment & Pembaruan data sentimen dari server & Data sentimen diperbarui & Sistem memperbarui visualisasi sesuai data sentimen terbaru \\
-  \hline
-  TC-ST-04 & Dashboard Sentiment & Navigasi ke halaman lain dan kembali ke dashboard sentiment & -- & Sistem menampilkan data sentimen secara konsisten tanpa kehilangan data \\
-  \hline
-  TC-ST-05 & Dashboard Sentiment & Beberapa komponen menampilkan data sentimen yang sama & Data sentimen yang sama digunakan & Sistem menampilkan data yang konsisten pada seluruh komponen visualisasi \\
-  \hline
+      \hline
+      \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
+      \hline
+      \endfirsthead
 
-  \end{longtable}
+      \multicolumn{5}{c}{\tablename\ \thetable\ -- \textit{Lanjutan dari halaman sebelumnya}} \\
+      \hline
+      \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
+      \hline
+      \endhead
 
-   \vspace{3cm}
+      \endfoot
 
-  \item Recommendation
+      \hline
+      \endlastfoot
 
-  \begin{longtable}{|c|p{2cm}|p{3cm}|p{3cm}|p{4cm}|}
-  \caption{Skenario Pengujian Halaman Dashboard Rekomendasi Konten}
-  \label{tab:recommendation-testing} \\
+      TC-CB-01 & Chatbot & Pengguna membuka fitur chatbot & -- & Sistem menampilkan antarmuka chatbot dan siap menerima input pengguna \\
+      \hline
+      TC-CB-02 & Chatbot & Pengguna mengirimkan pertanyaan melalui chatbot & Pertanyaan teks valid & Sistem menampilkan respons chatbot sesuai dengan pertanyaan yang diberikan \\
+      \hline
+      TC-CB-03 & Chatbot & Pengguna mengirimkan input kosong & Input kosong & Sistem menampilkan pesan validasi atau respons bahwa input tidak valid \\
+      \hline
+      TC-CB-04 & Chatbot & Pengguna mengirimkan pertanyaan di luar konteks sistem & Pertanyaan tidak relevan & Sistem tetap memberikan respons atau pesan informasi yang sesuai \\
+      \hline
+      TC-CB-05 & Chatbot & Pengguna melakukan interaksi berulang dengan chatbot & Beberapa pertanyaan berurutan & Sistem mampu menampilkan respons secara konsisten pada setiap interaksi \\
+      \hline
 
-  \hline
-  \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
-  \hline
-  \endfirsthead
+      \end{longtable}
+    \item Logout
+      \begin{longtable}{|c|p{2cm}|p{3cm}|p{3cm}|p{4cm}|}
+      \caption{Skenario Pengujian Logout}
+      \label{tab:logout-testing} \\
 
-  \multicolumn{5}{c}{\tablename\ \thetable\ -- \textit{Lanjutan dari halaman sebelumnya}} \\
-  \hline
-  \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
-  \hline
-  \endhead
+      \hline
+      \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
+      \hline
+      \endfirsthead
 
-  \hline
-  \multicolumn{5}{r}{\textit{Berlanjut ke halaman berikutnya}} \\
-  \endfoot
+      \multicolumn{5}{c}{\tablename\ \thetable\ -- \textit{Lanjutan dari halaman sebelumnya}} \\
+      \hline
+      \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
+      \hline
+      \endhead
 
-  \hline
-  \endlastfoot
+      \endfoot
 
-  TC-RC-01 & Dashboard Rekomendasi & Pengguna membuka halaman dashboard rekomendasi konten & Data rekomendasi tersedia & Sistem menampilkan daftar rekomendasi berdasarkan hasil analisis sentimen \\
-  \hline
-  TC-RC-02 & Dashboard Rekomendasi & Pengguna membuka halaman rekomendasi dengan data belum tersedia & Data rekomendasi belum tersedia & Sistem menampilkan indikator pemuatan atau pesan informasi \\
-  \hline
-  TC-RC-03 & Dashboard Rekomendasi & Pembaruan data rekomendasi dari server & Data rekomendasi diperbarui & Sistem memperbarui tampilan rekomendasi sesuai data terbaru \\
-  \hline
-  TC-RC-04 & Dashboard Rekomendasi & Navigasi ke halaman lain dan kembali ke dashboard rekomendasi & -- & Sistem menampilkan data rekomendasi secara konsisten \\
-  \hline
-  TC-RC-05 & Dashboard Rekomendasi & Konsistensi rekomendasi dengan data sentimen & Data sentimen terkait berubah & Rekomendasi konten menyesuaikan perubahan data sentimen \\
-  \hline
+      \hline
+      \endlastfoot
 
-  \end{longtable}
-
-  \vspace{3cm}
-
-
-  \item Scraper
-  \begin{longtable}{|c|p{2cm}|p{3cm}|p{3cm}|p{4cm}|}
-  \caption{Skenario Pengujian Halaman Data Scraper}
-  \label{tab:scraper-testing} \\
-
-  \hline
-  \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
-  \hline
-  \endfirsthead
-
-  \multicolumn{5}{c}{\tablename\ \thetable\ -- \textit{Lanjutan dari halaman sebelumnya}} \\
-  \hline
-  \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
-  \hline
-  \endhead
-
-  \hline
-  \multicolumn{5}{r}{\textit{Berlanjut ke halaman berikutnya}} \\
-  \endfoot
-
-  \hline
-  \endlastfoot
-
-  TC-SC-01 & Data Scraper & Pengguna membuka halaman data scraper & Data hasil scraping tersedia & Sistem menampilkan daftar data hasil scraping yang diperoleh dari server \\
-  \hline
-  TC-SC-02 & Data Scraper & Pengguna membuka halaman scraper dengan data belum tersedia & Data belum tersedia & Sistem menampilkan indikator pemuatan atau pesan informasi \\
-  \hline
-  TC-SC-03 & Data Scraper & Pengguna memilih data untuk dianalisis & Dataset tertentu dipilih & Sistem menandai data terpilih untuk digunakan pada proses analisis \\
-  \hline
-  TC-SC-04 & Data Scraper & Navigasi ke halaman lain dan kembali ke data scraper & -- & Sistem menampilkan data scraper secara konsisten tanpa kehilangan data \\
-  \hline
-
-  \end{longtable}
-
-  \vspace{10cm}
-
-  \item Chatbot
-  \begin{longtable}{|c|p{2cm}|p{3cm}|p{3cm}|p{4cm}|}
-  \caption{Skenario Pengujian Chatbot}
-  \label{tab:chatbot-testing} \\
-
-  \hline
-  \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
-  \hline
-  \endfirsthead
-
-  \multicolumn{5}{c}{\tablename\ \thetable\ -- \textit{Lanjutan dari halaman sebelumnya}} \\
-  \hline
-  \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
-  \hline
-  \endhead
-
-  \hline
-  \multicolumn{5}{r}{\textit{Berlanjut ke halaman berikutnya}} \\
-  \endfoot
-
-  \hline
-  \endlastfoot
-
-  TC-CB-01 & Chatbot & Pengguna membuka fitur chatbot & -- & Sistem menampilkan antarmuka chatbot dan siap menerima input pengguna \\
-  \hline
-  TC-CB-02 & Chatbot & Pengguna mengirimkan pertanyaan melalui chatbot & Pertanyaan teks valid & Sistem menampilkan respons chatbot sesuai dengan pertanyaan yang diberikan \\
-  \hline
-  TC-CB-03 & Chatbot & Pengguna mengirimkan input kosong & Input kosong & Sistem menampilkan pesan validasi atau respons bahwa input tidak valid \\
-  \hline
-  TC-CB-04 & Chatbot & Pengguna mengirimkan pertanyaan di luar konteks sistem & Pertanyaan tidak relevan & Sistem tetap memberikan respons atau pesan informasi yang sesuai \\
-  \hline
-  TC-CB-05 & Chatbot & Pengguna melakukan interaksi berulang dengan chatbot & Beberapa pertanyaan berurutan & Sistem mampu menampilkan respons secara konsisten pada setiap interaksi \\
-  \hline
-
-  \end{longtable}
-
-  \vspace{10cm}
-
-
-  \item Logout
-  \begin{longtable}{|c|p{2cm}|p{3cm}|p{3cm}|p{4cm}|}
-  \caption{Skenario Pengujian Logout}
-  \label{tab:logout-testing} \\
-
-  \hline
-  \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
-  \hline
-  \endfirsthead
-
-  \multicolumn{5}{c}{\tablename\ \thetable\ -- \textit{Lanjutan dari halaman sebelumnya}} \\
-  \hline
-  \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
-  \hline
-  \endhead
-
-  \hline
-  \multicolumn{5}{r}{\textit{Berlanjut ke halaman berikutnya}} \\
-  \endfoot
-
-  \hline
-  \endlastfoot
-
-  TC-LO-01 & Logout & Pengguna melakukan logout dari sistem & -- & Sistem mengakhiri sesi pengguna dan mengarahkan ke halaman login \\
-  \hline
-  TC-LO-02 & Logout & Pengguna mencoba mengakses halaman dashboard setelah logout & -- & Sistem menolak akses dan mengarahkan kembali ke halaman login \\
-  \hline
-  TC-LO-03 & Logout & Pengguna menutup sesi dan membuka ulang aplikasi & -- & Sistem meminta pengguna untuk login kembali \\
-  \hline
-
-  \end{longtable}
-
-
+      TC-LO-01 & Logout & Pengguna melakukan logout dari sistem & -- & Sistem mengakhiri sesi pengguna dan mengarahkan ke halaman login \\
+      \hline
+      TC-LO-02 & Logout & Pengguna mencoba mengakses halaman dashboard setelah logout & -- & Sistem menolak akses dan mengarahkan kembali ke halaman login \\
+      \hline
+      TC-LO-03 & Logout & Pengguna menutup sesi dan membuka ulang aplikasi & -- & Sistem meminta pengguna untuk login kembali \\
+      \hline
+      \end{longtable}
   \end{packed_enum}
-
-  \item \textbf{Operation}
-
+\subsection{Operation}
   Tahap \textit{operation} merupakan tahapan di mana sistem frontend dashboard analisis sentimen dijalankan dan digunakan dalam lingkungan operasional terbatas untuk memastikan seluruh fungsi berjalan sesuai dengan tujuan perancangan. Pada tahap ini, sistem digunakan untuk menampilkan data hasil analisis sentimen yang diperoleh dari backend, sehingga dapat diamati kestabilan aplikasi, konsistensi penyajian data, serta respons antarmuka pengguna.
-
   Tahap operation bertujuan untuk memastikan bahwa aplikasi frontend yang telah dikembangkan dapat digunakan secara fungsional sebagai dashboard analitik, serta mendukung aktivitas pemantauan informasi sentimen oleh pengguna tanpa kendala utama.Tahapan ini dapat menggunakan layanan shared hosting maupun \textit{Virtual Private Server (VPS)} yang telah dikonfigurasi untuk menjalankan dan mempublikasikan website. 
-
-  \item \textbf{Maintenance}
-
+\subsection{Maintenance}
   Tahap \textit{maintenance} dilakukan untuk menjaga kinerja dan stabilitas sistem setelah digunakan pada tahap operation. Aktivitas pemeliharaan pada tahap ini mencakup perbaikan kesalahan minor yang ditemukan selama penggunaan sistem, penyesuaian teknis terhadap perubahan kebutuhan atau data, serta penyempurnaan mekanisme pengelolaan data frontend agar tetap berjalan secara optimal.
-
   Tahap maintenance juga memungkinkan dilakukannya penyesuaian kecil pada struktur komponen atau mekanisme sinkronisasi data tanpa mengubah arsitektur utama sistem, sehingga sistem tetap selaras dengan tujuan penelitian dan dapat digunakan secara berkelanjutan selama periode penelitian.
-
-  \item \textbf{Evaluation}
-
+\subsection{Evaluation}
   Teknik evaluasi pada penelitian ini dilakukan untuk menilai kesesuaian perilaku sistem frontend terhadap rancangan arsitektur dan Client Data Layer yang telah ditetapkan. Evaluasi dilakukan dengan pendekatan kualitatif-deskriptif, yaitu melalui observasi terhadap perilaku sistem selama proses pengujian berlangsung tanpa melibatkan pengukuran numerik performa secara detail. Pendekatan ini dipilih karena fokus penelitian diarahkan pada perilaku pengelolaan data dan konsistensi tampilan sistem, bukan pada pengujian efisiensi algoritma atau kinerja backend.
-
   Sumber data evaluasi diperoleh dari hasil observasi terhadap tampilan dashboard serta perilaku pengelolaan data pada sisi frontend. Observasi dilakukan terhadap bagaimana data ditampilkan pada berbagai komponen antarmuka, bagaimana sistem merespons pembaruan data, serta bagaimana konsistensi data terjaga ketika komponen yang berbeda menggunakan sumber data yang sama. Selain itu, evaluasi juga dilakukan dengan mengamati log permintaan data untuk memastikan bahwa mekanisme pengelolaan data berjalan sesuai dengan rancangan.
-
   Sebagai alat bantu evaluasi, penelitian ini memanfaatkan fitur observasi yang disediakan oleh TanStack Query Devtools. Alat bantu ini digunakan untuk memantau status pengambilan data, mekanisme penyimpanan sementara (caching), serta proses sinkronisasi data antar-komponen selama skenario pengujian dijalankan. Penggunaan alat bantu ini bertujuan untuk mendukung proses observasi perilaku sistem secara lebih terstruktur, tanpa bergantung pada detail implementasi kode program.
-
   Indikator evaluasi dalam penelitian ini meliputi beberapa aspek utama, yaitu konsistensi data antar-komponen antarmuka, perilaku mekanisme caching dalam mengendalikan permintaan data berulang, serta kemampuan sistem dalam menyinkronkan pembaruan data sesuai dengan kondisi yang terjadi pada sisi backend. Selain itu, evaluasi juga dilakukan untuk memastikan bahwa perilaku sistem frontend telah sesuai dengan perancangan Client Data Layer dan arsitektur frontend yang direncanakan pada tahap perancangan sistem.
-
   Sistem frontend dinilai berhasil apabila seluruh indikator evaluasi tersebut terpenuhi dan tidak ditemukan ketidaksesuaian perilaku sistem selama skenario pengujian dijalankan.
-
-
-
-\end{packed_enum}
-
 
 
 

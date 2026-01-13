@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  13 JAN 2026 22:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  13 JAN 2026 23:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -24,42 +24,11 @@ File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen148
-) (a0-identitas.tex) (untouch/xx-preambles.tex (C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty
-Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
- (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package xcolor Info: Driver file: pdftex.def on input line 274.
- (C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
-) (C:\Program Files\MiKTeX\tex/latex/graphics\mathcolor.ltx)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
-Package xcolor Info: Model `RGB' extended on input line 1365.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-) (C:\Program Files\MiKTeX\tex/latex/colortbl\colortbl.sty
-Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
- (C:\Program Files\MiKTeX\tex/latex/tools\array.sty
-Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
-\col@sep=\dimen149
-\ar@mcellbox=\box53
-\extrarowheight=\dimen150
-\NC@list=\toks17
-\extratabsurround=\skip51
-\backup@length=\skip52
-\ar@cellbox=\box54
-)
-\everycr=\toks18
-\minrowclearance=\skip53
-\rownum=\count284
+) (a0-identitas.tex) (untouch/xx-preambles.tex (C:\Program Files\MiKTeX\tex/latex/placeins\placeins.sty
+Package: placeins 2005/04/18  v 2.2
 ) (C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2025/12/11 v25.17 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
-\babel@savecnt=\count285
+\babel@savecnt=\count284
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2068.
 LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2070.
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2072.
@@ -67,11 +36,11 @@ LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line
 LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2074.
 LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2076.
 LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2101.
-\U@D=\dimen151
+\U@D=\dimen149
 \l@unhyphenated=\language79
  (C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count286
+\bbl@dirlevel=\count285
 Package babel Info: Configuration files are deprecated, as
 (babel)             they can break document portability.
 (babel)             Reported on input line 4196.
@@ -88,31 +57,31 @@ Package babel Info: Importing font and identification data for indonesian
 Language: indonesian 2025/06/01 v1.0n Bahasa Indonesia support from the babel system
 )) (C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
-\inpenc@prehook=\toks19
-\inpenc@posthook=\toks20
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
 ) (C:\Program Files\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
 ) (C:\Program Files\MiKTeX\tex/latex/ragged2e\ragged2e.sty
 Package: ragged2e 2023/06/22 v3.6 ragged2e Package
-\CenteringLeftskip=\skip54
-\RaggedLeftLeftskip=\skip55
-\RaggedRightLeftskip=\skip56
-\CenteringRightskip=\skip57
-\RaggedLeftRightskip=\skip58
-\RaggedRightRightskip=\skip59
-\CenteringParfillskip=\skip60
-\RaggedLeftParfillskip=\skip61
-\RaggedRightParfillskip=\skip62
-\JustifyingParfillskip=\skip63
-\CenteringParindent=\skip64
-\RaggedLeftParindent=\skip65
-\RaggedRightParindent=\skip66
-\JustifyingParindent=\skip67
+\CenteringLeftskip=\skip51
+\RaggedLeftLeftskip=\skip52
+\RaggedRightLeftskip=\skip53
+\CenteringRightskip=\skip54
+\RaggedLeftRightskip=\skip55
+\RaggedRightRightskip=\skip56
+\CenteringParfillskip=\skip57
+\RaggedLeftParfillskip=\skip58
+\RaggedRightParfillskip=\skip59
+\JustifyingParfillskip=\skip60
+\CenteringParindent=\skip61
+\RaggedLeftParindent=\skip62
+\RaggedRightParindent=\skip63
+\JustifyingParindent=\skip64
 ) (C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
  (C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks21
+\KV@toks@=\toks19
 ) (C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
  (C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
@@ -121,16 +90,18 @@ Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
-)
-\Gin@req@height=\dimen152
-\Gin@req@width=\dimen153
+ (C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen150
+\Gin@req@width=\dimen151
 ) (C:\Program Files\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count287
-\float@exts=\toks22
-\float@box=\box55
-\@float@everytoks=\toks23
-\@floatcapt=\box56
+\c@float@type=\count286
+\float@exts=\toks20
+\float@box=\box53
+\@float@everytoks=\toks21
+\@floatcapt=\box54
 ) (C:\Program Files\MiKTeX\tex/latex/tools\indentfirst.sty
 Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
 ) (C:\Program Files\MiKTeX\tex/latex/pslatex\pslatex.sty
@@ -171,95 +142,117 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 ) (C:\Program Files\MiKTeX\tex/latex/tocloft\tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 51.
-\cftparskip=\skip68
-\cftbeforetoctitleskip=\skip69
-\cftaftertoctitleskip=\skip70
-\cftbeforepartskip=\skip71
-\cftpartnumwidth=\skip72
-\cftpartindent=\skip73
-\cftbeforechapskip=\skip74
-\cftchapindent=\skip75
-\cftchapnumwidth=\skip76
-\cftbeforesecskip=\skip77
-\cftsecindent=\skip78
-\cftsecnumwidth=\skip79
-\cftbeforesubsecskip=\skip80
-\cftsubsecindent=\skip81
-\cftsubsecnumwidth=\skip82
-\cftbeforesubsubsecskip=\skip83
-\cftsubsubsecindent=\skip84
-\cftsubsubsecnumwidth=\skip85
-\cftbeforeparaskip=\skip86
-\cftparaindent=\skip87
-\cftparanumwidth=\skip88
-\cftbeforesubparaskip=\skip89
-\cftsubparaindent=\skip90
-\cftsubparanumwidth=\skip91
-\cftbeforeloftitleskip=\skip92
-\cftafterloftitleskip=\skip93
-\cftbeforefigskip=\skip94
-\cftfigindent=\skip95
-\cftfignumwidth=\skip96
-\c@lofdepth=\count288
-\c@lotdepth=\count289
-\cftbeforelottitleskip=\skip97
-\cftafterlottitleskip=\skip98
-\cftbeforetabskip=\skip99
-\cfttabindent=\skip100
-\cfttabnumwidth=\skip101
+\cftparskip=\skip65
+\cftbeforetoctitleskip=\skip66
+\cftaftertoctitleskip=\skip67
+\cftbeforepartskip=\skip68
+\cftpartnumwidth=\skip69
+\cftpartindent=\skip70
+\cftbeforechapskip=\skip71
+\cftchapindent=\skip72
+\cftchapnumwidth=\skip73
+\cftbeforesecskip=\skip74
+\cftsecindent=\skip75
+\cftsecnumwidth=\skip76
+\cftbeforesubsecskip=\skip77
+\cftsubsecindent=\skip78
+\cftsubsecnumwidth=\skip79
+\cftbeforesubsubsecskip=\skip80
+\cftsubsubsecindent=\skip81
+\cftsubsubsecnumwidth=\skip82
+\cftbeforeparaskip=\skip83
+\cftparaindent=\skip84
+\cftparanumwidth=\skip85
+\cftbeforesubparaskip=\skip86
+\cftsubparaindent=\skip87
+\cftsubparanumwidth=\skip88
+\cftbeforeloftitleskip=\skip89
+\cftafterloftitleskip=\skip90
+\cftbeforefigskip=\skip91
+\cftfigindent=\skip92
+\cftfignumwidth=\skip93
+\c@lofdepth=\count287
+\c@lotdepth=\count288
+\cftbeforelottitleskip=\skip94
+\cftafterlottitleskip=\skip95
+\cftbeforetabskip=\skip96
+\cfttabindent=\skip97
+\cfttabnumwidth=\skip98
 )
-\mylen=\skip102
+\mylen=\skip99
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 48.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 47.
  (C:\Program Files\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
-\ttl@box=\box57
-\beforetitleunit=\skip103
-\aftertitleunit=\skip104
-\ttl@plus=\dimen154
-\ttl@minus=\dimen155
-\ttl@toksa=\toks24
-\titlewidth=\dimen156
-\titlewidthlast=\dimen157
-\titlewidthfirst=\dimen158
+\ttl@box=\box55
+\beforetitleunit=\skip100
+\aftertitleunit=\skip101
+\ttl@plus=\dimen152
+\ttl@minus=\dimen153
+\ttl@toksa=\toks22
+\titlewidth=\dimen154
+\titlewidthlast=\dimen155
+\titlewidthfirst=\dimen156
 ) (C:\Program Files\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
  (C:\Program Files\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen159
-\captionmargin=\dimen160
-\caption@leftmargin=\dimen161
-\caption@rightmargin=\dimen162
-\caption@width=\dimen163
-\caption@indent=\dimen164
-\caption@parindent=\dimen165
-\caption@hangindent=\dimen166
+\caption@tempdima=\dimen157
+\captionmargin=\dimen158
+\caption@leftmargin=\dimen159
+\caption@rightmargin=\dimen160
+\caption@width=\dimen161
+\caption@indent=\dimen162
+\caption@parindent=\dimen163
+\caption@hangindent=\dimen164
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count290
-\c@continuedfloat=\count291
+\c@caption@flags=\count289
+\c@continuedfloat=\count290
 Package caption Info: float package is loaded.
 ) (C:\Program Files\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count292
+\c@subfigure=\count291
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count293
+\c@subtable=\count292
 ) (C:\Program Files\MiKTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+ (C:\Program Files\MiKTeX\tex/latex/tools\array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen165
+\ar@mcellbox=\box56
+\extrarowheight=\dimen166
+\NC@list=\toks23
+\extratabsurround=\skip102
+\backup@length=\skip103
+\ar@cellbox=\box57
+)
 \TX@col@width=\dimen167
 \TX@old@table=\dimen168
 \TX@old@col=\dimen169
 \TX@target=\dimen170
 \TX@delta=\dimen171
-\TX@cols=\count294
-\TX@ftn=\toks25
+\TX@cols=\count293
+\TX@ftn=\toks24
 ) (C:\Program Files\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
-\multirow@colwidth=\skip105
-\multirow@cntb=\count295
-\multirow@dima=\skip106
+\multirow@colwidth=\skip104
+\multirow@cntb=\count294
+\multirow@dima=\skip105
 \bigstrutjot=\dimen172
+) (C:\Program Files\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
+ (C:\Program Files\MiKTeX\tex/latex/graphics\color.sty
+Package: color 2025/01/14 v1.3e Standard LaTeX Color (DPC)
+ (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+ (C:\Program Files\MiKTeX\tex/latex/graphics\mathcolor.ltx))
+\everycr=\toks25
+\minrowclearance=\skip106
+\rownum=\count295
 ) (C:\Program Files\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty
@@ -530,7 +523,24 @@ Package: listings 2025/11/14 1.11b (Carsten Heinz)
     but found:
         2025/11/14 1.11b (Carsten Heinz)
     so I'm assuming it got fixed.
-(C:\Program Files\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
+(C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+ (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+LaTeX Info: Redefining \color on input line 762.
+ (C:\Program Files\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (C:\Program Files\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
 \pgfutil@everybye=\toks36
 \pgfutil@tempdima=\dimen256
 \pgfutil@tempdimb=\dimen257
@@ -872,7 +882,7 @@ Package pgfplots notification 'compat/show suggested version=true': document has
 \openout2 = `untouch/xx-sampul-laporan.aux'.
 
 (untouch/xx-sampul-laporan.tex
-<gambar/logo-poliwangi.png, id=204, 72.27pt x 72.27pt>
+<gambar/logo-poliwangi.png, id=228, 72.27pt x 72.27pt>
 File: gambar/logo-poliwangi.png Graphic file (type png)
 <use gambar/logo-poliwangi.png>
 Package pdftex.def Info: gambar/logo-poliwangi.png  used on input line 17.
@@ -1008,7 +1018,10 @@ Overfull \hbox (45.34085pt too wide) in paragraph at lines 32--50
 ]
 \openout2 = `untouch/xx-daftar.aux'.
 
- (untouch/xx-daftar.tex (laporan.toc [19
+ (untouch/xx-daftar.tex (laporan.toc
+Underfull \vbox (badness 1248) has occurred while \output is active []
+
+ [19
 
 
 
@@ -1081,7 +1094,7 @@ Underfull \vbox (badness 2181) has occurred while \output is active []
 Underfull \vbox (badness 2181) has occurred while \output is active []
 
  [9]
-<gambar/client-data-layer-paradigm.png, id=508, 2770.35pt x 2720.1625pt>
+<gambar/client-data-layer-paradigm.png, id=538, 2770.35pt x 2720.1625pt>
 File: gambar/client-data-layer-paradigm.png Graphic file (type png)
 <use gambar/client-data-layer-paradigm.png>
 Package pdftex.def Info: gambar/client-data-layer-paradigm.png  used on input line 75.
@@ -1099,410 +1112,366 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [13] [14] [15] [16]
-<gambar/fountain-sdlc.jpg, id=559, 1024.82875pt x 2569.6pt>
+<gambar/fountain-sdlc.jpg, id=589, 1024.82875pt x 2569.6pt>
 File: gambar/fountain-sdlc.jpg Graphic file (type jpg)
 <use gambar/fountain-sdlc.jpg>
 Package pdftex.def Info: gambar/fountain-sdlc.jpg  used on input line 151.
 (pdftex.def)             Requested size: 128.0387pt x 321.00317pt.
  [17 <./gambar/fountain-sdlc.jpg>] [18] [19]
-Overfull \hbox (41.49794pt too wide) in alignment at lines 198--208
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (41.49794pt too wide) in alignment at lines 208--216
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (41.49794pt too wide) in alignment at lines 216--219
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (41.49794pt too wide) in alignment at lines 219--222
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (41.49794pt too wide) in alignment at lines 222--242
- [] [] [] [] [] 
- []
-
-b2-bab2.tex:242: ignored error: Infinite glue shrinkage found in box being split [20] [21]) [22]
+b2-bab2.tex:243: ignored error: Infinite glue shrinkage found in box being split [20] [21]) [22]
 \openout2 = `b3-bab3.aux'.
 
  (b3-bab3.tex
 Bab 3.
-b3-bab3.tex:93: ignored error: Infinite glue shrinkage found in box being split [23
+b3-bab3.tex:89: ignored error: Infinite glue shrinkage found in box being split [23
 
 
 
 
 
-] [24] [25]
-Underfull \vbox (badness 1264) has occurred while \output is active []
-
- [26]
+] [24]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27]
+ [25]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 159.
- (C:\Program Files\MiKTeX\tex/latex/psnfss\ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-<gambar/diagram-architecture.png, id=632, 490.33188pt x 748.29562pt>
+ [26] [27]
+<gambar/diagram-architecture.png, id=656, 490.33188pt x 748.29562pt>
 File: gambar/diagram-architecture.png Graphic file (type png)
 <use gambar/diagram-architecture.png>
-Package pdftex.def Info: gambar/diagram-architecture.png  used on input line 168.
+Package pdftex.def Info: gambar/diagram-architecture.png  used on input line 122.
 (pdftex.def)             Requested size: 213.39568pt x 325.6544pt.
-
+ [28 <./gambar/diagram-architecture.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29] [30 <./gambar/diagram-architecture.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [31]
-<gambar/tanstack-works.jpg, id=651, 803.0pt x 451.6875pt>
+ [29]
+<gambar/tanstack-works.jpg, id=673, 803.0pt x 451.6875pt>
 File: gambar/tanstack-works.jpg Graphic file (type jpg)
 <use gambar/tanstack-works.jpg>
-Package pdftex.def Info: gambar/tanstack-works.jpg  used on input line 202.
+Package pdftex.def Info: gambar/tanstack-works.jpg  used on input line 142.
 (pdftex.def)             Requested size: 213.39568pt x 120.03433pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32] [33 <./gambar/tanstack-works.jpg (PNG copy)>]
-<gambar/landing-page.jpeg, id=661, 2055.68pt x 2055.68pt>
+ [30] [31 <./gambar/tanstack-works.jpg (PNG copy)>]
+<gambar/landing-page.jpeg, id=685, 2055.68pt x 2055.68pt>
 File: gambar/landing-page.jpeg Graphic file (type jpg)
 <use gambar/landing-page.jpeg>
-Package pdftex.def Info: gambar/landing-page.jpeg  used on input line 223.
-(pdftex.def)             Requested size: 298.75264pt x 298.74036pt.
-<gambar/login.jpeg, id=663, 3035.34pt x 1300.86pt>
+Package pdftex.def Info: gambar/landing-page.jpeg  used on input line 156.
+(pdftex.def)             Requested size: 426.79135pt x 426.78091pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 157.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (53.34889pt too wide) in paragraph at lines 156--157
+ [] 
+ []
+
+<gambar/login.jpeg, id=687, 3035.34pt x 1300.86pt>
 File: gambar/login.jpeg Graphic file (type jpg)
 <use gambar/login.jpeg>
-Package pdftex.def Info: gambar/login.jpeg  used on input line 233.
-(pdftex.def)             Requested size: 341.43437pt x 146.31065pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [34 <./gambar/landing-page.jpeg>]
-<gambar/register.jpeg, id=669, 3035.34pt x 1300.86pt>
+Package pdftex.def Info: gambar/login.jpeg  used on input line 164.
+(pdftex.def)             Requested size: 384.1096pt x 164.6119pt.
+[32 <./gambar/landing-page.jpeg>]
+<gambar/register.jpeg, id=693, 3035.34pt x 1300.86pt>
 File: gambar/register.jpeg Graphic file (type jpg)
 <use gambar/register.jpeg>
-Package pdftex.def Info: gambar/register.jpeg  used on input line 243.
-(pdftex.def)             Requested size: 341.43437pt x 146.31065pt.
-<gambar/dashboard.png, id=671, 2344.76pt x 1830.84pt>
+Package pdftex.def Info: gambar/register.jpeg  used on input line 171.
+(pdftex.def)             Requested size: 384.1096pt x 164.6119pt.
+<gambar/dashboard.png, id=695, 2344.76pt x 1830.84pt>
 File: gambar/dashboard.png Graphic file (type png)
 <use gambar/dashboard.png>
-Package pdftex.def Info: gambar/dashboard.png  used on input line 253.
-(pdftex.def)             Requested size: 256.07741pt x 199.94034pt.
- [35 <./gambar/login.jpeg> <./gambar/register.jpeg>]
-<gambar/sentiment.png, id=678, 2344.76pt x 3495.0575pt>
+Package pdftex.def Info: gambar/dashboard.png  used on input line 178.
+(pdftex.def)             Requested size: 298.75264pt x 233.26837pt.
+ [33 <./gambar/login.jpeg> <./gambar/register.jpeg>]
+<gambar/sentiment.png, id=701, 2344.76pt x 3495.0575pt>
 File: gambar/sentiment.png Graphic file (type png)
 <use gambar/sentiment.png>
-Package pdftex.def Info: gambar/sentiment.png  used on input line 263.
-(pdftex.def)             Requested size: 256.07741pt x 381.68434pt.
+Package pdftex.def Info: gambar/sentiment.png  used on input line 185.
+(pdftex.def)             Requested size: 298.75264pt x 445.3073pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36 <./gambar/dashboard.png>]
-<gambar/scraper.png, id=685, 2248.4pt x 1040.88875pt>
+ [34 <./gambar/dashboard.png>]
+<gambar/scraper.png, id=708, 2248.4pt x 1040.88875pt>
 File: gambar/scraper.png Graphic file (type png)
 <use gambar/scraper.png>
-Package pdftex.def Info: gambar/scraper.png  used on input line 273.
-(pdftex.def)             Requested size: 256.07741pt x 118.54819pt.
+Package pdftex.def Info: gambar/scraper.png  used on input line 192.
+(pdftex.def)             Requested size: 298.75264pt x 138.30623pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37 <./gambar/sentiment.png>]
-<gambar/recomendation.png, id=692, 2248.4pt x 1927.2pt>
+ [35 <./gambar/sentiment.png>]
+<gambar/recomendation.png, id=716, 2248.4pt x 1927.2pt>
 File: gambar/recomendation.png Graphic file (type png)
 <use gambar/recomendation.png>
-Package pdftex.def Info: gambar/recomendation.png  used on input line 283.
-(pdftex.def)             Requested size: 256.07741pt x 219.49135pt.
- [38 <./gambar/scraper.png> <./gambar/recomendation.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [39]
-Overfull \hbox (10.77356pt too wide) in alignment at lines 320--331
+Package pdftex.def Info: gambar/recomendation.png  used on input line 199.
+(pdftex.def)             Requested size: 298.75264pt x 256.07324pt.
+ [36 <./gambar/scraper.png> <./gambar/recomendation.png>] [37]
+Overfull \hbox (28.77342pt too wide) in alignment at lines 219--230
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (10.77356pt too wide) in alignment at lines 331--341
+Overfull \hbox (28.77342pt too wide) in alignment at lines 230--240
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (10.77356pt too wide) in alignment at lines 341--345
+Overfull \hbox (28.77342pt too wide) in alignment at lines 240--242
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (10.77356pt too wide) in alignment at lines 345--348
+Overfull \hbox (28.77342pt too wide) in alignment at lines 242--245
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (10.77356pt too wide) in alignment at lines 348--358
+Overfull \hbox (28.77342pt too wide) in alignment at lines 245--253
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (30.76546pt too wide) in alignment at lines 363--370
+Overfull \hbox (30.76546pt too wide) in alignment at lines 255--262
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (30.76546pt too wide) in alignment at lines 370--376
+Overfull \hbox (30.76546pt too wide) in alignment at lines 262--268
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (30.76546pt too wide) in alignment at lines 376--380
+Overfull \hbox (30.76546pt too wide) in alignment at lines 268--270
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (30.76546pt too wide) in alignment at lines 380--383
+Overfull \hbox (30.76546pt too wide) in alignment at lines 270--273
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (30.76546pt too wide) in alignment at lines 383--396
+Overfull \hbox (30.76546pt too wide) in alignment at lines 273--286
  [] [] [] [] [] 
  []
 
-b3-bab3.tex:396: ignored error: Infinite glue shrinkage found in box being split [40]
-Overfull \hbox (31.43738pt too wide) in alignment at lines 402--409
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (31.43738pt too wide) in alignment at lines 409--415
+b3-bab3.tex:286: ignored error: Infinite glue shrinkage found in box being split [38]
+Overfull \hbox (31.43738pt too wide) in alignment at lines 288--295
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (31.43738pt too wide) in alignment at lines 415--419
+Overfull \hbox (31.43738pt too wide) in alignment at lines 295--301
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (31.43738pt too wide) in alignment at lines 419--422
+Overfull \hbox (31.43738pt too wide) in alignment at lines 301--302
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (31.43738pt too wide) in alignment at lines 422--435
+Overfull \hbox (31.43738pt too wide) in alignment at lines 302--305
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (31.43738pt too wide) in alignment at lines 305--318
+ [] [] [] [] [] 
+ []
+
+b3-bab3.tex:318: ignored error: Infinite glue shrinkage found in box being split [39]
+Overfull \hbox (31.43738pt too wide) in alignment at lines 320--327
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (31.43738pt too wide) in alignment at lines 327--333
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (31.43738pt too wide) in alignment at lines 333--336
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (31.43738pt too wide) in alignment at lines 336--339
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (31.43738pt too wide) in alignment at lines 339--352
+ [] [] [] [] [] 
+ []
+
+[40]
+Overfull \hbox (27.66951pt too wide) in alignment at lines 355--362
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (27.66951pt too wide) in alignment at lines 362--368
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (27.66951pt too wide) in alignment at lines 368--370
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (27.66951pt too wide) in alignment at lines 370--373
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (27.66951pt too wide) in alignment at lines 373--386
  [] [] [] [] [] 
  []
 
 [41]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [42]
-Overfull \hbox (31.43738pt too wide) in alignment at lines 440--447
+Overfull \hbox (30.77733pt too wide) in alignment at lines 389--396
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (31.43738pt too wide) in alignment at lines 447--453
+Overfull \hbox (30.77733pt too wide) in alignment at lines 396--402
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (31.43738pt too wide) in alignment at lines 453--457
+Overfull \hbox (30.77733pt too wide) in alignment at lines 402--403
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (31.43738pt too wide) in alignment at lines 457--460
+Overfull \hbox (30.77733pt too wide) in alignment at lines 403--406
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (31.43738pt too wide) in alignment at lines 460--473
- [] [] [] [] [] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [43]
-Overfull \hbox (27.66951pt too wide) in alignment at lines 479--486
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (27.66951pt too wide) in alignment at lines 486--492
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (27.66951pt too wide) in alignment at lines 492--496
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (27.66951pt too wide) in alignment at lines 496--499
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (27.66951pt too wide) in alignment at lines 499--512
- [] [] [] [] [] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [44]
-Overfull \hbox (30.77733pt too wide) in alignment at lines 518--525
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (30.77733pt too wide) in alignment at lines 525--531
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (30.77733pt too wide) in alignment at lines 531--535
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (30.77733pt too wide) in alignment at lines 535--538
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (8.30183pt too wide) in paragraph at lines 540--540
+Overfull \hbox (8.30183pt too wide) in paragraph at lines 408--408
 \OT1/ptm/m/n/12 Re-ko-men-da-si|  
  []
 
 
-Overfull \hbox (8.30183pt too wide) in paragraph at lines 542--542
+Overfull \hbox (8.30183pt too wide) in paragraph at lines 410--410
 \OT1/ptm/m/n/12 Re-ko-men-da-si|  
  []
 
 
-Overfull \hbox (8.30183pt too wide) in paragraph at lines 544--544
+Overfull \hbox (8.30183pt too wide) in paragraph at lines 412--412
 \OT1/ptm/m/n/12 Re-ko-men-da-si|  
  []
 
 
-Overfull \hbox (8.30183pt too wide) in paragraph at lines 546--546
+Overfull \hbox (8.30183pt too wide) in paragraph at lines 414--414
 \OT1/ptm/m/n/12 Re-ko-men-da-si|  
  []
 
 
-Overfull \hbox (8.30183pt too wide) in paragraph at lines 548--548
+Overfull \hbox (8.30183pt too wide) in paragraph at lines 416--416
 \OT1/ptm/m/n/12 Re-ko-men-da-si|  
  []
 
 
-Overfull \hbox (30.77733pt too wide) in alignment at lines 538--551
+Overfull \hbox (30.77733pt too wide) in alignment at lines 406--419
+ [] [] [] [] [] 
+ []
+
+[42]
+Overfull \hbox (29.44534pt too wide) in alignment at lines 421--428
  [] [] [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [45]
-Overfull \hbox (29.44534pt too wide) in alignment at lines 557--564
+Overfull \hbox (29.44534pt too wide) in alignment at lines 428--434
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (29.44534pt too wide) in alignment at lines 564--570
+Overfull \hbox (29.44534pt too wide) in alignment at lines 434--436
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (29.44534pt too wide) in alignment at lines 570--574
+Overfull \hbox (29.44534pt too wide) in alignment at lines 436--439
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (29.44534pt too wide) in alignment at lines 574--577
+Overfull \hbox (29.44534pt too wide) in alignment at lines 439--450
+ [] [] [] [] [] 
+ []
+
+[43]
+Overfull \hbox (30.77733pt too wide) in alignment at lines 452--459
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (29.44534pt too wide) in alignment at lines 577--588
+Overfull \hbox (30.77733pt too wide) in alignment at lines 459--465
  [] [] [] [] [] 
  []
 
 
+Overfull \hbox (30.77733pt too wide) in alignment at lines 465--467
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (30.77733pt too wide) in alignment at lines 467--470
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (30.77733pt too wide) in alignment at lines 470--483
+ [] [] [] [] [] 
+ []
+
+[44]
+Overfull \hbox (30.76546pt too wide) in alignment at lines 485--492
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (30.76546pt too wide) in alignment at lines 492--498
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (30.76546pt too wide) in alignment at lines 498--500
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (30.76546pt too wide) in alignment at lines 500--503
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (30.76546pt too wide) in alignment at lines 503--511
+ [] [] [] [] [] 
+ []
+
+[45]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [46]
-Overfull \hbox (30.77733pt too wide) in alignment at lines 593--600
- [] [] [] [] [] 
- []
+Underfull \vbox (badness 5316) has occurred while \output is active []
 
-
-Overfull \hbox (30.77733pt too wide) in alignment at lines 600--606
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (30.77733pt too wide) in alignment at lines 606--610
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (30.77733pt too wide) in alignment at lines 610--613
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (30.77733pt too wide) in alignment at lines 613--626
- [] [] [] [] [] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [47]
-Overfull \hbox (30.76546pt too wide) in alignment at lines 632--639
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (30.76546pt too wide) in alignment at lines 639--645
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (30.76546pt too wide) in alignment at lines 645--649
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (30.76546pt too wide) in alignment at lines 649--652
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (30.76546pt too wide) in alignment at lines 652--661
- [] [] [] [] [] 
- []
-
-[48]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [49]) [50]
+ [47]) [48]
 \openout2 = `b4-bab4.aux'.
 
  (b4-bab4.tex
 Bab 4.
-) [51
+) [49
 
 
 
@@ -1511,26 +1480,29 @@ Bab 4.
 ]
 \openout2 = `b5-bab5.aux'.
 
- (b5-bab5.tex [52
+ (b5-bab5.tex [50
 
 
 
 
 ]
 Bab 5.
-[53
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 13.
+(C:\Program Files\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [51
 
 
-]) [54] (untouch/xx-daftarpustaka.tex (laporan.bbl [55
+]) [52] (untouch/xx-daftarpustaka.tex (laporan.bbl [53
 
 
 
 
 
-])) (a8-lampiran.tex [56] [57
+])) (a8-lampiran.tex [54] [55
 
 
-] [58
+] [56
 
 ]
 File: gambar/logo-poliwangi.png Graphic file (type png)
@@ -1543,10 +1515,10 @@ Package pdftex.def Info: gambar/logo-poliwangi.png  used on input line 47.
 (pdftex.def)             Requested size: 28.90747pt x 28.90747pt.
 )
 
-Package caption Warning: Unused \captionsetup[lstlisting] on input line 159.
+Package caption Warning: Unused \captionsetup[lstlisting] on input line 158.
 See the caption package documentation for explanation.
 
-[59
+[57
 
 
 ] (laporan.aux (untouch/xx-sampul-laporan.aux) (untouch/xx-sampuldalam-laporan.aux) (a4-persembahan.aux) (a9-motto.aux) (untouch/xx-pernyataan-poliwangi.aux) (untouch/xx-persetujuan-ujian.aux) (untouch/xx-pengesahan.aux) (a2-abstrak.aux) (a3-abstract.aux) (a5-katapengantar.aux) (untouch/xx-daftar.aux) (b1-bab1.aux) (b2-bab2.aux) (b3-bab3.aux) (b4-bab4.aux) (b5-bab5.aux))
@@ -1555,20 +1527,20 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `laporan.out' has not changed.
-(rerunfilecheck)             Checksum: 73B6C2AE09EC110AA9761AE9D36D40BF;7810.
+(rerunfilecheck)             Checksum: E7D80DBAA1770FA20E2FC05559CED0E8;8427.
  ) 
 Here is how much of TeX's memory you used:
- 40047 strings out of 467871
- 905902 string characters out of 5428444
- 1416032 words of memory out of 5000000
- 67955 multiletter control sequences out of 15000+600000
+ 40108 strings out of 467871
+ 907493 string characters out of 5428444
+ 1416017 words of memory out of 5000000
+ 68007 multiletter control sequences out of 15000+600000
  655052 words of font info for 85 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 93i,10n,97p,1077b,1275s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,10n,97p,1080b,1161s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on laporan.pdf (85 pages, 5803787 bytes).
+Output written on laporan.pdf (83 pages, 5804486 bytes).
 PDF statistics:
- 883 PDF objects out of 1000 (max. 8388607)
+ 901 PDF objects out of 1000 (max. 8388607)
  223 named destinations out of 1000 (max. 500000)
- 473 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 521 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -5,8 +5,7 @@
 %% DILARANG EDIT BAGIAN INI
 
 % Mengatur warna tabel di jadwal Penelitian
-\usepackage[table]{xcolor}
-\usepackage{colortbl}
+\usepackage{placeins}
 
 % Mengatur bahasa dokumen ke Bahasa Indonesia dan encoding karakter
 \usepackage[indonesian]{babel}
@@ -80,7 +79,7 @@
 % Pengaturan tabel, multirow, dan ukuran kolom otomatis
 \usepackage{tabularx}
 \usepackage{multirow}
-
+\usepackage{colortbl}
 \usepackage{geometry}
 \geometry{
 	twoside,
@@ -160,7 +159,7 @@
 
 % Paket untuk menampilkan kode program
 \usepackage{listings}
-\usepackage{xcolor}
+\usepackage[table]{xcolor}
 \definecolor{codegreen}{rgb}{0,0.6,0}
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
 \definecolor{codepurple}{rgb}{0.58,0,0.82}
@@ -206,6 +205,9 @@
 
 % Package untuk halaman kosong yang bersih
 \usepackage{emptypage}
+
+% Package untuk hyperref
+\usepackage{hyperref} % letakkan di akhir preamble
 
 %==================================================================
 % Konfigurasi untuk pencetakan bolak-balik (duplex)

@@ -35,19 +35,25 @@
 \contentsline {section}{\numberline {3.1}Waktu dan Jadwal penelitian}{23}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Waktu Pelaksanaan Penelitian}{23}{subsection.3.1.1}%
 \contentsline {subsection}{\numberline {3.1.2}Jadwal Kegiatan Penelitian}{23}{subsection.3.1.2}%
-\contentsline {section}{\numberline {3.2}Metode Penelitian}{25}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Metode Fountain}{25}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Tahapan Penerapan Metode Fountain}{26}{subsection.3.2.2}%
-\contentsline {chapter}{\numberline {4}HASIL DAN PEMBAHASAN}{51}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Hasil}{51}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Pembahasan}{51}{section.4.2}%
-\contentsline {chapter}{\numberline {5}KESIMPULAN DAN SARAN}{53}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Kesimpulan}{53}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Saran}{53}{section.5.2}%
-\contentsline {chapter}{DAFTAR PUSTAKA}{55}{section*.24}%
-\contentsline {chapter}{LAMPIRAN A KODE PROGRAM}{57}{appendix*.26}%
-\contentsline {section}{\numberline {}Lampiran A.1. Program Pembacaan Sensor Ultrasonic}{57}{section*.27}%
-\contentsline {section}{\numberline {}Lampiran A.2. Program Keseluruhan Proyek Akhir}{57}{section*.27}%
-\contentsline {chapter}{LAMPIRAN B GAMBAR-GAMBAR}{59}{appendix*.28}%
-\contentsline {section}{\numberline {}Lampiran B.1. Foto Aktivitas Kegiatan Proyek Akhir}{59}{section*.29}%
-\contentsline {section}{\numberline {}Lampiran B.2. Foto Produk Proyek Akhir}{59}{figure.caption.30}%
+\contentsline {section}{\numberline {3.2}Metode Fountain}{25}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Analysis}{26}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Requirement Specification}{27}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}\textit {Design}}{27}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Coding (Implementation)}{37}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Testing}{37}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}Operation}{46}{subsection.3.2.6}%
+\contentsline {subsection}{\numberline {3.2.7}Maintenance}{47}{subsection.3.2.7}%
+\contentsline {subsection}{\numberline {3.2.8}Evaluation}{47}{subsection.3.2.8}%
+\contentsline {chapter}{\numberline {4}HASIL DAN PEMBAHASAN}{49}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Hasil}{49}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Pembahasan}{49}{section.4.2}%
+\contentsline {chapter}{\numberline {5}KESIMPULAN DAN SARAN}{51}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Kesimpulan}{51}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Saran}{51}{section.5.2}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{53}{section*.23}%
+\contentsline {chapter}{LAMPIRAN A KODE PROGRAM}{55}{appendix*.25}%
+\contentsline {section}{\numberline {}Lampiran A.1. Program Pembacaan Sensor Ultrasonic}{55}{section*.26}%
+\contentsline {section}{\numberline {}Lampiran A.2. Program Keseluruhan Proyek Akhir}{55}{section*.26}%
+\contentsline {chapter}{LAMPIRAN B GAMBAR-GAMBAR}{57}{appendix*.27}%
+\contentsline {section}{\numberline {}Lampiran B.1. Foto Aktivitas Kegiatan Proyek Akhir}{57}{section*.28}%
+\contentsline {section}{\numberline {}Lampiran B.2. Foto Produk Proyek Akhir}{57}{figure.caption.29}%
