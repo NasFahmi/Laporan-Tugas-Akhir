@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  14 JAN 2026 19:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  14 JAN 2026 22:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1196,19 +1196,19 @@ Bab 2.
 
 
 ] [6] [7] [8] [9]
-<gambar/client-data-layer-paradigm.png, id=586, 2770.35pt x 2720.1625pt>
+<gambar/client-data-layer-paradigm.png, id=595, 2770.35pt x 2720.1625pt>
 File: gambar/client-data-layer-paradigm.png Graphic file (type png)
 <use gambar/client-data-layer-paradigm.png>
-Package pdftex.def Info: gambar/client-data-layer-paradigm.png  used on input line 75.
+Package pdftex.def Info: gambar/client-data-layer-paradigm.png  used on input line 79.
 (pdftex.def)             Requested size: 364.19667pt x 357.57664pt.
  [10 <./gambar/client-data-layer-paradigm.png>] [11] [12] [13] [14] [15]
-<gambar/fountain-sdlc.jpg, id=633, 1024.82875pt x 2569.6pt>
+<gambar/fountain-sdlc.jpg, id=642, 1024.82875pt x 2569.6pt>
 File: gambar/fountain-sdlc.jpg Graphic file (type jpg)
 <use gambar/fountain-sdlc.jpg>
-Package pdftex.def Info: gambar/fountain-sdlc.jpg  used on input line 151.
+Package pdftex.def Info: gambar/fountain-sdlc.jpg  used on input line 155.
 (pdftex.def)             Requested size: 136.57462pt x 342.41122pt.
  [16 <./gambar/fountain-sdlc.jpg>] [17] [18]
-b2-bab2.tex:243: ignored error: Infinite glue shrinkage found in box being split [19] [20]) [21]
+b2-bab2.tex:247: ignored error: Infinite glue shrinkage found in box being split [19] [20]) [21]
 \openout2 = `b3-bab3.aux'.
 
  (b3-bab3.tex [22
@@ -1222,145 +1222,140 @@ b3-bab3.tex:89: ignored error: Infinite glue shrinkage found in box being split 
 
 
 ] [24] [25] [26]
-<gambar/diagram-architecture.png, id=699, 490.33188pt x 748.29562pt>
+<gambar/diagram-architecture.png, id=708, 490.33188pt x 748.29562pt>
 File: gambar/diagram-architecture.png Graphic file (type png)
 <use gambar/diagram-architecture.png>
 Package pdftex.def Info: gambar/diagram-architecture.png  used on input line 122.
 (pdftex.def)             Requested size: 227.62206pt x 347.37155pt.
  [27] [28 <./gambar/diagram-architecture.png>] [29]
-<gambar/tanstack-works.jpg, id=719, 803.0pt x 451.6875pt>
+<gambar/tanstack-works.jpg, id=728, 803.0pt x 451.6875pt>
 File: gambar/tanstack-works.jpg Graphic file (type jpg)
 <use gambar/tanstack-works.jpg>
 Package pdftex.def Info: gambar/tanstack-works.jpg  used on input line 142.
 (pdftex.def)             Requested size: 227.62206pt x 128.03615pt.
  [30]
-<gambar/landing-page.jpeg, id=726, 2055.68pt x 2055.68pt>
+<gambar/landing-page.jpeg, id=735, 2055.68pt x 2055.68pt>
 File: gambar/landing-page.jpeg Graphic file (type jpg)
 <use gambar/landing-page.jpeg>
 Package pdftex.def Info: gambar/landing-page.jpeg  used on input line 156.
 (pdftex.def)             Requested size: 409.71692pt x 409.7172pt.
  [31 <./gambar/tanstack-works.jpg (PNG copy)>]
-<gambar/login.jpeg, id=734, 3035.34pt x 1300.86pt>
+<gambar/login.jpeg, id=743, 3035.34pt x 1300.86pt>
 File: gambar/login.jpeg Graphic file (type jpg)
 <use gambar/login.jpeg>
 Package pdftex.def Info: gambar/login.jpeg  used on input line 164.
 (pdftex.def)             Requested size: 409.71692pt x 175.58867pt.
  [32 <./gambar/landing-page.jpeg>]
-<gambar/register.jpeg, id=740, 3035.34pt x 1300.86pt>
+<gambar/register.jpeg, id=749, 3035.34pt x 1300.86pt>
 File: gambar/register.jpeg Graphic file (type jpg)
 <use gambar/register.jpeg>
 Package pdftex.def Info: gambar/register.jpeg  used on input line 171.
 (pdftex.def)             Requested size: 409.71692pt x 175.58867pt.
-<gambar/dashboard.png, id=742, 2344.76pt x 1830.84pt>
+<gambar/dashboard.png, id=751, 2344.76pt x 1830.84pt>
 File: gambar/dashboard.png Graphic file (type png)
 <use gambar/dashboard.png>
 Package pdftex.def Info: gambar/dashboard.png  used on input line 178.
 (pdftex.def)             Requested size: 318.66948pt x 248.80098pt.
  [33 <./gambar/login.jpeg> <./gambar/register.jpeg>]
-<gambar/sentiment.png, id=748, 2344.76pt x 3495.0575pt>
+<gambar/sentiment.png, id=757, 2344.76pt x 3495.0575pt>
 File: gambar/sentiment.png Graphic file (type png)
 <use gambar/sentiment.png>
 Package pdftex.def Info: gambar/sentiment.png  used on input line 185.
 (pdftex.def)             Requested size: 318.66948pt x 474.9589pt.
  [34 <./gambar/dashboard.png>]
-<gambar/scraper.png, id=755, 2248.4pt x 1040.88875pt>
+<gambar/scraper.png, id=764, 2248.4pt x 1040.88875pt>
 File: gambar/scraper.png Graphic file (type png)
 <use gambar/scraper.png>
 Package pdftex.def Info: gambar/scraper.png  used on input line 192.
 (pdftex.def)             Requested size: 318.66948pt x 147.51817pt.
  [35 <./gambar/sentiment.png>]
-<gambar/recomendation.png, id=762, 2248.4pt x 1927.2pt>
+<gambar/recomendation.png, id=771, 2248.4pt x 1927.2pt>
 File: gambar/recomendation.png Graphic file (type png)
 <use gambar/recomendation.png>
 Package pdftex.def Info: gambar/recomendation.png  used on input line 199.
 (pdftex.def)             Requested size: 318.66948pt x 273.12912pt.
  [36 <./gambar/scraper.png> <./gambar/recomendation.png>] [37]
-Overfull \hbox (0.32066pt too wide) in alignment at lines 219--230
+Overfull \hbox (0.32066pt too wide) in alignment at lines 222--233
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (0.32066pt too wide) in alignment at lines 230--240
+Overfull \hbox (0.32066pt too wide) in alignment at lines 233--243
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (0.32066pt too wide) in alignment at lines 240--242
+Overfull \hbox (0.32066pt too wide) in alignment at lines 243--245
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (0.32066pt too wide) in alignment at lines 242--245
+Overfull \hbox (0.32066pt too wide) in alignment at lines 245--248
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (0.32066pt too wide) in alignment at lines 245--253
+Overfull \hbox (0.32066pt too wide) in alignment at lines 248--256
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (2.3127pt too wide) in alignment at lines 255--262
+Overfull \hbox (2.3127pt too wide) in alignment at lines 258--265
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (2.3127pt too wide) in alignment at lines 262--267
+Overfull \hbox (2.3127pt too wide) in alignment at lines 265--270
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (2.3127pt too wide) in alignment at lines 267--269
+Overfull \hbox (2.3127pt too wide) in alignment at lines 270--272
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (2.3127pt too wide) in alignment at lines 269--272
+Overfull \hbox (2.3127pt too wide) in alignment at lines 272--275
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (2.3127pt too wide) in alignment at lines 272--285
+Overfull \hbox (2.3127pt too wide) in alignment at lines 275--288
  [] [] [] [] [] 
  []
 
-b3-bab3.tex:285: ignored error: Infinite glue shrinkage found in box being split [38]
-Overfull \hbox (2.98462pt too wide) in alignment at lines 287--294
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (2.98462pt too wide) in alignment at lines 294--300
+b3-bab3.tex:288: ignored error: Infinite glue shrinkage found in box being split [38]
+Overfull \hbox (2.98462pt too wide) in alignment at lines 290--297
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (2.98462pt too wide) in alignment at lines 300--301
+Overfull \hbox (2.98462pt too wide) in alignment at lines 297--303
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (2.98462pt too wide) in alignment at lines 301--304
+Overfull \hbox (2.98462pt too wide) in alignment at lines 303--304
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (2.98462pt too wide) in alignment at lines 304--317
- [] [] [] [] [] 
- []
-
-b3-bab3.tex:317: ignored error: Infinite glue shrinkage found in box being split [39]
-Overfull \hbox (2.98462pt too wide) in alignment at lines 319--326
+Overfull \hbox (2.98462pt too wide) in alignment at lines 304--307
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (2.98462pt too wide) in alignment at lines 326--331
+Overfull \hbox (2.98462pt too wide) in alignment at lines 307--320
+ [] [] [] [] [] 
+ []
+
+[39]
+Overfull \hbox (2.98462pt too wide) in alignment at lines 322--329
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (2.98462pt too wide) in alignment at lines 331--334
+Overfull \hbox (2.98462pt too wide) in alignment at lines 329--334
  [] [] [] [] [] 
  []
 
@@ -1370,132 +1365,137 @@ Overfull \hbox (2.98462pt too wide) in alignment at lines 334--337
  []
 
 
-Overfull \hbox (2.98462pt too wide) in alignment at lines 337--350
+Overfull \hbox (2.98462pt too wide) in alignment at lines 337--340
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.98462pt too wide) in alignment at lines 340--353
  [] [] [] [] [] 
  []
 
 [40] [41]
-Overfull \hbox (2.32457pt too wide) in alignment at lines 386--393
+Overfull \hbox (2.32457pt too wide) in alignment at lines 389--396
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (2.32457pt too wide) in alignment at lines 393--398
+Overfull \hbox (2.32457pt too wide) in alignment at lines 396--401
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (2.32457pt too wide) in alignment at lines 398--399
+Overfull \hbox (2.32457pt too wide) in alignment at lines 401--402
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (2.32457pt too wide) in alignment at lines 399--402
+Overfull \hbox (2.32457pt too wide) in alignment at lines 402--405
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (8.30183pt too wide) in paragraph at lines 404--404
+Overfull \hbox (8.30183pt too wide) in paragraph at lines 407--407
 \OT1/ptm/m/n/12 Re-ko-men-da-si|  
  []
 
 
-Overfull \hbox (8.30183pt too wide) in paragraph at lines 406--406
+Overfull \hbox (8.30183pt too wide) in paragraph at lines 409--409
 \OT1/ptm/m/n/12 Re-ko-men-da-si|  
  []
 
 
-Overfull \hbox (8.30183pt too wide) in paragraph at lines 408--408
+Overfull \hbox (8.30183pt too wide) in paragraph at lines 411--411
 \OT1/ptm/m/n/12 Re-ko-men-da-si|  
  []
 
 
-Overfull \hbox (8.30183pt too wide) in paragraph at lines 410--410
+Overfull \hbox (8.30183pt too wide) in paragraph at lines 413--413
 \OT1/ptm/m/n/12 Re-ko-men-da-si|  
  []
 
 
-Overfull \hbox (8.30183pt too wide) in paragraph at lines 412--412
+Overfull \hbox (8.30183pt too wide) in paragraph at lines 415--415
 \OT1/ptm/m/n/12 Re-ko-men-da-si|  
  []
 
 
-Overfull \hbox (2.32457pt too wide) in alignment at lines 402--415
+Overfull \hbox (2.32457pt too wide) in alignment at lines 405--418
  [] [] [] [] [] 
  []
 
 [42]
-Overfull \hbox (0.99258pt too wide) in alignment at lines 417--424
+Overfull \hbox (0.99258pt too wide) in alignment at lines 420--427
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (0.99258pt too wide) in alignment at lines 424--429
+Overfull \hbox (0.99258pt too wide) in alignment at lines 427--432
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (0.99258pt too wide) in alignment at lines 429--431
+Overfull \hbox (0.99258pt too wide) in alignment at lines 432--434
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (0.99258pt too wide) in alignment at lines 431--434
+Overfull \hbox (0.99258pt too wide) in alignment at lines 434--437
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (0.99258pt too wide) in alignment at lines 434--445
+Overfull \hbox (0.99258pt too wide) in alignment at lines 437--448
  [] [] [] [] [] 
  []
 
 [43]
-Overfull \hbox (2.32457pt too wide) in alignment at lines 447--454
+Overfull \hbox (2.32457pt too wide) in alignment at lines 450--457
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (2.32457pt too wide) in alignment at lines 454--459
+Overfull \hbox (2.32457pt too wide) in alignment at lines 457--462
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (2.32457pt too wide) in alignment at lines 459--461
+Overfull \hbox (2.32457pt too wide) in alignment at lines 462--464
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (2.32457pt too wide) in alignment at lines 461--464
+Overfull \hbox (2.32457pt too wide) in alignment at lines 464--467
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (2.32457pt too wide) in alignment at lines 464--477
+Overfull \hbox (2.32457pt too wide) in alignment at lines 467--480
  [] [] [] [] [] 
  []
 
 [44]
-Overfull \hbox (2.3127pt too wide) in alignment at lines 479--486
+Overfull \hbox (2.3127pt too wide) in alignment at lines 482--489
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (2.3127pt too wide) in alignment at lines 486--492
+Overfull \hbox (2.3127pt too wide) in alignment at lines 489--495
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (2.3127pt too wide) in alignment at lines 492--494
+Overfull \hbox (2.3127pt too wide) in alignment at lines 495--497
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (2.3127pt too wide) in alignment at lines 494--497
+Overfull \hbox (2.3127pt too wide) in alignment at lines 497--500
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (2.3127pt too wide) in alignment at lines 497--505
+Overfull \hbox (2.3127pt too wide) in alignment at lines 500--508
  [] [] [] [] [] 
  []
 
@@ -1511,57 +1511,58 @@ Bab 4.
 
 
 ] [50] [51]
-<gambar/ui-landing-page.png, id=848, 1243.64626pt x 918.43124pt>
+<gambar/ui-landing-page.png, id=860, 1243.64626pt x 918.43124pt>
 File: gambar/ui-landing-page.png Graphic file (type png)
 <use gambar/ui-landing-page.png>
 Package pdftex.def Info: gambar/ui-landing-page.png  used on input line 55.
 (pdftex.def)             Requested size: 409.71692pt x 302.57874pt.
-<gambar/ui-login-page.png, id=850, 1243.64626pt x 576.1525pt>
+<gambar/ui-login-page.png, id=862, 1243.64626pt x 576.1525pt>
 File: gambar/ui-login-page.png Graphic file (type png)
 <use gambar/ui-login-page.png>
 Package pdftex.def Info: gambar/ui-login-page.png  used on input line 67.
-(pdftex.def)             Requested size: 409.71692pt x 189.8144pt.
+(pdftex.def)             Requested size: 318.66948pt x 147.63344pt.
  [52 <./gambar/ui-landing-page.png>]
-<gambar/ui-register-page.png, id=859, 1243.64626pt x 576.1525pt>
+<gambar/ui-register-page.png, id=871, 1243.64626pt x 576.1525pt>
 File: gambar/ui-register-page.png Graphic file (type png)
 <use gambar/ui-register-page.png>
 Package pdftex.def Info: gambar/ui-register-page.png  used on input line 79.
-(pdftex.def)             Requested size: 409.71692pt x 189.8144pt.
-<gambar/ui-dashboard-page.png, id=861, 1243.64626pt x 918.43124pt>
+(pdftex.def)             Requested size: 318.66948pt x 147.63344pt.
+<gambar/ui-dashboard-page.png, id=873, 1243.64626pt x 918.43124pt>
 File: gambar/ui-dashboard-page.png Graphic file (type png)
 <use gambar/ui-dashboard-page.png>
 Package pdftex.def Info: gambar/ui-dashboard-page.png  used on input line 91.
-(pdftex.def)             Requested size: 409.71692pt x 302.57874pt.
+(pdftex.def)             Requested size: 318.66948pt x 235.33902pt.
  [53 <./gambar/ui-login-page.png> <./gambar/ui-register-page.png>]
-<gambar/ui-sentiment-page.png, id=871, 1243.64626pt x 918.43124pt>
+<gambar/ui-sentiment-page.png, id=883, 1243.64626pt x 918.43124pt>
 File: gambar/ui-sentiment-page.png Graphic file (type png)
 <use gambar/ui-sentiment-page.png>
 Package pdftex.def Info: gambar/ui-sentiment-page.png  used on input line 103.
-(pdftex.def)             Requested size: 409.71692pt x 302.57874pt.
- [54 <./gambar/ui-dashboard-page.png>]
-<gambar/ui-recommendation-content-page.png, id=879, 1243.64626pt x 918.43124pt>
+(pdftex.def)             Requested size: 318.66948pt x 235.33902pt.
+ [54 <./gambar/ui-dashboard-page.png> <./gambar/ui-sentiment-page.png>]
+<gambar/ui-recommendation-content-page.png, id=892, 1243.64626pt x 918.43124pt>
 File: gambar/ui-recommendation-content-page.png Graphic file (type png)
 <use gambar/ui-recommendation-content-page.png>
 Package pdftex.def Info: gambar/ui-recommendation-content-page.png  used on input line 115.
-(pdftex.def)             Requested size: 409.71692pt x 302.57874pt.
- [55 <./gambar/ui-sentiment-page.png>]
-<gambar/ui-scraper-page.png, id=888, 1243.64626pt x 576.1525pt>
+(pdftex.def)             Requested size: 318.66948pt x 235.33902pt.
+<gambar/ui-scraper-page.png, id=894, 1243.64626pt x 576.1525pt>
 File: gambar/ui-scraper-page.png Graphic file (type png)
 <use gambar/ui-scraper-page.png>
 Package pdftex.def Info: gambar/ui-scraper-page.png  used on input line 127.
-(pdftex.def)             Requested size: 409.71692pt x 189.8144pt.
- [56 <./gambar/ui-recommendation-content-page.png> <./gambar/ui-scraper-page.png>] [57]) [58]
+(pdftex.def)             Requested size: 318.66948pt x 147.63344pt.
+ [55 <./gambar/ui-recommendation-content-page.png> <./gambar/ui-scraper-page.png>] [56]) [57]
 \openout2 = `b5-bab5.aux'.
 
- (b5-bab5.tex
+ (b5-bab5.tex [58
+
+
+
+
+]
 Bab 5.
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 13.
 (C:\Program Files\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [59
-
-
-
 
 
 ]) [60] (untouch/xx-daftarpustaka.tex (laporan.bbl [61
@@ -1601,17 +1602,17 @@ Package rerunfilecheck Info: File `laporan.out' has not changed.
 (rerunfilecheck)             Checksum: 90A8AAB81F3653ACE7F239B8B8C14493;9411.
  ) 
 Here is how much of TeX's memory you used:
- 40160 strings out of 467871
- 908713 string characters out of 5428444
+ 40176 strings out of 467871
+ 909001 string characters out of 5428444
  1415669 words of memory out of 5000000
- 68031 multiletter control sequences out of 15000+600000
+ 68043 multiletter control sequences out of 15000+600000
  655052 words of font info for 85 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  93i,10n,97p,1099b,1161s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on laporan.pdf (89 pages, 6924367 bytes).
+Output written on laporan.pdf (89 pages, 6927335 bytes).
 PDF statistics:
- 1027 PDF objects out of 1200 (max. 8388607)
- 261 named destinations out of 1000 (max. 500000)
+ 1040 PDF objects out of 1200 (max. 8388607)
+ 265 named destinations out of 1000 (max. 500000)
  620 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -22,11 +22,11 @@
 \contentsline {subsection}{\numberline {2.1.2}Media Sosial sebagai Sumber Data}{6}{subsection.2.1.2}%
 \contentsline {subsection}{\numberline {2.1.3}Analisis Sentimen pada Media Sosial}{6}{subsection.2.1.3}%
 \contentsline {subsection}{\numberline {2.1.4}Dashboard Analitik dan Visualisasi Data}{7}{subsection.2.1.4}%
-\contentsline {subsection}{\numberline {2.1.5}\textit {Blackbox Testing}}{8}{subsection.2.1.5}%
+\contentsline {subsection}{\numberline {2.1.5}\textit {Blackbox Testing}}{9}{subsection.2.1.5}%
 \contentsline {subsection}{\numberline {2.1.6}Arsitektur \textit {Client Data Layer}}{9}{subsection.2.1.6}%
 \contentsline {subsection}{\numberline {2.1.7}\textit {REST API}}{12}{subsection.2.1.7}%
 \contentsline {subsection}{\numberline {2.1.8}React}{14}{subsection.2.1.8}%
-\contentsline {subsection}{\numberline {2.1.9}TanStack Query (React Query)}{14}{subsection.2.1.9}%
+\contentsline {subsection}{\numberline {2.1.9}TanStack Query (React Query)}{15}{subsection.2.1.9}%
 \contentsline {subsection}{\numberline {2.1.10}Metode Fountain}{16}{subsection.2.1.10}%
 \contentsline {subsubsection}{Tahapan Metode Fountain}{17}{subsubsection*.13}%
 \contentsline {subsubsection}{Alasan Pemilihan Metode Fountain}{18}{subsubsection*.14}%
@@ -52,18 +52,18 @@
 \contentsline {subsubsection}{Arsitektur \textit {Frontend}}{50}{subsubsection*.24}%
 \contentsline {subsubsection}{\textit {Client Data Layer}}{50}{subsubsection*.25}%
 \contentsline {subsubsection}{Desain Antarmuka}{51}{subsubsection*.26}%
-\contentsline {subsection}{\numberline {4.1.4}\textit {Coding/Implementation}}{57}{subsection.4.1.4}%
-\contentsline {subsubsection}{Landing Page}{57}{subsubsection*.34}%
-\contentsline {subsubsection}{Authentication}{57}{subsubsection*.35}%
-\contentsline {subsubsection}{Dashboard}{57}{subsubsection*.36}%
-\contentsline {subsubsection}{Scraper}{57}{subsubsection*.37}%
-\contentsline {subsubsection}{Sentiment}{57}{subsubsection*.38}%
-\contentsline {subsubsection}{Recomendation Content}{57}{subsubsection*.39}%
-\contentsline {subsection}{\numberline {4.1.5}\textit {Testing}}{57}{subsection.4.1.5}%
-\contentsline {subsection}{\numberline {4.1.6}\textit {Operation}}{57}{subsection.4.1.6}%
-\contentsline {subsection}{\numberline {4.1.7}\textit {Maintenance}}{57}{subsection.4.1.7}%
-\contentsline {subsection}{\numberline {4.1.8}\textit {Evaluation}}{58}{subsection.4.1.8}%
-\contentsline {section}{\numberline {4.2}Pembahasan}{58}{section.4.2}%
+\contentsline {subsection}{\numberline {4.1.4}\textit {Coding/Implementation}}{56}{subsection.4.1.4}%
+\contentsline {subsubsection}{Landing Page}{56}{subsubsection*.34}%
+\contentsline {subsubsection}{Authentication}{56}{subsubsection*.35}%
+\contentsline {subsubsection}{Dashboard}{56}{subsubsection*.36}%
+\contentsline {subsubsection}{Scraper}{56}{subsubsection*.37}%
+\contentsline {subsubsection}{Sentiment}{56}{subsubsection*.38}%
+\contentsline {subsubsection}{Recomendation Content}{56}{subsubsection*.39}%
+\contentsline {subsection}{\numberline {4.1.5}\textit {Testing}}{56}{subsection.4.1.5}%
+\contentsline {subsection}{\numberline {4.1.6}\textit {Operation}}{56}{subsection.4.1.6}%
+\contentsline {subsection}{\numberline {4.1.7}\textit {Maintenance}}{56}{subsection.4.1.7}%
+\contentsline {subsection}{\numberline {4.1.8}\textit {Evaluation}}{57}{subsection.4.1.8}%
+\contentsline {section}{\numberline {4.2}Pembahasan}{57}{section.4.2}%
 \contentsline {chapter}{\numberline {5}KESIMPULAN DAN SARAN}{59}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Kesimpulan}{59}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Saran}{59}{section.5.2}%

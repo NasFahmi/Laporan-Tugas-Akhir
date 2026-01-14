@@ -42,6 +42,12 @@ Luz, H. (2025).
 \newblock ResearchGate.
 \newblock Preprint, ResearchGate.
 
+\bibitem[\protect\citeauthoryear{Maharani}{Maharani}{2024}]{Maharani2024}
+Maharani, L. (2024).
+\newblock {Analisis Pola Dan Tren Penggunaan Data Media Sosial Dengan Teknik
+  Data Mining}.
+\newblock {\em Logicloom}, {\em 1\/}(2), 1--21.
+
 \bibitem[\protect\citeauthoryear{Mardhatilah, Omar \& Septiari}{Mardhatilah
   et~al.}{2024}]{Mardhatilah2024}
 Mardhatilah, D., Omar, A., \& Septiari, E.~D. (2024).
@@ -62,6 +68,17 @@ Micheal, D. (2025).
 \newblock {React Query and Lazy Loading: Performance Optimization Best
   Practices}.
 \newblock Preprint, ResearchGate.
+
+\bibitem[\protect\citeauthoryear{Owusu}{Owusu}{2025}]{Owusu2025}
+Owusu, K. (2025).
+\newblock {REST API Architecture in React A Production Guide}.
+
+\bibitem[\protect\citeauthoryear{Purnama, Setiani, Ari \& Wibisono}{Purnama
+  et~al.}{2025}]{Purnama2025}
+Purnama, I., Setiani, Y., Ari, F., \& Wibisono, N. (2025).
+\newblock {Analisis dan Visualisasi Data Menggunakan Looker Studio Pada Dataset
+  New York City Property Sales}.
+\newblock {\em Jurnal Minfo Polgan}, {\em 13}, 2222--2234.
 
 \bibitem[\protect\citeauthoryear{Putra, Efendi, Tamam \& Pramadi}{Putra
   et~al.}{2025}]{TrendsWebDevReact2025}
@@ -112,6 +129,12 @@ Siva, F., Assegaf, S. M.~U., Pahlevi, S.~A., \& Yaqin, M.~A. (2023).
 Sofyan, S. \& Agusman (2025).
 \newblock {ANALISIS KESIAPAN UMKM MENGHADAPI EKONOMI DIGITAL}.
 \newblock {\em Smart Jurnal Ilmiah}, {\em IX\/}(1), 1--4.
+
+\bibitem[\protect\citeauthoryear{Suryani \& Komputer}{Suryani \&
+  Komputer}{2024}]{Suryani2024}
+Suryani, A. \& Komputer, I. (2024).
+\newblock {ANALISIS SENTIMEN PENGGUNA BERBASIS DATA}.
+\newblock {\em Logicloom.id}, {\em 1\/}(4), 1--21.
 
 \bibitem[\protect\citeauthoryear{{Tanstack LCC}}{{Tanstack
   LCC}}{2025}]{TanstackLCC2025}

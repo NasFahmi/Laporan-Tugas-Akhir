@@ -744,14 +744,14 @@ INPUT .\laporan.bbl
 INPUT .\laporan.bbl
 INPUT laporan.bbl
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\pslatex\pcrr7tn.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\public\pslatex\pcrr7tn.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\symbol\psyr.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\pslatex\pcrr8rn.tfm
 INPUT .\a8-lampiran.tex
 INPUT .\a8-lampiran.tex
 INPUT .\a8-lampiran.tex
 INPUT .\a8-lampiran.tex
 INPUT a8-lampiran.tex
+INPUT C:\Program Files\MiKTeX\fonts\vf\public\pslatex\pcrr7tn.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\symbol\psyr.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\pslatex\pcrr8rn.tfm
 INPUT .\gambar\logo-poliwangi.png
 INPUT .\gambar\logo-poliwangi.png
 INPUT .\gambar\logo-poliwangi.png
