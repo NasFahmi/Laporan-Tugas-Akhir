@@ -1,93 +1,78 @@
 %==================================================================
-% Ini adalah file utama dari dokumen LaTeX ini
+% File utama dokumen Laporan Tugas Akhir
 %==================================================================
 
-%% DILARANG EDIT BAGIAN INI
-\documentclass[12pt, a4paper, onecolumn, twoside, openright, final]{report}
+%% JANGAN UBAH BAGIAN INI
+\documentclass[12pt, a4paper, onecolumn, oneside]{report}
+
+% =====================
+% IDENTITAS & PREAMBLES
+% =====================
 \input{a0-identitas}
 \input{untouch/xx-preambles}
 \input{a1-database.hyphenate}
-%\newcommand{\Jenis}{Proposal} %Pilih salah satu antara Proposal atau Laporan
-\newcommand{\Jenis}{Laporan} %Pilih salah satu antara Proposal atau Laporan
+
+% =====================
+% JENIS DOKUMEN
+% =====================
+\newcommand{\Jenis}{Laporan} % Proposal / Laporan
+
 \begin{document}
-	\ifthenelse{\equal{\Jenis}{Proposal}}{
-		\include{untouch/xx-sampul-proposal}
-		\cleardoublepage  % Halaman kosong jika perlu
-		
-		\pagenumbering{roman}
-		\include{untouch/xx-sampuldalam-proposal}
-		\cleardoublepage  % Halaman kosong jika perlu
-		
-		\include{untouch/xx-persetujuan-proposal}
-		\cleardoublepage  % Halaman kosong jika perlu
-		
-		\begin{spacing}{1.2}
-			\include{untouch/xx-daftar}
-		\end{spacing}
-		
-		\cleardoublepage  % Sebelum ganti ke arabic
-		\pagenumbering{arabic}
-		
-		\begin{spacing}{1.5}
-			\include{b1-bab1}
-			\include{b2-bab2}
-			\include{b3-bab3}
-		\end{spacing}
-	}{
-		\include{untouch/xx-sampul-laporan}
-		\cleardoublepage  % Halaman kosong jika sampul di genap
-		
-		\pagenumbering{roman}
-		\include{untouch/xx-sampuldalam-laporan}
-		\cleardoublepage  % Halaman kosong jika sampul dalam di genap
-		
-		\begin{spacing}{1.2}
-			\include{a4-persembahan}
-			\cleardoublepage  % Halaman kosong jika persembahan di genap
-			
-			\include{a9-motto}
-			\cleardoublepage  % Halaman kosong jika motto di genap
-		\end{spacing}
-		
-		\begin{spacing}{1.5}
-			\include{untouch/xx-pernyataan-poliwangi}
-			\cleardoublepage  % Halaman kosong jika pernyataan di genap
-		\end{spacing}
-		
-		\include{untouch/xx-persetujuan-ujian}
-		\cleardoublepage  % Halaman kosong jika persetujuan di genap
-		
-		\include{untouch/xx-pengesahan}
-		\cleardoublepage  % Halaman kosong jika pengesahan di genap
-		
-		\begin{spacing}{1.2}
-			\include{a2-abstrak}
-			\cleardoublepage  % Halaman kosong jika abstrak di genap
-			
-			\include{a3-abstract}
-			\cleardoublepage  % Halaman kosong jika abstract di genap
-			
-			\include{a5-katapengantar}
-			\cleardoublepage  % Halaman kosong jika kata pengantar di genap
-			
-			\include{untouch/xx-daftar}
-		\end{spacing}
-		
-		\cleardoublepage  % PENTING! Sebelum ganti ke arabic
-		\pagenumbering{arabic}
-		
-		\begin{spacing}{1.5}
-			% BAB akan otomatis dapat halaman kosong dari redefinisi \chapter
-			\include{b1-bab1}
-			\include{b2-bab2}
-			\include{b3-bab3}
-			\include{b4-bab4}
-			\include{b5-bab5}
-		\end{spacing}
-	}
-	
-	\input{untouch/xx-daftarpustaka}
-	\input{a8-lampiran}
-	
+
+% ==========================================================
+% ===================== BAGIAN AWAL ========================
+% ==========================================================
+\pagenumbering{roman}
+
+\include{untouch/xx-sampul-laporan}
+\include{untouch/xx-sampuldalam-laporan}
+\ganjil
+
+\begin{spacing}{1.2}
+    \include{a4-persembahan}
+		\ganjil
+    \include{a9-motto} % aktifkan jika perlu
+\end{spacing}
+
+\begin{spacing}{1.5}
+		\ganjil
+    \include{untouch/xx-pernyataan-poliwangi}
+\end{spacing}
+\ganjil
+\include{untouch/xx-persetujuan-ujian}
+\ganjil
+\include{untouch/xx-pengesahan}
+
+\begin{spacing}{1.2}
+	\ganjil
+    \include{a2-abstrak}
+		\ganjil
+    \include{a3-abstract}
+		\ganjil
+    \include{a5-katapengantar}
+		\ganjil
+    \include{untouch/xx-daftar}
+\end{spacing}
+
+% ==========================================================
+% ===================== ISI UTAMA ==========================
+% ==========================================================
+\clearpage
+\pagenumbering{arabic}
+
+\begin{spacing}{1.5}
+    \include{b1-bab1}
+    \include{b2-bab2}
+    \include{b3-bab3}
+    \include{b4-bab4}
+    \include{b5-bab5}
+\end{spacing}
+
+% ==========================================================
+% ===================== PENUTUP =============================
+% ==========================================================
+\input{untouch/xx-daftarpustaka}
+\input{a8-lampiran}
+
 \end{document}
-%% DILARANG EDIT BAGIAN INI
+%% JANGAN UBAH BAGIAN INI

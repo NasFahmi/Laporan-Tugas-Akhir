@@ -77,16 +77,6 @@ INPUT C:\Program Files\MiKTeX\tex\latex\tools\array.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\tools\array.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\multirow\multirow.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\multirow\multirow.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\colortbl\colortbl.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\colortbl\colortbl.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\color.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\color.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
 INPUT C:\Program Files\MiKTeX\tex\latex\geometry\geometry.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\geometry\geometry.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\iftex\ifvtex.sty
@@ -181,7 +171,14 @@ INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Program Files\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\color.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\pgf\basiclayer\pgf.sty
@@ -350,8 +347,6 @@ INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzl
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryarrows.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryarrows.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryarrows.code.tex
-INPUT C:\Program Files\MiKTeX\tex\latex\emptypage\emptypage.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\emptypage\emptypage.sty
 INPUT .\a1-database.hyphenate.tex
 INPUT .\a1-database.hyphenate.tex
 INPUT a1-database.hyphenate.tex
@@ -453,11 +448,6 @@ INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmbi7t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmbi8r.tfm
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT .\untouch\xx-sampuldalam-laporan.tex
 INPUT .\untouch\xx-sampuldalam-laporan.tex
 OUTPUT untouch\xx-sampuldalam-laporan.aux
@@ -467,6 +457,11 @@ INPUT untouch\xx-sampuldalam-laporan.tex
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT .\a4-persembahan.tex
 INPUT .\a4-persembahan.tex
 OUTPUT a4-persembahan.aux
@@ -680,6 +675,55 @@ OUTPUT b4-bab4.aux
 INPUT .\b4-bab4.tex
 INPUT .\b4-bab4.tex
 INPUT b4-bab4.tex
+INPUT .\gambar\ui-landing-page.png
+INPUT .\gambar\ui-landing-page.png
+INPUT .\gambar\ui-landing-page.png
+INPUT .\gambar\ui-landing-page.png
+INPUT .\gambar\ui-landing-page.png
+INPUT .\gambar\ui-landing-page.png
+INPUT .\gambar\ui-landing-page.png
+INPUT .\gambar\ui-login-page.png
+INPUT .\gambar\ui-login-page.png
+INPUT .\gambar\ui-login-page.png
+INPUT .\gambar\ui-login-page.png
+INPUT .\gambar\ui-login-page.png
+INPUT .\gambar\ui-login-page.png
+INPUT .\gambar\ui-login-page.png
+INPUT .\gambar\ui-register-page.png
+INPUT .\gambar\ui-register-page.png
+INPUT .\gambar\ui-register-page.png
+INPUT .\gambar\ui-register-page.png
+INPUT .\gambar\ui-register-page.png
+INPUT .\gambar\ui-register-page.png
+INPUT .\gambar\ui-register-page.png
+INPUT .\gambar\ui-dashboard-page.png
+INPUT .\gambar\ui-dashboard-page.png
+INPUT .\gambar\ui-dashboard-page.png
+INPUT .\gambar\ui-dashboard-page.png
+INPUT .\gambar\ui-dashboard-page.png
+INPUT .\gambar\ui-dashboard-page.png
+INPUT .\gambar\ui-dashboard-page.png
+INPUT .\gambar\ui-sentiment-page.png
+INPUT .\gambar\ui-sentiment-page.png
+INPUT .\gambar\ui-sentiment-page.png
+INPUT .\gambar\ui-sentiment-page.png
+INPUT .\gambar\ui-sentiment-page.png
+INPUT .\gambar\ui-sentiment-page.png
+INPUT .\gambar\ui-sentiment-page.png
+INPUT .\gambar\ui-recommendation-content-page.png
+INPUT .\gambar\ui-recommendation-content-page.png
+INPUT .\gambar\ui-recommendation-content-page.png
+INPUT .\gambar\ui-recommendation-content-page.png
+INPUT .\gambar\ui-recommendation-content-page.png
+INPUT .\gambar\ui-recommendation-content-page.png
+INPUT .\gambar\ui-recommendation-content-page.png
+INPUT .\gambar\ui-scraper-page.png
+INPUT .\gambar\ui-scraper-page.png
+INPUT .\gambar\ui-scraper-page.png
+INPUT .\gambar\ui-scraper-page.png
+INPUT .\gambar\ui-scraper-page.png
+INPUT .\gambar\ui-scraper-page.png
+INPUT .\gambar\ui-scraper-page.png
 INPUT .\b5-bab5.tex
 INPUT .\b5-bab5.tex
 OUTPUT b5-bab5.aux

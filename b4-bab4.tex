@@ -7,5 +7,162 @@
 
 \section{Hasil}
 
+\subsection{\textit{Analysis}}
+Pada tahap \textit{analysis}, hasil yang diperoleh berupa identifikasi kebutuhan sistem frontend dashboard analisis sentimen UMKM yang bersifat data-driven. Analisis menunjukkan bahwa data hasil analisis sentimen yang bersumber \textit{service} ABSA (\textit{Aspect Based Sentiment Analysis}) dan Rekomendasi Konten yang di salurkan ke backend digunakan oleh beberapa komponen antarmuka secara bersamaan, seperti dashboard utama, halaman sentiment, dan halaman rekomendasi. Kondisi ini menimbulkan kebutuhan akan mekanisme pengelolaan data frontend yang mampu menjaga konsistensi data serta menghindari permintaan data berulang ke REST API.
+
+Hasil analisis juga menunjukkan bahwa pengguna sistem hanya berperan sebagai konsumen informasi, sehingga kebutuhan utama sistem terletak pada stabilitas penyajian data, konsistensi antar-komponen, serta kemudahan navigasi tanpa kehilangan data. Temuan pada tahap ini menjadi dasar pemilihan arsitektur Client Data Layer sebagai solusi pengelolaan data frontend.
+
+\subsection{\textit{Requirement Specification}}
+Hasil dari tahap requirement specification adalah tersusunnya kebutuhan fungsional dan non-fungsional sistem frontend. Kebutuhan fungsional mencakup kemampuan sistem untuk menampilkan ringkasan sentimen, visualisasi distribusi sentimen, data rekomendasi, serta data scraper yang bersumber dari REST API backend.
+
+Kebutuhan non-fungsional yang dihasilkan pada tahap ini meliputi konsistensi data antar-komponen, pengendalian permintaan API, serta kemampuan sistem dalam memanfaatkan mekanisme caching. Kebutuhan tersebut menjadi acuan dalam perancangan arsitektur frontend dan pemilihan TanStack Query sebagai pustaka pengelolaan Client Data Layer.
+
+\subsection{\textit{Design}}
+
+Pada tahap design, dihasilkan rancangan arsitektur frontend berbasis component-based architecture dengan pemisahan antara lapisan presentasi dan lapisan pengelolaan data. Hasil perancangan menunjukkan bahwa Client Data Layer diposisikan sebagai lapisan perantara antara REST API dan komponen antarmuka pengguna.
+
+Selain perancangan arsitektur, tahap ini juga menghasilkan rancangan penggunaan TanStack Query sebagai implementasi Client Data Layer, serta Desain antarmuka untuk setiap halaman utama sistem. Rancangan tersebut menjadi acuan utama dalam proses implementasi frontend pada tahap selanjutnya.
+
+\subsubsection{Arsitektur \textit{Frontend}}
+
+Arsitektur frontend pada sistem yang diimplementasikan juga ditunjukkan melalui cara penulisan dan pengelompokan file di dalam proyek frontend yang mengikuti arsitektur yang diterapkan. Struktur frontend disusun dengan pemisahan yang jelas antara komponen \textit{view}, logika pengelolaan data, serta definisi \textit{type} atau struktur data dari \textit{response} maupun \textit{payload}, dan aturan validasi atau \textit{schema} yang digunakan sistem. Pemisahan ini bertujuan untuk mendukung penerapan arsitektur frontend yang terstruktur dan mudah dipelihara.
+
+Komponen \textit{view} berperan sebagai lapisan antarmuka pengguna yang bertanggung jawab dalam menampilkan data dan menangani interaksi pengguna dengan sistem. Lapisan ini tidak menangani proses pengambilan data secara langsung, melainkan hanya menerima data yang telah dikelola oleh lapisan pengelolaan data. Dengan pendekatan ini, perubahan pada logika data tidak berdampak langsung terhadap tampilan antarmuka pengguna.
+
+Lapisan logika pengelolaan data bertugas mengatur proses komunikasi dengan REST API, termasuk pengambilan data, pengelolaan status data, serta distribusi data ke komponen \textit{view}. Lapisan ini menjadi perantara antara sumber data eksternal dan antarmuka pengguna, sehingga seluruh pengelolaan data dapat dilakukan secara terpusat dan konsisten.
+
+Definisi \textit{type} atau struktur data digunakan untuk merepresentasikan bentuk data yang dipertukarkan antara frontend dan backend, baik dalam bentuk \textit{payload} permintaan maupun \textit{response} dari server. Aturan validasi atau \textit{schema} berfungsi untuk memastikan data yang diproses dan dikirimkan oleh sistem telah sesuai dengan format dan ketentuan yang ditetapkan. Pemisahan definisi struktur data dan aturan validasi ini membantu menjaga konsistensi data serta meminimalkan kesalahan pada proses pengolahan data.
+
+\subsubsection{\textit{Client Data Layer}}
+
+Hasil implementasi menunjukkan bahwa pengelolaan data pada sistem frontend berjalan secara konsisten pada seluruh halaman dashboard. Pada saat data pertama kali diakses oleh aplikasi, sistem mengambil data dari REST API dan menyimpannya sebagai bagian dari pengelolaan data internal. Data yang telah diperoleh tersebut selanjutnya digunakan kembali oleh fitur-fitur lain yang membutuhkan sumber data yang sama tanpa memicu permintaan ulang ke server. Alur pengelolaan data ini ditunjukkan pada Gambar~\ref{fig:tanstack-works}.
+
+Penerapan pengelolaan data terpusat ini memengaruhi perilaku sistem pada saat aplikasi digunakan. Ketika pengguna melakukan navigasi antar-halaman dan kembali ke halaman sebelumnya, data tetap ditampilkan tanpa mengalami pemuatan ulang. Perilaku ini teramati secara konsisten pada halaman dashboard utama dan halaman dashboard sentimen yang menggunakan sumber data yang sama. Kondisi tersebut menunjukkan bahwa data yang telah diperoleh dapat dimanfaatkan kembali selama masih relevan dengan kebutuhan sistem.
+
+Selain itu, implementasi \textit{Client Data Layer} juga berdampak pada efisiensi permintaan data. Ketika beberapa komponen frontend membutuhkan data yang sama dalam waktu yang bersamaan, sistem tidak melakukan permintaan data secara terpisah untuk setiap komponen. Sebaliknya, satu hasil pengambilan data digunakan bersama oleh seluruh komponen terkait. Perilaku ini mengurangi permintaan data yang berulang dan mendukung efisiensi komunikasi antara frontend dan backend.
+
+Pengelolaan data melalui \textit{Client Data Layer} juga mendukung konsistensi penyajian data antar-komponen frontend. Data yang digunakan oleh beberapa halaman atau komponen tetap berada pada kondisi yang selaras, sehingga tidak terjadi perbedaan informasi yang ditampilkan kepada pengguna. Dengan pendekatan ini, sistem frontend mampu mempertahankan konsistensi data tanpa memerlukan pengelolaan state secara manual pada setiap komponen antarmuka.
+
+Secara keseluruhan, penerapan \textit{Client Data Layer} menggunakan TanStack Query menghasilkan perilaku pengelolaan data frontend yang lebih terstruktur, konsisten, dan efisien pada tahap implementasi sistem. Lapisan ini mendukung kebutuhan aplikasi dashboard analisis sentimen yang bersifat data-driven, di mana data yang sama digunakan oleh berbagai komponen dan perlu disajikan secara konsisten selama siklus penggunaan aplikasi.
+\subsubsection{Desain Antarmuka}
+
+Desain antarmuka pada sisi frontend dashboard analisis sentimen direalisasikan berdasarkan rancangan wireframe yang telah disusun pada tahap perancangan. Seluruh antarmuka yang diimplementasikan mencakup halaman landing page, login, register, dashboard, analisis sentimen, rekomendasi konten, dan halaman scraper. Implementasi desain antarmuka bertujuan untuk memastikan bahwa setiap fitur sistem dapat diakses dan digunakan sesuai dengan alur yang telah dirancang. Setiap halaman dirancang untuk menyajikan informasi yang relevan dengan konteks penggunaannya. Adapun hasil realisasi dari wireframe dapat dilihat pada Gambar~\ref{fig:desain-landing-page} sampai Gambar~\ref{fig:desain-scraper}.
+\begin{packed_enum}
+  \item Landing Page \hfill \\
+  
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{gambar/ui-landing-page.png}
+    \caption{Desain Halaman Landing Page}
+    \label{fig:desain-landing-page}
+  \end{figure}
+  
+  Gambar~\ref{fig:desain-landing-page} menunjukkan hasil implementasi antarmuka landing page. Halaman ini berfungsi sebagai halaman awal sistem yang memberikan gambaran umum mengenai aplikasi dashboard analisis sentimen. Landing page menyediakan informasi singkat terkait fungsi sistem serta navigasi menuju halaman login dan registrasi bagi pengguna.
+
+
+  \item Login \hfill \\
+  
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{gambar/ui-login-page.png}
+    \caption{Desain Halaman Login}
+    \label{fig:desain-login}
+  \end{figure}
+
+  Gambar~\ref{fig:desain-login} menunjukkan antarmuka halaman login yang digunakan untuk proses autentikasi pengguna. Pada halaman ini, pengguna dapat memasukkan kredensial berupa alamat surel dan kata sandi untuk mengakses sistem. Implementasi halaman login memastikan bahwa hanya pengguna yang terdaftar yang dapat masuk ke dalam dashboard analisis sentimen.
+
+
+  \item Register \hfill \\
+  
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{gambar/ui-register-page.png}
+    \caption{Desain Halaman Register}
+    \label{fig:desain-register}
+  \end{figure}
+
+  Gambar~\ref{fig:desain-register} menampilkan hasil implementasi halaman registrasi pengguna. Halaman ini digunakan untuk proses pendaftaran pengguna baru dengan mengisi data yang diperlukan. Data yang dimasukkan pada halaman ini selanjutnya digunakan sebagai informasi akun untuk proses autentikasi pada sistem.
+
+
+  \item Dashboard \hfill \\
+  
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{gambar/ui-dashboard-page.png}
+    \caption{Desain Halaman Dashboard}
+    \label{fig:desain-dashboard}
+  \end{figure}
+
+  Gambar~\ref{fig:desain-dashboard} menunjukkan antarmuka halaman dashboard utama. Halaman ini berfungsi untuk menampilkan ringkasan hasil analisis sentimen dalam bentuk visualisasi dan informasi utama. Dashboard menjadi pusat akses pengguna terhadap fitur analisis sentimen dan rekomendasi konten yang tersedia pada sistem.
+
+
+  \item Sentiment \hfill \\
+  
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{gambar/ui-sentiment-page.png}
+    \caption{Desain Halaman Sentiment}
+    \label{fig:desain-sentiment}
+  \end{figure}
+
+  Gambar~\ref{fig:desain-sentiment} menampilkan antarmuka halaman analisis sentimen. Halaman ini digunakan untuk menyajikan hasil analisis sentimen secara lebih rinci berdasarkan data yang dianalisis. Informasi yang ditampilkan pada halaman ini membantu pengguna dalam memahami distribusi dan kecenderungan sentimen dari data yang diproses.
+
+
+  \item Recommendation Content \hfill \\
+  
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{gambar/ui-recommendation-content-page.png}
+    \caption{Desain Halaman Recommendation Content}
+    \label{fig:desain-recommendation-content}
+  \end{figure}
+
+  Gambar~\ref{fig:desain-recommendation-content} menunjukkan antarmuka halaman rekomendasi konten. Halaman ini menyajikan hasil rekomendasi konten yang dihasilkan berdasarkan analisis sentimen data. Informasi yang ditampilkan pada halaman ini bertujuan untuk mendukung pengambilan keputusan pengguna berdasarkan hasil analisis yang tersedia.
+
+
+  \item Scraper \hfill \\
+  
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{gambar/ui-scraper-page.png}
+    \caption{Desain Halaman Scraper}
+    \label{fig:desain-scraper}
+  \end{figure}
+
+  Gambar~\ref{fig:desain-scraper} menampilkan hasil implementasi halaman scraper. Halaman ini digunakan untuk melakukan proses pengambilan data dari sumber eksternal. Data yang berhasil dikumpulkan melalui halaman ini selanjutnya dapat digunakan sebagai bahan analisis pada sistem dashboard analisis sentimen.
+
+\end{packed_enum}
+\subsection{\textit{Coding/Implementation}}
+\subsubsection{Landing Page}
+\subsubsection{Authentication}
+\subsubsection{Dashboard}
+\subsubsection{Scraper}
+\subsubsection{Sentiment}
+\subsubsection{Recomendation Content}
+
+
+\subsection{\textit{Testing}}
+\subsection{\textit{Operation}}
+
+Pada tahap \textit{operation}, sistem frontend dashboard analisis sentimen telah dijalankan pada lingkungan server berbasis container dan dapat diakses melalui peramban web. Sistem menggunakan runtime JavaScript modern untuk menjalankan aplikasi frontend, sehingga fitur-fitur utama yang telah diimplementasikan dapat digunakan secara fungsional sesuai dengan kebutuhan pengembangan.
+
+Berdasarkan kondisi sistem saat ini, proses operasional aplikasi menunjukkan bahwa alur penggunaan utama dapat dijalankan sesuai dengan perancangan. Meskipun pengembangan sistem masih berada pada tahap lanjutan, implementasi sistem frontend yang telah dilakukan memungkinkan pengguna mengakses dan memanfaatkan fungsi utama sistem sebagai bagian dari proses analisis sentimen.
+
+\subsection{\textit{Maintenance}}
+
+Pada tahap \textit{maintenance}, sistem frontend diimplementasikan dengan struktur yang mendukung proses pemeliharaan dan pengembangan lanjutan. Pemisahan antara komponen antarmuka, logika pengelolaan data, serta definisi struktur data dan aturan validasi memungkinkan perubahan atau perbaikan dilakukan pada satu bagian tanpa memengaruhi keseluruhan sistem.
+
+Struktur frontend yang modular mempermudah proses penyesuaian fitur, perbaikan kesalahan, serta pengembangan tambahan pada tahap selanjutnya. Dengan pendekatan ini, sistem memiliki kesiapan untuk dilakukan pemeliharaan secara berkelanjutan seiring dengan penyempurnaan proses pengembangan dan pengujian.
+
+\subsection{\textit{Evaluation}}
+
+Evaluasi dilakukan terhadap hasil implementasi \textit{Client Data Layer} pada sistem frontend dengan mengamati perilaku pengelolaan data saat aplikasi dijalankan. Pengamatan dilakukan menggunakan TanStack DevTools sebagai alat bantu untuk melihat status \textit{query}, pemanfaatan cache, serta distribusi data ke komponen antarmuka.
+
+Berdasarkan hasil observasi, data pada sistem frontend dikelola secara terpusat melalui mekanisme \textit{Client Data Layer}. Satu sumber data digunakan bersama oleh beberapa komponen tanpa memerlukan pengelolaan state secara manual pada masing-masing komponen. Selain itu, data yang telah diperoleh tersimpan pada cache dan dapat digunakan kembali selama masih relevan dengan kebutuhan sistem.
+
+Hasil evaluasi ini menunjukkan bahwa penerapan \textit{Client Data Layer} menggunakan TanStack Query telah sesuai dengan tujuan penelitian, yaitu mendukung pengelolaan data frontend yang konsisten dan terstruktur. Evaluasi ini bersifat kualitatif dan dilakukan berdasarkan kondisi implementasi sistem pada tahap pengembangan saat ini.
+
 \section{Pembahasan}
+
+
 Analisis kinerja sistem dilakukan untuk mengevaluasi efektivitas dan efisiensi sistem dalam mencapai tujuan yang telah ditetapkan. Bagian ini berfokus pada pengukuran dan analisis terhadap parameter-parameter utama yang mencerminkan kualitas kinerja sistem.

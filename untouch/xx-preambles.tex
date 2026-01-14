@@ -4,7 +4,6 @@
 
 %% DILARANG EDIT BAGIAN INI
 
-% Mengatur warna tabel di jadwal Penelitian
 \usepackage{placeins}
 
 % Mengatur bahasa dokumen ke Bahasa Indonesia dan encoding karakter
@@ -36,7 +35,7 @@
 \cftsetpnumwidth{1.5em}
 \cftsetrmarg{2em}
 \setlength{\cftsecnumwidth}{1.5em}
-\setlength{\cftsubsecnumwidth}{2.5em}
+\setlength{\cftsubsecnumwidth}{1.5em}
 \renewcommand{\cftchapdotsep}{\cftdotsep}
 \setlength{\cftbeforechapskip}{3pt}
 
@@ -49,7 +48,7 @@
 
 % Pengaturan format dan penomoran judul bab
 \usepackage{titlesec}
-\titleformat{\chapter}{\doublespacing\fontsize{14pt}{14pt}\bfseries}{\MakeUppercase{\chaptertitlename\ \arabic{chapter}}\filcenter}{0.15cm}{\centering\uppercase}
+\titleformat{\chapter}{\doublespacing\fontsize{14pt}{16pt}\bfseries}{\MakeUppercase{\chaptertitlename\ \arabic{chapter}}\filcenter}{0.15cm}{\centering\uppercase}
 \titleformat{\section}{\fontsize{12}{14}\bfseries}{\thesection}{0.4cm}{}
 \titleformat{\subsection}{\fontsize{12}{14}\bfseries}{\thesubsection}{0.675cm}{}
 
@@ -79,15 +78,14 @@
 % Pengaturan tabel, multirow, dan ukuran kolom otomatis
 \usepackage{tabularx}
 \usepackage{multirow}
-\usepackage{colortbl}
+
+% Pengaturan margin halaman
 \usepackage{geometry}
 \geometry{
-	twoside,
-	inner=3cm,          % Margin dalam (untuk jilid)
-	outer=3cm,          % Margin luar (SAMA dengan inner)
-	top=2cm,
-	bottom=2cm,
-	bindingoffset=0cm   % Tidak perlu offset tambahan
+    left=3cm,          % Margin kiri
+    top=2cm,           % Margin atas
+    right=2cm,         % Margin kanan
+    bottom=2cm,        % Margin bawah
 }
 
 % Paket untuk notasi matematika
@@ -197,66 +195,58 @@
 \tikzstyle{decision} = [diamond, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=green!30]
 \tikzstyle{arrow} = [thick,->,>=stealth]
 
-%untuk if-then
-\usepackage{ifthen}
 
-%untuk if-then
-\usepackage{ifthen}
 
-% Package untuk halaman kosong yang bersih
-\usepackage{emptypage}
-
-% Package untuk hyperref
-\usepackage{hyperref} % letakkan di akhir preamble
-
-%==================================================================
-% Konfigurasi untuk pencetakan bolak-balik (duplex)
-%==================================================================
-
-% Perintah untuk membuat halaman kosong dengan teks DAN nomor halaman
-\newcommand{\blankpage}{
-	\clearpage
-	\null
-	\vfill
-	\begin{center}
-		\textit{---Halaman ini sengaja dikosongkan---}
-	\end{center}
-	\vfill
-	\clearpage
-}
-
-% Perintah untuk halaman benar-benar kosong tanpa teks (tetap ada nomor)
-\newcommand{\trulyblankpage}{
-	\clearpage
-	\mbox{}
-	\clearpage
-}
-
-% Custom cleardoublepage yang menambah halaman kosong dengan teks DAN nomor halaman
+%% =========================
+%% HALAMAN KOSONG (DUPLEX)
+%% =========================
+%% =========================
+%% HALAMAN KOSONG DUPLEX (BENAR)
+%% =========================
 \makeatletter
-\renewcommand{\cleardoublepage}{
-	\clearpage
-	\if@twoside
-	\ifodd\c@page
-	\else
-	% Halaman kosong DENGAN nomor halaman
-	\null
-	\vfill
-	\begin{center}
-		\textit{---Halaman ini sengaja dikosongkan---}
-	\end{center}
-	\vfill
-	\clearpage
-	\fi
-	\fi
+\renewcommand{\cleardoublepage}{%
+  \clearpage
+  \ifodd\c@page
+    % sudah ganjil → lanjut
+  \else
+    % halaman genap → sisipkan halaman kosong BERTEKS
+    \null
+    \vfill
+    \begin{center}
+      \textit{--- Halaman ini sengaja dikosongkan ---}
+    \end{center}
+    \vfill
+    \clearpage
+  \fi
 }
 \makeatother
 
-% Membuat bab selalu dimulai di halaman ganjil
+
+%% =========================
+%% BAB SELALU DI HALAMAN GANJIL
+%% =========================
 \let\origchapter\chapter
-\renewcommand{\chapter}{%
-	\cleardoublepage
-	\origchapter
+\renewcommand{\chapter}{
+    \cleardoublepage
+    \origchapter
 }
 
+
+%untuk if-then
+\usepackage{ifthen}
 %% DILARANG EDIT BAGIAN INI
+
+% ===== Buat Manual Halaman Sengaja Kosong
+\newcommand{\ganjil}{
+  \clearpage
+  \ifodd\value{page}\else
+    \thispagestyle{plain}
+    \null
+    \vfill
+    \begin{center}
+      \textit{--- Halaman ini sengaja dikosongkan ---}
+    \end{center}
+    \vfill
+    \clearpage
+  \fi
+}
