@@ -807,5 +807,105 @@ Berikut adalah hasil pengujian yang dilakukan pada sistem:
 
 \section{Pembahasan}
 
+\subsection{Peran Arsitektur Client Data Layer dalam Pengelolaan Data Frontend}
 
-Analisis kinerja sistem dilakukan untuk mengevaluasi efektivitas dan efisiensi sistem dalam mencapai tujuan yang telah ditetapkan. Bagian ini berfokus pada pengukuran dan analisis terhadap parameter-parameter utama yang mencerminkan kualitas kinerja sistem.
+  Penerapan arsitektur Client Data Layer pada sistem yang dikembangkan berperan sebagai lapisan perantara antara REST API dan komponen antarmuka pengguna. Data hasil analisis sentimen yang diperoleh dari backend tidak diakses secara langsung oleh komponen antarmuka, melainkan dikelola terlebih dahulu melalui lapisan Client Data Layer. Pendekatan ini memungkinkan pemisahan tanggung jawab yang jelas antara logika pengelolaan data dan logika presentasi antarmuka pengguna.
+
+  Berdasarkan hasil pengujian dan observasi terhadap perilaku sistem, penerapan Client Data Layer menunjukkan perubahan yang signifikan dalam pengelolaan data frontend. Data yang sama dapat digunakan secara bersama oleh beberapa komponen dashboard tanpa memicu permintaan berulang ke server. Selain itu, konsistensi data antar-komponen tetap terjaga ketika pengguna berpindah halaman atau kembali ke halaman sebelumnya, karena data dikelola dalam satu sumber kebenaran yang terpusat di sisi klien. Temuan ini menunjukkan bahwa Client Data Layer berperan dalam mengendalikan alur pengambilan, penyimpanan, dan distribusi data secara lebih terkontrol.
+
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{gambar/folder-structure-features.png}
+    \caption{Struktur Folder Per Fitur}
+    \label{fig:struktur-folder-fitur}
+  \end{figure}
+
+  Penerapan arsitektur tersebut juga tercermin pada pengorganisasian struktur proyek. Seperti ditunjukkan pada Gambar \ref{fig:struktur-folder-fitur}, setiap fitur utama ditempatkan dalam direktori terpisah yang memuat lapisan-lapisan dengan tanggung jawab yang berbeda. Struktur ini digunakan untuk memastikan bahwa pengelolaan data, akses ke sumber data, dan penyajian antarmuka tidak saling bercampur secara langsung.
+
+  Dalam konteks dashboard analitik, peran Client Data Layer menjadi semakin relevan karena sistem bergantung pada data dinamis yang digunakan secara simultan oleh berbagai komponen visualisasi. Dengan pengelolaan data yang terpusat, sistem frontend mampu menyajikan informasi secara lebih stabil dan konsisten tanpa membebani backend dengan permintaan API yang tidak diperlukan. Hal ini memperkuat bahwa penerapan arsitektur Client Data Layer mendukung pengelolaan data frontend yang lebih terstruktur, khususnya dalam menjaga konsistensi data dan mengendalikan interaksi antara frontend dan backend.
+
+\subsection{Analisis Implementasi TanStack Query terhadap Server State}
+
+Implementasi arsitektur Client Data Layer pada sistem frontend direalisasikan dengan memanfaatkan TanStack Query sebagai mekanisme utama dalam pengelolaan server state. Penggunaan TanStack Query memungkinkan data yang bersumber dari REST API dikelola secara terpusat di sisi klien, sehingga komponen antarmuka tidak berinteraksi langsung dengan proses pengambilan data. Dengan pendekatan ini, TanStack Query berperan sebagai fondasi teknis yang mendukung penerapan Client Data Layer dalam sistem yang dikembangkan.
+
+Dalam konteks pengambilan data, TanStack Query digunakan untuk menangani permintaan data hasil analisis sentimen dari backend melalui mekanisme query. Data yang diperoleh dapat digunakan secara bersama oleh beberapa komponen dashboard tanpa memicu permintaan ulang ke server. Berdasarkan hasil pengujian, pendekatan ini mampu menjaga konsistensi data antar-komponen serta mengurangi permintaan API yang bersifat redundan, khususnya ketika pengguna berpindah halaman atau melakukan navigasi ulang pada dashboard.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{gambar/implementasi-arsitektur-tanstackquery.png}
+\caption{Diagram Alur Pengelolaan Query menggunakan TanStack Query}
+\label{fig:alur-pengelolaan-query-tanstack-query}
+\end{figure}
+
+Berdasarkan Gambar \ref{fig:alur-pengelolaan-query-tanstack-query}, terlihat alur pengelolaan \textit{query} yang direalisasikan menggunakan TanStack Query pada dashboard \textit{Sentiment Analysis}. Pada implementasi tersebut, \textit{query key} digunakan sebagai identitas data yang dikelola oleh TanStack Query. Setiap \textit{query key} merepresentasikan jenis data tertentu yang disimpan dalam mekanisme \textit{cache}, sehingga pemisahan antara pengelolaan identitas data dan logika pengambilan data dapat dilakukan secara lebih terstruktur.
+
+Selain itu, \textit{query client} digunakan sebagai konfigurasi utama untuk mengatur perilaku TanStack Query secara global pada sistem. Konfigurasi ini mencakup pengaturan \textit{default options} yang menentukan karakteristik permintaan data, seperti kebijakan \textit{caching} dan pembaruan data, sehingga perilaku pengelolaan \textit{query} dapat diterapkan secara konsisten di seluruh fitur yang menggunakan TanStack Query.
+
+Alur pengelolaan \textit{query} diawali pada \textit{repository layer}, di mana respons data dari REST API diterima dan diproses. Data tersebut kemudian diberikan tipe data melalui \textit{interface} sebelum dikelola pada lapisan \textit{hooks} yang mengimplementasikan TanStack Query. Pada lapisan ini, TanStack Query mengendalikan mekanisme \textit{caching}, \textit{invalidasi}, dan \textit{refetch} data. Selanjutnya, data yang telah dikelola dipetakan ke dalam bentuk \textit{entity} untuk memastikan konsistensi struktur data sebelum dikirimkan ke lapisan presentasi atau UI.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{gambar/skema-mutation-tanstack-query.png}
+\caption{Diagram Alur Pengelolaan Mutation menggunakan TanStack Query}
+\label{fig:skema-mutation-tanstack-query}
+\end{figure}
+
+Berdasarkan Gambar \ref{fig:skema-mutation-tanstack-query}, terlihat alur implementasi mekanisme \textit{mutation} dalam arsitektur Client Data Layer menggunakan TanStack Query. Proses \textit{mutation} diawali dari lapisan antarmuka pengguna, di mana input pengguna diproses melalui komponen formulir dan divalidasi menggunakan skema validasi untuk memastikan kesesuaian data sebelum dikirimkan ke lapisan pengelolaan data. Pendekatan ini bertujuan untuk meminimalkan kesalahan data sejak tahap awal interaksi pengguna.
+
+Setelah proses validasi, data diteruskan ke lapisan hooks yang mengimplementasikan TanStack Query sebagai pengelola utama server state. Pada tahap ini, TanStack Query berperan dalam mengoordinasikan pengiriman data ke backend melalui repository layer serta mengelola status eksekusi proses \textit{mutation}. Interaksi dengan query client memungkinkan TanStack Query menerapkan konfigurasi global yang konsisten terhadap perilaku \textit{mutation}, termasuk pengendalian pembaruan data setelah perubahan terjadi.
+
+Respons dari backend yang diterima melalui repository layer kemudian diproses kembali pada lapisan Client Data Layer dengan menerapkan tipe data melalui \textit{interface payload dan respons}. Tahapan ini memastikan bahwa data hasil \textit{mutation} memiliki struktur yang konsisten sebelum digunakan kembali oleh sistem frontend. Selanjutnya, hasil pengelolaan \textit{mutation} dikembalikan ke lapisan antarmuka pengguna untuk memperbarui tampilan dashboard sesuai dengan kondisi data terbaru.
+
+Dengan alur tersebut, mekanisme mutation tidak hanya berfungsi sebagai sarana pengiriman perubahan data ke backend, tetapi juga sebagai bagian dari pengendalian konsistensi data dan sinkronisasi antara frontend dan backend. Implementasi ini memungkinkan antarmuka pengguna merespons setiap perubahan data secara terkontrol, sekaligus mendukung stabilitas dan kejelasan interaksi pada dashboard analitik.
+
+Selain mekanisme pengelolaan data, TanStack Query juga menyediakan representasi state proses asinkron yang mencerminkan kondisi pemrosesan data, seperti keadaan pemuatan data (loading), keberhasilan proses (success), dan kegagalan (error). Representasi state ini dimanfaatkan untuk mengendalikan perilaku komponen antarmuka pengguna dalam merespons setiap kondisi tersebut. Dengan adanya informasi state yang terkelola secara terpusat, sistem frontend mampu menampilkan indikator pemuatan data, pesan kesalahan, serta umpan balik keberhasilan secara konsisten, sehingga meningkatkan kejelasan interaksi dan pengalaman pengguna.
+
+Secara keseluruhan, implementasi TanStack Query pada sistem yang dikembangkan menunjukkan peran yang signifikan dalam merealisasikan arsitektur Client Data Layer secara operasional. Melalui pengelolaan mekanisme \textit{query} dan \textit{mutation}, TanStack Query memungkinkan pengambilan dan perubahan data dilakukan secara terpusat, konsisten, dan terkontrol. Hasil pengujian menunjukkan bahwa pendekatan ini mampu menjaga sinkronisasi data antara frontend dan backend, mengcegah duplikasi request ke backend, serta memastikan konsistensi data sebelum dikirimkan ke lapisan presentasi atau UI. Dengan demikian, penerapan TanStack Query tidak hanya berfungsi sebagai solusi teknis pengelolaan data, tetapi juga berkontribusi terhadap keteraturan alur data.
+
+\subsection{Implikasi Metode Fountain terhadap Iterasi Pengembangan Dashboard}
+
+Implikasi penerapan metode Fountain juga tercermin dari dinamika iterasi yang terjadi selama proses pengembangan dashboard. Pada tahap implementasi, beberapa aktivitas pengembangan tidak selalu dilakukan secara berurutan, melainkan berlangsung secara tumpang tindih. Sebagai contoh, pengembangan fitur autentikasi berjalan paralel dengan perancangan fitur lain, sementara proses pengujian pada halaman data scraper dilakukan bersamaan dengan pengembangan tampilan dashboard. Pola ini menunjukkan bahwa tahapan analisis, perancangan, implementasi, dan pengujian tidak terisolasi secara kaku, melainkan saling memengaruhi sepanjang siklus pengembangan.
+
+Selain itu, perubahan kebutuhan sistem yang muncul selama pengembangan turut memicu terjadinya iterasi balik ke tahap analisis. Penyesuaian pada tampilan dashboard mengharuskan evaluasi ulang terhadap komponen yang perlu disajikan, sehingga proses analisis dan perancangan dilakukan kembali meskipun implementasi beberapa fitur telah berjalan. Kondisi ini memperlihatkan bagaimana metode Fountain mendukung fleksibilitas dalam menghadapi perubahan kebutuhan tanpa harus mengulang proses pengembangan dari awal.
+
+Pada tahap pengujian sistem secara keseluruhan, ditemukan adanya penambahan kebutuhan fungsional berupa integrasi fitur chatbot yang perlu diimplementasikan sebelum sistem dinyatakan siap digunakan. Penambahan fitur ini mendorong terjadinya iterasi lanjutan pada tahap perancangan dan implementasi, yang kemudian diikuti dengan proses pengujian ulang. Pola iterasi semacam ini menegaskan bahwa metode Fountain memungkinkan sistem berkembang secara adaptif terhadap kebutuhan baru yang muncul selama proses pengembangan berlangsung.
+
+\subsection{Analisis Hasil dan Temuan Pengujian Sistem}
+
+Berdasarkan hasil pengujian integrasi sistem, ditemukan temuan penting terkait perilaku sistem pada fase awal pemuatan dashboard setelah proses autentikasi pengguna. Pada kondisi tersebut, antarmuka pengguna menampilkan \textit{empty state} alih-alih \textit{loading state}, meskipun proses pengambilan data scraper dari backend masih berlangsung. Perilaku ini muncul secara konsisten ketika pengguna pertama kali diarahkan ke halaman dashboard setelah login.
+
+Hasil analisis menunjukkan bahwa temuan tersebut disebabkan oleh urutan evaluasi state pada sisi frontend, khususnya pada mekanisme sinkronisasi konteks dataset. Penentuan status dataset dilakukan berdasarkan kondisi data hasil pengambilan data scraper sebelum proses fetching selesai sepenuhnya. Akibatnya, kondisi data yang belum tersedia diinterpretasikan sebagai kondisi data kosong, sehingga sistem menetapkan status \textit{empty} meskipun data masih berada dalam fase pemuatan.
+
+Temuan ini mengindikasikan adanya keterbatasan dalam pemisahan fase siklus hidup data (data \textit{lifecycle}) pada logika penentuan status sistem. Secara konseptual, kondisi \textit{loading} dan \textit{empty} merepresentasikan dua keadaan yang berbeda, namun dalam implementasi yang diuji, kedua kondisi tersebut belum dipisahkan secara eksplisit. Hal ini menyebabkan terjadinya ketidaksesuaian antara keadaan sistem yang sebenarnya dengan representasi antarmuka pengguna pada fase awal pemuatan.
+
+Meskipun temuan tersebut tidak mengakibatkan kegagalan fungsional pada sistem, dampaknya terlihat pada pengalaman pengguna dan kejelasan interaksi awal dengan dashboard. Sistem tetap dapat menampilkan data dengan benar setelah proses pengambilan data selesai, namun representasi awal yang kurang akurat berpotensi menimbulkan kebingungan bagi pengguna. Temuan ini memberikan wawasan bahwa pengelolaan status sistem pada aplikasi dashboard yang bersifat data-driven perlu mempertimbangkan fase pemuatan data secara eksplisit agar kondisi antarmuka pengguna dapat mencerminkan keadaan sistem secara lebih tepat.
+
+\subsection{Perbandingan dengan Penelitian Terdahulu dan Landasan Teori}
+
+Penelitian ini tidak berfokus pada pengembangan atau evaluasi metode analisis sentimen, sebagaimana dilakukan pada penelitian \textit{Social Media Sentiment Analysis As a New Tool for Predicting Market Trends and Consumer Behaviour} oleh \citep{Fajarini2025}. Hasil penelitian ini menunjukkan bahwa tantangan utama pada pengembangan dashboard analitik justru terletak pada pengelolaan data hasil analisis di sisi frontend, khususnya dalam menjaga konsistensi dan sinkronisasi data antar-komponen aplikasi.
+
+Berbeda dengan penelitian \textit{React Query and Lazy Loading : Performance Optimization Best Practices} oleh \citep{Micheal2025}, hasil penelitian ini menegaskan peran TanStack Query sebagai bagian dari arsitektur Client Data Layer. Temuan pengujian menunjukkan bahwa penggunaan TanStack Query memengaruhi perilaku pengelolaan server state, terutama pada fase awal pemuatan data dan sinkronisasi data setelah perubahan terjadi.
+
+Selain itu, pada penelitian \textit{Effective Data Visualization Techniques for Business Decision-Makers} oleh \citep{Rathore2025}, penelitian ini menitikberatkan pada aspek desain visual dan kejelasan penyajian informasi. Penelitian ini menunjukkan bahwa efektivitas visualisasi data pada dashboard analitik sangat bergantung pada alur pengelolaan data. Tanpa pengelolaan data yang terstruktur dan konsisten, kualitas visualisasi berpotensi menurun meskipun desain visual telah dirancang dengan baik.
+
+Dengan demikian, penelitian ini melengkapi penelitian terdahulu dengan memberikan sudut pandang pada aspek arsitektur dan pengelolaan data frontend. Kontribusi utama penelitian ini terletak pada analisis implikasi penerapan Client Data Layer dan TanStack Query terhadap perilaku sistem frontend dalam konteks dashboard analitik berbasis data sentimen, yang belum banyak dibahas pada penelitian sebelumnya.
+
+\subsection{Dampak terhadap Skalabilitas dan Maintainability Sistem}
+
+Penerapan arsitektur Client Data Layer dan penggunaan TanStack Query memberikan implikasi terhadap potensi skalabilitas sistem frontend yang dikembangkan. Dengan pengelolaan data yang terpusat pada lapisan tertentu, penambahan fitur baru yang bergantung pada data hasil analisis sentimen dapat dilakukan tanpa harus mengubah logika pengambilan data pada setiap komponen antarmuka. Pendekatan ini memungkinkan sistem frontend berkembang secara modular, di mana penambahan atau perluasan fitur dapat dilakukan dengan dampak minimal mungkin terhadap fitur yang sudah ada.
+
+Dari sisi skalabilitas pengelolaan data, mekanisme caching dan pembagian server state yang diterapkan melalui TanStack Query mendukung penggunaan data secara bersama oleh beberapa komponen dashboard. Hal ini mengurangi ketergantungan terhadap permintaan data berulang ke backend ketika jumlah komponen visualisasi atau kompleksitas dashboard meningkat. Dengan demikian, sistem memiliki karakteristik yang mendukung skalabilitas fungsional, khususnya pada aplikasi dashboard analitik yang menampilkan data di berbagai komponen.
+
+Selain skalabilitas, penerapan arsitektur yang terstruktur juga berdampak terhadap maintainability sistem. Pemisahan tanggung jawab antara lapisan akses data, pengelolaan state, dan presentasi antarmuka memudahkan proses pemeliharaan dan penelusuran kesalahan. Perubahan pada struktur API atau logika pengelolaan data dapat dilakukan pada lapisan tertentu tanpa harus memodifikasi keseluruhan komponen antarmuka pengguna. Pendekatan ini membantu membatasi dampak perubahan dan mengurangi risiko terjadinya kesalahan yang menyebar ke berbagai bagian sistem.
+
+Secara keseluruhan, hasil penelitian menunjukkan bahwa penerapan Client Data Layer dan TanStack Query memberikan kontribusi positif terhadap potensi skalabilitas dan maintainability sistem frontend. Meskipun penelitian ini tidak melakukan pengukuran kuantitatif terhadap performa atau beban sistem, karakteristik arsitektural yang diterapkan mendukung pengembangan sistem yang lebih terstruktur, adaptif terhadap perubahan, dan lebih mudah dipelihara dalam jangka panjang.
+
+\subsection{Keterbatasan Penerapan TanStack Query dalam Penelitian}
+
+TanStack Query dirancang secara khusus untuk mengelola data yang bersumber dari server, seperti proses pengambilan data, caching, dan sinkronisasi data antara frontend dan backend. Namun, pendekatan ini tidak secara langsung mencakup pengelolaan \textit{client state} yang bersifat lokal dan tidak bergantung pada data server.
+
+Dalam implementasi sistem yang dikembangkan, terdapat kebutuhan pengelolaan \textit{client state} yang berkaitan dengan konteks aplikasi, seperti pemilihan dataset aktif, status tampilan tertentu, dan sinkronisasi state antar halaman. Kebutuhan tersebut tidak sepenuhnya dapat ditangani oleh TanStack Query. Akibatnya, pengelolaan \textit{client state} perlu dilakukan melalui mekanisme tambahan di luar TanStack Query.
+
+Untuk mengatasi keterbatasan tersebut, penelitian ini mengombinasikan penggunaan TanStack Query dengan pendekatan \textit{client state management} menggunakan penyimpanan state terpusat seperti Zustand. Pendekatan ini memungkinkan pengelolaan \textit{client state} dan server state dilakukan secara terpisah sesuai dengan karakteristik masing-masing, sehingga peran TanStack Query tetap terfokus pada pengelolaan data server, sementara \textit{client state} dikelola melalui mekanisme yang lebih sesuai. Namun, kombinasi ini juga menambah kompleksitas arsitektur frontend karena melibatkan lebih dari satu mekanisme pengelolaan state.
+
+Temuan ini menunjukkan bahwa penggunaan TanStack Query perlu dipadukan dengan pendekatan \textit{client state management} lain agar sistem frontend dapat menangani kebutuhan aplikasi secara menyeluruh. Keterbatasan ini sekaligus membuka peluang penelitian lanjutan untuk mengeksplorasi integrasi yang lebih optimal antara pengelolaan server state dan \textit{client state} pada aplikasi dashboard analitik yang bersifat kompleks.

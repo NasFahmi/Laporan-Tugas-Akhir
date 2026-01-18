@@ -61,13 +61,20 @@
 \contentsline {subsubsection}{Recomendation Content}{71}{subsubsection*.44}%
 \contentsline {subsection}{\numberline {4.1.5}\textit {Testing}}{71}{subsection.4.1.5}%
 \contentsline {section}{\numberline {4.2}Pembahasan}{83}{section.4.2}%
-\contentsline {chapter}{\numberline {5}KESIMPULAN DAN SARAN}{85}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Kesimpulan}{85}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Saran}{85}{section.5.2}%
-\contentsline {chapter}{DAFTAR PUSTAKA}{87}{section*.45}%
-\contentsline {chapter}{LAMPIRAN A KODE PROGRAM}{89}{appendix*.47}%
-\contentsline {section}{\numberline {}Lampiran A.1. Program Pembacaan Sensor Ultrasonic}{89}{section*.48}%
-\contentsline {section}{\numberline {}Lampiran A.2. Program Keseluruhan Proyek Akhir}{89}{section*.48}%
-\contentsline {chapter}{LAMPIRAN B GAMBAR-GAMBAR}{91}{appendix*.49}%
-\contentsline {section}{\numberline {}Lampiran B.1. Foto Aktivitas Kegiatan Proyek Akhir}{91}{section*.50}%
-\contentsline {section}{\numberline {}Lampiran B.2. Foto Produk Proyek Akhir}{91}{figure.caption.51}%
+\contentsline {subsection}{\numberline {4.2.1}Peran Arsitektur Client Data Layer dalam Pengelolaan Data Frontend}{83}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Analisis Implementasi TanStack Query terhadap Server State}{84}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Implikasi Metode Fountain terhadap Iterasi Pengembangan Dashboard}{88}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Analisis Hasil dan Temuan Pengujian Sistem}{88}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Perbandingan dengan Penelitian Terdahulu dan Landasan Teori}{89}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.2.6}Dampak terhadap Skalabilitas dan Maintainability Sistem}{90}{subsection.4.2.6}%
+\contentsline {subsection}{\numberline {4.2.7}Keterbatasan Penerapan TanStack Query dalam Penelitian}{91}{subsection.4.2.7}%
+\contentsline {chapter}{\numberline {5}KESIMPULAN DAN SARAN}{93}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Kesimpulan}{93}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Saran}{93}{section.5.2}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{94}{section*.48}%
+\contentsline {chapter}{LAMPIRAN A KODE PROGRAM}{97}{appendix*.50}%
+\contentsline {section}{\numberline {}Lampiran A.1. Program Pembacaan Sensor Ultrasonic}{97}{section*.51}%
+\contentsline {section}{\numberline {}Lampiran A.2. Program Keseluruhan Proyek Akhir}{97}{section*.51}%
+\contentsline {chapter}{LAMPIRAN B GAMBAR-GAMBAR}{99}{appendix*.52}%
+\contentsline {section}{\numberline {}Lampiran B.1. Foto Aktivitas Kegiatan Proyek Akhir}{99}{section*.53}%
+\contentsline {section}{\numberline {}Lampiran B.2. Foto Produk Proyek Akhir}{99}{figure.caption.54}%

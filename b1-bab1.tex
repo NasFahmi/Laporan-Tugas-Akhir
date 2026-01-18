@@ -16,12 +16,12 @@ Pendekatan arsitektur \textit{Client Data Layer} hadir sebagai solusi untuk meng
 
 Sejumlah penelitian terdahulu menunjukkan bahwa TanStack Query memiliki keunggulan dalam pengelolaan data asinkron pada aplikasi frontend dibandingkan pendekatan pengelolaan data konvensional, khususnya pada aplikasi yang bersifat data-driven dan menampilkan data dalam jumlah besar \citep{Luz2025}. Penelitian yang membandingkan TanStack Query dengan pustaka state management lain juga melaporkan adanya peningkatan efisiensi pengelolaan server state dan pengurangan permintaan data yang tidak diperlukan \citep{Micheal2025}. Namun demikian, sebagian besar penelitian tersebut masih berfokus pada aspek teknis pustaka atau perbandingan antar-library, dan belum secara spesifik mengkaji penerapan TanStack Query sebagai \textit{Client Data Layer} pada studi kasus dashboard analitik.
 
-Berdasarkan permasalahan tersebut, penelitian ini muncul dari hipotesis bahwa penerapan arsitektur \textit{Client Data Layer} menggunakan TanStack Query pada aplikasi dashboard analitik mampu menghasilkan pengelolaan data frontend yang lebih terstruktur dan konsisten dibandingkan pendekatan pengelolaan data konvensional, yaitu pengambilan data API secara langsung pada komponen antarmuka tanpa mekanisme pengelolaan data terpusat. Perilaku tersebut diasumsikan tercermin melalui pemanfaatan mekanisme caching, pengendalian permintaan data dari API, serta konsistensi data yang ditampilkan pada berbagai komponen dashboard. Untuk menguji hipotesis tersebut, TanStack Query diterapkan pada studi kasus pengembangan Dashboard Analisis Sentimen UMKM dengan metode \textit{Fountain}, dan hasilnya dievaluasi melalui observasi perilaku sistem menggunakan pendekatan \textit{blackbox testing} berbasis log.
+Berdasarkan permasalahan tersebut, penelitian ini muncul dari hipotesis bahwa penerapan arsitektur \textit{Client Data Layer} menggunakan TanStack Query pada aplikasi dashboard analitik mampu menghasilkan pengelolaan data frontend yang lebih terstruktur dan konsisten dibandingkan pendekatan pengelolaan data konvensional, yaitu pengambilan data API secara langsung pada komponen antarmuka tanpa mekanisme pengelolaan data terpusat. Perilaku tersebut diasumsikan tercermin melalui pemanfaatan mekanisme caching, pengendalian permintaan data dari API, serta konsistensi data yang ditampilkan pada berbagai komponen dashboard. Untuk menguji hipotesis tersebut, TanStack Query diterapkan pada studi kasus pengembangan Dashboard Analisis Sentimen UMKM dengan metode \textit{Fountain}, dan hasilnya dievaluasi melalui observasi perilaku sistem menggunakan pendekatan \textit{blackbox testing}.
 
 \section{Rumusan Masalah}
 \begin{packed_enum}
   \item Bagaimana menerapkan arsitektur \textit{Client Data Layer} menggunakan TanStack Query pada pengembangan Dashboard Analisis Sentimen UMKM?
-  \item Bagaimana perilaku pengelolaan data frontend yang dihasilkan setelah penerapan TanStack Query ditinjau dari log permintaan data, mekanisme caching, dan konsistensi data antar-komponen dashboard?
+  \item Bagaimana perilaku pengelolaan data frontend yang dihasilkan setelah penerapan TanStack Query ditinjau mekanisme caching, dan konsistensi data antar-komponen dashboard?
 \end{packed_enum}
 
 
@@ -68,8 +68,7 @@ Batasan proyek ditetapkan agar penelitian tetap terfokus pada tujuan yang telah 
   \item Penelitian hanya membahas penerapan arsitektur \textit{Client Data Layer} menggunakan TanStack Query pada aplikasi frontend berbasis React.
   \item Proses analisis sentimen, termasuk pengumpulan data media sosial dan pemrosesan teks, tidak dibahas dalam penelitian ini dan sepenuhnya dilakukan pada sisi backend.
   \item Penelitian ini tidak melakukan perbandingan implementasi TanStack Query dengan pustaka atau framework state management lain
-  \item Evaluasi sistem dilakukan menggunakan pendekatan \textit{blackbox testing} dengan mengamati log sistem, tanpa melakukan pengujian performa numerik atau \textit{benchmarking} mendalam.
-  \item Hasil evaluasi disajikan dalam bentuk ringkasan log, tabel, dan visualisasi sederhana untuk menggambarkan perilaku sistem setelah penerapan TanStack Query.
+  \item Evaluasi sistem dilakukan menggunakan pendekatan \textit{blackbox testing}, tanpa melakukan pengujian performa numerik atau \textit{benchmarking} mendalam.
   \item Penelitian ini tidak membahas aspek optimasi backend, keamanan aplikasi, pengujian beban, maupun pengujian kegunaan secara mendalam.
 \end{packed_enum}
 % \section{Keaslian Gagasan}

@@ -6,37 +6,13 @@
 \chapter[KESIMPULAN DAN SARAN]{\\ KESIMPULAN DAN SARAN}
 
 \section{Kesimpulan}
-Bagian kesimpulan menyajikan ringkasan dari temuan dan hasil yang diperoleh selama pelaksanaan proyek. Kesimpulan ini menjawab tujuan proyek dan masalah yang telah diidentifikasi di awal laporan, serta mengonfirmasi pencapaian yang telah diraih berdasarkan hasil implementasi dan pengujian. Kesimpulan harus ditarik secara objektif, didasarkan pada data dan hasil yang telah diperoleh, serta tidak memasukkan opini atau asumsi yang tidak didukung oleh hasil pengujian.
-
-Kesimpulan harus dibuat dengan singkat dan jelas, mencakup poin-poin utama yang berhasil dicapai dalam proyek, seperti:
-\begin{packed_item}
-    \item Capaian utama yang menunjukkan bahwa proyek berhasil memenuhi spesifikasi yang ditetapkan
-    \item Efektivitas sistem dalam menjalankan fungsinya berdasarkan hasil pengujian
-    \item Kesesuaian hasil proyek dengan teori dan standar yang telah diuraikan sebelumnya
-\end{packed_item}
-
-Selain itu, kesimpulan juga membahas keterkaitan dengan hasil-hasil penelitian atau proyek serupa yang telah dilakukan sebelumnya, untuk menunjukkan kontribusi dan relevansi dari proyek ini dalam konteks yang lebih luas. Bagian ini juga bisa mencakup hal-hal baru yang ditemukan selama proyek yang dapat memberikan kontribusi positif dalam pengembangan teknologi atau aplikasi di masa mendatang.
-
-Secara keseluruhan, kesimpulan harus memberikan gambaran yang menyeluruh mengenai efektivitas, pencapaian, dan kontribusi proyek terhadap bidang yang diteliti, sekaligus merangkum seluruh hasil dengan ringkas namun komprehensif.
-
+Berdasarkan hasil perancangan, implementasi, serta pengujian sistem yang telah dilakukan pada penelitian ini, maka dapat ditarik beberapa kesimpulan sebagai berikut.
+\begin{itemize}
+    \item Penerapan arsitektur Client Data Layer pada pengembangan Dashboard Analisis Sentimen UMKM berhasil direalisasikan dengan memanfaatkan TanStack Query sebagai pengelola server state. Arsitektur ini memisahkan secara jelas antara proses pengambilan data dari backend dan komponen antarmuka pengguna, sehingga komponen frontend tidak berinteraksi langsung dengan REST API.
+    \item Penerapan TanStack Query menghasilkan perilaku pengelolaan data frontend yang lebih terstruktur, khususnya melalui mekanisme caching dan penggunaan query key sebagai identitas data. Data yang sama dapat digunakan secara bersama oleh beberapa komponen dashboard tanpa memicu permintaan ulang ke server, sehingga konsistensi data antar-komponen dapat terjaga.
+\end{itemize}
+Hasil pengujian menunjukkan bahwa TanStack Query mendukung sinkronisasi data frontend dan backend secara terkontrol, baik pada fase pengambilan data maupun setelah terjadi perubahan data melalui mekanisme mutation. Pendekatan ini membantu menjaga kestabilan tampilan dashboard pada aplikasi analitik yang bersifat data-driven.
 \section{Saran}
-Bagian saran menyajikan rekomendasi untuk pengembangan lebih lanjut yang dapat dilakukan berdasarkan temuan dan hasil yang diperoleh dalam proyek ini. Saran diberikan untuk membantu pembaca memahami langkah-langkah tambahan atau perbaikan yang dapat dilakukan untuk menyempurnakan proyek ini atau untuk membuka peluang penelitian atau pengembangan lebih lanjut.
+Meskipun penelitian ini berhasil mencapai tujuan yang ditetapkan, masih terdapat beberapa keterbatasan yang dapat menjadi bahan pengembangan lebih lanjut. TanStack Query memiliki fokus utama pada pengelolaan server state dan belum dirancang untuk menangani client state yang bersifat lokal dan tidak bergantung pada data server. Oleh karena itu, pada implementasi sistem ini diperlukan mekanisme tambahan untuk mengelola client state, seperti penggunaan pustaka state management yang khusus dirancang untuk menangani client state.
 
-Saran yang diberikan sebaiknya mencakup hal-hal berikut:
-\begin{packed_item}
-    \item Pengembangan lanjutan pada sistem atau perangkat, seperti peningkatan teknologi atau penambahan fitur yang belum sempat diimplementasikan dalam proyek ini.
-    \item Pengujian lebih lanjut di berbagai kondisi atau lingkungan yang berbeda, untuk memastikan sistem mampu beradaptasi dalam berbagai situasi dan meningkatkan keandalannya.
-    \item Penelitian tambahan untuk menggali aspek-aspek yang belum sepenuhnya terjawab dalam proyek ini atau untuk memvalidasi hasil yang telah diperoleh.
-    \item Pengembangan aplikasi sistem yang lebih luas di bidang lain yang relevan, agar hasil proyek ini dapat memberikan manfaat yang lebih besar di luar bidang awal yang menjadi fokus.
-\end{packed_item}
-
-Selain itu, saran juga dapat mencakup rekomendasi untuk mengatasi keterbatasan yang ditemui selama proyek, seperti:
-\begin{packed_item}
-    \item Penyempurnaan metode atau pendekatan yang digunakan, jika ditemukan kelemahan dalam tahap implementasi atau pengujian
-    \item Peningkatan perangkat keras atau perangkat lunak untuk meningkatkan performa sistem secara keseluruhan
-    \item Pemanfaatan teknologi atau metode baru yang relevan untuk memperbaiki atau menambah kapabilitas sistem
-\end{packed_item}
-
-Saran harus dibahas dalam konteks tujuan proyek dan masalah yang diidentifikasi, serta didasarkan pada hasil yang diperoleh. Rekomendasi juga perlu realistis dan dapat diimplementasikan dalam kondisi praktis, agar memberikan panduan yang bermanfaat bagi pengembangan lebih lanjut atau implementasi yang lebih luas.
-
-Secara keseluruhan, saran ini bertujuan untuk memberikan arah bagi pengembangan proyek atau penelitian selanjutnya, sekaligus menunjukkan bagaimana hasil dari proyek ini dapat dioptimalkan dan memberikan kontribusi yang lebih besar dalam bidang yang terkait.
+Sebagai saran untuk penelitian selanjutnya, integrasi antara TanStack Query dan pustaka client state management seperti Zustand dapat dieksplorasi lebih mendalam untuk menghasilkan pengelolaan state frontend yang lebih komprehensif. Selain itu, penelitian lanjutan dapat melakukan pengujian kuantitatif terhadap performa dan skalabilitas sistem untuk mengukur dampak penerapan Client Data Layer dan TanStack Query secara lebih terukur pada aplikasi dashboard analitik berskala lebih besar.
