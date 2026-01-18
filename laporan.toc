@@ -39,38 +39,35 @@
 \contentsline {subsection}{\numberline {3.2.1}Analysis}{26}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Requirement Specification}{26}{subsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.2.3}\textit {Design}}{27}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Coding (Implementation)}{37}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}Testing}{37}{subsection.3.2.5}%
-\contentsline {subsection}{\numberline {3.2.6}\textit {Operation}}{46}{subsection.3.2.6}%
-\contentsline {subsection}{\numberline {3.2.7}\textit {Maintenance}}{47}{subsection.3.2.7}%
-\contentsline {subsection}{\numberline {3.2.8}\textit {Evaluation}}{47}{subsection.3.2.8}%
-\contentsline {chapter}{\numberline {4}HASIL DAN PEMBAHASAN}{49}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Hasil}{49}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}\textit {Analysis}}{49}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}\textit {Requirement Specification}}{49}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}\textit {Design}}{49}{subsection.4.1.3}%
-\contentsline {subsubsection}{Arsitektur \textit {Frontend}}{50}{subsubsection*.24}%
-\contentsline {subsubsection}{\textit {Client Data Layer}}{50}{subsubsection*.25}%
-\contentsline {subsubsection}{Desain Antarmuka}{51}{subsubsection*.26}%
-\contentsline {subsection}{\numberline {4.1.4}\textit {Coding/Implementation}}{56}{subsection.4.1.4}%
-\contentsline {subsubsection}{Landing Page}{56}{subsubsection*.34}%
-\contentsline {subsubsection}{Authentication}{56}{subsubsection*.35}%
-\contentsline {subsubsection}{Dashboard}{56}{subsubsection*.36}%
-\contentsline {subsubsection}{Scraper}{56}{subsubsection*.37}%
-\contentsline {subsubsection}{Sentiment}{56}{subsubsection*.38}%
-\contentsline {subsubsection}{Recomendation Content}{56}{subsubsection*.39}%
-\contentsline {subsection}{\numberline {4.1.5}\textit {Testing}}{56}{subsection.4.1.5}%
-\contentsline {subsection}{\numberline {4.1.6}\textit {Operation}}{56}{subsection.4.1.6}%
-\contentsline {subsection}{\numberline {4.1.7}\textit {Maintenance}}{56}{subsection.4.1.7}%
-\contentsline {subsection}{\numberline {4.1.8}\textit {Evaluation}}{57}{subsection.4.1.8}%
-\contentsline {section}{\numberline {4.2}Pembahasan}{57}{section.4.2}%
-\contentsline {chapter}{\numberline {5}KESIMPULAN DAN SARAN}{59}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Kesimpulan}{59}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Saran}{59}{section.5.2}%
-\contentsline {chapter}{DAFTAR PUSTAKA}{61}{section*.40}%
-\contentsline {chapter}{LAMPIRAN A KODE PROGRAM}{63}{appendix*.42}%
-\contentsline {section}{\numberline {}Lampiran A.1. Program Pembacaan Sensor Ultrasonic}{63}{section*.43}%
-\contentsline {section}{\numberline {}Lampiran A.2. Program Keseluruhan Proyek Akhir}{63}{section*.43}%
-\contentsline {chapter}{LAMPIRAN B GAMBAR-GAMBAR}{65}{appendix*.44}%
-\contentsline {section}{\numberline {}Lampiran B.1. Foto Aktivitas Kegiatan Proyek Akhir}{65}{section*.45}%
-\contentsline {section}{\numberline {}Lampiran B.2. Foto Produk Proyek Akhir}{65}{figure.caption.46}%
+\contentsline {subsection}{\numberline {3.2.4}Coding (Implementation)}{42}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Testing}{42}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}\textit {Operation}}{49}{subsection.3.2.6}%
+\contentsline {subsection}{\numberline {3.2.7}\textit {Maintenance}}{50}{subsection.3.2.7}%
+\contentsline {subsection}{\numberline {3.2.8}\textit {Evolution}}{50}{subsection.3.2.8}%
+\contentsline {chapter}{\numberline {4}HASIL DAN PEMBAHASAN}{51}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Hasil}{51}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}\textit {Analysis}}{51}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}\textit {Requirement Specification}}{51}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}\textit {Design}}{51}{subsection.4.1.3}%
+\contentsline {subsubsection}{Arsitektur \textit {Frontend}}{52}{subsubsection*.27}%
+\contentsline {subsubsection}{\textit {Client Data Layer}}{52}{subsubsection*.28}%
+\contentsline {subsubsection}{Desain Antarmuka}{53}{subsubsection*.29}%
+\contentsline {subsection}{\numberline {4.1.4}\textit {Coding/Implementation}}{58}{subsection.4.1.4}%
+\contentsline {subsubsection}{Landing Page}{58}{subsubsection*.37}%
+\contentsline {subsubsection}{Authentication}{58}{subsubsection*.38}%
+\contentsline {subsubsection}{Dashboard}{59}{subsubsection*.39}%
+\contentsline {subsubsection}{Scraper}{59}{subsubsection*.40}%
+\contentsline {subsubsection}{Sentiment}{60}{subsubsection*.41}%
+\contentsline {subsubsection}{Recomendation Content}{60}{subsubsection*.42}%
+\contentsline {subsection}{\numberline {4.1.5}\textit {Testing}}{61}{subsection.4.1.5}%
+\contentsline {section}{\numberline {4.2}Pembahasan}{67}{section.4.2}%
+\contentsline {chapter}{\numberline {5}KESIMPULAN DAN SARAN}{69}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Kesimpulan}{69}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Saran}{69}{section.5.2}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{71}{section*.43}%
+\contentsline {chapter}{LAMPIRAN A KODE PROGRAM}{73}{appendix*.45}%
+\contentsline {section}{\numberline {}Lampiran A.1. Program Pembacaan Sensor Ultrasonic}{73}{section*.46}%
+\contentsline {section}{\numberline {}Lampiran A.2. Program Keseluruhan Proyek Akhir}{73}{section*.46}%
+\contentsline {chapter}{LAMPIRAN B GAMBAR-GAMBAR}{75}{appendix*.47}%
+\contentsline {section}{\numberline {}Lampiran B.1. Foto Aktivitas Kegiatan Proyek Akhir}{75}{section*.48}%
+\contentsline {section}{\numberline {}Lampiran B.2. Foto Produk Proyek Akhir}{75}{figure.caption.49}%
