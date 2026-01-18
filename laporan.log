@@ -1,9 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  18 JAN 2026 23:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  18 JAN 2026 23:40
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**./laporan.tex
-(laporan.tex
+**"d:/Kuliah/RPL/Semester 7/Tugas Akhir/Laporan/laporan.tex"
+(d:/Kuliah/RPL/Semester 7/Tugas Akhir/Laporan/laporan.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
 (C:\Program Files\MiKTeX\tex/latex/base\report.cls
@@ -23,33 +24,21 @@ File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen148
-) (a0-identitas.tex)
-(untouch/xx-preambles.tex
-(C:\Program Files\MiKTeX\tex/latex/placeins\placeins.sty
+) (a0-identitas.tex) (untouch/xx-preambles.tex (C:\Program Files\MiKTeX\tex/latex/placeins\placeins.sty
 Package: placeins 2005/04/18  v 2.2
-)
-(C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2025/12/11 v25.17 The multilingual framework for LuaLaTeX, pdfLa
-TeX and XeLaTeX
+) (C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2025/12/11 v25.17 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
 \babel@savecnt=\count284
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
-ne 2068.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
-ne 2070.
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
-e 2072.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
-e 2073.
-LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
-on input line 2074.
-LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
-on input line 2076.
-LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
-on input line 2101.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2068.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2070.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2072.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2073.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2074.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2076.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2101.
 \U@D=\dimen149
 \l@unhyphenated=\language79
-
-(C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def)
+ (C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count285
 Package babel Info: Configuration files are deprecated, as
@@ -60,26 +49,19 @@ Package babel Info: Configuration files are deprecated, as
 * Local config file bblopts.cfg used
 *
 (C:\Program Files\MiKTeX\tex/latex/arabi\bblopts.cfg
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
-)
-(C:\Program Files\MiKTeX\tex/generic/babel/locale/id\babel-indonesian.tex)
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (C:\Program Files\MiKTeX\tex/generic/babel/locale/id\babel-indonesian.tex)
 Package babel Info: Importing font and identification data for indonesian
 (babel)             from babel-id.ini. Reported on input line 4320.
-
-(C:\Program Files\MiKTeX\tex/latex/babel-indonesian\indonesian.ldf
-Language: indonesian 2025/06/01 v1.0n Bahasa Indonesia support from the babel s
-ystem
-))
-(C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
+ (C:\Program Files\MiKTeX\tex/latex/babel-indonesian\indonesian.ldf
+Language: indonesian 2025/06/01 v1.0n Bahasa Indonesia support from the babel system
+)) (C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
-)
-(C:\Program Files\MiKTeX\tex/latex/setspace\setspace.sty
+) (C:\Program Files\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
-)
-(C:\Program Files\MiKTeX\tex/latex/ragged2e\ragged2e.sty
+) (C:\Program Files\MiKTeX\tex/latex/ragged2e\ragged2e.sty
 Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 \CenteringLeftskip=\skip51
 \RaggedLeftLeftskip=\skip52
@@ -95,46 +77,36 @@ Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 \RaggedLeftParindent=\skip62
 \RaggedRightParindent=\skip63
 \JustifyingParindent=\skip64
-)
-(C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
+) (C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
-
-(C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
+ (C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks19
-)
-(C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
+) (C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
-
-(C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
+ (C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-)
-(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+) (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
-
-(C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
+ (C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen150
 \Gin@req@width=\dimen151
-)
-(C:\Program Files\MiKTeX\tex/latex/float\float.sty
+) (C:\Program Files\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count286
 \float@exts=\toks20
 \float@box=\box53
 \@float@everytoks=\toks21
 \@floatcapt=\box54
-)
-(C:\Program Files\MiKTeX\tex/latex/tools\indentfirst.sty
+) (C:\Program Files\MiKTeX\tex/latex/tools\indentfirst.sty
 Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
-)
-(C:\Program Files\MiKTeX\tex/latex/pslatex\pslatex.sty
+) (C:\Program Files\MiKTeX\tex/latex/pslatex\pslatex.sty
 Package: pslatex 2021/01/13 v1.3 pslatex emulation (DPC)
-LaTeX Encoding Info:    Redeclaring text command \textsterling (encoding ?) on 
-input line 51.
+LaTeX Encoding Info:    Redeclaring text command \textsterling (encoding ?) on input line 51.
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 66.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/ptmcm/m/n on input line 66.
@@ -167,8 +139,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 76.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 76.
-)
-(C:\Program Files\MiKTeX\tex/latex/tocloft\tocloft.sty
+) (C:\Program Files\MiKTeX\tex/latex/tocloft\tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 51.
 \cftparskip=\skip65
@@ -211,8 +182,7 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \mylen=\skip99
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 46.
-
-(C:\Program Files\MiKTeX\tex/latex/titlesec\titlesec.sty
+ (C:\Program Files\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \ttl@box=\box55
 \beforetitleunit=\skip100
@@ -223,11 +193,9 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \titlewidth=\dimen154
 \titlewidthlast=\dimen155
 \titlewidthfirst=\dimen156
-)
-(C:\Program Files\MiKTeX\tex/latex/caption\caption.sty
+) (C:\Program Files\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
-
-(C:\Program Files\MiKTeX\tex/latex/caption\caption3.sty
+ (C:\Program Files\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@tempdima=\dimen157
 \captionmargin=\dimen158
@@ -242,18 +210,15 @@ Package caption Info: Standard document class detected.
 \c@caption@flags=\count289
 \c@continuedfloat=\count290
 Package caption Info: float package is loaded.
-)
-(C:\Program Files\MiKTeX\tex/latex/caption\subcaption.sty
+) (C:\Program Files\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
 \c@subfigure=\count291
 Package caption Info: New subtype `subtable' on input line 238.
 \c@subtable=\count292
-)
-(C:\Program Files\MiKTeX\tex/latex/tools\tabularx.sty
+) (C:\Program Files\MiKTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
-
-(C:\Program Files\MiKTeX\tex/latex/tools\array.sty
+ (C:\Program Files\MiKTeX\tex/latex/tools\array.sty
 Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \col@sep=\dimen165
 \ar@mcellbox=\box56
@@ -270,21 +235,17 @@ Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \TX@delta=\dimen171
 \TX@cols=\count293
 \TX@ftn=\toks24
-)
-(C:\Program Files\MiKTeX\tex/latex/multirow\multirow.sty
+) (C:\Program Files\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@colwidth=\skip104
 \multirow@cntb=\count294
 \multirow@dima=\skip105
 \bigstrutjot=\dimen172
-)
-(C:\Program Files\MiKTeX\tex/latex/geometry\geometry.sty
+) (C:\Program Files\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty
+ (C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-
-(C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty
+ (C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
 \Gm@cnth=\count295
@@ -299,26 +260,21 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layouthoffset=\dimen179
 \Gm@layoutvoffset=\dimen180
 \Gm@dimlist=\toks25
-
-(C:\Program Files\MiKTeX\tex/latex/geometry\geometry.cfg))
-(C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty
+ (C:\Program Files\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2025/07/09 v2.17z AMS math features
 \@mathmargin=\skip106
 
 For additional information on amsmath, use the `?' option.
 (C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2024/11/17 v2.01 AMS text
-
-(C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty
+ (C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks26
 \ex@=\dimen181
-))
-(C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty
+)) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen182
-)
-(C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty
+) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count298
@@ -368,11 +324,9 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks30
 LaTeX Info: Redefining \[ on input line 2950.
 LaTeX Info: Redefining \] on input line 2951.
-)
-(C:\Program Files\MiKTeX\tex/latex/graphics\rotating.sty
+) (C:\Program Files\MiKTeX\tex/latex/graphics\rotating.sty
 Package: rotating 2025/01/14 v2.16e rotated objects in LaTeX
-
-(C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty
+ (C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
 \c@r@tfl@t=\count310
@@ -380,8 +334,7 @@ Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 \rotFPbot=\skip110
 \rot@float@box=\box60
 \rot@mess@toks=\toks31
-)
-(C:\Program Files\MiKTeX\tex/latex/enumitem\enumitem.sty
+) (C:\Program Files\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip111
 \enit@outerparindent=\dimen190
@@ -389,15 +342,13 @@ Package: enumitem 2025/02/06 v3.11 Customized lists
 \enit@inbox=\box61
 \enit@count@id=\count311
 \enitdp@description=\count312
-)
-(C:\Program Files\MiKTeX\tex/latex/natbib\natbib.sty
+) (C:\Program Files\MiKTeX\tex/latex/natbib\natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip112
 \bibsep=\skip113
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count313
-)
-(C:\Program Files\MiKTeX\tex/latex/tools\longtable.sty
+) (C:\Program Files\MiKTeX\tex/latex/tools\longtable.sty
 Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
 \LTleft=\skip114
 \LTright=\skip115
@@ -415,73 +366,54 @@ Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
 \c@LT@tables=\count317
 \c@LT@chunks=\count318
 \LT@p@ftn=\toks33
-)
-(C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty
+) (C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
-
-(C:\Program Files\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+ (C:\Program Files\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)
-(C:\Program Files\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+) (C:\Program Files\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)
-(C:\Program Files\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+) (C:\Program Files\MiKTeX\tex/generic/pdfescape\pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-
-(C:\Program Files\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+ (C:\Program Files\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-)
-(C:\Program Files\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(C:\Program Files\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+) (C:\Program Files\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (C:\Program Files\MiKTeX\tex/generic/infwarerr\infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-))
-(C:\Program Files\MiKTeX\tex/latex/hycolor\hycolor.sty
+)) (C:\Program Files\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-)
-(C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
+) (C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
-
-(C:\Program Files\MiKTeX\tex/latex/refcount\refcount.sty
+ (C:\Program Files\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(C:\Program Files\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+) (C:\Program Files\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-
-(C:\Program Files\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+ (C:\Program Files\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count319
-)
-(C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+) (C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count320
-)
-(C:\Program Files\MiKTeX\tex/generic/stringenc\stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
-)
+) (C:\Program Files\MiKTeX\tex/generic/stringenc\stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
 \@linkdim=\dimen192
 \Hy@linkcounter=\count321
 \Hy@pagecounter=\count322
-
-(C:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def
+ (C:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-)
-(C:\Program Files\MiKTeX\tex/generic/intcalc\intcalc.sty
+) (C:\Program Files\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count323
-
-(C:\Program Files\MiKTeX\tex/latex/hyperref\puenc.def
+ (C:\Program Files\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -494,20 +426,16 @@ Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4462.
 \c@Hy@tempcnt=\count324
-
-(C:\Program Files\MiKTeX\tex/latex/url\url.sty
+ (C:\Program Files\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4801.
 \XeTeXLinkMargin=\dimen193
-
-(C:\Program Files\MiKTeX\tex/generic/bitset\bitset.sty
+ (C:\Program Files\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
-
-(C:\Program Files\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
-)
+ (C:\Program Files\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count325
 \Field@Width=\dimen194
@@ -524,24 +452,19 @@ Package hyperref Info: PDF/A mode OFF on input line 6108.
 \c@Hfootnote=\count328
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
-
-(C:\Program Files\MiKTeX\tex/latex/hyperref\hpdftex.def
+ (C:\Program Files\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
 \Fld@listcount=\count329
 \c@bookmark@seq@number=\count330
-
-(C:\Program Files\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+ (C:\Program Files\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
-
-(C:\Program Files\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+ (C:\Program Files\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-84.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
 )
 \Hy@SectionHShift=\skip118
-)
-(C:\Program Files\MiKTeX\tex/latex/cleveref\cleveref.sty
+) (C:\Program Files\MiKTeX\tex/latex/cleveref\cleveref.sty
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
 Package cleveref Info: `hyperref' support loaded on input line 2370.
 LaTeX Info: Redefining \cref on input line 2370.
@@ -569,17 +492,14 @@ LaTeX Info: Redefining \labelcpageref on input line 2370.
 \lst@newlines=\count335
 \lst@lineno=\count336
 \lst@maxwidth=\dimen199
-
-(C:\Program Files\MiKTeX\tex/latex/listings\lstpatch.sty
+ (C:\Program Files\MiKTeX\tex/latex/listings\lstpatch.sty
 File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
-)
-(C:\Program Files\MiKTeX\tex/latex/listings\lstmisc.sty
+) (C:\Program Files\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
 \c@lstnumber=\count337
 \lst@skipnumbers=\count338
 \lst@framebox=\box68
-)
-(C:\Program Files\MiKTeX\tex/latex/listings\listings.cfg
+) (C:\Program Files\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2025/11/14 1.11b listings configuration
 ))
 Package: listings 2025/11/14 1.11b (Carsten Heinz)
@@ -592,13 +512,11 @@ Package: listings 2025/11/14 1.11b (Carsten Heinz)
     so I'm assuming it got fixed.
 (C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
-
-(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
+ (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
-
-(C:\Program Files\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+ (C:\Program Files\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
@@ -608,41 +526,27 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-)
-(C:\Program Files\MiKTeX\tex/latex/colortbl\colortbl.sty
+) (C:\Program Files\MiKTeX\tex/latex/colortbl\colortbl.sty
 Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
 \everycr=\toks35
 \minrowclearance=\skip119
 \rownum=\count339
-)
-(C:\Program Files\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty
-(C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
-(C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty
-(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
+) (C:\Program Files\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
 \pgfutil@everybye=\toks36
 \pgfutil@tempdima=\dimen256
 \pgfutil@tempdimb=\dimen257
-)
-(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
+) (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
 \pgfutil@abb=\box69
-)
-(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex
-(C:\Program Files\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf\pgf.revision.tex)
 Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
 ))
 Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
-
-(C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty
-(C:\Program Files\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty
-(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
+ (C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Program Files\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
 Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
-
-(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
+ (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks37
 \pgfkeys@temptoks=\toks38
-
-(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.
-tex
+ (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks39
 ))
 \pgf@x=\dimen258
@@ -669,52 +573,28 @@ tex
 File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
 )
 Driver file for pgf: pgfsys-pdftex.def
-
-(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
+ (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2025-08-29 v3.1.11a (3.1.11a)
-
-(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
+ (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
-)))
-(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
+))) (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfsyssoftpath@smallbuffer@items=\count345
 \pgfsyssoftpath@bigbuffer@items=\count346
-)
-(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))
-(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
+)) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
 Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
-
-(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex
-(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex)
-(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
+ (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
 \pgfmath@dimen=\dimen268
 \pgfmath@count=\count347
 \pgfmath@box=\box70
 \pgfmath@toks=\toks43
 \pgfmath@stack@operand=\toks44
 \pgfmath@stack@operation=\toks45
-)
-(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex)
-(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex)
-(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.co
-de.tex)
-(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex)
-
-(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.
-tex)
-(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex)
-(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex)
-(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex)
-(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmeti
-cs.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex
-) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count348
-))
-(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfint.code.tex)
-(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
+)) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@picminx=\dimen269
 \pgf@picmaxx=\dimen270
@@ -730,32 +610,24 @@ File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@yy=\dimen280
 \pgf@zx=\dimen281
 \pgf@zy=\dimen282
-)
-(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.t
-ex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@path@lastx=\dimen283
 \pgf@path@lasty=\dimen284
-)
-(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@shorten@end@additional=\dimen285
 \pgf@shorten@start@additional=\dimen286
-)
-(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfpic=\box71
 \pgf@hbox=\box72
 \pgf@layerbox@main=\box73
 \pgf@picture@serial@count=\count349
-)
-(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.te
-x
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgflinewidth=\dimen287
-)
-(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code
-.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@pt@x=\dimen288
 \pgf@pt@y=\dimen289
@@ -764,9 +636,7 @@ File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.
-tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
@@ -776,56 +646,39 @@ File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@max=\dimen292
 \pgf@sys@shading@range@num=\count350
 \pgf@shadingcount=\count351
-)
-(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfexternal@startupbox=\box74
-)
-(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.te
-x
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
 File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
 File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)))
-(C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
+))) (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfnodeparttextbox=\box75
-)
-(C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
+) (C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@nodesepstart=\dimen293
 \pgf@nodesepend=\dimen294
-)
-(C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
+) (C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
-)) (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgffor.sty
-(C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty
-(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex))
-(C:\Program Files\MiKTeX\tex/latex/pgf/math\pgfmath.sty
-(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex))
-(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
+)) (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Program Files\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
 Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
 \pgffor@iter=\dimen295
 \pgffor@skip=\dimen296
 \pgffor@stack=\toks46
 \pgffor@toks=\toks47
-))
-(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
+)) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
-
-(C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.
-tex
+ (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@plot@mark@count=\count352
 \pgfplotmarksize=\dimen297
@@ -853,78 +706,30 @@ File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@matrix@numberofcolumns=\count359
 )
 \tikz@expandcount=\count360
-
-(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
-rytopaths.code.tex
+ (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))) (C:\Program Files\MiKTeX\tex/latex/pgfplots\pgfplots.sty
-(C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.revision.tex)
+))) (C:\Program Files\MiKTeX\tex/latex/pgfplots\pgfplots.sty (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.revision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
-
-(C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.code.tex
-(C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotscore.code.tex
+ (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotscore.code.tex
 \t@pgfplots@toka=\toks48
 \t@pgfplots@tokb=\toks49
 \t@pgfplots@tokc=\toks50
 \pgfplots@tmpa=\dimen306
 \c@pgfplots@coordindex=\count361
 \c@pgfplots@scanlineindex=\count362
-
-(C:\Program Files\MiKTeX\tex/generic/pgfplots/sys\pgfplotssysgeneric.code.tex))
-(C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\pgfplotslibrary.code.tex)
-(C:\Program Files\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp
-_loader.code.tex
-(C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryfpu.code.tex)
+ (C:\Program Files\MiKTeX\tex/generic/pgfplots/sys\pgfplotssysgeneric.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\pgfplotslibrary.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_loader.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryfpu.code.tex)
 Package pgfplots: loading complementary utilities for your pgf version...
 \t@pgf@toka=\toks51
 \t@pgf@tokb=\toks52
 \t@pgf@tokc=\toks53
-
-(C:\Program Files\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp
-_pgfutil-common-lists.tex))
-(C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.code.tex
-(C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructu
-re.code.tex)
-(C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructu
-reext.code.tex)
-(C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsarray.code.
-tex
+(C:\Program Files\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_pgfutil-common-lists.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructure.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructureext.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsarray.code.tex
 \c@pgfplotsarray@tmp=\count363
-)
-(C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsmatrix.code
-.tex)
-(C:\Program Files\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstableshared.code
-.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsmatrix.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstableshared.code.tex
 \c@pgfplotstable@counta=\count364
 \t@pgfplotstable@a=\toks54
-)
-(C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsdeque.code.
-tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.code.tex
-
-(C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.data.code.tex
-))
-(C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.verb.code.tex)
-(C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.surfshadi
-ng.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsdeque.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.data.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.verb.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.surfshading.code.tex
 \c@pgfplotslibrarysurf@no=\count365
-
-(C:\Program Files\MiKTeX\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshadin
-g.pgfsys-pdftex.def)))
-(C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotscolormap.code.tex
-(C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotscolor.code.tex))
-(C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsstackedplots.code.tex)
-(C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsplothandlers.code.tex
-(C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplothandler.code.tex
-(C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplotimage.code.tex)))
-(C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.scaling.code.tex)
-(C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotscoordprocessing.code.tex)
-(C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.errorbars.code.tex)
-(C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.markers.code.tex)
-(C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsticks.code.tex)
-(C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.paths.code.tex)
-(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
-rydecorations.code.tex
-(C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
+ (C:\Program Files\MiKTeX\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotscolormap.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotscolor.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsstackedplots.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsplothandlers.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplothandler.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplotimage.code.tex))) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.scaling.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotscoordprocessing.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.errorbars.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.markers.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsticks.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.paths.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
 \pgfdecoratedcompleteddistance=\dimen307
 \pgfdecoratedremainingdistance=\dimen308
 \pgfdecoratedinputsegmentcompleteddistance=\dimen309
@@ -935,17 +740,7 @@ rydecorations.code.tex
 \pgfdecorationsegmentlength=\dimen313
 )
 \tikz@lib@dec@box=\box80
-)
-(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
-rydecorations.pathmorphing.code.tex
-(C:\Program Files\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecora
-tions.pathmorphing.code.tex))
-(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
-rydecorations.pathreplacing.code.tex
-(C:\Program Files\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecora
-tions.pathreplacing.code.tex))
-(C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.contourl
-ua.code.tex)
+) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathmorphing.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathreplacing.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.contourlua.code.tex)
 \pgfplots@numplots=\count367
 \pgfplots@xmin@reg=\dimen314
 \pgfplots@xmax@reg=\dimen315
@@ -953,53 +748,37 @@ ua.code.tex)
 \pgfplots@ymax@reg=\dimen317
 \pgfplots@zmin@reg=\dimen318
 \pgfplots@zmax@reg=\dimen319
-)
-(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
-ryplotmarks.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryplotmarks.code.tex
 File: tikzlibraryplotmarks.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-
-(C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplotmarks.code.tex
+ (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ))) (C:\Program Files\MiKTeX\tex/latex/pgf-pie\pgf-pie.sty
-Package: pgf-pie 2022/06/14 v0.7 Some LaTeX macros for pie chart by using PGF/T
-ikz package.
-
-(C:\Program Files\MiKTeX\tex/latex/pgf-pie\tikzlibrarypie.code.tex
-(C:\Program Files\MiKTeX\tex/latex/carlisle\scalefnt.sty)
+Package: pgf-pie 2022/06/14 v0.7 Some LaTeX macros for pie chart by using PGF/Tikz package.
+ (C:\Program Files\MiKTeX\tex/latex/pgf-pie\tikzlibrarypie.code.tex (C:\Program Files\MiKTeX\tex/latex/carlisle\scalefnt.sty)
 \pgfpie@angleEnd=\dimen320
 \pgfpie@explodeLength=\count368
 \pgfpie@colorLength=\count369
 \pgfpie@sliceLength=\count370
-))
-(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
-ryshapes.geometric.code.tex
+)) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.geometric.code.tex
 File: tikzlibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-
-(C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.geom
-etric.code.tex
+ (C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.geometric.code.tex
 File: pgflibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))
-(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
-ryarrows.code.tex
+)) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-
-(C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.code.tex
+ (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \arrowsize=\dimen321
-))) (a1-database.hyphenate.tex)
-(C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+))) (a1-database.hyphenate.tex) (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count371
-)
-No file laporan.aux.
+) (laporan.aux (untouch/xx-sampul-laporan.aux) (untouch/xx-sampuldalam-laporan.aux) (a4-persembahan.aux) (a9-motto.aux) (untouch/xx-pernyataan-poliwangi.aux) (untouch/xx-persetujuan-ujian.aux) (untouch/xx-pengesahan.aux) (a2-abstrak.aux) (a3-abstract.aux) (a5-katapengantar.aux) (untouch/xx-daftar.aux) (b1-bab1.aux) (b2-bab2.aux) (b3-bab3.aux) (b4-bab4.aux) (b5-bab5.aux))
 \openout1 = `laporan.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 20.
-LaTeX Font Info:    Trying to load font information for OMS+pzccm on input line
- 20.
-(C:\Program Files\MiKTeX\tex/latex/psnfss\omspzccm.fd
+LaTeX Font Info:    Trying to load font information for OMS+pzccm on input line 20.
+ (C:\Program Files\MiKTeX\tex/latex/psnfss\omspzccm.fd
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
 LaTeX Font Info:    ... okay on input line 20.
@@ -1017,8 +796,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
-
-(C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+ (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count372
 \scratchdimen=\dimen322
@@ -1033,18 +811,15 @@ LaTeX Font Info:    ... okay on input line 20.
 \everyMPtoPDFconversion=\toks56
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
-
-(C:\Program Files\MiKTeX\tex/latex/caption\ltcaption.sty
+ (C:\Program Files\MiKTeX\tex/latex/caption\ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: rotating package is loaded.
@@ -1085,17 +860,18 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 20.
+(laporan.out) (laporan.out)
 \@outlinefile=\write4
 \openout4 = `laporan.out'.
 
 \c@lstlisting=\count378
-Package pgfplots notification 'compat/show suggested version=true': document ha
-s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
+
+Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 \openout2 = `untouch/xx-sampul-laporan.aux'.
 
 (untouch/xx-sampul-laporan.tex
-<gambar/logo-poliwangi.png, id=6, 72.27pt x 72.27pt>
+<gambar/logo-poliwangi.png, id=276, 72.27pt x 72.27pt>
 File: gambar/logo-poliwangi.png Graphic file (type png)
 <use gambar/logo-poliwangi.png>
 Package pdftex.def Info: gambar/logo-poliwangi.png  used on input line 17.
@@ -1103,13 +879,11 @@ Package pdftex.def Info: gambar/logo-poliwangi.png  used on input line 17.
  [1
 
 
-{C:/Users/Fahmi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program Fi
-les/MiKTeX/fonts/enc/dvips/base/8r.enc} <./gambar/logo-poliwangi.png>])
+{C:/Users/Fahmi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc} <./gambar/logo-poliwangi.png>])
 \openout2 = `untouch/xx-sampuldalam-laporan.aux'.
 
  (untouch/xx-sampuldalam-laporan.tex)
-pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
-been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.28 \include{untouch/xx-sampuldalam-laporan}
@@ -1124,8 +898,7 @@ l.28 \include{untouch/xx-sampuldalam-laporan}
 ]
 \openout2 = `a4-persembahan.aux'.
 
- (a4-persembahan.tex)
-[3
+ (a4-persembahan.tex) [3
 
 
 
@@ -1148,22 +921,16 @@ l.28 \include{untouch/xx-sampuldalam-laporan}
 \openout2 = `untouch/xx-pernyataan-poliwangi.aux'.
 
  (untouch/xx-pernyataan-poliwangi.tex
-LaTeX Font Info:    Trying to load font information for OT1+ptmcm on input line
- 15.
-
-(C:\Program Files\MiKTeX\tex/latex/psnfss\ot1ptmcm.fd
+LaTeX Font Info:    Trying to load font information for OT1+ptmcm on input line 15.
+ (C:\Program Files\MiKTeX\tex/latex/psnfss\ot1ptmcm.fd
 File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
 )
-LaTeX Font Info:    Trying to load font information for OML+ptmcm on input line
- 15.
-
-(C:\Program Files\MiKTeX\tex/latex/psnfss\omlptmcm.fd
+LaTeX Font Info:    Trying to load font information for OML+ptmcm on input line 15.
+ (C:\Program Files\MiKTeX\tex/latex/psnfss\omlptmcm.fd
 File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+psycm on input line
- 15.
-
-(C:\Program Files\MiKTeX\tex/latex/psnfss\omxpsycm.fd
+LaTeX Font Info:    Trying to load font information for OMX+psycm on input line 15.
+ (C:\Program Files\MiKTeX\tex/latex/psnfss\omxpsycm.fd
 File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
@@ -1221,8 +988,7 @@ Overfull \hbox (46.76358pt too wide) in paragraph at lines 32--50
 ]
 \openout2 = `a3-abstract.aux'.
 
-
-(a3-abstract.tex) [15
+ (a3-abstract.tex) [15
 
 
 
@@ -1244,45 +1010,193 @@ Overfull \hbox (46.76358pt too wide) in paragraph at lines 32--50
 ]
 \openout2 = `untouch/xx-daftar.aux'.
 
+ (untouch/xx-daftar.tex (laporan.toc
+Overfull \hbox (6.0pt too wide) detected at line 21
+\OT1/ptm/m/n/12 2.1.1 
+ []
 
-(untouch/xx-daftar.tex
-No file laporan.toc.
+
+Overfull \hbox (6.0pt too wide) detected at line 22
+\OT1/ptm/m/n/12 2.1.2 
+ []
+
+
+Overfull \hbox (6.0pt too wide) detected at line 23
+\OT1/ptm/m/n/12 2.1.3 
+ []
+
+
+Overfull \hbox (6.0pt too wide) detected at line 24
+\OT1/ptm/m/n/12 2.1.4 
+ []
+
+
+Overfull \hbox (6.0pt too wide) detected at line 25
+\OT1/ptm/m/n/12 2.1.5 
+ []
+
+
+Overfull \hbox (6.0pt too wide) detected at line 26
+\OT1/ptm/m/n/12 2.1.6 
+ []
+
+
+Overfull \hbox (6.0pt too wide) detected at line 27
+\OT1/ptm/m/n/12 2.1.7 
+ []
+
+
+Overfull \hbox (6.0pt too wide) detected at line 28
+\OT1/ptm/m/n/12 2.1.8 
+ []
+
+
+Overfull \hbox (6.0pt too wide) detected at line 29
+\OT1/ptm/m/n/12 2.1.9 
+ []
+
+
+Overfull \hbox (12.0pt too wide) detected at line 30
+\OT1/ptm/m/n/12 2.1.10 
+ []
+
+
+Overfull \hbox (6.0pt too wide) detected at line 36
+\OT1/ptm/m/n/12 3.1.1 
+ []
+
+
+Overfull \hbox (6.0pt too wide) detected at line 37
+\OT1/ptm/m/n/12 3.1.2 
+ []
+
+
+Overfull \hbox (6.0pt too wide) detected at line 39
+\OT1/ptm/m/n/12 3.2.1 
+ []
+
+
+Overfull \hbox (6.0pt too wide) detected at line 40
+\OT1/ptm/m/n/12 3.2.2 
+ []
+
+
+Overfull \hbox (6.0pt too wide) detected at line 41
+\OT1/ptm/m/n/12 3.2.3 
+ []
+
+
+Overfull \hbox (6.0pt too wide) detected at line 42
+\OT1/ptm/m/n/12 3.2.4 
+ []
+
+
+Overfull \hbox (6.0pt too wide) detected at line 43
+\OT1/ptm/m/n/12 3.2.5 
+ []
+
+
+Overfull \hbox (6.0pt too wide) detected at line 44
+\OT1/ptm/m/n/12 3.2.6 
+ []
+
+
+Overfull \hbox (6.0pt too wide) detected at line 45
+\OT1/ptm/m/n/12 3.2.7 
+ []
+
+
+Overfull \hbox (6.0pt too wide) detected at line 46
+\OT1/ptm/m/n/12 3.2.8 
+ []
+
+[19
+
+
+
+]
+Overfull \hbox (6.0pt too wide) detected at line 49
+\OT1/ptm/m/n/12 4.1.1 
+ []
+
+
+Overfull \hbox (6.0pt too wide) detected at line 50
+\OT1/ptm/m/n/12 4.1.2 
+ []
+
+
+Overfull \hbox (6.0pt too wide) detected at line 51
+\OT1/ptm/m/n/12 4.1.3 
+ []
+
+
+Overfull \hbox (6.0pt too wide) detected at line 55
+\OT1/ptm/m/n/12 4.1.4 
+ []
+
+
+Overfull \hbox (6.0pt too wide) detected at line 62
+\OT1/ptm/m/n/12 4.1.5 
+ []
+
+
+Overfull \hbox (6.0pt too wide) detected at line 64
+\OT1/ptm/m/n/12 4.2.1 
+ []
+
+
+Overfull \hbox (6.0pt too wide) detected at line 65
+\OT1/ptm/m/n/12 4.2.2 
+ []
+
+
+Overfull \hbox (6.0pt too wide) detected at line 66
+\OT1/ptm/m/n/12 4.2.3 
+ []
+
+
+Overfull \hbox (6.0pt too wide) detected at line 67
+\OT1/ptm/m/n/12 4.2.4 
+ []
+
+
+Overfull \hbox (6.0pt too wide) detected at line 68
+\OT1/ptm/m/n/12 4.2.5 
+ []
+
+
+Overfull \hbox (6.0pt too wide) detected at line 69
+\OT1/ptm/m/n/12 4.2.6 
+ []
+
+
+Overfull \hbox (6.0pt too wide) detected at line 70
+\OT1/ptm/m/n/12 4.2.7 
+ []
+
+)
 \tf@toc=\write5
 \openout5 = `laporan.toc'.
 
-(a6-daftarsingkatan.tex [19
+ (a6-daftarsingkatan.tex [20]) [21
 
-
-
-]) [20
-
-]
-No file laporan.lof.
+] (laporan.lof)
 \tf@lof=\write6
 \openout6 = `laporan.lof'.
 
-[21
+ [22
 
-]
-No file laporan.lot.
+] (laporan.lot)
 \tf@lot=\write7
 \openout7 = `laporan.lot'.
 
-) [22
+) [23
 
 ]
 \openout2 = `b1-bab1.aux'.
 
  (b1-bab1.tex
 Bab 1.
-
-Package natbib Warning: Citation `Trulline2021' on page 1 undefined on input li
-ne 9.
-
-
-Package natbib Warning: Citation `Joseph2024' on page 1 undefined on input line
- 11.
-
 [1
 
 
@@ -1290,16 +1204,7 @@ Package natbib Warning: Citation `Joseph2024' on page 1 undefined on input line
 
 
 
-]
-
-Package natbib Warning: Citation `Luz2025' on page 2 undefined on input line 17
-.
-
-
-Package natbib Warning: Citation `Micheal2025' on page 2 undefined on input lin
-e 17.
-
-[2]) [3]
+] [2]) [3]
 \openout2 = `b2-bab2.aux'.
 
  (b2-bab2.tex [4
@@ -1309,119 +1214,23 @@ e 17.
 
 ]
 Bab 2.
-
-Package natbib Warning: Citation `Alviani2025' on page 5 undefined on input lin
-e 14.
-
-
-Package natbib Warning: Citation `Sofyan2025' on page 5 undefined on input line
- 16.
-
-
-Package natbib Warning: Citation `Trulline2021' on page 5 undefined on input li
-ne 18.
-
-
-Package natbib Warning: Citation `Mardhatilah2024' on page 5 undefined on input
- line 23.
-
 [5
 
 
-]
-
-Package natbib Warning: Citation `Suryani2024' on page 6 undefined on input lin
-e 33.
-
-[6]
-
-Package natbib Warning: Citation `Fajarini2025' on page 7 undefined on input li
-ne 37.
-
-
-Package natbib Warning: Citation `Maharani2024' on page 7 undefined on input li
-ne 39.
-
-
-Package natbib Warning: Citation `Suryani2024' on page 7 undefined on input lin
-e 41.
-
-[7]
-
-Package natbib Warning: Citation `Rathore2025' on page 8 undefined on input lin
-e 52.
-
-
-Package natbib Warning: Citation `Purnama2025' on page 8 undefined on input lin
-e 54.
-
-[8]
-
-Package natbib Warning: Citation `Maulida2025' on page 9 undefined on input lin
-e 66.
-
-[9]
-<gambar/client-data-layer-paradigm.png, id=194, 2770.35pt x 2720.1625pt>
+] [6] [7] [8] [9]
+<gambar/client-data-layer-paradigm.png, id=648, 2770.35pt x 2720.1625pt>
 File: gambar/client-data-layer-paradigm.png Graphic file (type png)
 <use gambar/client-data-layer-paradigm.png>
-Package pdftex.def Info: gambar/client-data-layer-paradigm.png  used on input l
-ine 79.
+Package pdftex.def Info: gambar/client-data-layer-paradigm.png  used on input line 79.
 (pdftex.def)             Requested size: 364.19667pt x 357.57664pt.
- [10 <./gambar/client-data-layer-paradigm.png>] [11]
-
-Package natbib Warning: Citation `Rahman2024' on page 12 undefined on input lin
-e 106.
-
-[12]
-
-Package natbib Warning: Citation `Islam2025' on page 13 undefined on input line
- 115.
-
-[13]
-
-Package natbib Warning: Citation `ReactOfficial' on page 14 undefined on input 
-line 128.
-
-
-Package natbib Warning: Citation `TrendsWebDevReact2025' on page 14 undefined o
-n input line 130.
-
-
-Package natbib Warning: Citation `TanstackLCC2025' on page 14 undefined on inpu
-t line 136.
-
-[14] [15]
-<gambar/fountain-sdlc.jpg, id=230, 1024.82875pt x 2569.6pt>
+ [10 <./gambar/client-data-layer-paradigm.png>] [11] [12] [13] [14] [15]
+<gambar/fountain-sdlc.jpg, id=695, 1024.82875pt x 2569.6pt>
 File: gambar/fountain-sdlc.jpg Graphic file (type jpg)
 <use gambar/fountain-sdlc.jpg>
 Package pdftex.def Info: gambar/fountain-sdlc.jpg  used on input line 155.
 (pdftex.def)             Requested size: 136.57462pt x 342.41122pt.
-
-
-LaTeX Warning: Reference `fig:fountain-sdlc' on page 16 undefined on input line
- 161.
-
-[16 <./gambar/fountain-sdlc.jpg>]
-
-Package natbib Warning: Citation `Fadillah2023' on page 17 undefined on input l
-ine 165.
-
-
-Package natbib Warning: Citation `Fadillah2023' on page 17 undefined on input l
-ine 169.
-
-[17]
-
-Package natbib Warning: Citation `Aniley2024' on page 18 undefined on input lin
-e 189.
-
-
-Package natbib Warning: Citation `Sastra2023' on page 18 undefined on input lin
-e 189.
-
-[18]
-ignored error: Infinite glue shrinkage found in box being split [19] [20])
-[21]
+ [16 <./gambar/fountain-sdlc.jpg>] [17] [18]
+b2-bab2.tex:246: ignored error: Infinite glue shrinkage found in box being split [19] [20]) [21]
 \openout2 = `b3-bab3.aux'.
 
  (b3-bab3.tex [22
@@ -1431,167 +1240,111 @@ ignored error: Infinite glue shrinkage found in box being split [19] [20])
 
 ]
 Bab 3.
-
-LaTeX Warning: Reference `tab:jadwal-kegiatan' on page 23 undefined on input li
-ne 12.
-
-ignored error: Infinite glue shrinkage found in box being split [23
+b3-bab3.tex:89: ignored error: Infinite glue shrinkage found in box being split [23
 
 
-]
-
-Package natbib Warning: Citation `Aniley2024' on page 24 undefined on input lin
-e 99.
-
-
-Package natbib Warning: Citation `Sastra2023' on page 24 undefined on input lin
-e 99.
-
-[24] [25] [26]
-<gambar/usecase-TA.png, id=291, 573.14125pt x 634.37pt>
+] [24] [25] [26]
+<gambar/usecase-TA.png, id=761, 573.14125pt x 634.37pt>
 File: gambar/usecase-TA.png Graphic file (type png)
 <use gambar/usecase-TA.png>
 Package pdftex.def Info: gambar/usecase-TA.png  used on input line 123.
 (pdftex.def)             Requested size: 409.71692pt x 453.49367pt.
- [27]
-
-LaTeX Warning: Reference `fig:use-case' on page 28 undefined on input line 129.
-
-
-[28 <./gambar/usecase-TA.png>]
-<gambar/erd.png, id=304, 1032.85875pt x 1022.82124pt>
+ [27] [28 <./gambar/usecase-TA.png>]
+<gambar/erd.png, id=773, 1032.85875pt x 1022.82124pt>
 File: gambar/erd.png Graphic file (type png)
 <use gambar/erd.png>
 Package pdftex.def Info: gambar/erd.png  used on input line 139.
 (pdftex.def)             Requested size: 409.71692pt x 405.73453pt.
- [29]
-
-LaTeX Warning: Reference `fig:ERD' on page 30 undefined on input line 146.
-
-[30 <./gambar/erd.png>]
-<gambar/diagram-sistem-keseluruhan.png, id=316, 4101.3225pt x 1508.63625pt>
+ [29] [30 <./gambar/erd.png>]
+<gambar/diagram-sistem-keseluruhan.png, id=785, 4101.3225pt x 1508.63625pt>
 File: gambar/diagram-sistem-keseluruhan.png Graphic file (type png)
 <use gambar/diagram-sistem-keseluruhan.png>
-Package pdftex.def Info: gambar/diagram-sistem-keseluruhan.png  used on input l
-ine 160.
+Package pdftex.def Info: gambar/diagram-sistem-keseluruhan.png  used on input line 160.
 (pdftex.def)             Requested size: 364.19667pt x 133.95284pt.
  [31 <./gambar/diagram-sistem-keseluruhan.png>]
-<gambar/diagram-architecture.png, id=324, 490.33188pt x 748.29562pt>
+<gambar/diagram-architecture.png, id=793, 490.33188pt x 748.29562pt>
 File: gambar/diagram-architecture.png Graphic file (type png)
 <use gambar/diagram-architecture.png>
-Package pdftex.def Info: gambar/diagram-architecture.png  used on input line 17
-7.
+Package pdftex.def Info: gambar/diagram-architecture.png  used on input line 177.
 (pdftex.def)             Requested size: 227.62206pt x 347.37155pt.
- [32]
-
-LaTeX Warning: Reference `fig:frontend-architecture' on page 33 undefined on in
-put line 183.
-
-[33 <./gambar/diagram-architecture.png>]
-
-LaTeX Warning: Reference `fig:frontend-architecture' on page 34 undefined on in
-put line 189.
-
-[34]
-
-Package natbib Warning: Citation `TanstackLCC2025' on page 35 undefined on inpu
-t line 194.
-
-<gambar/tanstack-works.jpg, id=342, 803.0pt x 451.6875pt>
+ [32] [33 <./gambar/diagram-architecture.png>] [34]
+<gambar/tanstack-works.jpg, id=813, 803.0pt x 451.6875pt>
 File: gambar/tanstack-works.jpg Graphic file (type jpg)
 <use gambar/tanstack-works.jpg>
 Package pdftex.def Info: gambar/tanstack-works.jpg  used on input line 197.
 (pdftex.def)             Requested size: 227.62206pt x 128.03615pt.
-
-LaTeX Warning: Reference `fig:tanstack-works' on page 35 undefined on input lin
-e 203.
-
-[35 <./gambar/tanstack-works.jpg (PNG copy)>]
-<gambar/landing-page.jpeg, id=349, 2055.68pt x 2055.68pt>
+ [35 <./gambar/tanstack-works.jpg (PNG copy)>]
+<gambar/landing-page.jpeg, id=820, 2055.68pt x 2055.68pt>
 File: gambar/landing-page.jpeg Graphic file (type jpg)
 <use gambar/landing-page.jpeg>
 Package pdftex.def Info: gambar/landing-page.jpeg  used on input line 211.
 (pdftex.def)             Requested size: 409.71692pt x 409.7172pt.
  [36]
-
-LaTeX Warning: Reference `fig:landing-page' on page 37 undefined on input line 
-216.
-
-<gambar/login.jpeg, id=355, 3035.34pt x 1300.86pt>
+<gambar/login.jpeg, id=827, 3035.34pt x 1300.86pt>
 File: gambar/login.jpeg Graphic file (type jpg)
 <use gambar/login.jpeg>
 Package pdftex.def Info: gambar/login.jpeg  used on input line 219.
 (pdftex.def)             Requested size: 409.71692pt x 175.58867pt.
-[37 <./gambar/landing-page.jpeg>]
-
-LaTeX Warning: Reference `fig:login' on page 38 undefined on input line 223.
-
-<gambar/register.jpeg, id=361, 3035.34pt x 1300.86pt>
+ [37 <./gambar/landing-page.jpeg>]
+<gambar/register.jpeg, id=834, 3035.34pt x 1300.86pt>
 File: gambar/register.jpeg Graphic file (type jpg)
 <use gambar/register.jpeg>
 Package pdftex.def Info: gambar/register.jpeg  used on input line 226.
 (pdftex.def)             Requested size: 409.71692pt x 175.58867pt.
-
-LaTeX Warning: Reference `fig:register' on page 38 undefined on input line 230.
-
-
-<gambar/dashboard.jpeg, id=362, 2055.68pt x 2055.68pt>
+<gambar/dashboard.jpeg, id=836, 2055.68pt x 2055.68pt>
 File: gambar/dashboard.jpeg Graphic file (type jpg)
 <use gambar/dashboard.jpeg>
 Package pdftex.def Info: gambar/dashboard.jpeg  used on input line 233.
 (pdftex.def)             Requested size: 318.66948pt x 318.65848pt.
-[38 <./gambar/login.jpeg> <./gambar/register.jpeg>]
-
-LaTeX Warning: Reference `fig:dashboard' on page 39 undefined on input line 237
-.
-
-<gambar/sentiment.png, id=370, 2344.76pt x 3495.0575pt>
+ [38 <./gambar/login.jpeg> <./gambar/register.jpeg>]
+<gambar/sentiment.png, id=842, 2344.76pt x 3495.0575pt>
 File: gambar/sentiment.png Graphic file (type png)
 <use gambar/sentiment.png>
 Package pdftex.def Info: gambar/sentiment.png  used on input line 240.
 (pdftex.def)             Requested size: 318.66948pt x 474.9589pt.
-[39 <./gambar/dashboard.jpeg>]
-
-LaTeX Warning: Reference `fig:sentiment' on page 40 undefined on input line 244
-.
-
-<gambar/scraper.png, id=376, 2248.4pt x 1040.88875pt>
+ [39 <./gambar/dashboard.jpeg>]
+<gambar/scraper.png, id=848, 2248.4pt x 1040.88875pt>
 File: gambar/scraper.png Graphic file (type png)
 <use gambar/scraper.png>
 Package pdftex.def Info: gambar/scraper.png  used on input line 247.
 (pdftex.def)             Requested size: 318.66948pt x 147.51817pt.
-[40 <./gambar/sentiment.png>]
-
-LaTeX Warning: Reference `fig:scraper' on page 41 undefined on input line 251.
-
-<gambar/recomendation.jpeg, id=383, 2055.68pt x 2055.68pt>
+ [40 <./gambar/sentiment.png>]
+<gambar/recomendation.jpeg, id=855, 2055.68pt x 2055.68pt>
 File: gambar/recomendation.jpeg Graphic file (type jpg)
 <use gambar/recomendation.jpeg>
 Package pdftex.def Info: gambar/recomendation.jpeg  used on input line 254.
 (pdftex.def)             Requested size: 318.66948pt x 318.65848pt.
-
-LaTeX Warning: Reference `fig:recomendation' on page 41 undefined on input line
- 258.
-
-<gambar/chatbot.jpeg, id=384, 1114.91531pt x 1541.76pt>
+<gambar/chatbot.jpeg, id=857, 1114.91531pt x 1541.76pt>
 File: gambar/chatbot.jpeg Graphic file (type jpg)
 <use gambar/chatbot.jpeg>
 Package pdftex.def Info: gambar/chatbot.jpeg  used on input line 261.
 (pdftex.def)             Requested size: 227.62206pt x 314.74542pt.
-[41 <./gambar/scraper.png> <./gambar/recomendation.jpeg>]
+ [41 <./gambar/scraper.png> <./gambar/recomendation.jpeg>] [42 <./gambar/chatbot.jpeg>] [43]
+b3-bab3.tex:445: ignored error: Infinite glue shrinkage found in box being split [44]
+b3-bab3.tex:445: ignored error: Infinite glue shrinkage found in box being split [45] [46]
+b3-bab3.tex:541: ignored error: Infinite glue shrinkage found in box being split [47] [48]
+b3-bab3.tex:648: ignored error: Infinite glue shrinkage found in box being split [49] [50]
+b3-bab3.tex:754: ignored error: Infinite glue shrinkage found in box being split [51]
+Overfull \hbox (2.32457pt too wide) in alignment at lines 761--768
+ [] [] [] [] [] 
+ []
 
-LaTeX Warning: Reference `fig:chatbot' on page 42 undefined on input line 265.
+
+Overfull \hbox (2.32457pt too wide) in alignment at lines 768--773
+ [] [] [] [] [] 
+ []
 
 
-Package natbib Warning: Citation `Owusu2025' on page 42 undefined on input line
- 270.
+Overfull \hbox (2.32457pt too wide) in alignment at lines 773--774
+ [] [] [] [] [] 
+ []
 
-[42 <./gambar/chatbot.jpeg>] [43]
-ignored error: Infinite glue shrinkage found in box being split [44]
-ignored error: Infinite glue shrinkage found in box being split [45] [46]
-ignored error: Infinite glue shrinkage found in box being split [47] [48]
-ignored error: Infinite glue shrinkage found in box being split [49] [50]
-ignored error: Infinite glue shrinkage found in box being split [51]
+
+Overfull \hbox (2.32457pt too wide) in alignment at lines 774--777
+ [] [] [] [] [] 
+ []
+
+
 Overfull \hbox (8.30183pt too wide) in paragraph at lines 779--779
 \OT1/ptm/m/n/12 Re-ko-men-da-si|  
  []
@@ -1621,17 +1374,11 @@ Overfull \hbox (2.32457pt too wide) in alignment at lines 777--790
  [] [] [] [] [] 
  []
 
-[52]
-
-Package longtable Warning: Column widths have changed
-(longtable)                in table 3.7 on input line 790.
-
-[53]
-ignored error: Infinite glue shrinkage found in box being split [54]
-ignored error: Infinite glue shrinkage found in box being split [55]
-ignored error: Infinite glue shrinkage found in box being split [56]
-ignored error: Infinite glue shrinkage found in box being split [57] [58])
-[59]
+[52] [53]
+b3-bab3.tex:882: ignored error: Infinite glue shrinkage found in box being split [54]
+b3-bab3.tex:989: ignored error: Infinite glue shrinkage found in box being split [55]
+b3-bab3.tex:989: ignored error: Infinite glue shrinkage found in box being split [56]
+b3-bab3.tex:1068: ignored error: Infinite glue shrinkage found in box being split [57] [58]) [59]
 \openout2 = `b4-bab4.aux'.
 
  (b4-bab4.tex [60
@@ -1644,102 +1391,52 @@ Bab 4.
 [61
 
 
-]
-
-LaTeX Warning: Reference `fig:tanstack-works' on page 62 undefined on input lin
-e 38.
-
-[62]
-
-LaTeX Warning: Reference `fig:desain-landing-page' on page 63 undefined on inpu
-t line 49.
-
-
-LaTeX Warning: Reference `fig:desain-scraper' on page 63 undefined on input lin
-e 49.
-
-[63]
-<gambar/ui-landing-page.png, id=598, 1243.64626pt x 918.43124pt>
+] [62] [63]
+<gambar/ui-landing-page.png, id=1056, 1243.64626pt x 918.43124pt>
 File: gambar/ui-landing-page.png Graphic file (type png)
 <use gambar/ui-landing-page.png>
 Package pdftex.def Info: gambar/ui-landing-page.png  used on input line 55.
 (pdftex.def)             Requested size: 409.71692pt x 302.57874pt.
-
-
-LaTeX Warning: Reference `fig:desain-landing-page' on page 64 undefined on inpu
-t line 60.
-
-<gambar/ui-login-page.png, id=599, 1243.64626pt x 576.1525pt>
+<gambar/ui-login-page.png, id=1058, 1243.64626pt x 576.1525pt>
 File: gambar/ui-login-page.png Graphic file (type png)
 <use gambar/ui-login-page.png>
 Package pdftex.def Info: gambar/ui-login-page.png  used on input line 67.
 (pdftex.def)             Requested size: 318.66948pt x 147.63344pt.
-[64 <./gambar/ui-landing-page.png>]
-
-LaTeX Warning: Reference `fig:desain-login' on page 65 undefined on input line 
-72.
-
-<gambar/ui-register-page.png, id=608, 1243.64626pt x 576.1525pt>
+ [64 <./gambar/ui-landing-page.png>]
+<gambar/ui-register-page.png, id=1067, 1243.64626pt x 576.1525pt>
 File: gambar/ui-register-page.png Graphic file (type png)
 <use gambar/ui-register-page.png>
 Package pdftex.def Info: gambar/ui-register-page.png  used on input line 79.
 (pdftex.def)             Requested size: 318.66948pt x 147.63344pt.
-
-LaTeX Warning: Reference `fig:desain-register' on page 65 undefined on input li
-ne 84.
-
-<gambar/ui-dashboard-page.png, id=609, 2570.60374pt x 2283.53125pt>
+<gambar/ui-dashboard-page.png, id=1069, 2570.60374pt x 2283.53125pt>
 File: gambar/ui-dashboard-page.png Graphic file (type png)
 <use gambar/ui-dashboard-page.png>
 Package pdftex.def Info: gambar/ui-dashboard-page.png  used on input line 91.
 (pdftex.def)             Requested size: 318.66948pt x 283.07132pt.
-[65 <./gambar/ui-login-page.png> <./gambar/ui-register-page.png>]
-
-LaTeX Warning: Reference `fig:desain-dashboard' on page 66 undefined on input l
-ine 96.
-
-<gambar/ui-sentiment-page.png, id=620, 1243.64626pt x 918.43124pt>
+ [65 <./gambar/ui-login-page.png> <./gambar/ui-register-page.png>]
+<gambar/ui-sentiment-page.png, id=1079, 1243.64626pt x 918.43124pt>
 File: gambar/ui-sentiment-page.png Graphic file (type png)
 <use gambar/ui-sentiment-page.png>
 Package pdftex.def Info: gambar/ui-sentiment-page.png  used on input line 103.
 (pdftex.def)             Requested size: 318.66948pt x 235.33902pt.
-
-LaTeX Warning: Reference `fig:desain-sentiment' on page 66 undefined on input l
-ine 108.
-
-[66 <./gambar/ui-dashboard-page.png> <./gambar/ui-sentiment-page.png>]
-<gambar/ui-recommendation-content-page.png, id=630, 2570.60374pt x 2766.335pt>
+ [66 <./gambar/ui-dashboard-page.png> <./gambar/ui-sentiment-page.png>]
+<gambar/ui-recommendation-content-page.png, id=1088, 2570.60374pt x 2766.335pt>
 File: gambar/ui-recommendation-content-page.png Graphic file (type png)
 <use gambar/ui-recommendation-content-page.png>
-Package pdftex.def Info: gambar/ui-recommendation-content-page.png  used on inp
-ut line 115.
+Package pdftex.def Info: gambar/ui-recommendation-content-page.png  used on input line 115.
 (pdftex.def)             Requested size: 318.66948pt x 342.92068pt.
-
-
-LaTeX Warning: Reference `fig:desain-recommendation-content' on page 67 undefin
-ed on input line 120.
-
-<gambar/ui-scraper-page.png, id=631, 1243.64626pt x 576.1525pt>
+<gambar/ui-scraper-page.png, id=1090, 1243.64626pt x 576.1525pt>
 File: gambar/ui-scraper-page.png Graphic file (type png)
 <use gambar/ui-scraper-page.png>
 Package pdftex.def Info: gambar/ui-scraper-page.png  used on input line 127.
 (pdftex.def)             Requested size: 318.66948pt x 147.63344pt.
-[67 <./gambar/ui-recommendation-content-page.png>]
-
-LaTeX Warning: Reference `fig:desain-scraper' on page 68 undefined on input lin
-e 132.
-
-<gambar/ui-chatbot-page.png, id=640, 294.09875pt x 460.72125pt>
+ [67 <./gambar/ui-recommendation-content-page.png>]
+<gambar/ui-chatbot-page.png, id=1100, 294.09875pt x 460.72125pt>
 File: gambar/ui-chatbot-page.png Graphic file (type png)
 <use gambar/ui-chatbot-page.png>
 Package pdftex.def Info: gambar/ui-chatbot-page.png  used on input line 138.
 (pdftex.def)             Requested size: 227.62206pt x 356.58426pt.
-
-LaTeX Warning: Reference `fig:desain-chatbot' on page 68 undefined on input lin
-e 143.
-
-[68 <./gambar/ui-scraper-page.png> <./gambar/ui-chatbot-page.png>] [69]
-[70] [71]
+ [68 <./gambar/ui-scraper-page.png> <./gambar/ui-chatbot-page.png>] [69] [70] [71]
 Overfull \hbox (7.89445pt too wide) in alignment at lines 207--218
  [] [] [] [] [] 
  []
@@ -1790,7 +1487,7 @@ Overfull \hbox (7.89445pt too wide) in alignment at lines 276--313
  []
 
 [72]
-ignored error: Infinite glue shrinkage found in box being split [73]
+b4-bab4.tex:313: ignored error: Infinite glue shrinkage found in box being split [73]
 Overfull \hbox (7.89445pt too wide) in alignment at lines 325--336
  [] [] [] [] [] 
  []
@@ -1815,7 +1512,7 @@ Overfull \hbox (7.89445pt too wide) in alignment at lines 350--380
  [] [] [] [] [] 
  []
 
-ignored error: Infinite glue shrinkage found in box being split [74]
+b4-bab4.tex:380: ignored error: Infinite glue shrinkage found in box being split [74]
 Overfull \hbox (7.89445pt too wide) in alignment at lines 390--401
  [] [] [] [] [] 
  []
@@ -1840,7 +1537,7 @@ Overfull \hbox (7.89445pt too wide) in alignment at lines 415--452
  [] [] [] [] [] 
  []
 
-ignored error: Infinite glue shrinkage found in box being split [75]
+b4-bab4.tex:452: ignored error: Infinite glue shrinkage found in box being split [75]
 Overfull \hbox (7.89445pt too wide) in alignment at lines 464--475
  [] [] [] [] [] 
  []
@@ -1866,7 +1563,7 @@ Overfull \hbox (7.89445pt too wide) in alignment at lines 489--526
  []
 
 [76]
-ignored error: Infinite glue shrinkage found in box being split [77]
+b4-bab4.tex:526: ignored error: Infinite glue shrinkage found in box being split [77]
 Overfull \hbox (7.89445pt too wide) in alignment at lines 537--548
  [] [] [] [] [] 
  []
@@ -1891,7 +1588,7 @@ Overfull \hbox (7.89445pt too wide) in alignment at lines 562--599
  [] [] [] [] [] 
  []
 
-ignored error: Infinite glue shrinkage found in box being split [78]
+b4-bab4.tex:599: ignored error: Infinite glue shrinkage found in box being split [78]
 Overfull \hbox (7.89445pt too wide) in alignment at lines 611--622
  [] [] [] [] [] 
  []
@@ -1967,56 +1664,24 @@ Overfull \hbox (7.89445pt too wide) in alignment at lines 775--798
  []
 
 [81] [82]
-<gambar/folder-structure-features.png, id=735, 130.4875pt x 106.89937pt>
+<gambar/folder-structure-features.png, id=1182, 130.4875pt x 106.89937pt>
 File: gambar/folder-structure-features.png Graphic file (type png)
 <use gambar/folder-structure-features.png>
-Package pdftex.def Info: gambar/folder-structure-features.png  used on input li
-ne 818.
+Package pdftex.def Info: gambar/folder-structure-features.png  used on input line 818.
 (pdftex.def)             Requested size: 182.09486pt x 149.18015pt.
- [83]
-
-LaTeX Warning: Reference `fig:struktur-folder-fitur' on page 84 undefined on in
-put line 823.
-
-[84 <./gambar/folder-structure-features.png>]
-<gambar/implementasi-arsitektur-tanstackquery.png, id=749, 789.95125pt x 974.13
-937pt>
+ [83] [84 <./gambar/folder-structure-features.png>]
+<gambar/implementasi-arsitektur-tanstackquery.png, id=1193, 789.95125pt x 974.13937pt>
 File: gambar/implementasi-arsitektur-tanstackquery.png Graphic file (type png)
 <use gambar/implementasi-arsitektur-tanstackquery.png>
-Package pdftex.def Info: gambar/implementasi-arsitektur-tanstackquery.png  used
- on input line 835.
+Package pdftex.def Info: gambar/implementasi-arsitektur-tanstackquery.png  used on input line 835.
 (pdftex.def)             Requested size: 318.66948pt x 392.96355pt.
-
-
-LaTeX Warning: Reference `fig:alur-pengelolaan-query-tanstack-query' on page 85
- undefined on input line 840.
-
-[85 <./gambar/implementasi-arsitektur-tanstackquery.png>]
-<gambar/skema-mutation-tanstack-query.png, id=756, 580.66937pt x 933.98938pt>
+ [85 <./gambar/implementasi-arsitektur-tanstackquery.png>]
+<gambar/skema-mutation-tanstack-query.png, id=1201, 580.66937pt x 933.98938pt>
 File: gambar/skema-mutation-tanstack-query.png Graphic file (type png)
 <use gambar/skema-mutation-tanstack-query.png>
-Package pdftex.def Info: gambar/skema-mutation-tanstack-query.png  used on inpu
-t line 848.
+Package pdftex.def Info: gambar/skema-mutation-tanstack-query.png  used on input line 848.
 (pdftex.def)             Requested size: 318.66948pt x 512.56989pt.
-
-
-LaTeX Warning: Reference `fig:skema-mutation-tanstack-query' on page 86 undefin
-ed on input line 853.
-
-[86 <./gambar/skema-mutation-tanstack-query.png>] [87] [88]
-
-Package natbib Warning: Citation `Fajarini2025' on page 89 undefined on input l
-ine 885.
-
-
-Package natbib Warning: Citation `Micheal2025' on page 89 undefined on input li
-ne 887.
-
-
-Package natbib Warning: Citation `Rathore2025' on page 89 undefined on input li
-ne 889.
-
-[89] [90]) [91]
+ [86 <./gambar/skema-mutation-tanstack-query.png>] [87] [88] [89] [90]) [91]
 \openout2 = `b5-bab5.aux'.
 
  (b5-bab5.tex [92
@@ -2026,15 +1691,13 @@ ne 889.
 
 ]
 Bab 5.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-1.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 11.
 (C:\Program Files\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )) [93
 
 
-]
-(untouch/xx-daftarpustaka.tex (laporan.bbl [94
+] (untouch/xx-daftarpustaka.tex (laporan.bbl [94
 
 
 
@@ -2042,8 +1705,7 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ] [95
 
 
-])) (a8-lampiran.tex
-[96] [97
+])) (a8-lampiran.tex [96] [97
 
 
 ] [98
@@ -2062,62 +1724,29 @@ Package pdftex.def Info: gambar/logo-poliwangi.png  used on input line 47.
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 156.
 See the caption package documentation for explanation.
 
-
-Package natbib Warning: There were undefined citations.
-
 [99
 
 
-]
-
-Package longtable Warning: Table widths have changed. Rerun LaTeX.
-
-(laporan.aux (untouch/xx-sampul-laporan.aux)
-(untouch/xx-sampuldalam-laporan.aux) (a4-persembahan.aux) (a9-motto.aux)
-(untouch/xx-pernyataan-poliwangi.aux) (untouch/xx-persetujuan-ujian.aux)
-(untouch/xx-pengesahan.aux) (a2-abstrak.aux) (a3-abstract.aux)
-(a5-katapengantar.aux) (untouch/xx-daftar.aux) (b1-bab1.aux) (b2-bab2.aux)
-(b3-bab3.aux) (b4-bab4.aux) (b5-bab5.aux)
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
+] (laporan.aux (untouch/xx-sampul-laporan.aux) (untouch/xx-sampuldalam-laporan.aux) (a4-persembahan.aux) (a9-motto.aux) (untouch/xx-pernyataan-poliwangi.aux) (untouch/xx-persetujuan-ujian.aux) (untouch/xx-pengesahan.aux) (a2-abstrak.aux) (a3-abstract.aux) (a5-katapengantar.aux) (untouch/xx-daftar.aux) (b1-bab1.aux) (b2-bab2.aux) (b3-bab3.aux) (b4-bab4.aux) (b5-bab5.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `laporan.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `laporan.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  7087F3F2C4E6D689CF0A0292B17350BC;11622.
+Package rerunfilecheck Info: File `laporan.out' has not changed.
+(rerunfilecheck)             Checksum: 7087F3F2C4E6D689CF0A0292B17350BC;11622.
  ) 
 Here is how much of TeX's memory you used:
- 40291 strings out of 467871
- 910040 string characters out of 5428444
- 1416669 words of memory out of 5000000
- 68056 multiletter control sequences out of 15000+600000
+ 40427 strings out of 467871
+ 913365 string characters out of 5428444
+ 1416670 words of memory out of 5000000
+ 68145 multiletter control sequences out of 15000+600000
  655052 words of font info for 85 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 93i,10n,97p,1064b,1273s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files
-/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/u
-rw/times/utmbi8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-<C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on laporan.pdf (122 pages, 7358688 bytes).
+ 93i,10n,97p,1099b,1271s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on laporan.pdf (123 pages, 7427604 bytes).
 PDF statistics:
- 970 PDF objects out of 1000 (max. 8388607)
- 413 named destinations out of 1000 (max. 500000)
- 148 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1385 PDF objects out of 1440 (max. 8388607)
+ 414 named destinations out of 1000 (max. 500000)
+ 692 words of extra memory for PDF output out of 10000 (max. 10000000)
 
