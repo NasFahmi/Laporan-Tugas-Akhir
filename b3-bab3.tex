@@ -256,6 +256,13 @@ Tahapan penerapan metode fountain dalam penelitian ini terdiri atas beberapa tah
         \label{fig:recomendation}
       \end{figure}
       Halaman Recommendation pada Gambar \ref{fig:recomendation} dirancang sebagai antarmuka yang menyajikan rekomendasi berdasarkan hasil analisis sentimen yang telah diproses secara otomatis oleh sistem. Halaman ini menampilkan informasi rekomendasi yang diperoleh dari pengolahan data sentimen, sehingga pengguna dapat memahami insight yang dihasilkan dari data media sosial. Hasil rekomendasi yang ditampilkan pada halaman ini juga disajikan secara lebih detail sebagai bagian dari informasi rekomendasi utama. Halaman ini bertujuan untuk memudahkan pengguna dalam mengakses rekomendasi dan memahami hasil analisis sentimen secara terstruktur.
+      \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.5\textwidth]{gambar/chatbot.jpeg}
+        \caption{Wireframe Halaman Chatbot}
+        \label{fig:chatbot}
+      \end{figure}
+      Halaman Chatbot pada Gambar \ref{fig:chatbot} dirancang sebagai antarmuka yang memfasilitasi interaksi tanya jawab antara pengguna dengan sistem. Halaman ini memungkinkan pengguna untuk mengajukan pertanyaan terkait data yang tersedia dan memperoleh jawaban yang relevan berdasarkan informasi yang telah diproses oleh sistem. Halaman ini bertujuan untuk memudahkan pengguna dalam mengakses informasi dan memperoleh insight yang dibutuhkan secara interaktif.
     \end{packed_enum}
 \subsection{Coding (Implementation)}
   Tahap coding diawali dengan penyiapan lingkungan pengembangan frontend dan penyesuaian struktur proyek agar selaras dengan arsitektur yang telah dirancang. Framework React dipilih sebagai fondasi antarmuka pengguna, sedangkan TanStack Query diterapkan sebagai mekanisme utama pengelolaan server state yang membentuk Client Data Layer.
@@ -264,7 +271,7 @@ Tahapan penerapan metode fountain dalam penelitian ini terdiri atas beberapa tah
 
   Bersamaan dengan itu, dilakukan pula penyiapan komponen pendukung dan integrasi data dengan backend. Seluruh persiapan ini bertujuan untuk menjamin bahwa proses implementasi berjalan secara terstruktur, menjaga konsistensi kode, serta memenuhi spesifikasi kebutuhan sistem yang telah didefinisikan pada tahap sebelumnya.
 \subsection{Testing}
-  Metode pengujian yang digunakan dalam penelitian ini mengacu pada konsep black-box testing yang telah dijelaskan pada Bab II, dengan pendekatan scenario-based testing. Pengujian dilakukan dengan mengamati perilaku sistem berdasarkan skenario penggunaan tanpa memperhatikan struktur internal kode program. Pendekatan ini menempatkan sistem sebagai sebuah kesatuan yang diuji dari sudut pandang pengguna, sehingga pengujian difokuskan pada kesesuaian fungsi dan respons sistem terhadap alur penggunaan yang dirancang.
+  Metode pengujian yang digunakan dalam penelitian ini mengacu pada konsep black-box testing, dengan pendekatan scenario-based testing. Pengujian dilakukan dengan mengamati perilaku sistem berdasarkan skenario penggunaan tanpa memperhatikan struktur internal kode program. Pendekatan ini menempatkan sistem sebagai sebuah kesatuan yang diuji dari sudut pandang pengguna, sehingga pengujian difokuskan pada kesesuaian fungsi dan respons sistem terhadap alur penggunaan yang dirancang.
   Pemilihan pendekatan scenario-based testing didasarkan pada karakteristik sistem yang dikembangkan, yaitu dashboard analitik yang bersifat data-driven dan mengandalkan interaksi antar-komponen antarmuka. Oleh karena itu, pengujian diarahkan pada evaluasi perilaku sistem dalam menampilkan data, menjaga konsistensi informasi, serta merespons pembaruan data sesuai dengan kondisi yang terjadi.
   Ruang lingkup pengujian pada penelitian ini difokuskan pada perilaku sistem frontend, khususnya pada pengelolaan data melalui Client Data Layer dan penyajian data pada antarmuka pengguna. Pengujian tidak mencakup evaluasi terhadap algoritma analisis sentimen maupun proses pengolahan data pada sisi backend.
   Skenario pengujian disusun berdasarkan fitur utama sistem dan merepresentasikan alur penggunaan dari sudut pandang pengguna. Setiap skenario dirancang untuk mengevaluasi perilaku sistem frontend dalam merespons interaksi pengguna serta memastikan kesesuaian fungsi sistem dengan rancangan yang telah ditetapkan. Skenario pengujian dalam penelitian ini terdiri atas beberapa pengujian sebagai berikut:
@@ -274,26 +281,31 @@ Tahapan penerapan metode fountain dalam penelitian ini terdiri atas beberapa tah
       \renewcommand{\arraystretch}{1.4}
       \setlength{\tabcolsep}{6pt}
 
-      \begin{longtable}{|c|p{2cm}|p{3cm}|p{3cm}|p{4cm}|}
+      \begin{longtable}{|
+      >{\centering\arraybackslash}p{1.5cm} |
+      p{3.5cm} |
+      p{3cm} |
+      p{2.25cm} |
+      p{3cm} |
+      }
       \caption{Skenario Pengujian Landing Page}
       \label{tab:pengujian-landing-page} \\
 
       \hline
       \textbf{ID} &
-      \textbf{Fitur} &
+      \textbf{Test Step} &
       \textbf{Skenario Pengujian} &
       \textbf{Data Uji} &
-      \textbf{Hasil yang Diharapkan} \\
+      \textbf{Expected Result} \\
       \hline
       \endfirsthead
 
-
       \hline
       \textbf{ID} &
-      \textbf{Fitur} &
+      \textbf{Test Step} &
       \textbf{Skenario Pengujian} &
       \textbf{Data Uji} &
-      \textbf{Hasil yang Diharapkan} \\
+      \textbf{Expected Result} \\
       \hline
       \endhead
 
@@ -303,24 +315,53 @@ Tahapan penerapan metode fountain dalam penelitian ini terdiri atas beberapa tah
       \endlastfoot
 
       TC-LP-01 &
-      Landing Page &
-      Pengguna membuka aplikasi tanpa melakukan proses login &
-      -- &
-      Halaman landing tampil dengan informasi sistem serta navigasi menuju halaman login dan registrasi. \\
+      \begin{enumerate}
+        \item Pengguna membuka browser
+        \item Pengguna mengakses URL aplikasi
+        \item Sistem memuat halaman awal
+      \end{enumerate}
+      &
+      Pengguna mengakses aplikasi tanpa melakukan autentikasi
+      &
+      --
+      &
+      Halaman landing ditampilkan dengan informasi sistem serta navigasi menuju halaman login dan registrasi. \\
       \hline
+
       \end{longtable}
+
+
+
     \item Login
-      \begin{longtable}{|c|p{2cm}|p{3cm}|p{3cm}|p{4cm}|}
+      \setlength{\arrayrulewidth}{0.8pt}
+      \renewcommand{\arraystretch}{1.4}
+      \setlength{\tabcolsep}{6pt}
+
+      \begin{longtable}{|
+      >{\centering\arraybackslash}p{1.5cm} |
+      p{3.5cm} |
+      p{3cm} |
+      p{2.25cm} |
+      p{3cm} |
+      }
       \caption{Skenario Pengujian Halaman Login}
       \label{tab:login-testing} \\
 
       \hline
-      \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
+      \textbf{ID} &
+      \textbf{Test Step} &
+      \textbf{Skenario Pengujian} &
+      \textbf{Data Uji} &
+      \textbf{Hasil yang Diharapkan} \\
       \hline
       \endfirsthead
 
       \hline
-      \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
+      \textbf{ID} &
+      \textbf{Test Step} &
+      \textbf{Skenario Pengujian} &
+      \textbf{Data Uji} &
+      \textbf{Hasil yang Diharapkan} \\
       \hline
       \endhead
 
@@ -329,118 +370,394 @@ Tahapan penerapan metode fountain dalam penelitian ini terdiri atas beberapa tah
       \hline
       \endlastfoot
 
-      TC-LG-01 & Login & Pengguna melakukan login dengan kredensial yang valid & Email dan kata sandi valid & Sistem berhasil mengautentikasi pengguna dan mengarahkan ke halaman dashboard \\
+      TC-LG-01 &
+      \begin{enumerate}
+        \item Pengguna membuka halaman login
+        \item Pengguna mengisi username dan kata sandi valid
+        \item Pengguna menekan tombol login
+      \end{enumerate}
+      &
+      Login dengan kredensial yang valid
+      &
+      username dan kata sandi valid
+      &
+      Sistem menerima kredensial dan mengarahkan pengguna ke halaman dashboard. \\
       \hline
-      TC-LG-02 & Login & Pengguna melakukan login dengan kata sandi yang salah & Email valid, kata sandi salah & Sistem menampilkan pesan kesalahan dan tetap berada di halaman login \\
+
+      TC-LG-02 &
+      \begin{enumerate}
+        \item Pengguna membuka halaman login
+        \item Pengguna mengisi username valid
+        \item Pengguna mengisi kata sandi salah
+        \item Pengguna menekan tombol login
+      \end{enumerate}
+      &
+      Login dengan kata sandi yang salah
+      &
+      username valid, kata sandi salah
+      &
+      Sistem menampilkan pesan kesalahan dan tetap berada di halaman login. \\
       \hline
-      TC-LG-03 & Login & Pengguna melakukan login dengan email yang tidak terdaftar & Email tidak terdaftar & Sistem menampilkan pesan bahwa akun tidak ditemukan \\
+
+      TC-LG-03 &
+      \begin{enumerate}
+        \item Pengguna membuka halaman login
+        \item Pengguna mengisi username yang tidak terdaftar
+        \item Pengguna mengisi kata sandi
+        \item Pengguna menekan tombol login
+      \end{enumerate}
+      &
+      Login dengan username yang tidak terdaftar
+      &
+      username tidak terdaftar
+      &
+      Sistem menampilkan pesan bahwa akun tidak ditemukan. \\
       \hline
-      TC-LG-04 & Login & Pengguna mengirimkan formulir login dengan field kosong & Email atau kata sandi kosong & Sistem menampilkan validasi bahwa seluruh field wajib diisi \\
+
+      TC-LG-04 &
+      \begin{enumerate}
+        \item Pengguna membuka halaman login
+        \item Pengguna tidak mengisi username atau kata sandi
+        \item Pengguna menekan tombol login
+      \end{enumerate}
+      &
+      Login dengan field kosong
+      &
+      username atau kata sandi kosong
+      &
+      Sistem menampilkan validasi bahwa seluruh field wajib diisi. \\
       \hline
-      TC-LG-05 & Login & Pengguna berhasil login setelah sebelumnya gagal login & Kredensial valid & Sistem menerima kredensial dan mengarahkan pengguna ke halaman dashboard \\
+
+      TC-LG-05 &
+      \begin{enumerate}
+        \item Pengguna membuka halaman login
+        \item Pengguna mengisi ulang kredensial yang benar
+        \item Pengguna menekan tombol login
+      \end{enumerate}
+      &
+      Login berhasil setelah percobaan gagal
+      &
+      Kredensial valid
+      &
+      Sistem menerima kredensial dan mengarahkan pengguna ke halaman dashboard. \\
       \hline
 
       \end{longtable}
+
     \item Register
-      \begin{longtable}{|c|p{2cm}|p{3cm}|p{3cm}|p{4cm}|}
+      \setlength{\arrayrulewidth}{0.8pt}
+      \renewcommand{\arraystretch}{1.4}
+      \setlength{\tabcolsep}{6pt}
+
+      \begin{longtable}{|
+      >{\centering\arraybackslash}p{1.5cm} |
+      p{3.5cm} |
+      p{3cm} |
+      p{2.25cm} |
+      p{3cm} |
+      }
       \caption{Skenario Pengujian Halaman Register}
       \label{tab:register-testing} \\
 
       \hline
-      \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
+      \textbf{ID} &
+      \textbf{Test Step} &
+      \textbf{Skenario Pengujian} &
+      \textbf{Data Uji} &
+      \textbf{Hasil yang Diharapkan} \\
       \hline
       \endfirsthead
 
-    
       \hline
-      \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
+      \textbf{ID} &
+      \textbf{Test Step} &
+      \textbf{Skenario Pengujian} &
+      \textbf{Data Uji} &
+      \textbf{Hasil yang Diharapkan} \\
       \hline
       \endhead
+
       \endfoot
 
       \hline
       \endlastfoot
 
-      TC-RG-01 & Register & Pengguna melakukan pendaftaran dengan data yang valid & Data registrasi lengkap dan valid & Sistem berhasil menyimpan data pengguna dan akun dapat digunakan untuk login \\
+      TC-RG-01 &
+      \begin{enumerate}
+        \item Pengguna membuka halaman register
+        \item Pengguna mengisi seluruh field registrasi dengan data valid
+        \item Pengguna menekan tombol daftar
+      \end{enumerate}
+      &
+      Registrasi dengan data yang valid
+      &
+      Data registrasi lengkap dan valid
+      &
+      Sistem menyimpan data pengguna dan akun dapat digunakan untuk login. \\
       \hline
-      TC-RG-02 & Register & Pengguna melakukan pendaftaran dengan data tidak lengkap & Salah satu atau beberapa field kosong & Sistem menampilkan pesan validasi bahwa data registrasi harus diisi lengkap \\
+
+      TC-RG-02 &
+      \begin{enumerate}
+        \item Pengguna membuka halaman register
+        \item Pengguna tidak mengisi salah satu atau beberapa field
+        \item Pengguna menekan tombol daftar
+      \end{enumerate}
+      &
+      Registrasi dengan data tidak lengkap
+      &
+      Salah satu atau beberapa field kosong
+      &
+      Sistem menampilkan pesan validasi bahwa seluruh data registrasi wajib diisi. \\
       \hline
-      TC-RG-03 & Register & Pengguna melakukan pendaftaran dengan format data tidak sesuai & Format email tidak valid & Sistem menampilkan pesan kesalahan format data \\
+
+      TC-RG-03 &
+      \begin{enumerate}
+        \item Pengguna membuka halaman register
+        \item Pengguna mengisi username yang sudah terdaftar
+        \item Pengguna menekan tombol daftar
+      \end{enumerate}
+      &
+      Registrasi dengan username yang sudah terdaftar
+      &
+      username sudah terdaftar
+      &
+      Sistem menampilkan pesan bahwa akun sudah terdaftar. \\
       \hline
-      TC-RG-04 & Register & Pengguna mendaftarkan akun dengan email yang sudah terdaftar & Email sudah terdaftar & Sistem menampilkan pesan bahwa akun sudah terdaftar \\
-      \hline
-      TC-RG-05 & Register & Pengguna mengirimkan ulang data registrasi setelah terjadi kesalahan & Data registrasi valid & Sistem menerima data dan proses registrasi berhasil \\
+
+      TC-RG-04 &
+      \begin{enumerate}
+        \item Pengguna membuka halaman register
+        \item Pengguna mengisi ulang data registrasi dengan benar
+        \item Pengguna menekan tombol daftar
+      \end{enumerate}
+      &
+      Registrasi berhasil setelah kesalahan sebelumnya
+      &
+      Data registrasi valid
+      &
+      Sistem menerima data dan memproses registrasi akun. \\
       \hline
 
       \end{longtable}
+
     \item Dashboard
-      \begin{longtable}{|c|p{2cm}|p{3cm}|p{3cm}|p{4cm}|}
+      \setlength{\arrayrulewidth}{0.8pt}
+      \renewcommand{\arraystretch}{1.4}
+      \setlength{\tabcolsep}{6pt}
+
+      \begin{longtable}{|
+      >{\centering\arraybackslash}p{1.5cm} |
+      p{3.5cm} |
+      p{3cm} |
+      p{2.25cm} |
+      p{3cm} |
+      }
       \caption{Skenario Pengujian Halaman Dashboard}
       \label{tab:dashboard-testing} \\
 
       \hline
-      \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
+      \textbf{ID} &
+      \textbf{Test Step} &
+      \textbf{Skenario Pengujian} &
+      \textbf{Data Uji} &
+      \textbf{Hasil yang Diharapkan} \\
       \hline
       \endfirsthead
 
       \hline
-      \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
+      \textbf{ID} &
+      \textbf{Test Step} &
+      \textbf{Skenario Pengujian} &
+      \textbf{Data Uji} &
+      \textbf{Hasil yang Diharapkan} \\
       \hline
       \endhead
-
 
       \endfoot
 
       \hline
       \endlastfoot
 
-      TC-DB-01 & Dashboard & Pengguna membuka halaman dashboard setelah login & Data dashboard tersedia & Sistem menampilkan ringkasan data dan visualisasi utama pada dashboard \\
+      TC-DB-01 &
+      \begin{enumerate}
+        \item Pengguna berhasil login
+        \item Sistem mengarahkan pengguna ke halaman dashboard
+      \end{enumerate}
+      &
+      Membuka dashboard setelah login
+      &
+      Data dashboard tersedia
+      &
+      Sistem menampilkan ringkasan data dan visualisasi utama pada dashboard. \\
       \hline
-      TC-DB-02 & Dashboard & Pengguna membuka dashboard dengan data belum tersedia & Data belum tersedia & Sistem menampilkan indikator pemuatan atau pesan informasi \\
+
+      TC-DB-02 &
+      \begin{enumerate}
+        \item Pengguna login ke sistem
+        \item Sistem memuat halaman dashboard
+        \item Data dashboard belum tersedia
+      \end{enumerate}
+      &
+      Membuka dashboard dengan data belum tersedia
+      &
+      Data belum tersedia
+      &
+      Sistem menampilkan indikator pemuatan atau pesan informasi kepada pengguna. \\
       \hline
-      TC-DB-03 & Dashboard & Pengguna melakukan navigasi ke menu lain dan kembali ke dashboard & -- & Sistem menampilkan data dashboard secara konsisten tanpa kehilangan data \\
+
+      TC-DB-03 &
+      \begin{enumerate}
+        \item Pengguna membuka dashboard
+        \item Pengguna berpindah ke menu lain
+        \item Pengguna kembali ke halaman dashboard
+      \end{enumerate}
+      &
+      Navigasi keluar dan kembali ke dashboard
+      &
+      --
+      &
+      Sistem menampilkan data dashboard secara konsisten tanpa kehilangan data. \\
       \hline
-      TC-DB-04 & Dashboard & Pembaruan data dashboard dari server & Data diperbarui & Sistem memperbarui tampilan dashboard sesuai data terbaru \\
+
+      TC-DB-04 &
+      \begin{enumerate}
+        \item Pengguna berada di halaman dashboard
+        \item Sistem menerima pembaruan data dari server
+      \end{enumerate}
+      &
+      Pembaruan data dashboard dari server
+      &
+      Data diperbarui
+      &
+      Sistem memperbarui tampilan dashboard sesuai dengan data terbaru. \\
       \hline
-      TC-DB-05 & Dashboard & Beberapa komponen menggunakan sumber data yang sama & Data yang sama digunakan & Sistem menampilkan data yang konsisten pada seluruh komponen dashboard \\
+
+      TC-DB-05 &
+      \begin{enumerate}
+        \item Pengguna membuka halaman dashboard
+        \item Beberapa komponen memuat data dari sumber yang sama
+      \end{enumerate}
+      &
+      Konsistensi data antar komponen dashboard
+      &
+      Data yang sama digunakan
+      &
+      Sistem menampilkan data yang konsisten pada seluruh komponen dashboard. \\
       \hline
 
       \end{longtable}
+
     \item Sentiment
-  
-      \begin{longtable}{|c|p{2cm}|p{3cm}|p{3cm}|p{4cm}|}
-      \caption{Skenario Pengujian Halaman Dashboard Sentiment}
-      \label{tab:sentiment-testing} \\
+      \setlength{\arrayrulewidth}{0.8pt}
+    \renewcommand{\arraystretch}{1.4}
+    \setlength{\tabcolsep}{6pt}
 
-      \hline
-      \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
-      \hline
-      \endfirsthead
+    \begin{longtable}{|
+    >{\centering\arraybackslash}p{1.5cm} |
+    p{3.5cm} |
+    p{3cm} |
+    p{2.25cm} |
+    p{3cm} |
+    }
+    \caption{Skenario Pengujian Halaman Dashboard Sentiment}
+    \label{tab:sentiment-testing} \\
 
-      \hline
-      \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
-      \hline
-      \endhead
+    \hline
+    \textbf{ID} &
+    \textbf{Test Step} &
+    \textbf{Skenario Pengujian} &
+    \textbf{Data Uji} &
+    \textbf{Hasil yang Diharapkan} \\
+    \hline
+    \endfirsthead
 
-      \endfoot
+    \hline
+    \textbf{ID} &
+    \textbf{Test Step} &
+    \textbf{Skenario Pengujian} &
+    \textbf{Data Uji} &
+    \textbf{Hasil yang Diharapkan} \\
+    \hline
+    \endhead
 
-      \hline
-      \endlastfoot
+    \endfoot
 
-      TC-ST-01 & Dashboard Sentiment & Pengguna membuka halaman dashboard sentiment & Data sentimen tersedia & Sistem menampilkan visualisasi dan ringkasan hasil analisis sentimen \\
-      \hline
-      TC-ST-02 & Dashboard Sentiment & Pengguna membuka halaman sentiment dengan data belum tersedia & Data sentimen belum tersedia & Sistem menampilkan indikator pemuatan atau pesan informasi \\
-      \hline
-      TC-ST-03 & Dashboard Sentiment & Pembaruan data sentimen dari server & Data sentimen diperbarui & Sistem memperbarui visualisasi sesuai data sentimen terbaru \\
-      \hline
-      TC-ST-04 & Dashboard Sentiment & Navigasi ke halaman lain dan kembali ke dashboard sentiment & -- & Sistem menampilkan data sentimen secara konsisten tanpa kehilangan data \\
-      \hline
-      TC-ST-05 & Dashboard Sentiment & Beberapa komponen menampilkan data sentimen yang sama & Data sentimen yang sama digunakan & Sistem menampilkan data yang konsisten pada seluruh komponen visualisasi \\
-      \hline
+    \hline
+    \endlastfoot
 
-      \end{longtable}
+    TC-ST-01 &
+    \begin{enumerate}
+      \item Pengguna berhasil login
+      \item Pengguna membuka halaman dashboard sentiment
+    \end{enumerate}
+    &
+    Membuka halaman dashboard sentiment
+    &
+    Data sentimen tersedia
+    &
+    Sistem menampilkan visualisasi dan ringkasan hasil analisis sentimen. \\
+    \hline
+
+    TC-ST-02 &
+    \begin{enumerate}
+      \item Pengguna membuka halaman dashboard sentiment
+      \item Data sentimen belum tersedia
+    \end{enumerate}
+    &
+    Membuka dashboard sentiment dengan data belum tersedia
+    &
+    Data sentimen belum tersedia
+    &
+    Sistem menampilkan indikator pemuatan atau pesan informasi kepada pengguna. \\
+    \hline
+
+    TC-ST-03 &
+    \begin{enumerate}
+      \item Pengguna berada di halaman dashboard sentiment
+      \item Sistem menerima pembaruan data sentimen dari server
+    \end{enumerate}
+    &
+    Pembaruan data sentimen dari server
+    &
+    Data sentimen diperbarui
+    &
+    Sistem memperbarui visualisasi sesuai dengan data sentimen terbaru. \\
+    \hline
+
+    TC-ST-04 &
+    \begin{enumerate}
+      \item Pengguna membuka dashboard sentiment
+      \item Pengguna berpindah ke halaman lain
+      \item Pengguna kembali ke dashboard sentiment
+    \end{enumerate}
+    &
+    Navigasi keluar dan kembali ke dashboard sentiment
+    &
+    --
+    &
+    Sistem menampilkan data sentimen secara konsisten tanpa kehilangan data. \\
+    \hline
+
+    TC-ST-05 &
+    \begin{enumerate}
+      \item Pengguna membuka dashboard sentiment
+      \item Beberapa komponen memuat data sentimen yang sama
+    \end{enumerate}
+    &
+    Konsistensi data sentimen antar komponen
+    &
+    Data sentimen yang sama digunakan
+    &
+    Sistem menampilkan data yang konsisten pada seluruh komponen visualisasi. \\
+    \hline
+
+    \end{longtable}
+
     \item Recommendation
 
+      \setlength{\arrayrulewidth}{0.8pt}
+      \renewcommand{\arraystretch}{1.4}
+      \setlength{\tabcolsep}{6pt}
       \begin{longtable}{|c|p{2cm}|p{3cm}|p{3cm}|p{4cm}|}
       \caption{Skenario Pengujian Halaman Dashboard Rekomendasi Konten}
       \label{tab:recommendation-testing} \\
@@ -472,17 +789,35 @@ Tahapan penerapan metode fountain dalam penelitian ini terdiri atas beberapa tah
 
       \end{longtable}
     \item Scraper
-      \begin{longtable}{|c|p{2cm}|p{3cm}|p{3cm}|p{4cm}|}
+      \setlength{\arrayrulewidth}{0.8pt}
+      \renewcommand{\arraystretch}{1.4}
+      \setlength{\tabcolsep}{6pt}
+
+      \begin{longtable}{|
+      >{\centering\arraybackslash}p{1.5cm} |
+      p{3.5cm} |
+      p{3cm} |
+      p{2.25cm} |
+      p{3cm} |
+      }
       \caption{Skenario Pengujian Halaman Data Scraper}
       \label{tab:scraper-testing} \\
 
       \hline
-      \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
+      \textbf{ID} &
+      \textbf{Test Step} &
+      \textbf{Skenario Pengujian} &
+      \textbf{Data Uji} &
+      \textbf{Hasil yang Diharapkan} \\
       \hline
       \endfirsthead
 
       \hline
-      \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
+      \textbf{ID} &
+      \textbf{Test Step} &
+      \textbf{Skenario Pengujian} &
+      \textbf{Data Uji} &
+      \textbf{Hasil yang Diharapkan} \\
       \hline
       \endhead
 
@@ -491,76 +826,247 @@ Tahapan penerapan metode fountain dalam penelitian ini terdiri atas beberapa tah
       \hline
       \endlastfoot
 
-      TC-SC-01 & Data Scraper & Pengguna membuka halaman data scraper & Data hasil scraping tersedia & Sistem menampilkan daftar data hasil scraping yang diperoleh dari server \\
+      TC-SC-01 &
+      \begin{enumerate}
+        \item Pengguna membuka halaman data scraper
+        \item Sistem memuat data hasil scraping
+      \end{enumerate}
+      &
+      Membuka halaman data scraper
+      &
+      Data hasil scraping tersedia
+      &
+      Sistem menampilkan daftar data hasil scraping yang diperoleh dari server. \\
       \hline
-      TC-SC-02 & Data Scraper & Pengguna membuka halaman scraper dengan data belum tersedia & Data belum tersedia & Sistem menampilkan indikator pemuatan atau pesan informasi \\
+
+      TC-SC-02 &
+      \begin{enumerate}
+        \item Pengguna membuka halaman data scraper
+        \item Data hasil scraping belum tersedia
+      \end{enumerate}
+      &
+      Membuka halaman scraper dengan data belum tersedia
+      &
+      Data belum tersedia
+      &
+      Sistem menampilkan indikator pemuatan atau pesan informasi kepada pengguna. \\
       \hline
-      TC-SC-03 & Data Scraper & Pengguna memilih data untuk dianalisis & Dataset tertentu dipilih & Sistem menandai data terpilih untuk digunakan pada proses analisis \\
+
+      TC-SC-03 &
+      \begin{enumerate}
+        \item Pengguna membuka halaman data scraper
+        \item Pengguna memilih salah satu dataset
+      \end{enumerate}
+      &
+      Pemilihan data untuk dianalisis
+      &
+      Dataset tertentu dipilih
+      &
+      Sistem menandai data terpilih untuk digunakan pada proses analisis. \\
       \hline
-      TC-SC-04 & Data Scraper & Navigasi ke halaman lain dan kembali ke data scraper & -- & Sistem menampilkan data scraper secara konsisten tanpa kehilangan data \\
+
+      TC-SC-04 &
+      \begin{enumerate}
+        \item Pengguna membuka halaman data scraper
+        \item Pengguna berpindah ke halaman lain
+        \item Pengguna kembali ke halaman data scraper
+      \end{enumerate}
+      &
+      Navigasi keluar dan kembali ke halaman data scraper
+      &
+      --
+      &
+      Sistem menampilkan data scraper secara konsisten tanpa kehilangan data. \\
       \hline
 
       \end{longtable}
-    % \item Chatbot
-    %   \begin{longtable}{|c|p{2cm}|p{3cm}|p{3cm}|p{4cm}|}
-    %   \caption{Skenario Pengujian Chatbot}
-    %   \label{tab:chatbot-testing} \\
 
-    %   \hline
-    %   \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
-    %   \hline
-    %   \endfirsthead
+    \item Chatbot
+      \setlength{\arrayrulewidth}{0.8pt}
+      \renewcommand{\arraystretch}{1.4}
+      \setlength{\tabcolsep}{6pt}
 
-    %   \hline
-    %   \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
-    %   \hline
-    %   \endhead
+      \begin{longtable}{|
+      >{\centering\arraybackslash}p{1.5cm} |
+      p{3.5cm} |
+      p{3cm} |
+      p{2.25cm} |
+      p{3cm} |
+      }
+      \caption{Skenario Pengujian Chatbot}
+      \label{tab:chatbot-testing} \\
 
-    %   \endfoot
+      \hline
+      \textbf{ID} &
+      \textbf{Test Step} &
+      \textbf{Skenario Pengujian} &
+      \textbf{Data Uji} &
+      \textbf{Hasil yang Diharapkan} \\
+      \hline
+      \endfirsthead
 
-    %   \hline
-    %   \endlastfoot
+      \hline
+      \textbf{ID} &
+      \textbf{Test Step} &
+      \textbf{Skenario Pengujian} &
+      \textbf{Data Uji} &
+      \textbf{Hasil yang Diharapkan} \\
+      \hline
+      \endhead
 
-    %   TC-CB-01 & Chatbot & Pengguna membuka fitur chatbot & -- & Sistem menampilkan antarmuka chatbot dan siap menerima input pengguna \\
-    %   \hline
-    %   TC-CB-02 & Chatbot & Pengguna mengirimkan pertanyaan melalui chatbot & Pertanyaan teks valid & Sistem menampilkan respons chatbot sesuai dengan pertanyaan yang diberikan \\
-    %   \hline
-    %   TC-CB-03 & Chatbot & Pengguna mengirimkan input kosong & Input kosong & Sistem menampilkan pesan validasi atau respons bahwa input tidak valid \\
-    %   \hline
-    %   TC-CB-04 & Chatbot & Pengguna mengirimkan pertanyaan di luar konteks sistem & Pertanyaan tidak relevan & Sistem tetap memberikan respons atau pesan informasi yang sesuai \\
-    %   \hline
-    %   TC-CB-05 & Chatbot & Pengguna melakukan interaksi berulang dengan chatbot & Beberapa pertanyaan berurutan & Sistem mampu menampilkan respons secara konsisten pada setiap interaksi \\
-    %   \hline
+      \endfoot
 
-    %   \end{longtable}
-    % \item Logout
-    %   \begin{longtable}{|c|p{2cm}|p{3cm}|p{3cm}|p{4cm}|}
-    %   \caption{Skenario Pengujian Logout}
-    %   \label{tab:logout-testing} \\
+      \hline
+      \endlastfoot
 
-    %   \hline
-    %   \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
-    %   \hline
-    %   \endfirsthead
+      TC-CB-01 &
+      \begin{enumerate}
+        \item Pengguna berhasil login
+        \item Pengguna berada di halaman dashboard
+        \item Pengguna membuka panel chatbot yang bersifat \textit{sticky}
+      \end{enumerate}
+      &
+      Membuka antarmuka chatbot pada dashboard
+      &
+      --
+      &
+      Sistem menampilkan antarmuka chatbot dan siap menerima input pengguna. \\
+      \hline
 
+      TC-CB-02 &
+      \begin{enumerate}
+        \item Pengguna membuka chatbot pada dashboard
+        \item Pengguna memasukkan pertanyaan teks
+        \item Pengguna mengirimkan pertanyaan
+      \end{enumerate}
+      &
+      Mengirimkan pertanyaan melalui chatbot
+      &
+      Pertanyaan teks valid
+      &
+      Sistem menampilkan respons chatbot sesuai dengan pertanyaan yang diberikan. \\
+      \hline
 
-    %   \hline
-    %   \textbf{ID} & \textbf{Fitur} & \textbf{Skenario Pengujian} & \textbf{Data Uji} & \textbf{Hasil yang Diharapkan} \\
-    %   \hline
-    %   \endhead
+      TC-CB-03 &
+      \begin{enumerate}
+        \item Pengguna membuka chatbot
+        \item Pengguna mengirimkan input kosong
+      \end{enumerate}
+      &
+      Mengirimkan input kosong pada chatbot
+      &
+      Input kosong
+      &
+      Sistem menampilkan pesan validasi atau informasi bahwa input tidak valid. \\
+      \hline
 
-    %   \endfoot
+      TC-CB-04 &
+      \begin{enumerate}
+        \item Pengguna membuka chatbot
+        \item Pengguna mengirimkan pertanyaan di luar konteks sistem
+      \end{enumerate}
+      &
+      Mengirimkan pertanyaan di luar konteks sistem
+      &
+      Pertanyaan tidak relevan
+      &
+      Sistem menampilkan respons atau pesan informasi yang sesuai. \\
+      \hline
 
-    %   \hline
-    %   \endlastfoot
+      TC-CB-05 &
+      \begin{enumerate}
+        \item Pengguna membuka chatbot
+        \item Pengguna melakukan beberapa interaksi berturut-turut
+      \end{enumerate}
+      &
+      Interaksi berulang dengan chatbot
+      &
+      Beberapa pertanyaan berurutan
+      &
+      Sistem memproses interaksi chatbot secara berurutan dengan menonaktifkan input selama proses berlangsung dan mengaktifkannya kembali setelah respons ditampilkan.. \\
+      \hline
 
-    %   TC-LO-01 & Logout & Pengguna melakukan logout dari sistem & -- & Sistem mengakhiri sesi pengguna dan mengarahkan ke halaman login \\
-    %   \hline
-    %   TC-LO-02 & Logout & Pengguna mencoba mengakses halaman dashboard setelah logout & -- & Sistem menolak akses dan mengarahkan kembali ke halaman login \\
-    %   \hline
-    %   TC-LO-03 & Logout & Pengguna menutup sesi dan membuka ulang aplikasi & -- & Sistem meminta pengguna untuk login kembali \\
-    %   \hline
-    %   \end{longtable}
+      \end{longtable}
+
+    \item Logout
+      \setlength{\arrayrulewidth}{0.8pt}
+      \renewcommand{\arraystretch}{1.4}
+      \setlength{\tabcolsep}{6pt}
+
+      \begin{longtable}{|
+      >{\centering\arraybackslash}p{1.5cm} |
+      p{3.5cm} |
+      p{3cm} |
+      p{2.25cm} |
+      p{3cm} |
+      }
+      \caption{Skenario Pengujian Logout}
+      \label{tab:logout-testing} \\
+
+      \hline
+      \textbf{ID} &
+      \textbf{Test Step} &
+      \textbf{Skenario Pengujian} &
+      \textbf{Data Uji} &
+      \textbf{Hasil yang Diharapkan} \\
+      \hline
+      \endfirsthead
+
+      \hline
+      \textbf{ID} &
+      \textbf{Test Step} &
+      \textbf{Skenario Pengujian} &
+      \textbf{Data Uji} &
+      \textbf{Hasil yang Diharapkan} \\
+      \hline
+      \endhead
+
+      \endfoot
+
+      \hline
+      \endlastfoot
+
+      TC-LO-01 &
+      \begin{enumerate}
+        \item Pengguna berada dalam kondisi login
+        \item Pengguna menekan tombol logout
+      \end{enumerate}
+      &
+      Melakukan logout dari sistem
+      &
+      --
+      &
+      Sistem mengakhiri sesi pengguna dan mengarahkan ke halaman login. \\
+      \hline
+
+      TC-LO-02 &
+      \begin{enumerate}
+        \item Pengguna telah melakukan logout
+        \item Pengguna mencoba mengakses halaman dashboard
+      \end{enumerate}
+      &
+      Mengakses dashboard setelah logout
+      &
+      --
+      &
+      Sistem menolak akses dan mengarahkan pengguna ke halaman login. \\
+      \hline
+
+      TC-LO-03 &
+      \begin{enumerate}
+        \item Pengguna menutup sesi aplikasi
+        \item Pengguna membuka kembali aplikasi
+      \end{enumerate}
+      &
+      Membuka ulang aplikasi setelah logout
+      &
+      --
+      &
+      Sistem meminta pengguna untuk melakukan login kembali. \\
+      \hline
+
+      \end{longtable}
+
   \end{packed_enum}
 \subsection{\textit{Operation}}
   Tahap \textit{operation} merupakan tahapan di mana sistem frontend dashboard analisis sentimen dijalankan dan digunakan dalam lingkungan operasional terbatas untuk memastikan seluruh fungsi berjalan sesuai dengan tujuan perancangan. Pada tahap ini, sistem digunakan untuk menampilkan data hasil analisis sentimen yang diperoleh dari backend, sehingga dapat diamati kestabilan aplikasi, konsistensi penyajian data, serta respons antarmuka pengguna.

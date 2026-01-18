@@ -131,6 +131,17 @@ Desain antarmuka pada sisi frontend dashboard analisis sentimen direalisasikan b
 
   Gambar~\ref{fig:desain-scraper} menampilkan hasil implementasi halaman scraper. Halaman ini digunakan untuk melakukan proses pengambilan data dari sumber eksternal. Data yang berhasil dikumpulkan melalui halaman ini selanjutnya dapat digunakan sebagai bahan analisis pada sistem dashboard analisis sentimen.
 
+
+  \item Chatbot \hfill \\
+   \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{gambar/ui-chatbot-page.png}
+    \caption{Desain Halaman Chatbot}
+    \label{fig:desain-chatbot}
+  \end{figure}
+
+  Gambar~\ref{fig:desain-chatbot} menampilkan hasil implementasi halaman chatbot. Halaman ini digunakan untuk user bisa melakukan chat dengan chatbot untuk mendapatkan informasi yang diperlukan.
+
 \end{packed_enum}
 \subsection{\textit{Coding/Implementation}}
 \subsubsection{Landing Page}
@@ -187,52 +198,20 @@ Berikut adalah hasil pengujian yang dilakukan pada sistem:
 
 \begin{packed_enum}
     \item Landing Page
-      \begin{longtable}{|c|p{2.5cm}|p{4cm}|p{4cm}|c|}
-      \caption{Hasil Pengujian Landing Page}
-      \label{tab:hasil-pengujian-landing-page} \\
-
-      \hline
-      \textbf{ID} &
-      \textbf{Fitur} &
-      \textbf{Skenario Pengujian} &
-      \textbf{Hasil Aktual} &
-      \textbf{Status} \\
-      \hline
-      \endfirsthead
-
-      \hline
-      \textbf{ID} &
-      \textbf{Fitur} &
-      \textbf{Skenario Pengujian} &
-      \textbf{Hasil Aktual} &
-      \textbf{Status} \\
-      \hline
-      \endhead
-
-      \endfoot
-
-      \hline
-      \endlastfoot
-
-      TC-LP-01 &
-      Landing Page &
-      Pengguna membuka aplikasi tanpa melakukan proses login &
-      Halaman landing berhasil ditampilkan dengan informasi sistem serta navigasi menuju halaman login dan registrasi. &
-      Berhasil \\
-      \hline
-
-      \end{longtable}
-
-    \item Login
-    
-    \begin{longtable}{|c|p{2.5cm}|p{4cm}|p{4.5cm}|c|}
-    \caption{Hasil Pengujian Fitur Login}
-    \label{tab:hasil-pengujian-login} \\
+    \begin{longtable}{|
+    >{\centering\arraybackslash}p{1.5cm} |
+    p{3cm} |
+    p{3.5cm} |
+    p{4cm} |
+    >{\centering\arraybackslash}p{2cm} |
+    }
+    \caption{Hasil Pengujian Landing Page}
+    \label{tab:hasil-pengujian-landing-page} \\
 
     \hline
     \textbf{ID} &
-    \textbf{Fitur} &
     \textbf{Skenario Pengujian} &
+    \textbf{Expected Result} &
     \textbf{Hasil Aktual} &
     \textbf{Status} \\
     \hline
@@ -240,8 +219,52 @@ Berikut adalah hasil pengujian yang dilakukan pada sistem:
 
     \hline
     \textbf{ID} &
-    \textbf{Fitur} &
     \textbf{Skenario Pengujian} &
+    \textbf{Expected Result} &
+    \textbf{Hasil Aktual} &
+    \textbf{Status} \\
+    \hline
+    \endhead
+
+    \endfoot
+
+    \hline
+    \endlastfoot
+
+    TC-LP-01 &
+    Pengguna membuka aplikasi tanpa melakukan proses login &
+    Halaman landing ditampilkan dengan informasi sistem serta navigasi menuju halaman login dan registrasi. &
+    Halaman landing berhasil ditampilkan dengan informasi sistem serta navigasi menuju halaman login dan registrasi. &
+    Berhasil \\
+    \hline
+
+    \end{longtable}
+
+    \item Login
+
+    \begin{longtable}{|
+    >{\centering\arraybackslash}p{1.5cm} |
+    p{3cm} |
+    p{3.5cm} |
+    p{4cm} |
+    >{\centering\arraybackslash}p{2cm} |
+    }
+    \caption{Hasil Pengujian Fitur Login}
+    \label{tab:hasil-pengujian-login} \\
+
+    \hline
+    \textbf{ID} &
+    \textbf{Skenario Pengujian} &
+    \textbf{Expected Result} &
+    \textbf{Hasil Aktual} &
+    \textbf{Status} \\
+    \hline
+    \endfirsthead
+
+    \hline
+    \textbf{ID} &
+    \textbf{Skenario Pengujian} &
+    \textbf{Expected Result} &
     \textbf{Hasil Aktual} &
     \textbf{Status} \\
     \hline
@@ -253,36 +276,36 @@ Berikut adalah hasil pengujian yang dilakukan pada sistem:
     \endlastfoot
 
     TC-LG-01 &
-    Login &
-    Pengguna melakukan login dengan kredensial yang valid &
+    Login dengan kredensial yang valid &
+    Sistem memverifikasi kredensial pengguna dan mengarahkan pengguna ke halaman dashboard. &
     Sistem berhasil memverifikasi kredensial pengguna dan mengarahkan pengguna ke halaman dashboard. &
     Berhasil \\
     \hline
 
     TC-LG-02 &
-    Login &
-    Pengguna melakukan login dengan kata sandi yang salah &
+    Login dengan kata sandi yang salah &
+    Sistem menampilkan pesan kesalahan autentikasi dan tetap berada pada halaman login. &
     Sistem menampilkan pesan kesalahan autentikasi dan pengguna tetap berada pada halaman login. &
     Berhasil \\
     \hline
 
     TC-LG-03 &
-    Login &
-    Pengguna melakukan login dengan email yang tidak terdaftar &
+    Login dengan username yang tidak terdaftar &
+    Sistem menampilkan pesan bahwa akun tidak ditemukan dan tidak melanjutkan proses login. &
     Sistem menampilkan pesan bahwa akun tidak ditemukan dan tidak melanjutkan proses login. &
     Berhasil \\
     \hline
 
     TC-LG-04 &
-    Login &
-    Pengguna mengirimkan formulir login dengan field kosong &
+    Login dengan field kosong &
+    Sistem menampilkan pesan validasi bahwa seluruh field wajib diisi sebelum proses login dilakukan. &
     Sistem menampilkan pesan validasi bahwa seluruh field wajib diisi sebelum proses login dilakukan. &
     Berhasil \\
     \hline
 
     TC-LG-05 &
-    Login &
-    Pengguna berhasil login setelah sebelumnya gagal login &
+    Login berhasil setelah percobaan gagal &
+    Sistem menerima kredensial yang valid dan mengarahkan pengguna ke halaman dashboard. &
     Sistem menerima kredensial yang valid dan mengarahkan pengguna ke halaman dashboard tanpa kendala. &
     Berhasil \\
     \hline
@@ -290,15 +313,23 @@ Berikut adalah hasil pengujian yang dilakukan pada sistem:
     \end{longtable}
 
 
+
     \item Register
-    \begin{longtable}{|c|p{2.5cm}|p{4cm}|p{4.5cm}|c|}
+
+    \begin{longtable}{|
+    >{\centering\arraybackslash}p{1.5cm} |
+    p{3cm} |
+    p{3.5cm} |
+    p{4cm} |
+    >{\centering\arraybackslash}p{2cm} |
+    }
     \caption{Hasil Pengujian Fitur Register}
     \label{tab:hasil-pengujian-register} \\
 
     \hline
     \textbf{ID} &
-    \textbf{Fitur} &
     \textbf{Skenario Pengujian} &
+    \textbf{Expected Result} &
     \textbf{Hasil Aktual} &
     \textbf{Status} \\
     \hline
@@ -306,8 +337,8 @@ Berikut adalah hasil pengujian yang dilakukan pada sistem:
 
     \hline
     \textbf{ID} &
-    \textbf{Fitur} &
     \textbf{Skenario Pengujian} &
+    \textbf{Expected Result} &
     \textbf{Hasil Aktual} &
     \textbf{Status} \\
     \hline
@@ -319,36 +350,29 @@ Berikut adalah hasil pengujian yang dilakukan pada sistem:
     \endlastfoot
 
     TC-RG-01 &
-    Register &
-    Pengguna melakukan pendaftaran dengan data yang valid &
+    Registrasi dengan data yang valid &
+    Sistem menyimpan data pengguna dan akun dapat digunakan untuk melakukan proses login. &
     Sistem berhasil menyimpan data pengguna dan akun dapat digunakan untuk melakukan proses login. &
     Berhasil \\
     \hline
 
     TC-RG-02 &
-    Register &
-    Pengguna melakukan pendaftaran dengan data tidak lengkap &
+    Registrasi dengan data tidak lengkap &
+    Sistem menampilkan pesan validasi bahwa seluruh data registrasi wajib diisi dan proses pendaftaran tidak dilanjutkan. &
     Sistem menampilkan pesan validasi bahwa seluruh data registrasi wajib diisi dan proses pendaftaran tidak dilanjutkan. &
     Berhasil \\
     \hline
 
     TC-RG-03 &
-    Register &
-    Pengguna melakukan pendaftaran dengan format data tidak sesuai &
-    Sistem menampilkan pesan kesalahan terkait format data yang tidak valid dan meminta pengguna memperbaiki input. &
+    Registrasi dengan username yang sudah terdaftar &
+    Sistem menampilkan pesan bahwa akun dengan username tersebut sudah terdaftar dan proses pendaftaran dibatalkan. &
+    Sistem menampilkan pesan bahwa akun dengan username tersebut sudah terdaftar dan proses pendaftaran dibatalkan. &
     Berhasil \\
     \hline
 
     TC-RG-04 &
-    Register &
-    Pengguna mendaftarkan akun dengan email yang sudah terdaftar &
-    Sistem menampilkan pesan bahwa akun dengan email tersebut sudah terdaftar dan proses pendaftaran dibatalkan. &
-    Berhasil \\
-    \hline
-
-    TC-RG-05 &
-    Register &
-    Pengguna mengirimkan ulang data registrasi setelah terjadi kesalahan &
+    Registrasi ulang setelah kesalahan sebelumnya &
+    Sistem menerima data registrasi yang valid dan proses pendaftaran berhasil diselesaikan. &
     Sistem menerima data registrasi yang valid dan proses pendaftaran berhasil diselesaikan. &
     Berhasil \\
     \hline
@@ -356,15 +380,21 @@ Berikut adalah hasil pengujian yang dilakukan pada sistem:
     \end{longtable}
 
     \item Dashboard
-    
-    \begin{longtable}{|c|p{2.5cm}|p{4cm}|p{4.5cm}|c|}
+
+    \begin{longtable}{|
+    >{\centering\arraybackslash}p{1.5cm} |
+    p{3cm} |
+    p{3.5cm} |
+    p{4cm} |
+    >{\centering\arraybackslash}p{2cm} |
+    }
     \caption{Hasil Pengujian Fitur Dashboard}
     \label{tab:hasil-pengujian-dashboard} \\
 
     \hline
     \textbf{ID} &
-    \textbf{Fitur} &
     \textbf{Skenario Pengujian} &
+    \textbf{Expected Result} &
     \textbf{Hasil Aktual} &
     \textbf{Status} \\
     \hline
@@ -372,8 +402,8 @@ Berikut adalah hasil pengujian yang dilakukan pada sistem:
 
     \hline
     \textbf{ID} &
-    \textbf{Fitur} &
     \textbf{Skenario Pengujian} &
+    \textbf{Expected Result} &
     \textbf{Hasil Aktual} &
     \textbf{Status} \\
     \hline
@@ -385,53 +415,60 @@ Berikut adalah hasil pengujian yang dilakukan pada sistem:
     \endlastfoot
 
     TC-DB-01 &
-    Dashboard &
-    Pengguna membuka halaman dashboard setelah login &
+    Membuka halaman dashboard setelah login &
+    Sistem menampilkan ringkasan data dan visualisasi utama dashboard sesuai data yang tersedia. &
     Sistem berhasil menampilkan ringkasan data dan visualisasi utama dashboard sesuai data yang tersedia. &
     Berhasil \\
     \hline
 
     TC-DB-02 &
-    Dashboard &
-    Pengguna membuka dashboard saat data belum tersedia &
+    Membuka dashboard saat data belum tersedia &
     Sistem menampilkan indikator pemuatan dan informasi status tanpa menimbulkan kesalahan tampilan. &
-    Berhasil \\
+    Sistem menampilkan indikator pemuatan dan informasi status tanpa menimbulkan kesalahan tampilan. &
+    Gagal \\
     \hline
 
     TC-DB-03 &
-    Dashboard &
-    Pengguna melakukan navigasi ke menu lain dan kembali ke dashboard &
+    Navigasi ke menu lain dan kembali ke dashboard &
+    Data dashboard tetap ditampilkan secara konsisten tanpa kehilangan atau perubahan data. &
     Data dashboard tetap ditampilkan secara konsisten tanpa kehilangan atau perubahan data. &
     Berhasil \\
     \hline
 
     TC-DB-04 &
-    Dashboard &
     Pembaruan data dashboard dari server &
+    Sistem memperbarui tampilan dashboard sesuai dengan data terbaru yang diterima. &
     Sistem memperbarui tampilan dashboard sesuai dengan data terbaru yang diterima. &
     Berhasil \\
     \hline
 
     TC-DB-05 &
-    Dashboard &
-    Beberapa komponen menggunakan sumber data yang sama &
-    Seluruh komponen dashboard menampilkan data yang konsisten karena mengacu pada satu sumber data yang dipercaya. &
+    Konsistensi data antar komponen dashboard &
+    Seluruh komponen dashboard menampilkan data yang konsisten karena mengacu pada satu sumber data. &
+    Seluruh komponen dashboard menampilkan data yang konsisten karena mengacu pada satu sumber data. &
     Berhasil \\
     \hline
 
     \end{longtable}
 
 
+
     \item Sentiment
-    
-    \begin{longtable}{|c|p{2.5cm}|p{4cm}|p{4.5cm}|c|}
+
+    \begin{longtable}{|
+    >{\centering\arraybackslash}p{1.5cm} |
+    p{3cm} |
+    p{3.5cm} |
+    p{4cm} |
+    >{\centering\arraybackslash}p{2cm} |
+    }
     \caption{Hasil Pengujian Halaman Dashboard Sentiment}
     \label{tab:hasil-pengujian-sentiment} \\
 
     \hline
     \textbf{ID} &
-    \textbf{Fitur} &
     \textbf{Skenario Pengujian} &
+    \textbf{Expected Result} &
     \textbf{Hasil Aktual} &
     \textbf{Status} \\
     \hline
@@ -439,8 +476,8 @@ Berikut adalah hasil pengujian yang dilakukan pada sistem:
 
     \hline
     \textbf{ID} &
-    \textbf{Fitur} &
     \textbf{Skenario Pengujian} &
+    \textbf{Expected Result} &
     \textbf{Hasil Aktual} &
     \textbf{Status} \\
     \hline
@@ -452,54 +489,59 @@ Berikut adalah hasil pengujian yang dilakukan pada sistem:
     \endlastfoot
 
     TC-ST-01 &
-    Dashboard Sentiment &
-    Pengguna membuka halaman dashboard sentiment &
+    Membuka halaman dashboard sentiment &
+    Sistem menampilkan visualisasi dan ringkasan hasil analisis sentimen sesuai dengan data yang tersedia. &
     Sistem berhasil menampilkan visualisasi dan ringkasan hasil analisis sentimen sesuai dengan data yang tersedia. &
     Berhasil \\
     \hline
 
     TC-ST-02 &
-    Dashboard Sentiment &
-    Pengguna membuka halaman sentiment saat data belum tersedia &
+    Membuka dashboard sentiment saat data belum tersedia &
+    Sistem menampilkan indikator pemuatan atau pesan informasi tanpa menimbulkan kesalahan tampilan. &
     Sistem menampilkan indikator pemuatan atau pesan informasi tanpa menimbulkan kesalahan tampilan. &
     Berhasil \\
     \hline
 
     TC-ST-03 &
-    Dashboard Sentiment &
     Pembaruan data sentimen dari server &
+    Sistem memperbarui visualisasi dan ringkasan sentimen sesuai dengan data sentimen terbaru. &
     Sistem memperbarui visualisasi dan ringkasan sentimen sesuai dengan data sentimen terbaru. &
     Berhasil \\
     \hline
 
     TC-ST-04 &
-    Dashboard Sentiment &
-    Navigasi ke halaman lain dan kembali ke dashboard sentiment &
+    Navigasi keluar dan kembali ke dashboard sentiment &
+    Data sentimen tetap ditampilkan secara konsisten tanpa kehilangan atau perubahan data. &
     Data sentimen tetap ditampilkan secara konsisten tanpa kehilangan atau perubahan data. &
     Berhasil \\
     \hline
 
     TC-ST-05 &
-    Dashboard Sentiment &
-    Beberapa komponen menampilkan data sentimen yang sama &
-    Seluruh komponen visualisasi menampilkan data sentimen yang konsisten karena mengacu pada satu sumber data yang dipercaya. &
+    Konsistensi data sentimen antar komponen &
+    Seluruh komponen visualisasi menampilkan data sentimen yang konsisten karena mengacu pada satu sumber data. &
+    Seluruh komponen visualisasi menampilkan data sentimen yang konsisten karena mengacu pada satu sumber data. &
     Berhasil \\
     \hline
 
     \end{longtable}
 
 
+    \item Recommendation Content
 
-    \item Recomendation Content
-    
-    \begin{longtable}{|c|p{2.5cm}|p{4cm}|p{4.5cm}|c|}
+    \begin{longtable}{|
+    >{\centering\arraybackslash}p{1.5cm} |
+    p{3cm} |
+    p{3.5cm} |
+    p{4cm} |
+    >{\centering\arraybackslash}p{2cm} |
+    }
     \caption{Hasil Pengujian Halaman Dashboard Rekomendasi Konten}
     \label{tab:hasil-pengujian-recommendation} \\
 
     \hline
     \textbf{ID} &
-    \textbf{Fitur} &
     \textbf{Skenario Pengujian} &
+    \textbf{Expected Result} &
     \textbf{Hasil Aktual} &
     \textbf{Status} \\
     \hline
@@ -507,8 +549,8 @@ Berikut adalah hasil pengujian yang dilakukan pada sistem:
 
     \hline
     \textbf{ID} &
-    \textbf{Fitur} &
     \textbf{Skenario Pengujian} &
+    \textbf{Expected Result} &
     \textbf{Hasil Aktual} &
     \textbf{Status} \\
     \hline
@@ -520,36 +562,36 @@ Berikut adalah hasil pengujian yang dilakukan pada sistem:
     \endlastfoot
 
     TC-RC-01 &
-    Dashboard Rekomendasi &
-    Pengguna membuka halaman dashboard rekomendasi konten &
+    Membuka halaman dashboard rekomendasi konten &
+    Sistem menampilkan daftar rekomendasi konten berdasarkan data analisis sentimen yang tersedia. &
     Sistem berhasil menampilkan daftar rekomendasi konten berdasarkan data analisis sentimen yang tersedia. &
     Berhasil \\
     \hline
 
     TC-RC-02 &
-    Dashboard Rekomendasi &
-    Pengguna membuka halaman rekomendasi saat data belum tersedia &
+    Membuka halaman rekomendasi saat data belum tersedia &
+    Sistem menampilkan indikator pemuatan atau pesan informasi tanpa menimbulkan kesalahan tampilan. &
     Sistem menampilkan indikator pemuatan atau pesan informasi tanpa menimbulkan kesalahan tampilan. &
     Berhasil \\
     \hline
 
     TC-RC-03 &
-    Dashboard Rekomendasi &
     Pembaruan data rekomendasi dari server &
+    Sistem memperbarui daftar rekomendasi sesuai dengan data rekomendasi terbaru yang diterima. &
     Sistem memperbarui daftar rekomendasi sesuai dengan data rekomendasi terbaru yang diterima. &
     Berhasil \\
     \hline
 
     TC-RC-04 &
-    Dashboard Rekomendasi &
-    Navigasi ke halaman lain dan kembali ke dashboard rekomendasi &
+    Navigasi keluar dan kembali ke dashboard rekomendasi &
+    Data rekomendasi tetap ditampilkan secara konsisten tanpa kehilangan atau perubahan data. &
     Data rekomendasi tetap ditampilkan secara konsisten tanpa kehilangan atau perubahan data. &
     Berhasil \\
     \hline
 
     TC-RC-05 &
-    Dashboard Rekomendasi &
     Konsistensi rekomendasi dengan data sentimen &
+    Rekomendasi konten menyesuaikan perubahan data sentimen yang digunakan sebagai dasar penyusunan rekomendasi. &
     Rekomendasi konten menyesuaikan perubahan data sentimen yang digunakan sebagai dasar penyusunan rekomendasi. &
     Berhasil \\
     \hline
@@ -557,16 +599,23 @@ Berikut adalah hasil pengujian yang dilakukan pada sistem:
     \end{longtable}
 
 
+
     \item Scraper
-    
-    \begin{longtable}{|c|p{2.5cm}|p{4cm}|p{4.5cm}|c|}
+
+    \begin{longtable}{|
+    >{\centering\arraybackslash}p{1.5cm} |
+    p{3cm} |
+    p{3.5cm} |
+    p{4cm} |
+    >{\centering\arraybackslash}p{2cm} |
+    }
     \caption{Hasil Pengujian Halaman Data Scraper}
     \label{tab:hasil-pengujian-scraper} \\
 
     \hline
     \textbf{ID} &
-    \textbf{Fitur} &
     \textbf{Skenario Pengujian} &
+    \textbf{Expected Result} &
     \textbf{Hasil Aktual} &
     \textbf{Status} \\
     \hline
@@ -574,8 +623,8 @@ Berikut adalah hasil pengujian yang dilakukan pada sistem:
 
     \hline
     \textbf{ID} &
-    \textbf{Fitur} &
     \textbf{Skenario Pengujian} &
+    \textbf{Expected Result} &
     \textbf{Hasil Aktual} &
     \textbf{Status} \\
     \hline
@@ -587,30 +636,162 @@ Berikut adalah hasil pengujian yang dilakukan pada sistem:
     \endlastfoot
 
     TC-SC-01 &
-    Data Scraper &
-    Pengguna membuka halaman data scraper &
+    Membuka halaman data scraper &
+    Sistem menampilkan daftar data hasil scraping yang diperoleh dari server. &
     Sistem berhasil menampilkan daftar data hasil scraping yang diperoleh dari server. &
     Berhasil \\
     \hline
 
     TC-SC-02 &
-    Data Scraper &
-    Pengguna membuka halaman scraper saat data belum tersedia &
+    Membuka halaman scraper saat data belum tersedia &
+    Sistem menampilkan indikator pemuatan atau pesan informasi tanpa menimbulkan kesalahan tampilan. &
     Sistem menampilkan indikator pemuatan atau pesan informasi tanpa menimbulkan kesalahan tampilan. &
     Berhasil \\
     \hline
 
     TC-SC-03 &
-    Data Scraper &
-    Pengguna memilih data untuk dianalisis &
+    Memilih data untuk dianalisis &
+    Sistem menandai dataset yang dipilih dan data tersebut siap digunakan pada proses analisis. &
     Sistem berhasil menandai dataset yang dipilih dan data tersebut siap digunakan pada proses analisis. &
     Berhasil \\
     \hline
 
     TC-SC-04 &
-    Data Scraper &
-    Navigasi ke halaman lain dan kembali ke data scraper &
+    Navigasi keluar dan kembali ke halaman data scraper &
     Data hasil scraping tetap ditampilkan secara konsisten tanpa kehilangan atau perubahan data. &
+    Data hasil scraping tetap ditampilkan secara konsisten tanpa kehilangan atau perubahan data. &
+    Berhasil \\
+    \hline
+
+    \end{longtable}
+
+
+    \item Chatbot
+
+    \begin{longtable}{|
+    >{\centering\arraybackslash}p{1.5cm} |
+    p{3cm} |
+    p{3.5cm} |
+    p{4cm} |
+    >{\centering\arraybackslash}p{2cm} |
+    }
+    \caption{Hasil Pengujian Fitur Chatbot}
+    \label{tab:hasil-pengujian-chatbot} \\
+
+    \hline
+    \textbf{ID} &
+    \textbf{Skenario Pengujian} &
+    \textbf{Expected Result} &
+    \textbf{Hasil Aktual} &
+    \textbf{Status} \\
+    \hline
+    \endfirsthead
+
+    \hline
+    \textbf{ID} &
+    \textbf{Skenario Pengujian} &
+    \textbf{Expected Result} &
+    \textbf{Hasil Aktual} &
+    \textbf{Status} \\
+    \hline
+    \endhead
+
+    \endfoot
+
+    \hline
+    \endlastfoot
+
+    TC-CB-01 &
+    Membuka antarmuka chatbot pada dashboard &
+    Sistem menampilkan antarmuka chatbot dan siap menerima input pengguna. &
+    Sistem menampilkan antarmuka chatbot pada dashboard dan siap menerima input pengguna. &
+    Berhasil \\
+    \hline
+
+    TC-CB-02 &
+    Mengirimkan pertanyaan melalui chatbot &
+    Sistem menampilkan respons chatbot sesuai dengan pertanyaan yang diberikan. &
+    Sistem menampilkan respons chatbot sesuai dengan pertanyaan teks yang dikirimkan. &
+    Berhasil \\
+    \hline
+
+    TC-CB-03 &
+    Mengirimkan input kosong pada chatbot &
+    Sistem menampilkan pesan validasi atau informasi bahwa input tidak valid. &
+    Sistem menampilkan pesan validasi ketika pengguna mengirimkan input kosong. &
+    Berhasil \\
+    \hline
+
+    TC-CB-04 &
+    Mengirimkan pertanyaan di luar konteks sistem &
+    Sistem menampilkan respons atau pesan informasi yang sesuai. &
+    Sistem menampilkan pesan informasi yang sesuai untuk pertanyaan di luar konteks sistem. &
+    Berhasil \\
+    \hline
+
+    TC-CB-05 &
+    Interaksi berulang dengan chatbot &
+    Sistem mampu menampilkan respons secara konsisten pada setiap interaksi. &
+    Sistem menampilkan respons chatbot secara konsisten pada setiap interaksi berulang. &
+    Berhasil \\
+    \hline
+
+    \end{longtable}
+
+    
+    \item Logout
+
+    \begin{longtable}{|
+    >{\centering\arraybackslash}p{1.5cm} |
+    p{3cm} |
+    p{3.5cm} |
+    p{4cm} |
+    >{\centering\arraybackslash}p{2cm} |
+    }
+    \caption{Hasil Pengujian Fitur Logout}
+    \label{tab:hasil-pengujian-logout} \\
+
+    \hline
+    \textbf{ID} &
+    \textbf{Skenario Pengujian} &
+    \textbf{Expected Result} &
+    \textbf{Hasil Aktual} &
+    \textbf{Status} \\
+    \hline
+    \endfirsthead
+
+    \hline
+    \textbf{ID} &
+    \textbf{Skenario Pengujian} &
+    \textbf{Expected Result} &
+    \textbf{Hasil Aktual} &
+    \textbf{Status} \\
+    \hline
+    \endhead
+
+    \endfoot
+
+    \hline
+    \endlastfoot
+
+    TC-LO-01 &
+    Pengguna melakukan logout dari sistem &
+    Sistem mengakhiri sesi pengguna dan mengarahkan pengguna ke halaman login. &
+    Sistem berhasil mengakhiri sesi pengguna dan mengarahkan pengguna ke halaman login. &
+    Berhasil \\
+    \hline
+
+    TC-LO-02 &
+    Pengguna mencoba mengakses halaman dashboard setelah logout &
+    Sistem menolak akses dashboard dan mengarahkan pengguna kembali ke halaman login. &
+    Sistem menolak akses dashboard dan mengarahkan pengguna kembali ke halaman login. &
+    Berhasil \\
+    \hline
+
+    TC-LO-03 &
+    Pengguna menutup sesi dan membuka ulang aplikasi &
+    Sistem meminta pengguna untuk melakukan login kembali sebelum mengakses fitur sistem. &
+    Sistem meminta pengguna untuk melakukan login kembali sebelum mengakses fitur sistem. &
     Berhasil \\
     \hline
 
@@ -618,6 +799,10 @@ Berikut adalah hasil pengujian yang dilakukan pada sistem:
 
       
   \end{packed_enum}
+
+  Berdasarkan pengujian fungsional yang telah dilakukan terhadap seluruh fitur utama sistem, diperoleh hasil bahwa dari total 37 skenario pengujian yang dirancang dan dilaksanakan, sebanyak 36 skenario pengujian dinyatakan berhasil, sedangkan 1 (satu) skenario pengujian dinyatakan gagal. Pengujian mencakup fitur autentikasi (login, register, dan logout), dashboard utama, dashboard analisis sentimen, rekomendasi konten, data scraper, serta chatbot. Seluruh fitur diuji menggunakan pendekatan \textit{black-box testing} dengan fokus pada kesesuaian perilaku sistem terhadap skenario dan \textit{expected result} yang telah dirancang. Hasil tersebut menunjukkan bahwa mayoritas fungsi sistem telah berjalan secara fungsional dan stabil sesuai dengan kebutuhan yang dirumuskan.
+
+  Satu skenario pengujian yang dinyatakan gagal terdapat pada TC-DB-02 (Membuka dashboard saat data belum tersedia). Pada skenario ini, expected result menetapkan bahwa sistem secara langsung menampilkan indikator pemuatan (loading indicator) setelah pengguna berhasil login dan mengakses halaman dashboard. Namun, hasil pengujian menunjukkan bahwa sistem terlebih dahulu menampilkan state data kosong dalam durasi singkat sebelum indikator pemuatan ditampilkan. Kondisi ini disebabkan oleh adanya jeda transisi state antara proses inisialisasi halaman dashboard dan proses pengambilan data dari server, sehingga indikator pemuatan tidak langsung muncul pada saat halaman pertama kali dirender. Meskipun tidak menimbulkan kesalahan fungsional maupun kegagalan sistem secara keseluruhan, perilaku tersebut dinilai tidak sepenuhnya sesuai dengan \textit{expected result}, sehingga skenario pengujian ini dikategorikan sebagai gagal.
 
 
 \section{Pembahasan}

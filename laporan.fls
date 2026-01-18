@@ -690,6 +690,13 @@ INPUT .\gambar\recomendation.jpeg
 INPUT .\gambar\recomendation.jpeg
 INPUT .\gambar\recomendation.jpeg
 INPUT .\gambar\recomendation.jpeg
+INPUT .\gambar\chatbot.jpeg
+INPUT .\gambar\chatbot.jpeg
+INPUT .\gambar\chatbot.jpeg
+INPUT .\gambar\chatbot.jpeg
+INPUT .\gambar\chatbot.jpeg
+INPUT .\gambar\chatbot.jpeg
+INPUT .\gambar\chatbot.jpeg
 INPUT .\b4-bab4.tex
 INPUT .\b4-bab4.tex
 OUTPUT b4-bab4.aux
@@ -745,6 +752,13 @@ INPUT .\gambar\ui-scraper-page.png
 INPUT .\gambar\ui-scraper-page.png
 INPUT .\gambar\ui-scraper-page.png
 INPUT .\gambar\ui-scraper-page.png
+INPUT .\gambar\ui-chatbot-page.png
+INPUT .\gambar\ui-chatbot-page.png
+INPUT .\gambar\ui-chatbot-page.png
+INPUT .\gambar\ui-chatbot-page.png
+INPUT .\gambar\ui-chatbot-page.png
+INPUT .\gambar\ui-chatbot-page.png
+INPUT .\gambar\ui-chatbot-page.png
 INPUT .\b5-bab5.tex
 INPUT .\b5-bab5.tex
 OUTPUT b5-bab5.aux
