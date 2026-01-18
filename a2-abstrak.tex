@@ -3,17 +3,38 @@
 %==================================================================
 
 %% DILARANG EDIT BAGIAN INI
+%==================================================================
+% Ini adalah abstrak dalam bahasa indonesia 
+%==================================================================
+
+%% DILARANG EDIT BAGIAN INI
 \clearpage
 \phantomsection
 \addcontentsline{toc}{chapter}{ABSTRAK}
 \begin{center}
-    \textbf{\large{\judulid}}\\[0.5cm]
-    Oleh\\
-    \penulis\\
-    NIM: \nim\\[2em]
-    \textbf{ABSTRAK}\\[0.5cm]
+    \textbf{\large{\judulid}}
 \end{center}
-%% DILARANG EDIT BAGIAN INI
+
+\vspace{0.5cm}
+
+\noindent
+\begin{tabular}{@{}ll}
+    Nama       & : \penulis \\
+    NIM        & : \nim \\
+    Pembimbing & : \begin{tabular}[t]{@{}l@{}}
+                      $\bullet$ \pembimbingsatu \\
+                      $\bullet$ \pembimbingdua
+                   \end{tabular}
+\end{tabular}
+
+\vspace{1cm}
+
+\begin{center}
+    \textbf{ABSTRAK}
+\end{center}
+
+\vspace{0.5cm}
+
 Di era digital, pelaku UMKM semakin bergantung pada media sosial seperti Instagram untuk memahami persepsi publik melalui data komentar pengguna yang bersifat tidak terstruktur dan dinamis. Data tersebut umumnya diolah menggunakan \textit{Sentiment Analysis} berbasis \textit{Natural Language Processing} (NLP) dan disajikan dalam bentuk dashboard analitik berbasis web untuk mendukung pemantauan dan pengambilan keputusan. Namun, pengembangan dashboard menghadapi tantangan pada pengelolaan alur data frontend, seperti permintaan API berulang dan inkonsistensi data antar-komponen. Oleh karena itu, penelitian ini bertujuan menerapkan arsitektur \textit{Client Data Layer} menggunakan pustaka TanStack Query guna menciptakan pengelolaan data frontend yang lebih terstruktur serta menganalisis perilaku sistem terkait konsistensi data dan efisiensi pengambilan data melalui mekanisme \textit{caching}.
 
 Penelitian ini dilaksanakan menggunakan metode Fountain yang bersifat iteratif dan fleksibel, memungkinkan tahapan analisis, perancangan, implementasi, dan pengujian dilakukan secara tumpang tindih. Sistem dikembangkan sebagai aplikasi frontend berbasis React dengan TanStack Query sebagai solusi \textit{server state management} untuk mengelola proses pengambilan, penyimpanan sementara, dan sinkronisasi data dari REST API backend. Pengujian sistem dilakukan menggunakan pendekatan \textit{black-box testing} berbasis skenario untuk mengevaluasi perilaku pengelolaan data frontend, meliputi konsistensi data antar-komponen, efektivitas mekanisme \textit{caching}, serta pengendalian pemanggilan API pada berbagai skenario penggunaan.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  19 JAN 2026 00:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  19 JAN 2026 01:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1218,13 +1218,13 @@ Bab 2.
 
 
 ] [6] [7] [8] [9]
-<gambar/client-data-layer-paradigm.png, id=648, 2770.35pt x 2720.1625pt>
+<gambar/client-data-layer-paradigm.png, id=649, 2770.35pt x 2720.1625pt>
 File: gambar/client-data-layer-paradigm.png Graphic file (type png)
 <use gambar/client-data-layer-paradigm.png>
 Package pdftex.def Info: gambar/client-data-layer-paradigm.png  used on input line 79.
 (pdftex.def)             Requested size: 364.19667pt x 357.57664pt.
  [10 <./gambar/client-data-layer-paradigm.png>] [11] [12] [13] [14] [15]
-<gambar/fountain-sdlc.jpg, id=695, 1024.82875pt x 2569.6pt>
+<gambar/fountain-sdlc.jpg, id=696, 1024.82875pt x 2569.6pt>
 File: gambar/fountain-sdlc.jpg Graphic file (type jpg)
 <use gambar/fountain-sdlc.jpg>
 Package pdftex.def Info: gambar/fountain-sdlc.jpg  used on input line 155.
@@ -1244,77 +1244,77 @@ b3-bab3.tex:89: ignored error: Infinite glue shrinkage found in box being split 
 
 
 ] [24] [25] [26]
-<gambar/usecase-TA.png, id=761, 573.14125pt x 634.37pt>
+<gambar/usecase-TA.png, id=762, 573.14125pt x 634.37pt>
 File: gambar/usecase-TA.png Graphic file (type png)
 <use gambar/usecase-TA.png>
 Package pdftex.def Info: gambar/usecase-TA.png  used on input line 123.
 (pdftex.def)             Requested size: 409.71692pt x 453.49367pt.
  [27] [28 <./gambar/usecase-TA.png>]
-<gambar/erd.png, id=773, 1032.85875pt x 1022.82124pt>
+<gambar/erd.png, id=774, 1032.85875pt x 1022.82124pt>
 File: gambar/erd.png Graphic file (type png)
 <use gambar/erd.png>
 Package pdftex.def Info: gambar/erd.png  used on input line 139.
 (pdftex.def)             Requested size: 409.71692pt x 405.73453pt.
  [29] [30 <./gambar/erd.png>]
-<gambar/diagram-sistem-keseluruhan.png, id=785, 4101.3225pt x 1508.63625pt>
+<gambar/diagram-sistem-keseluruhan.png, id=786, 4101.3225pt x 1508.63625pt>
 File: gambar/diagram-sistem-keseluruhan.png Graphic file (type png)
 <use gambar/diagram-sistem-keseluruhan.png>
 Package pdftex.def Info: gambar/diagram-sistem-keseluruhan.png  used on input line 160.
 (pdftex.def)             Requested size: 364.19667pt x 133.95284pt.
  [31 <./gambar/diagram-sistem-keseluruhan.png>]
-<gambar/diagram-architecture.png, id=793, 490.33188pt x 748.29562pt>
+<gambar/diagram-architecture.png, id=794, 490.33188pt x 748.29562pt>
 File: gambar/diagram-architecture.png Graphic file (type png)
 <use gambar/diagram-architecture.png>
 Package pdftex.def Info: gambar/diagram-architecture.png  used on input line 177.
 (pdftex.def)             Requested size: 227.62206pt x 347.37155pt.
  [32] [33 <./gambar/diagram-architecture.png>] [34]
-<gambar/tanstack-works.jpg, id=813, 803.0pt x 451.6875pt>
+<gambar/tanstack-works.jpg, id=814, 803.0pt x 451.6875pt>
 File: gambar/tanstack-works.jpg Graphic file (type jpg)
 <use gambar/tanstack-works.jpg>
 Package pdftex.def Info: gambar/tanstack-works.jpg  used on input line 197.
 (pdftex.def)             Requested size: 227.62206pt x 128.03615pt.
  [35 <./gambar/tanstack-works.jpg (PNG copy)>]
-<gambar/landing-page.jpeg, id=820, 2055.68pt x 2055.68pt>
+<gambar/landing-page.jpeg, id=821, 2055.68pt x 2055.68pt>
 File: gambar/landing-page.jpeg Graphic file (type jpg)
 <use gambar/landing-page.jpeg>
 Package pdftex.def Info: gambar/landing-page.jpeg  used on input line 211.
 (pdftex.def)             Requested size: 409.71692pt x 409.7172pt.
  [36]
-<gambar/login.jpeg, id=827, 3035.34pt x 1300.86pt>
+<gambar/login.jpeg, id=828, 3035.34pt x 1300.86pt>
 File: gambar/login.jpeg Graphic file (type jpg)
 <use gambar/login.jpeg>
 Package pdftex.def Info: gambar/login.jpeg  used on input line 219.
 (pdftex.def)             Requested size: 409.71692pt x 175.58867pt.
  [37 <./gambar/landing-page.jpeg>]
-<gambar/register.jpeg, id=834, 3035.34pt x 1300.86pt>
+<gambar/register.jpeg, id=835, 3035.34pt x 1300.86pt>
 File: gambar/register.jpeg Graphic file (type jpg)
 <use gambar/register.jpeg>
 Package pdftex.def Info: gambar/register.jpeg  used on input line 226.
 (pdftex.def)             Requested size: 409.71692pt x 175.58867pt.
-<gambar/dashboard.jpeg, id=836, 2055.68pt x 2055.68pt>
+<gambar/dashboard.jpeg, id=837, 2055.68pt x 2055.68pt>
 File: gambar/dashboard.jpeg Graphic file (type jpg)
 <use gambar/dashboard.jpeg>
 Package pdftex.def Info: gambar/dashboard.jpeg  used on input line 233.
 (pdftex.def)             Requested size: 318.66948pt x 318.65848pt.
  [38 <./gambar/login.jpeg> <./gambar/register.jpeg>]
-<gambar/sentiment.png, id=842, 2344.76pt x 3495.0575pt>
+<gambar/sentiment.png, id=843, 2344.76pt x 3495.0575pt>
 File: gambar/sentiment.png Graphic file (type png)
 <use gambar/sentiment.png>
 Package pdftex.def Info: gambar/sentiment.png  used on input line 240.
 (pdftex.def)             Requested size: 318.66948pt x 474.9589pt.
  [39 <./gambar/dashboard.jpeg>]
-<gambar/scraper.png, id=848, 2248.4pt x 1040.88875pt>
+<gambar/scraper.png, id=849, 2248.4pt x 1040.88875pt>
 File: gambar/scraper.png Graphic file (type png)
 <use gambar/scraper.png>
 Package pdftex.def Info: gambar/scraper.png  used on input line 247.
 (pdftex.def)             Requested size: 318.66948pt x 147.51817pt.
  [40 <./gambar/sentiment.png>]
-<gambar/recomendation.jpeg, id=855, 2055.68pt x 2055.68pt>
+<gambar/recomendation.jpeg, id=856, 2055.68pt x 2055.68pt>
 File: gambar/recomendation.jpeg Graphic file (type jpg)
 <use gambar/recomendation.jpeg>
 Package pdftex.def Info: gambar/recomendation.jpeg  used on input line 254.
 (pdftex.def)             Requested size: 318.66948pt x 318.65848pt.
-<gambar/chatbot.jpeg, id=857, 1114.91531pt x 1541.76pt>
+<gambar/chatbot.jpeg, id=858, 1114.91531pt x 1541.76pt>
 File: gambar/chatbot.jpeg Graphic file (type jpg)
 <use gambar/chatbot.jpeg>
 Package pdftex.def Info: gambar/chatbot.jpeg  used on input line 261.
@@ -1354,46 +1354,46 @@ Bab 4.
 
 
 ] [58] [59]
-<gambar/ui-landing-page.png, id=1039, 1243.64626pt x 918.43124pt>
+<gambar/ui-landing-page.png, id=1040, 1243.64626pt x 918.43124pt>
 File: gambar/ui-landing-page.png Graphic file (type png)
 <use gambar/ui-landing-page.png>
 Package pdftex.def Info: gambar/ui-landing-page.png  used on input line 55.
 (pdftex.def)             Requested size: 409.71692pt x 302.57874pt.
-<gambar/ui-login-page.png, id=1041, 1243.64626pt x 576.1525pt>
+<gambar/ui-login-page.png, id=1042, 1243.64626pt x 576.1525pt>
 File: gambar/ui-login-page.png Graphic file (type png)
 <use gambar/ui-login-page.png>
 Package pdftex.def Info: gambar/ui-login-page.png  used on input line 67.
 (pdftex.def)             Requested size: 318.66948pt x 147.63344pt.
  [60 <./gambar/ui-landing-page.png>]
-<gambar/ui-register-page.png, id=1050, 1243.64626pt x 576.1525pt>
+<gambar/ui-register-page.png, id=1051, 1243.64626pt x 576.1525pt>
 File: gambar/ui-register-page.png Graphic file (type png)
 <use gambar/ui-register-page.png>
 Package pdftex.def Info: gambar/ui-register-page.png  used on input line 79.
 (pdftex.def)             Requested size: 318.66948pt x 147.63344pt.
-<gambar/ui-dashboard-page.png, id=1052, 2570.60374pt x 2283.53125pt>
+<gambar/ui-dashboard-page.png, id=1053, 2570.60374pt x 2283.53125pt>
 File: gambar/ui-dashboard-page.png Graphic file (type png)
 <use gambar/ui-dashboard-page.png>
 Package pdftex.def Info: gambar/ui-dashboard-page.png  used on input line 91.
 (pdftex.def)             Requested size: 318.66948pt x 283.07132pt.
  [61 <./gambar/ui-login-page.png> <./gambar/ui-register-page.png>]
-<gambar/ui-sentiment-page.png, id=1063, 1243.64626pt x 918.43124pt>
+<gambar/ui-sentiment-page.png, id=1064, 1243.64626pt x 918.43124pt>
 File: gambar/ui-sentiment-page.png Graphic file (type png)
 <use gambar/ui-sentiment-page.png>
 Package pdftex.def Info: gambar/ui-sentiment-page.png  used on input line 103.
 (pdftex.def)             Requested size: 318.66948pt x 235.33902pt.
  [62 <./gambar/ui-dashboard-page.png> <./gambar/ui-sentiment-page.png>]
-<gambar/ui-recommendation-content-page.png, id=1072, 2570.60374pt x 2766.335pt>
+<gambar/ui-recommendation-content-page.png, id=1073, 2570.60374pt x 2766.335pt>
 File: gambar/ui-recommendation-content-page.png Graphic file (type png)
 <use gambar/ui-recommendation-content-page.png>
 Package pdftex.def Info: gambar/ui-recommendation-content-page.png  used on input line 115.
 (pdftex.def)             Requested size: 318.66948pt x 342.92068pt.
-<gambar/ui-scraper-page.png, id=1074, 1243.64626pt x 576.1525pt>
+<gambar/ui-scraper-page.png, id=1075, 1243.64626pt x 576.1525pt>
 File: gambar/ui-scraper-page.png Graphic file (type png)
 <use gambar/ui-scraper-page.png>
 Package pdftex.def Info: gambar/ui-scraper-page.png  used on input line 127.
 (pdftex.def)             Requested size: 318.66948pt x 147.63344pt.
  [63 <./gambar/ui-recommendation-content-page.png>]
-<gambar/ui-chatbot-page.png, id=1083, 294.09875pt x 460.72125pt>
+<gambar/ui-chatbot-page.png, id=1084, 294.09875pt x 460.72125pt>
 File: gambar/ui-chatbot-page.png Graphic file (type png)
 <use gambar/ui-chatbot-page.png>
 Package pdftex.def Info: gambar/ui-chatbot-page.png  used on input line 138.
@@ -1407,19 +1407,19 @@ b4-bab4.tex:618: ignored error: Infinite glue shrinkage found in box being split
 b4-bab4.tex:688: ignored error: Infinite glue shrinkage found in box being split [74]
 b4-bab4.tex:764: ignored error: Infinite glue shrinkage found in box being split [75]
 b4-bab4.tex:826: ignored error: Infinite glue shrinkage found in box being split [76] [77]
-<gambar/folder-structure-features.png, id=1161, 130.4875pt x 106.89937pt>
+<gambar/folder-structure-features.png, id=1162, 130.4875pt x 106.89937pt>
 File: gambar/folder-structure-features.png Graphic file (type png)
 <use gambar/folder-structure-features.png>
 Package pdftex.def Info: gambar/folder-structure-features.png  used on input line 846.
 (pdftex.def)             Requested size: 182.09486pt x 149.18015pt.
  [78 <./gambar/folder-structure-features.png>]
-<gambar/implementasi-arsitektur-tanstackquery.png, id=1170, 789.95125pt x 974.13937pt>
+<gambar/implementasi-arsitektur-tanstackquery.png, id=1171, 789.95125pt x 974.13937pt>
 File: gambar/implementasi-arsitektur-tanstackquery.png Graphic file (type png)
 <use gambar/implementasi-arsitektur-tanstackquery.png>
 Package pdftex.def Info: gambar/implementasi-arsitektur-tanstackquery.png  used on input line 864.
 (pdftex.def)             Requested size: 318.66948pt x 392.96355pt.
  [79] [80 <./gambar/implementasi-arsitektur-tanstackquery.png>]
-<gambar/skema-mutation-tanstack-query.png, id=1182, 580.66937pt x 933.98938pt>
+<gambar/skema-mutation-tanstack-query.png, id=1183, 580.66937pt x 933.98938pt>
 File: gambar/skema-mutation-tanstack-query.png Graphic file (type png)
 <use gambar/skema-mutation-tanstack-query.png>
 Package pdftex.def Info: gambar/skema-mutation-tanstack-query.png  used on input line 877.
@@ -1477,17 +1477,17 @@ Package rerunfilecheck Info: File `laporan.out' has not changed.
 (rerunfilecheck)             Checksum: 7087F3F2C4E6D689CF0A0292B17350BC;11622.
  ) 
 Here is how much of TeX's memory you used:
- 40421 strings out of 467871
- 913323 string characters out of 5428444
+ 40423 strings out of 467871
+ 913336 string characters out of 5428444
  1415692 words of memory out of 5000000
  68145 multiletter control sequences out of 15000+600000
- 655052 words of font info for 85 fonts, out of 8000000 for 9000
+ 656165 words of font info for 87 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 93i,10n,97p,1099b,1280s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on laporan.pdf (117 pages, 7423558 bytes).
+ 93i,15n,97p,1099b,1280s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on laporan.pdf (117 pages, 7432393 bytes).
 PDF statistics:
- 1361 PDF objects out of 1440 (max. 8388607)
+ 1366 PDF objects out of 1440 (max. 8388607)
  408 named destinations out of 1000 (max. 500000)
  692 words of extra memory for PDF output out of 10000 (max. 10000000)
 

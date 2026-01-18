@@ -7,13 +7,28 @@
 \phantomsection
 \addcontentsline{toc}{chapter}{ABSTRACT}
 \begin{center}
-    \textbf{\large{\judulen}}\\[0.5cm]
-    by:\\
-    \penulis\\
-    NIM: \nim\\[2em]
-    \textbf{ABSTRACT}\\[0.5cm]
+    \textbf{\large{\judulen}}
 \end{center}
-%% DILARANG EDIT BAGIAN INI
+
+\vspace{0.5cm}
+
+\noindent
+\begin{tabular}{@{}ll}
+    Name       & : \penulis \\
+    NIM        & : \nim \\
+    Advisors   & : \begin{tabular}[t]{@{}l@{}}
+                      $\bullet$ \pembimbingsatu \\
+                      $\bullet$ \pembimbingdua
+                   \end{tabular}
+\end{tabular}
+
+\vspace{1cm}
+
+\begin{center}
+    \textbf{ABSTRACT}
+\end{center}
+
+\vspace{0.5cm}
 
 %% edit bagian ini
 In the digital era, Micro, Small, and Medium Enterprises (MSMEs) increasingly rely on social media platforms such as Instagram to understand public perception through unstructured and dynamic user comment data. These data are commonly processed using Natural Language Processing (NLP)-based sentiment analysis and presented through web-based analytical dashboards to support monitoring and decision-making. However, the development of such dashboards introduces challenges in frontend data flow management, including repeated API requests and data inconsistency across components. Therefore, this study aims to implement a Client Data Layer architecture using the TanStack Query library and to analyze frontend system behavior in terms of data consistency and data retrieval efficiency through caching mechanisms.
