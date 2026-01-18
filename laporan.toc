@@ -7,9 +7,9 @@
 \contentsline {chapter}{ABSTRACT}{xv}{section*.4}%
 \contentsline {chapter}{KATA PENGANTAR}{xvii}{section*.5}%
 \contentsline {chapter}{DAFTAR ISI}{xix}{section*.6}%
-\contentsline {chapter}{DAFTAR SINGKATAN}{xxi}{section*.7}%
-\contentsline {chapter}{DAFTAR GAMBAR}{xxii}{section*.9}%
-\contentsline {chapter}{DAFTAR TABEL}{xxiii}{section*.10}%
+\contentsline {chapter}{DAFTAR SINGKATAN}{xx}{section*.7}%
+\contentsline {chapter}{DAFTAR GAMBAR}{xxi}{section*.9}%
+\contentsline {chapter}{DAFTAR TABEL}{xxii}{section*.10}%
 \contentsline {chapter}{\numberline {1}PENDAHULUAN}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Latar Belakang}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Rumusan Masalah}{2}{section.1.2}%
