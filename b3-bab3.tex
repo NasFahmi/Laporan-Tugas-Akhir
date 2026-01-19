@@ -115,12 +115,12 @@ Tahapan penerapan metode fountain dalam penelitian ini terdiri atas beberapa tah
   Pada penelitian ini, tahap \textit{design} mencakup beberapa aspek utama, yaitu \textit{use case diagram}, \textit{entity relationship diagram}, alur sistem keseluruhan, perancangan arsitektur frontend, perancangan \textit{Client Data Layer} sebagai mekanisme pengelolaan data dari API, serta perancangan antarmuka pengguna dalam bentuk \textit{wireframe}. Setiap aspek perancangan memiliki peran yang saling berkaitan dalam membangun sistem frontend yang bersifat \textit{data-driven}.
   \begin{packed_enum}
 
-
+    \vspace{5cm}
     \item Use Case Diagram \hfill \\
     
       \begin{figure}[H]
         \centering
-        \includegraphics[width=0.9\textwidth]{gambar/usecase-TA.png}
+        \includegraphics[width=0.7\textwidth]{gambar/usecase-TA.png}
         \caption{Use Case Diagram}
         \label{fig:use-case}
       \end{figure}
@@ -132,6 +132,7 @@ Tahapan penerapan metode fountain dalam penelitian ini terdiri atas beberapa tah
 
       Selain itu, sistem juga menyediakan fitur Melihat Data Scrapper yang memungkinkan pengguna melihat data hasil proses pengambilan data dari media sosial. Dari use case ini, terdapat relasi extend ke Mengunduh Data, yang menunjukkan bahwa proses pengunduhan bersifat opsional dan hanya dilakukan apabila pengguna membutuhkan data tersebut dalam bentuk berkas. Di sisi lain, pengguna juga dapat mengakses fitur Melihat Rekomendasi Konten, yang disediakan sebagai bagian dari layanan sistem untuk memberikan rekomendasi berdasarkan hasil analisis sentimen. Keseluruhan relasi use case ini menggambarkan alur penggunaan sistem secara terstruktur, mulai dari akses awal hingga pemanfaatan fitur analisis dan penyajian informasi sentimen.
     
+    \vspace{15cm}
     \item Entity Relationship Diagram \hfill \\
      
       \begin{figure}[H]
@@ -205,10 +206,10 @@ Tahapan penerapan metode fountain dalam penelitian ini terdiri atas beberapa tah
       Mekanisme ini memungkinkan pengelolaan data yang lebih efisien, mengurangi jumlah permintaan API yang tidak perlu, serta menjaga konsistensi data antar-komponen pada frontend dashboard analisis sentimen.
     \item Perancangan Antarmuka \hfill \\
       Rancangan antarmuka dilakukan sebagai tindak lanjut dari struktur arsitektur yang telah ditetapkan, dengan tujuan memastikan bahwa data hasil analisis sentimen yang dikelola oleh sistem dapat disajikan kepada pengguna secara informatif, mudah dipahami, dan konsisten. Antarmuka pengguna dirancang untuk merepresentasikan kebutuhan fungsional sistem dalam bentuk visual, sekaligus menjadi media interaksi antara pengguna dan sistem frontend dashboard analisis sentimen.
-      Sebagai bentuk konkret dari perancangan antarmuka pengguna, dilakukan penyusunan wireframe yang menggambarkan tata letak komponen, alur navigasi, serta penyajian informasi pada setiap halaman utama sistem. Wireframe digunakan sebagai rancangan awal antarmuka sebelum tahap implementasi, sehingga pengembangan sistem dapat dilakukan secara terstruktur dan selaras dengan kebutuhan pengguna yang telah dianalisis pada tahap sebelumnya.
+      Sebagai bentuk konkret dari perancangan antarmuka pengguna, dilakukan penyusunan wireframe yang menggambarkan tata letak komponen, alur navigasi, serta penyajian informasi pada setiap halaman utama sistem.
        \begin{figure}[H]
         \centering
-        \includegraphics[width=0.9\textwidth]{gambar/landing-page.jpeg}
+        \includegraphics[width=0.6\textwidth]{gambar/landing-page.jpeg}
         \caption{Wireframe Landing Page}
         \label{fig:landing-page}
       \end{figure}
@@ -1078,15 +1079,15 @@ Tahapan penerapan metode fountain dalam penelitian ini terdiri atas beberapa tah
       \end{longtable}
 
   \end{packed_enum}
-\subsection{\textit{Operation}}
-  Tahap \textit{operation} merupakan tahapan di mana sistem frontend dashboard analisis sentimen dijalankan dan digunakan dalam lingkungan operasional terbatas untuk memastikan seluruh fungsi berjalan sesuai dengan tujuan perancangan. Pada tahap ini, sistem digunakan untuk menampilkan data hasil analisis sentimen yang diperoleh dari backend, sehingga dapat diamati kestabilan aplikasi, konsistensi penyajian data, serta respons antarmuka pengguna.
-  Tahap operation bertujuan untuk memastikan bahwa aplikasi frontend yang telah dikembangkan dapat digunakan secara fungsional sebagai dashboard analitik, serta mendukung aktivitas pemantauan informasi sentimen oleh pengguna tanpa kendala utama.Tahapan ini dapat menggunakan layanan shared hosting maupun \textit{Virtual Private Server (VPS)} yang telah dikonfigurasi untuk menjalankan dan mempublikasikan website. 
-\subsection{\textit{Maintenance}}
-  Tahap \textit{maintenance} dilakukan untuk menjaga kinerja dan stabilitas sistem setelah digunakan pada tahap operation. Aktivitas pemeliharaan pada tahap ini mencakup perbaikan kesalahan minor yang ditemukan selama penggunaan sistem, penyesuaian teknis terhadap perubahan kebutuhan atau data, serta penyempurnaan mekanisme pengelolaan data frontend agar tetap berjalan secara optimal.
-  Tahap maintenance juga memungkinkan dilakukannya penyesuaian kecil pada struktur komponen atau mekanisme sinkronisasi data tanpa mengubah arsitektur utama sistem, sehingga sistem tetap selaras dengan tujuan penelitian dan dapat digunakan secara berkelanjutan selama periode penelitian.
-\subsection{\textit{Evolution}}
-  Tahap \textit{evolution} dalam metode Fountain merupakan fase pengembangan berkelanjutan yang berfokus pada penyempurnaan sistem, penambahan fitur baru, dan adaptasi berdasarkan umpan balik pengguna serta perubahan kebutuhan bisnis. Pada penelitian ini, tahap ini melibatkan proses iteratif untuk meningkatkan \textit{dashboard sentiment analysis}, dengan evaluasi kinerja arsitektur Client Data Layer berbasis Tanstack Query.
+% \subsection{\textit{Operation}}
+%   Tahap \textit{operation} merupakan tahapan di mana sistem frontend dashboard analisis sentimen dijalankan dan digunakan dalam lingkungan operasional terbatas untuk memastikan seluruh fungsi berjalan sesuai dengan tujuan perancangan. Pada tahap ini, sistem digunakan untuk menampilkan data hasil analisis sentimen yang diperoleh dari backend, sehingga dapat diamati kestabilan aplikasi, konsistensi penyajian data, serta respons antarmuka pengguna.
+%   Tahap operation bertujuan untuk memastikan bahwa aplikasi frontend yang telah dikembangkan dapat digunakan secara fungsional sebagai dashboard analitik, serta mendukung aktivitas pemantauan informasi sentimen oleh pengguna tanpa kendala utama.Tahapan ini dapat menggunakan layanan shared hosting maupun \textit{Virtual Private Server (VPS)} yang telah dikonfigurasi untuk menjalankan dan mempublikasikan website. 
+% \subsection{\textit{Maintenance}}
+%   Tahap \textit{maintenance} dilakukan untuk menjaga kinerja dan stabilitas sistem setelah digunakan pada tahap operation. Aktivitas pemeliharaan pada tahap ini mencakup perbaikan kesalahan minor yang ditemukan selama penggunaan sistem, penyesuaian teknis terhadap perubahan kebutuhan atau data, serta penyempurnaan mekanisme pengelolaan data frontend agar tetap berjalan secara optimal.
+%   Tahap maintenance juga memungkinkan dilakukannya penyesuaian kecil pada struktur komponen atau mekanisme sinkronisasi data tanpa mengubah arsitektur utama sistem, sehingga sistem tetap selaras dengan tujuan penelitian dan dapat digunakan secara berkelanjutan selama periode penelitian.
+% \subsection{\textit{Evolution}}
+%   Tahap \textit{evolution} dalam metode Fountain merupakan fase pengembangan berkelanjutan yang berfokus pada penyempurnaan sistem, penambahan fitur baru, dan adaptasi berdasarkan umpan balik pengguna serta perubahan kebutuhan bisnis. Pada penelitian ini, tahap ini melibatkan proses iteratif untuk meningkatkan \textit{dashboard sentiment analysis}, dengan evaluasi kinerja arsitektur Client Data Layer berbasis Tanstack Query.
 
-  Pendekatan ini digunakan untuk observasi terhadap integrasi frontend-backend, konsistensi data sentimen dari \textit{scraping} hingga visualisasi. Hasil observasi menjadi dasar arahan pengembangan selanjutnya, seperti penambahan analisis sentimen untuk platform baru (TikTok, Instagram), peningkatan algoritma rekomendasi berbasis \textit{machine learning}, atau optimasi performa \textit{data scraper}.
+%   Pendekatan ini digunakan untuk observasi terhadap integrasi frontend-backend, konsistensi data sentimen dari \textit{scraping} hingga visualisasi. Hasil observasi menjadi dasar arahan pengembangan selanjutnya, seperti penambahan analisis sentimen untuk platform baru (TikTok, Instagram), peningkatan algoritma rekomendasi berbasis \textit{machine learning}, atau optimasi performa \textit{data scraper}.
 
-  Tahap ini juga mempertimbangkan umpan balik pengguna akhir dan dinamika bisnis UMKM, sehingga sistem dapat terus berevolusi. Contoh pengembangan pada iterasi berikutnya meliputi integrasi \textit{chatbot}, \textit{dashboard analytics} dengan visualisasi interaktif, serta modul prediktif tren pasar. Dengan demikian, sistem tidak hanya dievaluasi, tetapi secara aktif dikembangkan menjadi lebih matang, skalabel, dan relevan.
+%   Tahap ini juga mempertimbangkan umpan balik pengguna akhir dan dinamika bisnis UMKM, sehingga sistem dapat terus berevolusi. Contoh pengembangan pada iterasi berikutnya meliputi integrasi \textit{chatbot}, \textit{dashboard analytics} dengan visualisasi interaktif, serta modul prediktif tren pasar. Dengan demikian, sistem tidak hanya dievaluasi, tetapi secara aktif dikembangkan menjadi lebih matang, skalabel, dan relevan.

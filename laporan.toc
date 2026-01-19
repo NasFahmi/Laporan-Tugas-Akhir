@@ -39,35 +39,32 @@
 \contentsline {subsection}{\numberline {3.2.1}Analysis}{26}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Requirement Specification}{26}{subsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.2.3}\textit {Design}}{27}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Coding (Implementation)}{42}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}Testing}{43}{subsection.3.2.5}%
-\contentsline {subsection}{\numberline {3.2.6}\textit {Operation}}{55}{subsection.3.2.6}%
-\contentsline {subsection}{\numberline {3.2.7}\textit {Maintenance}}{55}{subsection.3.2.7}%
-\contentsline {subsection}{\numberline {3.2.8}\textit {Evolution}}{55}{subsection.3.2.8}%
-\contentsline {chapter}{\numberline {4}HASIL DAN PEMBAHASAN}{57}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Hasil}{57}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}\textit {Analysis}}{57}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}\textit {Requirement Specification}}{57}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}\textit {Design}}{57}{subsection.4.1.3}%
-\contentsline {subsubsection}{Arsitektur \textit {Frontend}}{58}{subsubsection*.28}%
-\contentsline {subsubsection}{\textit {Client Data Layer}}{58}{subsubsection*.29}%
-\contentsline {subsubsection}{Desain Antarmuka}{59}{subsubsection*.30}%
-\contentsline {subsection}{\numberline {4.1.4}\textit {Coding/Implementation}}{65}{subsection.4.1.4}%
-\contentsline {subsubsection}{Landing Page}{65}{subsubsection*.39}%
-\contentsline {subsubsection}{Authentication}{65}{subsubsection*.40}%
-\contentsline {subsubsection}{Dashboard}{65}{subsubsection*.41}%
-\contentsline {subsubsection}{Scraper}{66}{subsubsection*.42}%
-\contentsline {subsubsection}{Sentiment}{66}{subsubsection*.43}%
-\contentsline {subsubsection}{Recomendation Content}{67}{subsubsection*.44}%
-\contentsline {subsection}{\numberline {4.1.5}\textit {Testing}}{67}{subsection.4.1.5}%
-\contentsline {section}{\numberline {4.2}Pembahasan}{78}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Peran Arsitektur Client Data Layer dalam Pengelolaan Data Frontend}{78}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Analisis Implementasi TanStack Query terhadap Server State}{79}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Implikasi Metode Fountain terhadap Iterasi Pengembangan Dashboard}{83}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Analisis Hasil dan Temuan Pengujian Sistem}{83}{subsection.4.2.4}%
-\contentsline {subsection}{\numberline {4.2.5}Perbandingan dengan Penelitian Terdahulu dan Landasan Teori}{84}{subsection.4.2.5}%
-\contentsline {subsection}{\numberline {4.2.6}Dampak terhadap Skalabilitas dan Maintainability Sistem}{85}{subsection.4.2.6}%
-\contentsline {subsection}{\numberline {4.2.7}Keterbatasan Penerapan TanStack Query dalam Penelitian}{86}{subsection.4.2.7}%
+\contentsline {subsection}{\numberline {3.2.4}Coding (Implementation)}{41}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Testing}{42}{subsection.3.2.5}%
+\contentsline {chapter}{\numberline {4}HASIL DAN PEMBAHASAN}{55}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Hasil}{55}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}\textit {Analysis}}{55}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}\textit {Requirement Specification}}{55}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}\textit {Design}}{55}{subsection.4.1.3}%
+\contentsline {subsubsection}{Arsitektur \textit {Frontend}}{56}{subsubsection*.28}%
+\contentsline {subsubsection}{\textit {Client Data Layer}}{56}{subsubsection*.29}%
+\contentsline {subsubsection}{Desain Antarmuka}{57}{subsubsection*.30}%
+\contentsline {subsection}{\numberline {4.1.4}\textit {Coding/Implementation}}{63}{subsection.4.1.4}%
+\contentsline {subsubsection}{Landing Page}{63}{subsubsection*.39}%
+\contentsline {subsubsection}{Authentication}{64}{subsubsection*.40}%
+\contentsline {subsubsection}{Dashboard}{64}{subsubsection*.41}%
+\contentsline {subsubsection}{Scraper}{64}{subsubsection*.42}%
+\contentsline {subsubsection}{Sentiment}{65}{subsubsection*.43}%
+\contentsline {subsubsection}{Recomendation Content}{65}{subsubsection*.44}%
+\contentsline {subsection}{\numberline {4.1.5}\textit {Testing}}{66}{subsection.4.1.5}%
+\contentsline {section}{\numberline {4.2}Pembahasan}{77}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Peran Arsitektur Client Data Layer dalam Pengelolaan Data Frontend}{77}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Analisis Implementasi TanStack Query terhadap Server State}{78}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Implikasi Metode Fountain terhadap Iterasi Pengembangan Dashboard}{82}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Analisis Hasil dan Temuan Pengujian Sistem}{82}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Perbandingan dengan Penelitian Terdahulu dan Landasan Teori}{83}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.2.6}Dampak terhadap Skalabilitas dan Maintainability Sistem}{84}{subsection.4.2.6}%
+\contentsline {subsection}{\numberline {4.2.7}Keterbatasan Penerapan TanStack Query dalam Penelitian}{85}{subsection.4.2.7}%
 \contentsline {chapter}{\numberline {5}KESIMPULAN DAN SARAN}{87}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Kesimpulan}{87}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Saran}{87}{section.5.2}%
