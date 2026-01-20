@@ -39,8 +39,8 @@
 \contentsline {subsection}{\numberline {3.2.1}Analysis}{26}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Requirement Specification}{26}{subsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.2.3}\textit {Design}}{27}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Coding (Implementation)}{41}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}Testing}{42}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.4}Coding (Implementation)}{40}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Testing}{41}{subsection.3.2.5}%
 \contentsline {chapter}{\numberline {4}HASIL DAN PEMBAHASAN}{55}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Hasil}{55}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}\textit {Analysis}}{55}{subsection.4.1.1}%
