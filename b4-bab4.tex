@@ -46,114 +46,30 @@ Pengelolaan data melalui \textit{Client Data Layer} juga mendukung konsistensi p
 Secara keseluruhan, penerapan \textit{Client Data Layer} menggunakan TanStack Query menghasilkan perilaku pengelolaan data frontend yang lebih terstruktur, konsisten, dan efisien pada tahap implementasi sistem. Lapisan ini mendukung kebutuhan aplikasi dashboard analisis sentimen yang bersifat data-driven, di mana data yang sama digunakan oleh berbagai komponen dan perlu disajikan secara konsisten selama siklus penggunaan aplikasi.
 \subsubsection{Desain Antarmuka}
 
-Desain antarmuka pada sisi frontend dashboard analisis sentimen direalisasikan berdasarkan rancangan wireframe yang telah disusun pada tahap perancangan. Seluruh antarmuka yang diimplementasikan mencakup halaman landing page, login, register, dashboard, analisis sentimen, rekomendasi konten, dan halaman scraper. Implementasi desain antarmuka bertujuan untuk memastikan bahwa setiap fitur sistem dapat diakses dan digunakan sesuai dengan alur yang telah dirancang. Setiap halaman dirancang untuk menyajikan informasi yang relevan dengan konteks penggunaannya. Adapun hasil realisasi dari wireframe dapat dilihat pada Gambar~\ref{fig:desain-landing-page} sampai Gambar~\ref{fig:desain-scraper}.
-\begin{packed_enum}
-  \item Landing Page \hfill \\
-  
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{gambar/ui-landing-page.png}
-    \caption{Desain Halaman Landing Page}
-    \label{fig:desain-landing-page}
-  \end{figure}
-  
-  Gambar~\ref{fig:desain-landing-page} menunjukkan hasil implementasi antarmuka landing page. Halaman ini berfungsi sebagai halaman awal sistem yang memberikan gambaran umum mengenai aplikasi dashboard analisis sentimen. Landing page menyediakan informasi singkat terkait fungsi sistem serta navigasi menuju halaman login dan registrasi bagi pengguna.
+Desain antarmuka yang telah disusun pada tahap perancangan sebelumnya digunakan sebagai acuan dalam proses implementasi sistem. Perancangan tersebut bertujuan untuk memastikan penyajian website dapat ditampilkan secara terstruktur, konsisten, dan mudah dipahami oleh pengguna melalui komponen visual seperti grafik, tabel, dan indikator ringkasan data.
 
-  \vspace{10cm}
-  
-  \item Login \hfill \\
-  
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\textwidth]{gambar/ui-login-page.png}
-    \caption{Desain Halaman Login}
-    \label{fig:desain-login}
-  \end{figure}
+Pada tahap desain, rancangan antarmuka disusun menggunakan alat bantu desain seperti Figma. textit{Wireframe} digunakan sebagai panduan konseptual untuk menjaga konsistensi tampilan dan alur navigasi ketika sistem direalisasikan ke dalam website dengan menggunakan framework React.
 
-  Gambar~\ref{fig:desain-login} menunjukkan antarmuka halaman login yang digunakan untuk proses autentikasi pengguna. Pada halaman ini, pengguna dapat memasukkan kredensial berupa alamat surel dan kata sandi untuk mengakses sistem. Implementasi halaman login memastikan bahwa hanya pengguna yang terdaftar yang dapat masuk ke dalam dashboard analisis sentimen.
+Implementasi antarmuka dilakukan dengan menerjemahkan rancangan desain ke dalam komponen antarmuka yang bersifat modular dan reusable. Setiap komponen diintegrasikan dengan arsitektur frontend berbasis data (data-driven), di mana tampilan antarmuka berfungsi sebagai representasi dari state data yang dikelola secara terpusat. Pendekatan ini memastikan bahwa perubahan data yang diperoleh dari backend dapat secara otomatis tercermin pada antarmuka pengguna tanpa memerlukan pengelolaan data secara manual di setiap komponen.
 
+Selanjutnya, arsitektur frontend yang telah dirancang di implementasi dengan mengintegrasikan \textit{Client Data Layer} menggunakan TanStack Query sebagai mekanisme utama dalam pengelolaan server state. Dengan penerapan arsitektur ini, proses pengambilan, penyimpanan sementara, dan sinkronisasi data dari REST API dapat dilakukan secara terstruktur, sehingga komponen antarmuka tidak berinteraksi langsung dengan API. Implementasi ini menjadi dasar bagi pengelolaan data yang konsisten dan efisien pada seluruh bagian dashboard.
 
-  \item Register \hfill \\
-  
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\textwidth]{gambar/ui-register-page.png}
-    \caption{Desain Halaman Register}
-    \label{fig:desain-register}
-  \end{figure}
-
-  Gambar~\ref{fig:desain-register} menampilkan hasil implementasi halaman registrasi pengguna. Halaman ini digunakan untuk proses pendaftaran pengguna baru dengan mengisi data yang diperlukan. Data yang dimasukkan pada halaman ini selanjutnya digunakan sebagai informasi akun untuk proses autentikasi pada sistem.
-
-
-  \vspace{4cm}
-  
-  \item Dashboard \hfill \\
-  
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\textwidth]{gambar/ui-dashboard-page.png}
-    \caption{Desain Halaman Dashboard}
-    \label{fig:desain-dashboard}
-  \end{figure}
-
-  Gambar~\ref{fig:desain-dashboard} menunjukkan antarmuka halaman dashboard utama. Halaman ini berfungsi untuk menampilkan ringkasan hasil analisis sentimen dalam bentuk visualisasi dan informasi utama. Dashboard menjadi pusat akses pengguna terhadap fitur analisis sentimen dan rekomendasi konten yang tersedia pada sistem.
-
-
-  \vspace{14cm}
-  
-  \item Sentiment \hfill \\
-  
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\textwidth]{gambar/ui-sentiment-page.png}
-    \caption{Desain Halaman Sentiment}
-    \label{fig:desain-sentiment}
-  \end{figure}
-
-  Gambar~\ref{fig:desain-sentiment} menampilkan antarmuka halaman analisis sentimen. Halaman ini digunakan untuk menyajikan hasil analisis sentimen secara lebih rinci berdasarkan data yang dianalisis. Informasi yang ditampilkan pada halaman ini membantu pengguna dalam memahami distribusi dan kecenderungan sentimen dari data yang diproses.
-
-
-  \item Recommendation Content \hfill \\
-  
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\textwidth]{gambar/ui-recommendation-content-page.png}
-    \caption{Desain Halaman Recommendation Content}
-    \label{fig:desain-recommendation-content}
-  \end{figure}
-
-  Gambar~\ref{fig:desain-recommendation-content} menunjukkan antarmuka halaman rekomendasi konten. Halaman ini menyajikan hasil rekomendasi konten yang dihasilkan berdasarkan analisis sentimen data. Informasi yang ditampilkan pada halaman ini bertujuan untuk mendukung pengambilan keputusan pengguna berdasarkan hasil analisis yang tersedia.
-
-
-  \item Scraper \hfill \\
-  
-  \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\textwidth]{gambar/ui-scraper-page.png}
-    \caption{Desain Halaman Scraper}
-    \label{fig:desain-scraper}
-  \end{figure}
-
-  Gambar~\ref{fig:desain-scraper} menampilkan hasil implementasi halaman scraper. Halaman ini digunakan untuk melakukan proses pengambilan data dari sumber eksternal. Data yang berhasil dikumpulkan melalui halaman ini selanjutnya dapat digunakan sebagai bahan analisis pada sistem dashboard analisis sentimen.
-
- \vspace{14cm}
-  \item Chatbot \hfill \\
-   \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.4\textwidth]{gambar/ui-chatbot-page.png}
-    \caption{Desain Komponen Chatbot}
-    \label{fig:desain-chatbot}
-  \end{figure}
-
-  Gambar~\ref{fig:desain-chatbot} menampilkan hasil implementasi halaman chatbot. Halaman ini digunakan untuk user bisa melakukan chat dengan chatbot untuk mendapatkan informasi yang diperlukan.
-
-\end{packed_enum}
 \subsection{\textit{Coding/Implementation}}
 \subsubsection{Landing Page}
 
-Landing Page diimplementasikan sebagai titik awal akses pengguna ke sistem sebelum proses autentikasi dilakukan. Pada halaman ini, frontend hanya menyajikan informasi umum mengenai sistem tanpa melakukan pengambilan maupun pengolahan data dari backend, sehingga tidak melibatkan mekanisme query maupun mutation.
+Landing Page diimplementasikan sebagai titik awal akses pengguna ke sistem sebelum proses autentikasi dilakukan. Pada halaman ini, frontend hanya menyajikan informasi umum mengenai sistem dashboard analisis sentimen tanpa melakukan pengambilan maupun pengolahan data dari backend. Oleh karena itu, halaman ini tidak melibatkan mekanisme \textit{query} maupun \textit{mutation} dalam pengelolaan data menggunakan TanStack Query.
 
-Implementasi Landing Page yang bersifat statis menegaskan batas antara area sistem yang tidak data-driven dan area yang memanfaatkan Client Data Layer. Dengan pemisahan ini, pengelolaan data menggunakan TanStack Query hanya aktif setelah pengguna memasuki bagian sistem yang memerlukan interaksi dengan server, sehingga struktur arsitektur frontend tetap terjaga dan tidak tercampur dengan komponen non-data.
+Implementasi Landing Page yang bersifat statis berfungsi untuk menegaskan pemisahan antara area sistem yang tidak bersifat \textit{data-driven} dan area sistem yang bergantung pada pengelolaan data server. Dengan pemisahan ini, aktivasi arsitektur Client Data Layer hanya dilakukan setelah pengguna memasuki bagian sistem yang membutuhkan interaksi dengan backend, seperti proses autentikasi dan dashboard utama. Pendekatan ini menjaga konsistensi arsitektur frontend agar tidak mencampurkan komponen non-data dengan mekanisme pengelolaan server state.
+
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{gambar/ui-landing-page.png}
+    \caption{Implementasi Antarmuka Landing Page}
+    \label{fig:implementasi-landing-page}
+  \end{figure}
+  
+  Gambar~\ref{fig:implementasi-landing-page} menunjukkan hasil implementasi antarmuka landing page. Halaman ini berfungsi sebagai halaman awal sistem yang memberikan gambaran umum mengenai aplikasi dashboard analisis sentimen. Landing page menyediakan informasi singkat terkait fungsi sistem serta navigasi menuju halaman login dan registrasi bagi pengguna.
+
 
 \subsubsection{Authentication}
 
@@ -163,12 +79,45 @@ Pada sisi frontend, hasil autentikasi menentukan status akses pengguna terhadap 
 
 Hasil implementasi menunjukkan bahwa mekanisme autentikasi berfungsi sebagai gerbang awal sebelum Client Data Layer aktif digunakan. Dengan pendekatan ini, sistem frontend mampu membedakan area publik dan area terproteksi secara jelas, sekaligus menjaga konsistensi pengelolaan data pada seluruh fitur yang bergantung pada hasil autentikasi.
 
+
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{gambar/ui-login-page.png}
+    \caption{Implementasi Antarmuka Halaman Login}
+    \label{fig:implementasi-login}
+  \end{figure}
+
+  Gambar~\ref{fig:implementasi-login} menunjukkan antarmuka halaman login yang digunakan untuk proses autentikasi pengguna. Pada halaman ini, pengguna dapat memasukkan kredensial berupa alamat surel dan kata sandi untuk mengakses sistem. Implementasi halaman login memastikan bahwa hanya pengguna yang terdaftar yang dapat masuk ke dalam dashboard analisis sentimen.
+
+  
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{gambar/ui-register-page.png}
+    \caption{Implementasi Antarmuka Halaman Register}
+    \label{fig:implementasi-register}
+  \end{figure}
+
+  Gambar~\ref{fig:implementasi-register} menampilkan hasil implementasi halaman registrasi pengguna. Halaman ini digunakan untuk proses pendaftaran pengguna baru dengan mengisi data yang diperlukan. Data yang dimasukkan pada halaman ini selanjutnya digunakan sebagai informasi akun untuk proses autentikasi pada sistem.
+
+
+
 \subsubsection{Dashboard}
 Dashboard diimplementasikan sebagai halaman ringkasan yang menyajikan sebagian informasi dari data sentimen dan rekomendasi konten. Data yang ditampilkan pada dashboard tidak diambil melalui \textit{query} tersendiri, melainkan memanfaatkan data yang telah tersedia pada \textit{Client Data Layer} dari halaman sentimen dan rekomendasi.
 
 Pada implementasinya, dashboard berperan sebagai \textit{consumer data} yang memetakan sebagian data dari beberapa \textit{query} ke dalam komponen ringkasan. Pendekatan ini memungkinkan dashboard menampilkan informasi tanpa melakukan permintaan API tambahan, karena data telah dikelola secara terpusat oleh \textit{Client Data Layer}.
 
 Hasil implementasi menunjukkan bahwa dashboard mampu menyajikan data yang konsisten dengan halaman sentimen dan rekomendasi. Perubahan data pada salah satu \textit{query} secara otomatis direfleksikan pada dashboard, yang menandakan bahwa pengelolaan \textit{server state} pada frontend berjalan secara terintegrasi dan efisien.
+
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{gambar/ui-dashboard-page.png}
+    \caption{Implementasi Antarmuka Halaman Dashboard}
+    \label{fig:implementasi-dashboard}
+  \end{figure}
+
+  Gambar~\ref{fig:implementasi-dashboard} menunjukkan antarmuka halaman dashboard utama. Halaman ini berfungsi untuk menampilkan ringkasan hasil analisis sentimen dalam bentuk visualisasi dan informasi utama. Dashboard menjadi pusat akses pengguna terhadap fitur analisis sentimen dan rekomendasi konten yang tersedia pada sistem.
+
+
 \subsubsection{Scraper}
 
 Halaman Scraper diimplementasikan untuk menampilkan daftar data hasil proses pengambilan data media sosial yang dilakukan di sisi backend. Pada halaman ini, frontend berperan sebagai konsumen data yang bersifat informatif dan tidak melakukan pemrosesan lanjutan terhadap data yang diterima.
@@ -176,6 +125,17 @@ Halaman Scraper diimplementasikan untuk menampilkan daftar data hasil proses pen
 Implementasi halaman Scraper hanya melibatkan satu \textit{query} aktif yang dikelola oleh Client Data Layer untuk mengambil daftar data scraping. Pendekatan ini memastikan bahwa halaman Scraper tidak memicu pengambilan data yang tidak relevan serta tetap terpisah dari \textit{query} milik fitur lain.
 
 Hasil implementasi menunjukkan bahwa pengelolaan data pada halaman Scraper berjalan secara terkontrol, di mana hanya \textit{query} yang sesuai dengan konteks halaman yang diaktifkan. Hal ini menegaskan bahwa Client Data Layer mampu membatasi ruang lingkup pengambilan data sesuai kebutuhan fitur, sehingga arsitektur frontend tetap tersegmentasi dengan baik.
+
+  
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{gambar/ui-scraper-page.png}
+    \caption{Implemenasi Antarmuka Halaman Scraper}
+    \label{fig:implementasi-scraper}
+  \end{figure}
+
+  Gambar~\ref{fig:implementasi-scraper} menampilkan hasil implementasi halaman scraper. Halaman ini digunakan untuk melakukan proses pengambilan data dari sumber eksternal. Data yang berhasil dikumpulkan melalui halaman ini selanjutnya dapat digunakan sebagai bahan analisis pada sistem dashboard analisis sentimen.
+
 
 \subsubsection{Sentiment}
 
@@ -185,6 +145,17 @@ Pada implementasinya, halaman Sentiment berperan sebagai consumer utama data sen
 
 Hasil implementasi menunjukkan bahwa data sentimen yang ditampilkan pada halaman Sentiment dan dashboard selalu konsisten. Setiap perubahan data pada Client Data Layer secara otomatis direfleksikan pada kedua halaman tersebut, yang menandakan bahwa pengelolaan server state pada frontend berjalan dengan baik dan mendukung penggunaan satu sumber data yang dipercaya.
 
+
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{gambar/ui-sentiment-page.png}
+    \caption{Implementasi Antarmuka Halaman Sentiment}
+    \label{fig:implementasi-sentiment}
+  \end{figure}
+
+  Gambar~\ref{fig:implementasi-sentiment} menampilkan antarmuka halaman analisis sentimen. Halaman ini digunakan untuk menyajikan hasil analisis sentimen secara lebih rinci berdasarkan data yang dianalisis. Informasi yang ditampilkan pada halaman ini membantu pengguna dalam memahami distribusi dan kecenderungan sentimen dari data yang diproses.
+
+
 \subsubsection{Recomendation Content}
 
 Halaman \textit{Recommendation Content} diimplementasikan untuk menyajikan rekomendasi konten yang dihasilkan berdasarkan hasil analisis sentimen. Data rekomendasi diperoleh dari backend dan dikelola melalui Client Data Layer sebelum ditampilkan pada antarmuka pengguna. Dengan demikian, fitur ini memanfaatkan hasil analisis sebagai dasar penyusunan rekomendasi yang relevan.
@@ -193,12 +164,41 @@ Pada implementasinya, halaman \textit{Recommendation Content} berperan sebagai c
 
 Hasil implementasi menunjukkan bahwa data rekomendasi yang ditampilkan pada halaman \textit{Recommendation Content} dan dashboard selalu selaras. Setiap pembaruan data pada Client Data Layer secara otomatis direfleksikan pada kedua halaman tersebut, yang menandakan bahwa pengelolaan data frontend berjalan secara terintegrasi dengan mengacu pada satu sumber data yang dipercaya
 
+ \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{gambar/ui-recommendation-content-page.png}
+    \caption{Implementasi Antarmuka Halaman Recommendation Content}
+    \label{fig:implementasi-recommendation-content}
+  \end{figure}
+
+  Gambar~\ref{fig:implementasi-recommendation-content} menunjukkan antarmuka halaman rekomendasi konten. Halaman ini menyajikan hasil rekomendasi konten yang dihasilkan berdasarkan analisis sentimen data. Informasi yang ditampilkan pada halaman ini bertujuan untuk mendukung pengambilan keputusan pengguna berdasarkan hasil analisis yang tersedia.
+
+
+  \subsubsection{Chatbot}
+  Fitur chatbot diimplementasikan sebagai komponen interaktif yang memungkinkan pengguna melakukan percakapan langsung dengan sistem untuk memperoleh informasi terkait analisis sentimen dan fungsi dashboard. Berbeda dengan halaman lain yang bersifat \textit{read-only}, fitur chatbot melibatkan interaksi dua arah antara pengguna dan backend.
+
+  Pada sisi frontend, setiap pesan yang dikirimkan oleh pengguna diproses sebagai aksi yang memicu mekanisme \textit{mutation} menggunakan TanStack Query. Data pesan pengguna dikirimkan ke backend, kemudian sistem menunggu respons chatbot secara asinkron sebelum menampilkannya kembali pada antarmuka. Pendekatan ini memungkinkan pengelolaan alur komunikasi yang terstruktur tanpa perlu melakukan pengambilan data secara berkala menggunakan \textit{query}.
+
+  Riwayat percakapan dikelola sebagai state lokal pada komponen chatbot untuk menjaga kontinuitas interaksi selama sesi berlangsung. Sementara itu, TanStack Query berperan dalam mengelola status permintaan seperti \textit{loading}, \textit{success}, dan \textit{error}, sehingga antarmuka dapat memberikan umpan balik yang jelas kepada pengguna ketika proses pengiriman pesan sedang berlangsung atau mengalami kegagalan.
+
+  Implementasi fitur chatbot ini menunjukkan penerapan Client Data Layer pada skenario komunikasi real-time berbasis permintaan pengguna. Dengan memanfaatkan mekanisme \textit{mutation}, interaksi chatbot dapat diintegrasikan ke dalam arsitektur frontend secara konsisten tanpa mengganggu pengelolaan server state pada fitur dashboard lainnya.
+
+
+  \begin{figure}[H] 
+    \centering 
+    \includegraphics[width=0.4\textwidth]{gambar/ui-chatbot-page.png} 
+    \caption{Desain Komponen Chatbot} 
+    \label{fig:desain-chatbot} 
+  \end{figure} 
+  
+  Gambar~\ref{fig:desain-chatbot} menampilkan hasil implementasi halaman chatbot. Halaman ini digunakan untuk user bisa melakukan chat dengan chatbot untuk mendapatkan informasi yang diperlukan.
+
+
 \subsection{\textit{Testing}}
 
 Pengujian sistem pada penelitian ini dilakukan untuk memverifikasi bahwa seluruh fitur yang telah dirancang dan diimplementasikan berfungsi sesuai dengan kebutuhan sistem yang telah ditetapkan pada Bab III. Pengujian dilakukan berdasarkan skenario pengujian yang telah disusun sebelumnya, dengan fokus pada pengujian fungsional dan perilaku sistem frontend dalam mengelola data serta merespons interaksi pengguna.
 
 Pada Bab ini, hasil pengujian disajikan dalam bentuk tabel hasil pengujian yang memuat hasil aktual dari setiap skenario pengujian. Informasi mengenai data uji dan hasil yang diharapkan tidak ditampilkan kembali pada bagian ini karena telah dijelaskan secara rinci pada Bab III. Dengan demikian, penyajian hasil pengujian pada Bab ini difokuskan pada pengamatan terhadap keluaran sistem dan status keberhasilan pengujian, guna menghindari pengulangan informasi dan menekankan pada hasil empiris dari proses pengujian yang telah dilakukan.
-\vspace{10cm}
 Berikut adalah hasil pengujian yang dilakukan pada sistem:
 
 \begin{packed_enum}

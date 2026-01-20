@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  19 JAN 2026 14:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  20 JAN 2026 22:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1198,105 +1198,102 @@ Bab 4.
 
 
 ] [56] [57]
-<gambar/ui-landing-page.png, id=1017, 1243.64626pt x 918.43124pt>
+<gambar/ui-landing-page.png, id=1015, 1243.64626pt x 918.43124pt>
 File: gambar/ui-landing-page.png Graphic file (type png)
 <use gambar/ui-landing-page.png>
-Package pdftex.def Info: gambar/ui-landing-page.png  used on input line 55.
+Package pdftex.def Info: gambar/ui-landing-page.png  used on input line 66.
 (pdftex.def)             Requested size: 409.71692pt x 302.57874pt.
- [58 <./gambar/ui-landing-page.png>]
-<gambar/ui-login-page.png, id=1025, 1243.64626pt x 576.1525pt>
+ [58] [59 <./gambar/ui-landing-page.png>]
+<gambar/ui-login-page.png, id=1028, 1243.64626pt x 576.1525pt>
 File: gambar/ui-login-page.png Graphic file (type png)
 <use gambar/ui-login-page.png>
-Package pdftex.def Info: gambar/ui-login-page.png  used on input line 68.
+Package pdftex.def Info: gambar/ui-login-page.png  used on input line 85.
 (pdftex.def)             Requested size: 318.66948pt x 147.63344pt.
-<gambar/ui-register-page.png, id=1027, 1243.64626pt x 576.1525pt>
+<gambar/ui-register-page.png, id=1030, 1243.64626pt x 576.1525pt>
 File: gambar/ui-register-page.png Graphic file (type png)
 <use gambar/ui-register-page.png>
-Package pdftex.def Info: gambar/ui-register-page.png  used on input line 80.
+Package pdftex.def Info: gambar/ui-register-page.png  used on input line 95.
 (pdftex.def)             Requested size: 318.66948pt x 147.63344pt.
- [59 <./gambar/ui-login-page.png> <./gambar/ui-register-page.png>]
-<gambar/ui-dashboard-page.png, id=1037, 2570.60374pt x 2283.53125pt>
+ [60 <./gambar/ui-login-page.png> <./gambar/ui-register-page.png>]
+<gambar/ui-dashboard-page.png, id=1039, 1927.95282pt x 1342.2647pt>
 File: gambar/ui-dashboard-page.png Graphic file (type png)
 <use gambar/ui-dashboard-page.png>
-Package pdftex.def Info: gambar/ui-dashboard-page.png  used on input line 94.
-(pdftex.def)             Requested size: 318.66948pt x 283.07132pt.
- [60 <./gambar/ui-dashboard-page.png>]
-<gambar/ui-sentiment-page.png, id=1045, 1243.64626pt x 918.43124pt>
-File: gambar/ui-sentiment-page.png Graphic file (type png)
-<use gambar/ui-sentiment-page.png>
-Package pdftex.def Info: gambar/ui-sentiment-page.png  used on input line 108.
-(pdftex.def)             Requested size: 318.66948pt x 235.33902pt.
-<gambar/ui-recommendation-content-page.png, id=1047, 1927.95282pt x 1367.1075pt>
-File: gambar/ui-recommendation-content-page.png Graphic file (type png)
-<use gambar/ui-recommendation-content-page.png>
-Package pdftex.def Info: gambar/ui-recommendation-content-page.png  used on input line 120.
-(pdftex.def)             Requested size: 318.66948pt x 225.95935pt.
- [61 <./gambar/ui-sentiment-page.png> <./gambar/ui-recommendation-content-page.png>]
-<gambar/ui-scraper-page.png, id=1058, 1243.64626pt x 576.1525pt>
+Package pdftex.def Info: gambar/ui-dashboard-page.png  used on input line 113.
+(pdftex.def)             Requested size: 318.66948pt x 221.85326pt.
+ [61 <./gambar/ui-dashboard-page.png>]
+<gambar/ui-scraper-page.png, id=1048, 1243.64626pt x 576.1525pt>
 File: gambar/ui-scraper-page.png Graphic file (type png)
 <use gambar/ui-scraper-page.png>
 Package pdftex.def Info: gambar/ui-scraper-page.png  used on input line 132.
 (pdftex.def)             Requested size: 318.66948pt x 147.63344pt.
  [62 <./gambar/ui-scraper-page.png>]
-<gambar/ui-chatbot-page.png, id=1066, 294.09875pt x 460.72125pt>
+<gambar/ui-sentiment-page.png, id=1056, 1243.64626pt x 918.43124pt>
+File: gambar/ui-sentiment-page.png Graphic file (type png)
+<use gambar/ui-sentiment-page.png>
+Package pdftex.def Info: gambar/ui-sentiment-page.png  used on input line 151.
+(pdftex.def)             Requested size: 318.66948pt x 235.33902pt.
+ [63 <./gambar/ui-sentiment-page.png>]
+<gambar/ui-recommendation-content-page.png, id=1064, 1927.95282pt x 1367.1075pt>
+File: gambar/ui-recommendation-content-page.png Graphic file (type png)
+<use gambar/ui-recommendation-content-page.png>
+Package pdftex.def Info: gambar/ui-recommendation-content-page.png  used on input line 169.
+(pdftex.def)             Requested size: 318.66948pt x 225.95935pt.
+ [64 <./gambar/ui-recommendation-content-page.png>]
+<gambar/ui-chatbot-page.png, id=1072, 294.09875pt x 460.72125pt>
 File: gambar/ui-chatbot-page.png Graphic file (type png)
 <use gambar/ui-chatbot-page.png>
-Package pdftex.def Info: gambar/ui-chatbot-page.png  used on input line 143.
+Package pdftex.def Info: gambar/ui-chatbot-page.png  used on input line 189.
 (pdftex.def)             Requested size: 182.09486pt x 285.2646pt.
- [63 <./gambar/ui-chatbot-page.png>] [64] [65] [66]
-b4-bab4.tex:325: ignored error: Infinite glue shrinkage found in box being split [67]
-b4-bab4.tex:395: ignored error: Infinite glue shrinkage found in box being split [68]
-b4-bab4.tex:470: ignored error: Infinite glue shrinkage found in box being split [69] [70]
-b4-bab4.tex:547: ignored error: Infinite glue shrinkage found in box being split [71]
-b4-bab4.tex:623: ignored error: Infinite glue shrinkage found in box being split [72]
-b4-bab4.tex:693: ignored error: Infinite glue shrinkage found in box being split [73]
-b4-bab4.tex:769: ignored error: Infinite glue shrinkage found in box being split [74]
-b4-bab4.tex:831: ignored error: Infinite glue shrinkage found in box being split [75] [76]
-<gambar/folder-structure-features.png, id=1143, 130.4875pt x 106.89937pt>
+ [65 <./gambar/ui-chatbot-page.png>]
+b4-bab4.tex:325: ignored error: Infinite glue shrinkage found in box being split [66] [67] [68] [69]
+b4-bab4.tex:547: ignored error: Infinite glue shrinkage found in box being split [70]
+b4-bab4.tex:623: ignored error: Infinite glue shrinkage found in box being split [71]
+b4-bab4.tex:693: ignored error: Infinite glue shrinkage found in box being split [72]
+b4-bab4.tex:769: ignored error: Infinite glue shrinkage found in box being split [73]
+b4-bab4.tex:831: ignored error: Infinite glue shrinkage found in box being split [74] [75]
+<gambar/folder-structure-features.png, id=1130, 130.4875pt x 106.89937pt>
 File: gambar/folder-structure-features.png Graphic file (type png)
 <use gambar/folder-structure-features.png>
 Package pdftex.def Info: gambar/folder-structure-features.png  used on input line 851.
 (pdftex.def)             Requested size: 182.09486pt x 149.18015pt.
- [77 <./gambar/folder-structure-features.png>]
-<gambar/implementasi-arsitektur-tanstackquery.png, id=1152, 789.95125pt x 974.13937pt>
+ [76 <./gambar/folder-structure-features.png>]
+<gambar/implementasi-arsitektur-tanstackquery.png, id=1139, 789.95125pt x 974.13937pt>
 File: gambar/implementasi-arsitektur-tanstackquery.png Graphic file (type png)
 <use gambar/implementasi-arsitektur-tanstackquery.png>
 Package pdftex.def Info: gambar/implementasi-arsitektur-tanstackquery.png  used on input line 869.
 (pdftex.def)             Requested size: 318.66948pt x 392.96355pt.
- [78] [79 <./gambar/implementasi-arsitektur-tanstackquery.png>]
-<gambar/skema-mutation-tanstack-query.png, id=1164, 580.66937pt x 933.98938pt>
+ [77] [78 <./gambar/implementasi-arsitektur-tanstackquery.png>]
+<gambar/skema-mutation-tanstack-query.png, id=1150, 580.66937pt x 933.98938pt>
 File: gambar/skema-mutation-tanstack-query.png Graphic file (type png)
 <use gambar/skema-mutation-tanstack-query.png>
 Package pdftex.def Info: gambar/skema-mutation-tanstack-query.png  used on input line 882.
 (pdftex.def)             Requested size: 318.66948pt x 512.56989pt.
- [80 <./gambar/skema-mutation-tanstack-query.png>] [81] [82] [83] [84]) [85]
+ [79 <./gambar/skema-mutation-tanstack-query.png>] [80] [81] [82] [83]) [84]
 \openout2 = `b5-bab5.aux'.
 
- (b5-bab5.tex [86
-
-
-
-
-]
+ (b5-bab5.tex
 Bab 5.
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 11.
 (C:\Program Files\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)) [87
-
-
-] (untouch/xx-daftarpustaka.tex (laporan.bbl [88
+)) [85
 
 
 
 
-] [89
+
+] (untouch/xx-daftarpustaka.tex (laporan.bbl [86
 
 
-])) (a8-lampiran.tex [90] [91
 
 
-] [92
+] [87
+
+
+])) (a8-lampiran.tex [88] [89
+
+
+] [90
 
 ]
 File: gambar/logo-poliwangi.png Graphic file (type png)
@@ -1312,7 +1309,7 @@ Package pdftex.def Info: gambar/logo-poliwangi.png  used on input line 47.
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 156.
 See the caption package documentation for explanation.
 
-[93
+[91
 
 
 ] (laporan.aux (untouch/xx-sampul-laporan.aux) (untouch/xx-sampuldalam-laporan.aux) (a4-persembahan.aux) (a9-motto.aux) (untouch/xx-pernyataan-poliwangi.aux) (untouch/xx-persetujuan-ujian.aux) (untouch/xx-pengesahan.aux) (a2-abstrak.aux) (a3-abstract.aux) (a5-katapengantar.aux) (untouch/xx-daftar.aux) (b1-bab1.aux) (b2-bab2.aux) (b3-bab3.aux) (b4-bab4.aux) (b5-bab5.aux))
@@ -1321,20 +1318,20 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `laporan.out' has not changed.
-(rerunfilecheck)             Checksum: E042E796F5101F9F1A67A86922FF95E4;11291.
+(rerunfilecheck)             Checksum: 4904EBDAD4BD9FFDC7B3300E9521E8DE;11291.
  ) 
 Here is how much of TeX's memory you used:
- 40417 strings out of 467871
- 913234 string characters out of 5428444
+ 40408 strings out of 467871
+ 913257 string characters out of 5428444
  1415693 words of memory out of 5000000
  68142 multiletter control sequences out of 15000+600000
  656165 words of font info for 87 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 93i,15n,97p,1099b,1262s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,15n,97p,1099b,1265s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on laporan.pdf (117 pages, 7337530 bytes).
+Output written on laporan.pdf (115 pages, 7276956 bytes).
 PDF statistics:
- 1351 PDF objects out of 1440 (max. 8388607)
- 405 named destinations out of 1000 (max. 500000)
+ 1331 PDF objects out of 1440 (max. 8388607)
+ 396 named destinations out of 1000 (max. 500000)
  668 words of extra memory for PDF output out of 10000 (max. 10000000)
 
