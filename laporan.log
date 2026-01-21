@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  21 JAN 2026 12:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  21 JAN 2026 22:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1049,17 +1049,15 @@ Bab 1.
 
 
 
-] [2]) [3]
+] [2] [3]) [4]
 \openout2 = `b2-bab2.aux'.
 
- (b2-bab2.tex [4
-
-
-
-
-]
+ (b2-bab2.tex
 Bab 2.
 [5
+
+
+
 
 
 ] [6] [7] [8] [9]
@@ -1072,20 +1070,18 @@ Package pdftex.def Info: gambar/client-data-layer-paradigm.png  used on input li
 <gambar/fountain-sdlc.jpg, id=702, 1024.82875pt x 2569.6pt>
 File: gambar/fountain-sdlc.jpg Graphic file (type jpg)
 <use gambar/fountain-sdlc.jpg>
-Package pdftex.def Info: gambar/fountain-sdlc.jpg  used on input line 155.
+Package pdftex.def Info: gambar/fountain-sdlc.jpg  used on input line 157.
 (pdftex.def)             Requested size: 136.57462pt x 342.41122pt.
- [16 <./gambar/fountain-sdlc.jpg>] [17] [18]
-b2-bab2.tex:246: ignored error: Infinite glue shrinkage found in box being split [19] [20]) [21]
+ [16] [17 <./gambar/fountain-sdlc.jpg>] [18] [19]
+b2-bab2.tex:248: ignored error: Infinite glue shrinkage found in box being split [20]) [21] [22]
 \openout2 = `b3-bab3.aux'.
 
- (b3-bab3.tex [22
-
-
-
-
-]
+ (b3-bab3.tex
 Bab 3.
 b3-bab3.tex:89: ignored error: Infinite glue shrinkage found in box being split [23
+
+
+
 
 
 ] [24] [25] [26] [27]
@@ -1329,9 +1325,9 @@ Here is how much of TeX's memory you used:
  68592 multiletter control sequences out of 15000+600000
  659710 words of font info for 96 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 93i,15n,97p,1099b,2015s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,15n,97p,1315b,2015s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on laporan.pdf (119 pages, 5989929 bytes).
+Output written on laporan.pdf (119 pages, 5991011 bytes).
 PDF statistics:
  1655 PDF objects out of 1728 (max. 8388607)
  634 named destinations out of 1000 (max. 500000)

@@ -174,14 +174,14 @@ Hasil implementasi menunjukkan bahwa data rekomendasi yang ditampilkan pada hala
   Gambar~\ref{fig:implementasi-recommendation-content} menunjukkan antarmuka halaman rekomendasi konten. Halaman ini menyajikan hasil rekomendasi konten yang dihasilkan berdasarkan analisis sentimen data. Informasi yang ditampilkan pada halaman ini bertujuan untuk mendukung pengambilan keputusan pengguna berdasarkan hasil analisis yang tersedia.
 
 
-  \subsubsection{Chatbot}
-  Fitur chatbot diimplementasikan sebagai komponen interaktif yang memungkinkan pengguna melakukan percakapan langsung dengan sistem untuk memperoleh informasi terkait analisis sentimen dan fungsi dashboard. Berbeda dengan halaman lain yang bersifat \textit{read-only}, fitur chatbot melibatkan interaksi dua arah antara pengguna dan backend.
+\subsubsection{Chatbot}
+Fitur chatbot diimplementasikan sebagai komponen interaktif yang memungkinkan pengguna melakukan percakapan langsung dengan sistem untuk memperoleh informasi terkait analisis sentimen dan fungsi dashboard. Berbeda dengan halaman lain yang bersifat \textit{read-only}, fitur chatbot melibatkan interaksi dua arah antara pengguna dan backend.
 
-  Pada sisi frontend, setiap pesan yang dikirimkan oleh pengguna diproses sebagai aksi yang memicu mekanisme \textit{mutation} menggunakan TanStack Query. Data pesan pengguna dikirimkan ke backend, kemudian sistem menunggu respons chatbot secara asinkron sebelum menampilkannya kembali pada antarmuka. Pendekatan ini memungkinkan pengelolaan alur komunikasi yang terstruktur tanpa perlu melakukan pengambilan data secara berkala menggunakan \textit{query}.
+Pada sisi frontend, setiap pesan yang dikirimkan oleh pengguna diproses sebagai aksi yang memicu mekanisme \textit{mutation} menggunakan TanStack Query. Data pesan pengguna dikirimkan ke backend, kemudian sistem menunggu respons chatbot secara asinkron sebelum menampilkannya kembali pada antarmuka. Pendekatan ini memungkinkan pengelolaan alur komunikasi yang terstruktur tanpa perlu melakukan pengambilan data secara berkala menggunakan \textit{query}.
 
-  Riwayat percakapan dikelola sebagai state lokal pada komponen chatbot untuk menjaga kontinuitas interaksi selama sesi berlangsung. Sementara itu, TanStack Query berperan dalam mengelola status permintaan seperti \textit{loading}, \textit{success}, dan \textit{error}, sehingga antarmuka dapat memberikan umpan balik yang jelas kepada pengguna ketika proses pengiriman pesan sedang berlangsung atau mengalami kegagalan.
+Riwayat percakapan dikelola sebagai state lokal pada komponen chatbot untuk menjaga kontinuitas interaksi selama sesi berlangsung. Sementara itu, TanStack Query berperan dalam mengelola status permintaan seperti \textit{loading}, \textit{success}, dan \textit{error}, sehingga antarmuka dapat memberikan umpan balik yang jelas kepada pengguna ketika proses pengiriman pesan sedang berlangsung atau mengalami kegagalan.
 
-  Implementasi fitur chatbot ini menunjukkan penerapan Client Data Layer pada skenario komunikasi real-time berbasis permintaan pengguna. Dengan memanfaatkan mekanisme \textit{mutation}, interaksi chatbot dapat diintegrasikan ke dalam arsitektur frontend secara konsisten tanpa mengganggu pengelolaan server state pada fitur dashboard lainnya.
+Implementasi fitur chatbot ini menunjukkan penerapan Client Data Layer pada skenario komunikasi interaktif berbasis permintaan pengguna. Dengan memanfaatkan mekanisme \textit{mutation}, interaksi chatbot dapat diintegrasikan ke dalam arsitektur frontend secara konsisten tanpa mengganggu pengelolaan server state pada fitur dashboard lainnya.
 
 
   \begin{figure}[H] 
