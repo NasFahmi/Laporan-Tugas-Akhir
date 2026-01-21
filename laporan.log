@@ -1064,4 +1064,86 @@ Bab 2.
 
 ] [6] [7] [8] [9]
 <gambar/client-data-layer-paradigm.png, id=655, 2770.35pt x 2720.1625pt>
-File: gamba
+File: gambar/client-data-layer-paradigm.png Graphic file (type png)
+<use gambar/client-data-layer-paradigm.png>
+Package pdftex.def Info: gambar/client-data-layer-paradigm.png  used on input line 79.
+(pdftex.def)             Requested size: 364.19667pt x 357.57664pt.
+ [10 <./gambar/client-data-layer-paradigm.png>] [11] [12] [13] [14] [15]
+<gambar/fountain-sdlc.jpg, id=702, 1024.82875pt x 2569.6pt>
+File: gambar/fountain-sdlc.jpg Graphic file (type jpg)
+<use gambar/fountain-sdlc.jpg>
+Package pdftex.def Info: gambar/fountain-sdlc.jpg  used on input line 155.
+(pdftex.def)             Requested size: 136.57462pt x 342.41122pt.
+ [16 <./gambar/fountain-sdlc.jpg>] [17] [18]
+b2-bab2.tex:246: ignored error: Infinite glue shrinkage found in box being split [19] [20]) [21]
+\openout2 = `b3-bab3.aux'.
+
+ (b3-bab3.tex [22
+
+
+
+
+]
+Bab 3.
+b3-bab3.tex:89: ignored error: Infinite glue shrinkage found in box being split [23
+
+
+] [24] [25] [26] [27]
+<gambar/usecase-TA.png, id=772, 573.14125pt x 634.37pt>
+File: gambar/usecase-TA.png Graphic file (type png)
+<use gambar/usecase-TA.png>
+Package pdftex.def Info: gambar/usecase-TA.png  used on input line 123.
+(pdftex.def)             Requested size: 318.66948pt x 352.71837pt.
+ [28 <./gambar/usecase-TA.png>] [29]
+<gambar/erd.png, id=784, 1032.85875pt x 1022.82124pt>
+File: gambar/erd.png Graphic file (type png)
+<use gambar/erd.png>
+Package pdftex.def Info: gambar/erd.png  used on input line 140.
+(pdftex.def)             Requested size: 409.71692pt x 405.73453pt.
+ [30 <./gambar/erd.png>]
+<gambar/diagram-sistem-keseluruhan.png, id=792, 4101.3225pt x 1508.63625pt>
+File: gambar/diagram-sistem-keseluruhan.png Graphic file (type png)
+<use gambar/diagram-sistem-keseluruhan.png>
+Package pdftex.def Info: gambar/diagram-sistem-keseluruhan.png  used on input line 161.
+(pdftex.def)             Requested size: 364.19667pt x 133.95284pt.
+ [31 <./gambar/diagram-sistem-keseluruhan.png>]
+<gambar/diagram-architecture.png, id=800, 490.33188pt x 748.29562pt>
+File: gambar/diagram-architecture.png Graphic file (type png)
+<use gambar/diagram-architecture.png>
+Package pdftex.def Info: gambar/diagram-architecture.png  used on input line 178.
+(pdftex.def)             Requested size: 227.62206pt x 347.37155pt.
+ [32] [33 <./gambar/diagram-architecture.png>] [34]
+<gambar/tanstack-works.jpg, id=820, 803.0pt x 451.6875pt>
+File: gambar/tanstack-works.jpg Graphic file (type jpg)
+<use gambar/tanstack-works.jpg>
+Package pdftex.def Info: gambar/tanstack-works.jpg  used on input line 198.
+(pdftex.def)             Requested size: 227.62206pt x 128.03615pt.
+ [35 <./gambar/tanstack-works.jpg (PNG copy)>]
+<gambar/landing-page.jpeg, id=827, 1541.76pt x 1266.23062pt>
+File: gambar/landing-page.jpeg Graphic file (type jpg)
+<use gambar/landing-page.jpeg>
+Package pdftex.def Info: gambar/landing-page.jpeg  used on input line 212.
+(pdftex.def)             Requested size: 318.66948pt x 261.70428pt.
+<gambar/login.jpeg, id=829, 3035.34pt x 1300.86pt>
+File: gambar/login.jpeg Graphic file (type jpg)
+<use gambar/login.jpeg>
+Package pdftex.def Info: gambar/login.jpeg  used on input line 220.
+(pdftex.def)             Requested size: 318.66948pt x 136.56456pt.
+ [36 <./gambar/landing-page.jpeg>]
+<gambar/register.jpeg, id=836, 3035.34pt x 1300.86pt>
+File: gambar/register.jpeg Graphic file (type jpg)
+<use gambar/register.jpeg>
+Package pdftex.def Info: gambar/register.jpeg  used on input line 227.
+(pdftex.def)             Requested size: 318.66948pt x 136.56456pt.
+<gambar/dashboard.jpeg, id=838, 1541.76pt x 1156.32pt>
+File: gambar/dashboard.jpeg Graphic file (type jpg)
+<use gambar/dashboard.jpeg>
+Package pdftex.def Info: gambar/dashboard.jpeg  used on input line 234.
+(pdftex.def)             Requested size: 318.66948pt x 238.98798pt.
+ [37 <./gambar/login.jpeg> <./gambar/register.jpeg>]
+<gambar/sentiment.png, id=845, 2344.76pt x 1478.52374pt>
+File: gambar/sentiment.png Graphic file (type png)
+<use gambar/sentiment.png>
+Package pdftex.def Info: gambar/sentiment.png  used on input line 241.
+(pdftex.def)             Requested size: 318.66948pt x 200.92316pt.
+<gambar/scraper.png, 
