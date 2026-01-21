@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  21 JAN 2026 10:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  21 JAN 2026 10:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -835,29 +835,38 @@ Package caption Info: End \AtBeginDocument code.
 * modes: 
 * h-part:(L,W,R)=(85.35826pt, 455.24411pt, 56.9055pt)
 * v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
-* \paperwidtosidefalse
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=731.23584pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
 * \@mparswitchfalse
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 20.
-(laporan.out)
-Runaway argument?
-{\376\377\000P\000e\000n\000e\^^M
-! File ended while scanning use of \@@BOOKMARK.
-<inserted text> 
-                \par 
-l.20 \begin{document}
-                     
-? 
-(laporan.out)
+(laporan.out) (laporan.out)
 \@outlinefile=\write4
 \openout4 = `laporan.out'.
 
 \c@lstlisting=\count378
 
-Package pgfplots notification 'compat/show suggested version=true': document ha
-s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
+Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 \openout2 = `untouch/xx-sampul-laporan.aux'.
 
@@ -870,13 +879,11 @@ Package pdftex.def Info: gambar/logo-poliwangi.png  used on input line 17.
  [1
 
 
-{C:/Users/Fahmi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program Fi
-les/MiKTeX/fonts/enc/dvips/base/8r.enc} <./gambar/logo-poliwangi.png>])
+{C:/Users/Fahmi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc} <./gambar/logo-poliwangi.png>])
 \openout2 = `untouch/xx-sampuldalam-laporan.aux'.
 
  (untouch/xx-sampuldalam-laporan.tex)
-pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
-been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.28 \include{untouch/xx-sampuldalam-laporan}
@@ -891,8 +898,7 @@ l.28 \include{untouch/xx-sampuldalam-laporan}
 ]
 \openout2 = `a4-persembahan.aux'.
 
- (a4-persembahan.tex)
-[3
+ (a4-persembahan.tex) [3
 
 
 
@@ -915,22 +921,16 @@ l.28 \include{untouch/xx-sampuldalam-laporan}
 \openout2 = `untouch/xx-pernyataan-poliwangi.aux'.
 
  (untouch/xx-pernyataan-poliwangi.tex
-LaTeX Font Info:    Trying to load font information for OT1+ptmcm on input line
- 15.
-
-(C:\Program Files\MiKTeX\tex/latex/psnfss\ot1ptmcm.fd
+LaTeX Font Info:    Trying to load font information for OT1+ptmcm on input line 15.
+ (C:\Program Files\MiKTeX\tex/latex/psnfss\ot1ptmcm.fd
 File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
 )
-LaTeX Font Info:    Trying to load font information for OML+ptmcm on input line
- 15.
-
-(C:\Program Files\MiKTeX\tex/latex/psnfss\omlptmcm.fd
+LaTeX Font Info:    Trying to load font information for OML+ptmcm on input line 15.
+ (C:\Program Files\MiKTeX\tex/latex/psnfss\omlptmcm.fd
 File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+psycm on input line
- 15.
-
-(C:\Program Files\MiKTeX\tex/latex/psnfss\omxpsycm.fd
+LaTeX Font Info:    Trying to load font information for OMX+psycm on input line 15.
+ (C:\Program Files\MiKTeX\tex/latex/psnfss\omxpsycm.fd
 File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
@@ -988,8 +988,7 @@ Overfull \hbox (46.76358pt too wide) in paragraph at lines 32--50
 ]
 \openout2 = `a3-abstract.aux'.
 
-
-(a3-abstract.tex) [15
+ (a3-abstract.tex) [15
 
 
 
@@ -1011,8 +1010,7 @@ Overfull \hbox (46.76358pt too wide) in paragraph at lines 32--50
 ]
 \openout2 = `untouch/xx-daftar.aux'.
 
-
-(untouch/xx-daftar.tex (laporan.toc
+ (untouch/xx-daftar.tex (laporan.toc
 Overfull \hbox (2.39996pt too wide) detected at line 30
 \OT1/ptm/m/n/12 2.1.10 
  []
@@ -1037,22 +1035,13 @@ Overfull \hbox (2.39996pt too wide) detected at line 30
 \tf@lot=\write7
 \openout7 = `laporan.lot'.
 
-)
-[23
+) [23
 
 ]
 \openout2 = `b1-bab1.aux'.
 
  (b1-bab1.tex
 Bab 1.
-
-Package natbib Warning: Citation `Trulline2021' on page 1 undefined on input li
-ne 9.
-
-
-Package natbib Warning: Citation `Joseph2024' on page 1 undefined on input line
- 11.
-
 [1
 
 
@@ -1060,16 +1049,7 @@ Package natbib Warning: Citation `Joseph2024' on page 1 undefined on input line
 
 
 
-]
-
-Package natbib Warning: Citation `Luz2025' on page 2 undefined on input line 17
-.
-
-
-Package natbib Warning: Citation `Micheal2025' on page 2 undefined on input lin
-e 17.
-
-[2]) [3]
+] [2]) [3]
 \openout2 = `b2-bab2.aux'.
 
  (b2-bab2.tex [4
@@ -1079,119 +1059,23 @@ e 17.
 
 ]
 Bab 2.
-
-Package natbib Warning: Citation `Alviani2025' on page 5 undefined on input lin
-e 14.
-
-
-Package natbib Warning: Citation `Sofyan2025' on page 5 undefined on input line
- 16.
-
-
-Package natbib Warning: Citation `Trulline2021' on page 5 undefined on input li
-ne 18.
-
-
-Package natbib Warning: Citation `Mardhatilah2024' on page 5 undefined on input
- line 23.
-
 [5
 
 
-]
-
-Package natbib Warning: Citation `Suryani2024' on page 6 undefined on input lin
-e 33.
-
-[6]
-
-Package natbib Warning: Citation `Fajarini2025' on page 7 undefined on input li
-ne 37.
-
-
-Package natbib Warning: Citation `Maharani2024' on page 7 undefined on input li
-ne 39.
-
-
-Package natbib Warning: Citation `Suryani2024' on page 7 undefined on input lin
-e 41.
-
-[7]
-
-Package natbib Warning: Citation `Rathore2025' on page 8 undefined on input lin
-e 52.
-
-
-Package natbib Warning: Citation `Purnama2025' on page 8 undefined on input lin
-e 54.
-
-[8]
-
-Package natbib Warning: Citation `Maulida2025' on page 9 undefined on input lin
-e 66.
-
-[9]
-<gambar/client-data-layer-paradigm.png, id=611, 2770.35pt x 2720.1625pt>
+] [6] [7] [8] [9]
+<gambar/client-data-layer-paradigm.png, id=655, 2770.35pt x 2720.1625pt>
 File: gambar/client-data-layer-paradigm.png Graphic file (type png)
 <use gambar/client-data-layer-paradigm.png>
-Package pdftex.def Info: gambar/client-data-layer-paradigm.png  used on input l
-ine 79.
+Package pdftex.def Info: gambar/client-data-layer-paradigm.png  used on input line 79.
 (pdftex.def)             Requested size: 364.19667pt x 357.57664pt.
- [10 <./gambar/client-data-layer-paradigm.png>] [11]
-
-Package natbib Warning: Citation `Rahman2024' on page 12 undefined on input lin
-e 106.
-
-[12]
-
-Package natbib Warning: Citation `Islam2025' on page 13 undefined on input line
- 115.
-
-[13]
-
-Package natbib Warning: Citation `ReactOfficial' on page 14 undefined on input 
-line 128.
-
-
-Package natbib Warning: Citation `TrendsWebDevReact2025' on page 14 undefined o
-n input line 130.
-
-
-Package natbib Warning: Citation `TanstackLCC2025' on page 14 undefined on inpu
-t line 136.
-
-[14] [15]
-<gambar/fountain-sdlc.jpg, id=643, 1024.82875pt x 2569.6pt>
+ [10 <./gambar/client-data-layer-paradigm.png>] [11] [12] [13] [14] [15]
+<gambar/fountain-sdlc.jpg, id=702, 1024.82875pt x 2569.6pt>
 File: gambar/fountain-sdlc.jpg Graphic file (type jpg)
 <use gambar/fountain-sdlc.jpg>
 Package pdftex.def Info: gambar/fountain-sdlc.jpg  used on input line 155.
 (pdftex.def)             Requested size: 136.57462pt x 342.41122pt.
-
-
-LaTeX Warning: Reference `fig:fountain-sdlc' on page 16 undefined on input line
- 161.
-
-[16 <./gambar/fountain-sdlc.jpg>]
-
-Package natbib Warning: Citation `Fadillah2023' on page 17 undefined on input l
-ine 165.
-
-
-Package natbib Warning: Citation `Fadillah2023' on page 17 undefined on input l
-ine 169.
-
-[17]
-
-Package natbib Warning: Citation `Aniley2024' on page 18 undefined on input lin
-e 189.
-
-
-Package natbib Warning: Citation `Sastra2023' on page 18 undefined on input lin
-e 189.
-
-[18]
-ignored error: Infinite glue shrinkage found in box being split [19] [20])
-[21]
+ [16 <./gambar/fountain-sdlc.jpg>] [17] [18]
+b2-bab2.tex:246: ignored error: Infinite glue shrinkage found in box being split [19] [20]) [21]
 \openout2 = `b3-bab3.aux'.
 
  (b3-bab3.tex [22
@@ -1201,167 +1085,89 @@ ignored error: Infinite glue shrinkage found in box being split [19] [20])
 
 ]
 Bab 3.
-
-LaTeX Warning: Reference `tab:jadwal-kegiatan' on page 23 undefined on input li
-ne 12.
-
-ignored error: Infinite glue shrinkage found in box being split [23
+b3-bab3.tex:89: ignored error: Infinite glue shrinkage found in box being split [23
 
 
-]
-
-Package natbib Warning: Citation `Aniley2024' on page 24 undefined on input lin
-e 99.
-
-
-Package natbib Warning: Citation `Sastra2023' on page 24 undefined on input lin
-e 99.
-
-[24] [25] [26] [27]
-<gambar/usecase-TA.png, id=696, 573.14125pt x 634.37pt>
+] [24] [25] [26] [27]
+<gambar/usecase-TA.png, id=772, 573.14125pt x 634.37pt>
 File: gambar/usecase-TA.png Graphic file (type png)
 <use gambar/usecase-TA.png>
 Package pdftex.def Info: gambar/usecase-TA.png  used on input line 123.
 (pdftex.def)             Requested size: 318.66948pt x 352.71837pt.
-
-
-LaTeX Warning: Reference `fig:use-case' on page 28 undefined on input line 129.
-
-
-[28 <./gambar/usecase-TA.png>] [29]
-<gambar/erd.png, id=707, 1032.85875pt x 1022.82124pt>
+ [28 <./gambar/usecase-TA.png>] [29]
+<gambar/erd.png, id=784, 1032.85875pt x 1022.82124pt>
 File: gambar/erd.png Graphic file (type png)
 <use gambar/erd.png>
 Package pdftex.def Info: gambar/erd.png  used on input line 140.
 (pdftex.def)             Requested size: 409.71692pt x 405.73453pt.
-
-
-LaTeX Warning: Reference `fig:ERD' on page 30 undefined on input line 147.
-
-[30 <./gambar/erd.png>]
-<gambar/diagram-sistem-keseluruhan.png, id=714, 4101.3225pt x 1508.63625pt>
+ [30 <./gambar/erd.png>]
+<gambar/diagram-sistem-keseluruhan.png, id=792, 4101.3225pt x 1508.63625pt>
 File: gambar/diagram-sistem-keseluruhan.png Graphic file (type png)
 <use gambar/diagram-sistem-keseluruhan.png>
-Package pdftex.def Info: gambar/diagram-sistem-keseluruhan.png  used on input l
-ine 161.
+Package pdftex.def Info: gambar/diagram-sistem-keseluruhan.png  used on input line 161.
 (pdftex.def)             Requested size: 364.19667pt x 133.95284pt.
  [31 <./gambar/diagram-sistem-keseluruhan.png>]
-<gambar/diagram-architecture.png, id=722, 490.33188pt x 748.29562pt>
+<gambar/diagram-architecture.png, id=800, 490.33188pt x 748.29562pt>
 File: gambar/diagram-architecture.png Graphic file (type png)
 <use gambar/diagram-architecture.png>
-Package pdftex.def Info: gambar/diagram-architecture.png  used on input line 17
-8.
+Package pdftex.def Info: gambar/diagram-architecture.png  used on input line 178.
 (pdftex.def)             Requested size: 227.62206pt x 347.37155pt.
- [32]
-
-LaTeX Warning: Reference `fig:frontend-architecture' on page 33 undefined on in
-put line 184.
-
-[33 <./gambar/diagram-architecture.png>]
-
-LaTeX Warning: Reference `fig:frontend-architecture' on page 34 undefined on in
-put line 190.
-
-[34]
-
-Package natbib Warning: Citation `TanstackLCC2025' on page 35 undefined on inpu
-t line 195.
-
-<gambar/tanstack-works.jpg, id=738, 803.0pt x 451.6875pt>
+ [32] [33 <./gambar/diagram-architecture.png>] [34]
+<gambar/tanstack-works.jpg, id=820, 803.0pt x 451.6875pt>
 File: gambar/tanstack-works.jpg Graphic file (type jpg)
 <use gambar/tanstack-works.jpg>
 Package pdftex.def Info: gambar/tanstack-works.jpg  used on input line 198.
 (pdftex.def)             Requested size: 227.62206pt x 128.03615pt.
-
-LaTeX Warning: Reference `fig:tanstack-works' on page 35 undefined on input lin
-e 204.
-
-[35 <./gambar/tanstack-works.jpg (PNG copy)>]
-<gambar/landing-page.jpeg, id=744, 1541.76pt x 1266.23062pt>
+ [35 <./gambar/tanstack-works.jpg (PNG copy)>]
+<gambar/landing-page.jpeg, id=827, 1541.76pt x 1266.23062pt>
 File: gambar/landing-page.jpeg Graphic file (type jpg)
 <use gambar/landing-page.jpeg>
 Package pdftex.def Info: gambar/landing-page.jpeg  used on input line 212.
 (pdftex.def)             Requested size: 318.66948pt x 261.70428pt.
-
-
-LaTeX Warning: Reference `fig:landing-page' on page 36 undefined on input line 
-217.
-
-<gambar/login.jpeg, id=745, 3035.34pt x 1300.86pt>
+<gambar/login.jpeg, id=829, 3035.34pt x 1300.86pt>
 File: gambar/login.jpeg Graphic file (type jpg)
 <use gambar/login.jpeg>
 Package pdftex.def Info: gambar/login.jpeg  used on input line 220.
 (pdftex.def)             Requested size: 318.66948pt x 136.56456pt.
-[36 <./gambar/landing-page.jpeg>]
-
-LaTeX Warning: Reference `fig:login' on page 37 undefined on input line 224.
-
-<gambar/register.jpeg, id=751, 3035.34pt x 1300.86pt>
+ [36 <./gambar/landing-page.jpeg>]
+<gambar/register.jpeg, id=836, 3035.34pt x 1300.86pt>
 File: gambar/register.jpeg Graphic file (type jpg)
 <use gambar/register.jpeg>
 Package pdftex.def Info: gambar/register.jpeg  used on input line 227.
 (pdftex.def)             Requested size: 318.66948pt x 136.56456pt.
-
-LaTeX Warning: Reference `fig:register' on page 37 undefined on input line 231.
-
-
-<gambar/dashboard.jpeg, id=752, 1541.76pt x 1156.32pt>
+<gambar/dashboard.jpeg, id=838, 1541.76pt x 1156.32pt>
 File: gambar/dashboard.jpeg Graphic file (type jpg)
 <use gambar/dashboard.jpeg>
 Package pdftex.def Info: gambar/dashboard.jpeg  used on input line 234.
 (pdftex.def)             Requested size: 318.66948pt x 238.98798pt.
-[37 <./gambar/login.jpeg> <./gambar/register.jpeg>]
-
-LaTeX Warning: Reference `fig:dashboard' on page 38 undefined on input line 238
-.
-
-<gambar/sentiment.png, id=758, 2344.76pt x 1478.52374pt>
+ [37 <./gambar/login.jpeg> <./gambar/register.jpeg>]
+<gambar/sentiment.png, id=845, 2344.76pt x 1478.52374pt>
 File: gambar/sentiment.png Graphic file (type png)
 <use gambar/sentiment.png>
 Package pdftex.def Info: gambar/sentiment.png  used on input line 241.
 (pdftex.def)             Requested size: 318.66948pt x 200.92316pt.
-
-LaTeX Warning: Reference `fig:sentiment' on page 38 undefined on input line 245
-.
-
-<gambar/scraper.png, id=759, 2248.4pt x 1040.88875pt>
+<gambar/scraper.png, id=847, 2248.4pt x 1040.88875pt>
 File: gambar/scraper.png Graphic file (type png)
 <use gambar/scraper.png>
 Package pdftex.def Info: gambar/scraper.png  used on input line 248.
 (pdftex.def)             Requested size: 318.66948pt x 147.51817pt.
-[38 <./gambar/dashboard.jpeg> <./gambar/sentiment.png>]
-
-LaTeX Warning: Reference `fig:scraper' on page 39 undefined on input line 252.
-
-<gambar/recomendation.jpeg, id=765, 1541.76pt x 931.22906pt>
+ [38 <./gambar/dashboard.jpeg> <./gambar/sentiment.png>]
+<gambar/recomendation.jpeg, id=854, 1541.76pt x 931.22906pt>
 File: gambar/recomendation.jpeg Graphic file (type jpg)
 <use gambar/recomendation.jpeg>
 Package pdftex.def Info: gambar/recomendation.jpeg  used on input line 255.
 (pdftex.def)             Requested size: 318.66948pt x 192.46622pt.
-
-LaTeX Warning: Reference `fig:recomendation' on page 39 undefined on input line
- 259.
-
-<gambar/chatbot.jpeg, id=766, 1114.91531pt x 1541.76pt>
+<gambar/chatbot.jpeg, id=856, 1114.91531pt x 1541.76pt>
 File: gambar/chatbot.jpeg Graphic file (type jpg)
 <use gambar/chatbot.jpeg>
 Package pdftex.def Info: gambar/chatbot.jpeg  used on input line 262.
 (pdftex.def)             Requested size: 227.62206pt x 314.74542pt.
-[39 <./gambar/scraper.png> <./gambar/recomendation.jpeg>]
-
-LaTeX Warning: Reference `fig:chatbot' on page 40 undefined on input line 266.
-
-[40 <./gambar/chatbot.jpeg>]
-
-Package natbib Warning: Citation `Owusu2025' on page 41 undefined on input line
- 271.
-
-[41]
-ignored error: Infinite glue shrinkage found in box being split [42]
-ignored error: Infinite glue shrinkage found in box being split [43]
-ignored error: Infinite glue shrinkage found in box being split [44]
-ignored error: Infinite glue shrinkage found in box being split [45] [46]
-ignored error: Infinite glue shrinkage found in box being split [47]
+ [39 <./gambar/scraper.png> <./gambar/recomendation.jpeg>] [40 <./gambar/chatbot.jpeg>] [41]
+b3-bab3.tex:446: ignored error: Infinite glue shrinkage found in box being split [42]
+b3-bab3.tex:446: ignored error: Infinite glue shrinkage found in box being split [43]
+b3-bab3.tex:542: ignored error: Infinite glue shrinkage found in box being split [44]
+b3-bab3.tex:649: ignored error: Infinite glue shrinkage found in box being split [45] [46]
+b3-bab3.tex:756: ignored error: Infinite glue shrinkage found in box being split [47]
 Overfull \hbox (4.29388pt too wide) in paragraph at lines 787--787
 \OT1/ptm/m/n/12 re-ko-men-da-si 
  []
@@ -1376,14 +1182,13 @@ Overfull \hbox (4.29388pt too wide) in paragraph at lines 791--791
 \OT1/ptm/m/n/12 re-ko-men-da-si 
  []
 
-ignored error: Infinite glue shrinkage found in box being split [48]
-ignored error: Infinite glue shrinkage found in box being split [49] [50]
-ignored error: Infinite glue shrinkage found in box being split [51]
-ignored error: Infinite glue shrinkage found in box being split [52]) [53]
+b3-bab3.tex:798: ignored error: Infinite glue shrinkage found in box being split [48]
+b3-bab3.tex:890: ignored error: Infinite glue shrinkage found in box being split [49] [50]
+b3-bab3.tex:999: ignored error: Infinite glue shrinkage found in box being split [51]
+b3-bab3.tex:1078: ignored error: Infinite glue shrinkage found in box being split [52]) [53]
 \openout2 = `b4-bab4.aux'.
 
-
-(b4-bab4.tex [54
+ (b4-bab4.tex [54
 
 
 
@@ -1393,171 +1198,83 @@ Bab 4.
 [55
 
 
-]
-
-LaTeX Warning: Reference `fig:tanstack-works' on page 56 undefined on input lin
-e 38.
-
-[56] [57]
-<gambar/ui-landing-page.png, id=941, 1243.64626pt x 918.43124pt>
+] [56] [57]
+<gambar/ui-landing-page.png, id=1036, 1243.64626pt x 918.43124pt>
 File: gambar/ui-landing-page.png Graphic file (type png)
 <use gambar/ui-landing-page.png>
 Package pdftex.def Info: gambar/ui-landing-page.png  used on input line 66.
 (pdftex.def)             Requested size: 409.71692pt x 302.57874pt.
- [58]
-
-LaTeX Warning: Reference `fig:implementasi-landing-page' on page 59 undefined o
-n input line 71.
-
-[59 <./gambar/ui-landing-page.png>]
-<gambar/ui-login-page.png, id=953, 1243.64626pt x 576.1525pt>
+ [58] [59 <./gambar/ui-landing-page.png>]
+<gambar/ui-login-page.png, id=1049, 1243.64626pt x 576.1525pt>
 File: gambar/ui-login-page.png Graphic file (type png)
 <use gambar/ui-login-page.png>
 Package pdftex.def Info: gambar/ui-login-page.png  used on input line 85.
 (pdftex.def)             Requested size: 318.66948pt x 147.63344pt.
-
-
-LaTeX Warning: Reference `fig:implementasi-login' on page 60 undefined on input
- line 90.
-
-<gambar/ui-register-page.png, id=954, 1243.64626pt x 576.1525pt>
+<gambar/ui-register-page.png, id=1051, 1243.64626pt x 576.1525pt>
 File: gambar/ui-register-page.png Graphic file (type png)
 <use gambar/ui-register-page.png>
 Package pdftex.def Info: gambar/ui-register-page.png  used on input line 95.
 (pdftex.def)             Requested size: 318.66948pt x 147.63344pt.
-
-LaTeX Warning: Reference `fig:implementasi-register' on page 60 undefined on in
-put line 100.
-
-[60 <./gambar/ui-login-page.png> <./gambar/ui-register-page.png>]
-<gambar/ui-dashboard-page.png, id=962, 1927.95282pt x 1342.2647pt>
+ [60 <./gambar/ui-login-page.png> <./gambar/ui-register-page.png>]
+<gambar/ui-dashboard-page.png, id=1060, 1927.95282pt x 1342.2647pt>
 File: gambar/ui-dashboard-page.png Graphic file (type png)
 <use gambar/ui-dashboard-page.png>
 Package pdftex.def Info: gambar/ui-dashboard-page.png  used on input line 113.
 (pdftex.def)             Requested size: 318.66948pt x 221.85326pt.
-
-
-LaTeX Warning: Reference `fig:implementasi-dashboard' on page 61 undefined on i
-nput line 118.
-
-[61 <./gambar/ui-dashboard-page.png>]
-<gambar/ui-scraper-page.png, id=970, 1243.64626pt x 576.1525pt>
+ [61 <./gambar/ui-dashboard-page.png>]
+<gambar/ui-scraper-page.png, id=1069, 1243.64626pt x 576.1525pt>
 File: gambar/ui-scraper-page.png Graphic file (type png)
 <use gambar/ui-scraper-page.png>
 Package pdftex.def Info: gambar/ui-scraper-page.png  used on input line 132.
 (pdftex.def)             Requested size: 318.66948pt x 147.63344pt.
-
-
-LaTeX Warning: Reference `fig:implementasi-scraper' on page 62 undefined on inp
-ut line 137.
-
-[62 <./gambar/ui-scraper-page.png>]
-<gambar/ui-sentiment-page.png, id=977, 1243.64626pt x 918.43124pt>
+ [62 <./gambar/ui-scraper-page.png>]
+<gambar/ui-sentiment-page.png, id=1077, 1243.64626pt x 918.43124pt>
 File: gambar/ui-sentiment-page.png Graphic file (type png)
 <use gambar/ui-sentiment-page.png>
 Package pdftex.def Info: gambar/ui-sentiment-page.png  used on input line 151.
 (pdftex.def)             Requested size: 318.66948pt x 235.33902pt.
-
-
-LaTeX Warning: Reference `fig:implementasi-sentiment' on page 63 undefined on i
-nput line 156.
-
-[63 <./gambar/ui-sentiment-page.png>]
-<gambar/ui-recommendation-content-page.png, id=984, 1927.95282pt x 1367.1075pt>
-
+ [63 <./gambar/ui-sentiment-page.png>]
+<gambar/ui-recommendation-content-page.png, id=1085, 1927.95282pt x 1367.1075pt>
 File: gambar/ui-recommendation-content-page.png Graphic file (type png)
 <use gambar/ui-recommendation-content-page.png>
-Package pdftex.def Info: gambar/ui-recommendation-content-page.png  used on inp
-ut line 169.
+Package pdftex.def Info: gambar/ui-recommendation-content-page.png  used on input line 169.
 (pdftex.def)             Requested size: 318.66948pt x 225.95935pt.
-
-
-LaTeX Warning: Reference `fig:implementasi-recommendation-content' on page 64 u
-ndefined on input line 174.
-
-[64 <./gambar/ui-recommendation-content-page.png>]
-<gambar/ui-chatbot-page.png, id=991, 294.09875pt x 460.72125pt>
+ [64 <./gambar/ui-recommendation-content-page.png>]
+<gambar/ui-chatbot-page.png, id=1093, 294.09875pt x 460.72125pt>
 File: gambar/ui-chatbot-page.png Graphic file (type png)
 <use gambar/ui-chatbot-page.png>
 Package pdftex.def Info: gambar/ui-chatbot-page.png  used on input line 189.
 (pdftex.def)             Requested size: 182.09486pt x 285.2646pt.
-
-
-LaTeX Warning: Reference `fig:desain-chatbot' on page 65 undefined on input lin
-e 194.
-
-[65 <./gambar/ui-chatbot-page.png>]
-ignored error: Infinite glue shrinkage found in box being split [66] [67]
-[68] [69]
-ignored error: Infinite glue shrinkage found in box being split [70]
-ignored error: Infinite glue shrinkage found in box being split [71]
-ignored error: Infinite glue shrinkage found in box being split [72]
-ignored error: Infinite glue shrinkage found in box being split [73]
-ignored error: Infinite glue shrinkage found in box being split [74] [75]
-<gambar/folder-structure-features.png, id=1048, 130.4875pt x 106.89937pt>
+ [65 <./gambar/ui-chatbot-page.png>]
+b4-bab4.tex:325: ignored error: Infinite glue shrinkage found in box being split [66] [67] [68] [69]
+b4-bab4.tex:547: ignored error: Infinite glue shrinkage found in box being split [70]
+b4-bab4.tex:623: ignored error: Infinite glue shrinkage found in box being split [71]
+b4-bab4.tex:693: ignored error: Infinite glue shrinkage found in box being split [72]
+b4-bab4.tex:769: ignored error: Infinite glue shrinkage found in box being split [73]
+b4-bab4.tex:831: ignored error: Infinite glue shrinkage found in box being split [74] [75]
+<gambar/folder-structure-features.png, id=1151, 130.4875pt x 106.89937pt>
 File: gambar/folder-structure-features.png Graphic file (type png)
 <use gambar/folder-structure-features.png>
-Package pdftex.def Info: gambar/folder-structure-features.png  used on input li
-ne 851.
+Package pdftex.def Info: gambar/folder-structure-features.png  used on input line 851.
 (pdftex.def)             Requested size: 182.09486pt x 149.18015pt.
-
-
-LaTeX Warning: Reference `fig:struktur-folder-fitur' on page 76 undefined on in
-put line 856.
-
-[76 <./gambar/folder-structure-features.png>]
-
-LaTeX Warning: Reference `fig:alur-pengelolaan-query-tanstack-query' on page 77
- undefined on input line 866.
-
-
-LaTeX Warning: Reference `fig:skema-mutation-tanstack-query' on page 77 undefin
-ed on input line 866.
-
-<gambar/implementasi-arsitektur-tanstackquery.png, id=1054, 789.95125pt x 974.1
-3937pt>
+ [76 <./gambar/folder-structure-features.png>]
+<gambar/implementasi-arsitektur-tanstackquery.png, id=1160, 789.95125pt x 974.13937pt>
 File: gambar/implementasi-arsitektur-tanstackquery.png Graphic file (type png)
 <use gambar/implementasi-arsitektur-tanstackquery.png>
-Package pdftex.def Info: gambar/implementasi-arsitektur-tanstackquery.png  used
- on input line 869.
+Package pdftex.def Info: gambar/implementasi-arsitektur-tanstackquery.png  used on input line 869.
 (pdftex.def)             Requested size: 318.66948pt x 392.96355pt.
-[77]
-
-LaTeX Warning: Reference `fig:alur-pengelolaan-query-tanstack-query' on page 78
- undefined on input line 874.
-
-[78 <./gambar/implementasi-arsitektur-tanstackquery.png>]
-<gambar/skema-mutation-tanstack-query.png, id=1064, 580.66937pt x 933.98938pt>
+ [77] [78 <./gambar/implementasi-arsitektur-tanstackquery.png>]
+<gambar/skema-mutation-tanstack-query.png, id=1171, 580.66937pt x 933.98938pt>
 File: gambar/skema-mutation-tanstack-query.png Graphic file (type png)
 <use gambar/skema-mutation-tanstack-query.png>
-Package pdftex.def Info: gambar/skema-mutation-tanstack-query.png  used on inpu
-t line 882.
+Package pdftex.def Info: gambar/skema-mutation-tanstack-query.png  used on input line 882.
 (pdftex.def)             Requested size: 318.66948pt x 512.56989pt.
-
-
-LaTeX Warning: Reference `fig:skema-mutation-tanstack-query' on page 79 undefin
-ed on input line 887.
-
-[79 <./gambar/skema-mutation-tanstack-query.png>] [80] [81]
-
-Package natbib Warning: Citation `Fajarini2025' on page 82 undefined on input l
-ine 919.
-
-
-Package natbib Warning: Citation `Micheal2025' on page 82 undefined on input li
-ne 921.
-
-
-Package natbib Warning: Citation `Rathore2025' on page 82 undefined on input li
-ne 923.
-
-[82] [83]) [84]
+ [79 <./gambar/skema-mutation-tanstack-query.png>] [80] [81] [82] [83]) [84]
 \openout2 = `b5-bab5.aux'.
 
  (b5-bab5.tex
 Bab 5.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-1.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 11.
 (C:\Program Files\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )) [85
@@ -1566,8 +1283,7 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 
 
 
-]
-(untouch/xx-daftarpustaka.tex (laporan.bbl [86
+] (untouch/xx-daftarpustaka.tex (laporan.bbl [86
 
 
 
@@ -1575,22 +1291,16 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ] [87
 
 
-])) (a8-lampiran.tex
-[88]
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 13.
+])) (a8-lampiran.tex [88]
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 13.
  (kode/query-client.ts) (kode/query-keys.ts [89
 
 
-]) (kode/scraper.ts [90])
-(kode/scraper.repository.tsx
-LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 2
-6.
-
-(C:\Program Files\MiKTeX\tex/latex/psnfss\ts1pcr.fd
+]) (kode/scraper.ts [90]) (kode/scraper.repository.tsx
+LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 26.
+ (C:\Program Files\MiKTeX\tex/latex/psnfss\ts1pcr.fd
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
-) [91])
-(kode/useScraperQuery.ts [92]) (kode/useLoginMutation.ts) [93] [94
+)) (kode/useScraperQuery.ts [91]) (kode/useLoginMutation.ts [92]) [93] [94
 
 ]
 File: gambar/logo-poliwangi.png Graphic file (type png)
@@ -1601,56 +1311,29 @@ File: gambar/logo-poliwangi.png Graphic file (type png)
 <use gambar/logo-poliwangi.png>
 Package pdftex.def Info: gambar/logo-poliwangi.png  used on input line 73.
 (pdftex.def)             Requested size: 28.90747pt x 28.90747pt.
-)
-
-Package natbib Warning: There were undefined citations.
-
-[95
+) [95
 
 
-] (laporan.aux (untouch/xx-sampul-laporan.aux)
-(untouch/xx-sampuldalam-laporan.aux) (a4-persembahan.aux) (a9-motto.aux)
-(untouch/xx-pernyataan-poliwangi.aux) (untouch/xx-persetujuan-ujian.aux)
-(untouch/xx-pengesahan.aux) (a2-abstrak.aux) (a3-abstract.aux)
-(a5-katapengantar.aux) (untouch/xx-daftar.aux) (b1-bab1.aux) (b2-bab2.aux)
-(b3-bab3.aux) (b4-bab4.aux) (b5-bab5.aux)
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
+] (laporan.aux (untouch/xx-sampul-laporan.aux) (untouch/xx-sampuldalam-laporan.aux) (a4-persembahan.aux) (a9-motto.aux) (untouch/xx-pernyataan-poliwangi.aux) (untouch/xx-persetujuan-ujian.aux) (untouch/xx-pengesahan.aux) (a2-abstrak.aux) (a3-abstract.aux) (a5-katapengantar.aux) (untouch/xx-daftar.aux) (b1-bab1.aux) (b2-bab2.aux) (b3-bab3.aux) (b4-bab4.aux) (b5-bab5.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `laporan.out' has not changed.
 (rerunfilecheck)             Checksum: FEC13AE0865E3B1C080A347BDD8C9CF7;12032.
  ) 
 Here is how much of TeX's memory you used:
- 41126 strings out of 467871
- 921258 string characters out of 5428444
- 1824693 words of memory out of 5000000
- 68586 multiletter control sequences out of 15000+600000
+ 41128 strings out of 467871
+ 922326 string characters out of 5428444
+ 1782693 words of memory out of 5000000
+ 68592 multiletter control sequences out of 15000+600000
  659710 words of font info for 96 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 93i,15n,97p,1064b,2015s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progra
-m Files/MiKTeX/fonts/type1/urw/courier/ucrb8a.pfb><C:/Program Files/MiKTeX/font
-s/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier
-/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Progr
-am Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX/font
-s/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utm
-ri8a.pfb>
-Output written on laporan.pdf (119 pages, 5979319 bytes).
+ 93i,15n,97p,1099b,2015s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on laporan.pdf (119 pages, 5989382 bytes).
 PDF statistics:
- 1609 PDF objects out of 1728 (max. 8388607)
- 672 named destinations out of 1000 (max. 500000)
+ 1655 PDF objects out of 1728 (max. 8388607)
+ 634 named destinations out of 1000 (max. 500000)
  700 words of extra memory for PDF output out of 10000 (max. 10000000)
 

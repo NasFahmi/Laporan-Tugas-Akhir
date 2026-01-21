@@ -837,11 +837,11 @@ INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\ts1pcr.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\ts1pcr.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\ts1pcr.fd
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\courier\pcrr8c.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\courier\pcrr8c.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\courier\pcrr8r.tfm
 INPUT .\kode\useScraperQuery.ts
 INPUT .\kode\useScraperQuery.ts
 INPUT kode\useScraperQuery.ts
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\courier\pcrr8c.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\courier\pcrr8r.tfm
 INPUT .\kode\useLoginMutation.ts
 INPUT .\kode\useLoginMutation.ts
 INPUT kode\useLoginMutation.ts

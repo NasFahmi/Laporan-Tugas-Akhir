@@ -75,8 +75,8 @@
 \contentsline {section}{Lampiran 2. Kode Program \textit {Query Keys}}{89}{section*.53}%
 \contentsline {section}{Lampiran 3. Kode Program \textit {Interface}}{90}{section*.54}%
 \contentsline {section}{Lampiran 4. Kode Program \textit {Repository}}{91}{section*.55}%
-\contentsline {section}{Lampiran 5. Kode Program \textit {Query}}{92}{section*.56}%
-\contentsline {section}{Lampiran 6. Kode Program \textit {Mutation}}{93}{section*.57}%
+\contentsline {section}{Lampiran 5. Kode Program \textit {Query}}{91}{section*.56}%
+\contentsline {section}{Lampiran 6. Kode Program \textit {Mutation}}{92}{section*.57}%
 \contentsline {chapter}{LAMPIRAN B GAMBAR-GAMBAR}{95}{appendix*.58}%
 \contentsline {section}{\numberline {}Lampiran B.1. Foto Aktivitas Kegiatan Proyek Akhir}{95}{section*.59}%
 \contentsline {section}{\numberline {}Lampiran B.2. Foto Produk Proyek Akhir}{95}{figure.caption.60}%

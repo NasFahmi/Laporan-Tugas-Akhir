@@ -31,43 +31,5 @@ export const ScraperRepository = () => ({
       throw error;
     }
   },
-  downloadCSVById: async (id: string): Promise<Blob> => {
-    try {
-      const response = await axiosClient.get(
-        `/scraping/results/${id}/download/csv`,
-        { responseType: "blob" }
-      );
-      return response.data;
-    } catch (error) {
-      console.error('Download error:', error);
-      throw error;
-    }
-  },
-  downloadExcelById: async (id: string): Promise<Blob> => {
-    try {
-      const response = await axiosClient.get(
-        `/scraping/results/${id}/download/excel`,
-        { responseType: "blob" }
-      );
-      return response.data;
-    } catch (error) {
-      console.error('Download error:', error);
-      throw error;
-    }
-  },
-
-
-  deleteById: async (id: string): Promise<ScraperDeleteResponse> => {
-    console.log('Deleting scraper with ID:', id);
-    try {
-      const response = await axiosClient.delete<ScraperDeleteResponse>(
-        `/scraping/results/${id}`
-      );
-      console.log('Delete response:', response.data);
-      return response.data;
-    } catch (error) {
-      console.error('Delete error:', error);
-      throw error;
-    }
-  },
+  ......
 });
