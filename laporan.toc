@@ -70,9 +70,13 @@
 \contentsline {section}{\numberline {5.1}Kesimpulan}{85}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Saran}{85}{section.5.2}%
 \contentsline {chapter}{DAFTAR PUSTAKA}{86}{section*.49}%
-\contentsline {chapter}{LAMPIRAN A KODE PROGRAM}{89}{appendix*.51}%
-\contentsline {section}{\numberline {}Lampiran A.1. Program Pembacaan Sensor Ultrasonic}{89}{section*.52}%
-\contentsline {section}{\numberline {}Lampiran A.2. Program Keseluruhan Proyek Akhir}{89}{section*.52}%
-\contentsline {chapter}{LAMPIRAN B GAMBAR-GAMBAR}{91}{appendix*.53}%
-\contentsline {section}{\numberline {}Lampiran B.1. Foto Aktivitas Kegiatan Proyek Akhir}{91}{section*.54}%
-\contentsline {section}{\numberline {}Lampiran B.2. Foto Produk Proyek Akhir}{91}{figure.caption.55}%
+\contentsline {chapter}{LAMPIRAN}{89}{appendix*.51}%
+\contentsline {section}{Lampiran 1. Kode Program \textit {Query Client}}{89}{section*.52}%
+\contentsline {section}{Lampiran 2. Kode Program \textit {Query Keys}}{89}{section*.53}%
+\contentsline {section}{Lampiran 3. Kode Program \textit {Interface}}{90}{section*.54}%
+\contentsline {section}{Lampiran 4. Kode Program \textit {Repository}}{91}{section*.55}%
+\contentsline {section}{Lampiran 5. Kode Program \textit {Query}}{92}{section*.56}%
+\contentsline {section}{Lampiran 6. Kode Program \textit {Mutation}}{93}{section*.57}%
+\contentsline {chapter}{LAMPIRAN B GAMBAR-GAMBAR}{95}{appendix*.58}%
+\contentsline {section}{\numberline {}Lampiran B.1. Foto Aktivitas Kegiatan Proyek Akhir}{95}{section*.59}%
+\contentsline {section}{\numberline {}Lampiran B.2. Foto Produk Proyek Akhir}{95}{figure.caption.60}%

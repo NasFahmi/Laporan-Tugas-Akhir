@@ -250,3 +250,34 @@
     \clearpage
   \fi
 }
+
+
+
+\usepackage{listings}
+
+\lstdefinelanguage{TypeScript}{
+  keywords={const, let, var, function, return, if, else, for, while, import, export, from, class, interface, type, extends, implements, async, await},
+  keywordstyle=\color{blue}\bfseries,
+  ndkeywords={string, number, boolean, any, void},
+  ndkeywordstyle=\color{teal}\bfseries,
+  identifierstyle=\color{black},
+  sensitive=true,
+  comment=[l]{//},
+  morecomment=[s]{/*}{*/},
+  commentstyle=\color{gray}\ttfamily,
+  stringstyle=\color{red}\ttfamily,
+  morestring=[b]',
+  morestring=[b]"
+}
+
+\lstset{
+  language=TypeScript,
+  basicstyle=\ttfamily\small,
+  numbers=left,
+  numberstyle=\tiny\color{gray},
+  stepnumber=1,
+  breaklines=true,
+  frame=single,
+  captionpos=b,
+  showstringspaces=false
+}
