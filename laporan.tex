@@ -1,78 +1,98 @@
 %==================================================================
-% File utama dokumen Laporan Tugas Akhir
+% Ini adalah file utama dari dokumen LaTeX ini
 %==================================================================
 
-%% JANGAN UBAH BAGIAN INI
-\documentclass[12pt, a4paper, onecolumn, oneside]{report}
+%% DILARANG EDIT BAGIAN INI
+\documentclass[12pt, a4paper, onecolumn, twoside, openright]{report}
 
-% =====================
-% IDENTITAS & PREAMBLES
-% =====================
+
 \input{a0-identitas}
 \input{untouch/xx-preambles}
 \input{a1-database.hyphenate}
 
-% =====================
-% JENIS DOKUMEN
-% =====================
-\newcommand{\Jenis}{Laporan} % Proposal / Laporan
+%\newcommand{\Jenis}{Proposal} %Pilih salah satu antara Proposal atau Laporan
+\newcommand{\Jenis}{Laporan} %Pilih salah satu antara Proposal atau Laporan
 
 \begin{document}
+\ifthenelse{\equal{\Jenis}{Proposal}}{
+	\include{untouch/xx-sampul-proposal}
+	\pagenumbering{roman}
+	\include{untouch/xx-sampuldalam-proposal}
+	\include{untouch/xx-persetujuan-proposal}
 
-% ==========================================================
-% ===================== BAGIAN AWAL ========================
-% ==========================================================
-\pagenumbering{roman}
+	\begin{spacing}{1.2}
+		\include{untouch/xx-daftar}
+	\end{spacing}
 
-\include{untouch/xx-sampul-laporan}
-\include{untouch/xx-sampuldalam-laporan}
-\ganjil
+	\pagenumbering{arabic}
 
-\begin{spacing}{1.2}
-    \include{a4-persembahan}
-		\ganjil
-    \include{a9-motto} % aktifkan jika perlu
-\end{spacing}
+	\begin{spacing}{1.5}
+		\include{b1-bab1}
+		\include{b2-bab2}
+		\include{b3-bab3}
+		\include{b6-bab6} %HANYA TUTORIAL HAPUS SAAT PENULISAN
+	\end{spacing}
+}{
 
-\begin{spacing}{1.5}
-		\ganjil
-    \include{untouch/xx-pernyataan-poliwangi}
-\end{spacing}
-\ganjil
-\include{untouch/xx-persetujuan-ujian}
-\ganjil
-\include{untouch/xx-pengesahan}
+	\include{untouch/xx-sampul-laporan}
+	\pagenumbering{roman}
+	\include{untouch/xx-sampuldalam-laporan}
+	\halamankosong
+	
+	\begin{spacing}{1.2}
+		\include{a4-persembahan}
+		\halamankosong
+		\include{a9-motto} % Uncomment jika ingin menggunakan halaman motto
+		\halamankosong
+	\end{spacing}
+	
+	\begin{spacing}{1.5}
+		\include{untouch/xx-pernyataan-poliwangi}
+		\halamankosong
+	\end{spacing}
+	
+	% \include{untouch/xx-persetujuan-ujian}
+	\include{untouch/xx-pengesahan}
+	\halamankosong
 
-\begin{spacing}{1.2}
-	\ganjil
-    \include{a2-abstrak}
-		\ganjil
-    \include{a3-abstract}
-		\ganjil
-    \include{a5-katapengantar}
-		\ganjil
-    \include{untouch/xx-daftar}
-\end{spacing}
+	\begin{spacing}{1.2}
+		\include{a2-abstrak}
+		\halamankosong
 
-% ==========================================================
-% ===================== ISI UTAMA ==========================
-% ==========================================================
-\clearpage
-\pagenumbering{arabic}
+		\include{a3-abstract}
+		\halamankosong
 
-\begin{spacing}{1.5}
-    \include{b1-bab1}
-    \include{b2-bab2}
-    \include{b3-bab3}
-    \include{b4-bab4}
-    \include{b5-bab5}
-\end{spacing}
+		\include{a5-katapengantar}
+		\halamankosong
 
-% ==========================================================
-% ===================== PENUTUP =============================
-% ==========================================================
+		\include{untouch/xx-daftar}
+		\halamankosong
+	\end{spacing}
+
+	\pagenumbering{arabic}
+
+	\begin{spacing}{1.5}
+		\include{b1-bab1}
+		\halamankosong
+
+		\include{b2-bab2}
+		\halamankosong
+
+		\include{b3-bab3}
+		\halamankosong
+
+		\include{b4-bab4}
+		\halamankosong
+
+		\include{b5-bab5}
+		\halamankosong
+
+		% \include{b6-bab6} %HANYA TUTORIAL HAPUS SAAT PENULISAN
+	\end{spacing}
+}
 \input{untouch/xx-daftarpustaka}
-\input{a8-lampiran}
+\halamankosong
 
+\input{a8-lampiran}
 \end{document}
-%% JANGAN UBAH BAGIAN INI
+%% DILARANG EDIT BAGIAN INI

@@ -2,41 +2,51 @@
 % Ini adalah sampul dalam
 %==================================================================
 
-%% DILARANG EDIT BAGIAN INI
 \newpage
 \addcontentsline{toc}{chapter}{HALAMAN SAMPUL}
+
+% Makro jarak standar sampul (mudah diubah)
+\newcommand{\coverspace}{\vspace{1.5\baselineskip}}
+
 \begin{center}
-    \begin{doublespace}
-        \textbf{\large{\MakeUppercase{\judulid}}}\\[2.5cm]
-    \end{doublespace}
+\begin{onehalfspace}
 
-    \textbf{\MakeUppercase{\large{\tipe}}}\\[0.5cm]
-    \begin{onehalfspace}
-        Diajukan kepada {\jurusan} {\universitas} Untuk Memenuhi Sebagai Persyaratan Guna Memperoleh Gelar Sarjana Terapan\\[1.8cm]
-    \end{onehalfspace}
+    % ===== Judul =====
+    {\large\bfseries\MakeUppercase{\judulid}}
 
-    \large Oleh: \\
-    \begin{onehalfspace}
-        \large{\penulis} \\
-        \large{\nim}\\[1.5cm]
-    \end{onehalfspace}
-    \vspace{1.5cm}
+    \coverspace\coverspace
 
-    \large Pembimbing: \\
-    \begin{onehalfspace}
-        \large{\pembimbingsatu} \\
-        \large{\pembimbingdua} \\
-    \end{onehalfspace}
+    % ===== Jenis laporan =====
+    {\large\bfseries\MakeUppercase{LAPORAN \tipe}}
 
-    \vfill
+    \coverspace\coverspace
 
-    \begin{center}
-        \setstretch{1.5}  
-        \textbf{\large \MakeUppercase{Program Studi Sarjana Terapan}}\\
-        \textbf{\large \MakeUppercase{Teknologi Rekayasa Perangkat Lunak}}\\
-        \textbf{\large \MakeUppercase{\jurusan}}\\
-        \textbf{\large \MakeUppercase{\universitas}}\\
-        \textbf{\large \the\year{}}
-        \end{center}
+    % ===== Logo =====
+    \includegraphics[width=4cm,height=4cm,keepaspectratio]{gambar/logo-poliwangi.png}
+
+    \coverspace\coverspace
+
+    % ===== Keterangan =====
+    Tugas Akhir ini Dibuat dan Diajukan untuk Memenuhi Salah Satu Syarat Kelulusan\\
+    Program Studi Sarjana Terapan \prodi\\
+    dan Mencapai Gelar Sarjana Terapan (S.Tr.Kom)
+
+    \coverspace\coverspace
+
+    % ===== Penulis =====
+    Oleh:\\
+    {\bfseries\MakeUppercase{\penulis}}\\
+    NIM.~\nim
+
+\end{onehalfspace}
+
+\vfill
+
+% ===== Institusi =====
+{\large\bfseries\MakeUppercase{Program Studi Sarjana Terapan}}\\
+{\large\bfseries\MakeUppercase{\prodi}}\\
+{\large\bfseries\MakeUppercase{\jurusan}}\\
+{\large\bfseries\MakeUppercase{\universitas}}\\
+{\large\bfseries \the\year}
+
 \end{center}
-%% DILARANG EDIT BAGIAN INI

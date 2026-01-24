@@ -1,8 +1,8 @@
 This is BibTeX, Version 0.99e
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: laporan.aux
-Reallocating 'name_of_file' (item size: 1) to 7 items.
-The style file: newapa.bst
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+The style file: apalike.bst
 Reallocating 'name_of_file' (item size: 1) to 30 items.
 A level-1 auxiliary file: untouch/xx-sampul-laporan.aux
 Reallocating 'name_of_file' (item size: 1) to 35 items.
@@ -13,8 +13,6 @@ Reallocating 'name_of_file' (item size: 1) to 13 items.
 A level-1 auxiliary file: a9-motto.aux
 Reallocating 'name_of_file' (item size: 1) to 36 items.
 A level-1 auxiliary file: untouch/xx-pernyataan-poliwangi.aux
-Reallocating 'name_of_file' (item size: 1) to 33 items.
-A level-1 auxiliary file: untouch/xx-persetujuan-ujian.aux
 Reallocating 'name_of_file' (item size: 1) to 26 items.
 A level-1 auxiliary file: untouch/xx-pengesahan.aux
 Reallocating 'name_of_file' (item size: 1) to 15 items.
@@ -38,43 +36,43 @@ A level-1 auxiliary file: b5-bab5.aux
 Reallocating 'name_of_file' (item size: 1) to 11 items.
 Database file #1: a7-pustaka.bib
 You've used 22 entries,
-            2708 wiz_defined-function locations,
-            742 strings with 8838 characters,
-and the built_in function-call counts, 9464 in all, are:
-= -- 866
-> -- 430
+            1935 wiz_defined-function locations,
+            623 strings with 7953 characters,
+and the built_in function-call counts, 8123 in all, are:
+= -- 814
+> -- 317
 < -- 13
-+ -- 156
-- -- 156
-* -- 928
-:= -- 1850
++ -- 104
+- -- 104
+* -- 702
+:= -- 1458
 add.period$ -- 67
 call.type$ -- 22
-change.case$ -- 184
+change.case$ -- 162
 chr.to.int$ -- 22
 cite$ -- 22
-duplicate$ -- 326
-empty$ -- 587
-format.name$ -- 186
-if$ -- 1670
+duplicate$ -- 287
+empty$ -- 555
+format.name$ -- 134
+if$ -- 1547
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 17
 newline$ -- 114
-num.names$ -- 88
-pop$ -- 109
+num.names$ -- 66
+pop$ -- 104
 preamble$ -- 1
-purify$ -- 206
+purify$ -- 162
 quote$ -- 0
-skip$ -- 235
+skip$ -- 225
 stack$ -- 0
-substring$ -- 619
-swap$ -- 78
+substring$ -- 597
+swap$ -- 17
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 132
 warning$ -- 0
-while$ -- 94
+while$ -- 72
 width$ -- 0
 write$ -- 285

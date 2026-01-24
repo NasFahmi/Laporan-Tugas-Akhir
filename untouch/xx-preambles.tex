@@ -4,8 +4,6 @@
 
 %% DILARANG EDIT BAGIAN INI
 
-\usepackage{placeins}
-
 % Mengatur bahasa dokumen ke Bahasa Indonesia dan encoding karakter
 \usepackage[indonesian]{babel}
 \usepackage[utf8]{inputenc}
@@ -22,6 +20,7 @@
 % Mengatur indentasi paragraf
 \usepackage{indentfirst}  % Memastikan paragraf pertama di setiap section memiliki indentasi
 \setlength\parindent{1.25cm} % Mengatur jarak indentasi paragraf menjadi 1.25 cm
+\setlength{\parskip}{0pt} % Menghilangkan jarak ekstra antar paragraf
 
 % Mengatur font utama dokumen menjadi Times New Roman
 \usepackage{pslatex}
@@ -32,12 +31,16 @@
 
 % Pengaturan daftar isi, daftar gambar, dan daftar tabel
 \usepackage{tocloft}
+\renewcommand{\cftdotsep}{1}
+
 \cftsetpnumwidth{1.5em}
 \cftsetrmarg{2em}
-\setlength{\cftsecnumwidth}{2.3em}
-\setlength{\cftsubsecnumwidth}{2.3em}
+\setlength{\cftsecnumwidth}{2em} %awal 1.5em
+\setlength{\cftsubsecnumwidth}{3em} %awal 1.5em
 \renewcommand{\cftchapdotsep}{\cftdotsep}
-\setlength{\cftbeforechapskip}{3pt}
+\setlength{\cftbeforechapskip}{0pt}
+\setlength{\cftbeforesecskip}{0pt}
+\setlength{\cftbeforesubsecskip}{0pt}
 
 % Penyesuaian judul bab dalam daftar isi agar ditampilkan sebagai "BAB"
 \renewcommand\cftchappresnum{BAB }
@@ -45,6 +48,23 @@
 \newlength\mylen
 \settowidth\mylen{\bfseries BAB 1 :\ } % Menyesuaikan lebar penomoran bab
 \cftsetindents{chap}{0pt}{\mylen}
+
+% Penyesuaian indent daftar gambar & tabel
+% Prefix daftar gambar & tabel
+\renewcommand{\cftfigpresnum}{\bfseries Gambar }
+\renewcommand{\cftfigaftersnum}{\normalfont\hspace{0.5em}}
+
+\renewcommand{\cfttabpresnum}{\bfseries Tabel }
+\renewcommand{\cfttabaftersnum}{\normalfont\hspace{0.5em}}
+
+%% Lebar nomor yang proporsional
+\newlength{\myfiglen}
+\settowidth{\myfiglen}{\bfseries Gambar 9.99 }
+\cftsetindents{fig}{0pt}{\myfiglen}
+
+\newlength{\mytablen}
+\settowidth{\mytablen}{\bfseries Tabel 9.99 }
+\cftsetindents{tab}{0pt}{\mytablen}
 
 % Pengaturan format dan penomoran judul bab
 \usepackage{titlesec}
@@ -63,28 +83,36 @@
 
 % Menghapus tanda titik dua pada caption
 \captionsetup[figure]{labelsep=space}
-\captionsetup[table]{labelsep=space}
+\captionsetup[table]{labelsep=space,justification=raggedright,singlelinecheck=false}
+
+% Mengatur jarak antara gambar dan teks
+\setlength{\textfloatsep}{10pt}  % Jarak antara gambar dan teks di atas/bawah
+\setlength{\floatsep}{10pt}      % Jarak antar gambar
+\setlength{\intextsep}{10pt}     % Jarak untuk gambar di tengah teks
 
 % Mengatur nomor caption gambar dan tabel sesuai bab
 \renewcommand{\thefigure}{\arabic{chapter}.\arabic{figure}}
 \renewcommand{\thetable}{\arabic{chapter}.\arabic{table}}
 
 % Mengatur hyphenation (pemisahan kata) agar lebih rapi
-\tolerance=1
-\emergencystretch=\maxdimen
-\hyphenpenalty=10000
-\hbadness=10000
+\tolerance=500
+\emergencystretch=1em
+\hyphenpenalty=50
+\hbadness=5000
 
 % Pengaturan tabel, multirow, dan ukuran kolom otomatis
 \usepackage{tabularx}
 \usepackage{multirow}
+\usepackage{colortbl} % Untuk mewarnai sel tabel
+\usepackage{array}
+\usepackage{ragged2e}
 
 % Pengaturan margin halaman
 \usepackage{geometry}
 \geometry{
-    left=3cm,          % Margin kiri
+    inner=3cm,         % Margin dalam (binding)
+    outer=2cm,         % Margin luar
     top=2cm,           % Margin atas
-    right=2cm,         % Margin kanan
     bottom=2cm,        % Margin bawah
 }
 
@@ -121,16 +149,20 @@
 
 % Paket untuk bibliografi menggunakan BibTeX
 \usepackage[sort]{natbib}
-\bibliographystyle{newapa} % Ganti dengan apalike jika menggunakan Overleaf
+\bibliographystyle{apalike} % Ganti dengan apalike jika menggunakan Overleaf
 
 % Paket untuk tabel yang panjang dan melampaui satu halaman
 \usepackage{longtable}
+\usepackage{placeins}
 
 % Paket untuk memasukkan hyperlink dalam dokumen
 \usepackage{hyperref}
 
 % Pengaturan label otomatis untuk berbagai elemen (gambar, tabel, persamaan)
 \usepackage{cleveref}
+\usepackage{fancybox}
+\usepackage{tcolorbox}
+
 \crefname{figure}{gambar}{gambar}
 \Crefname{figure}{Gambar}{Gambar}
 \crefname{table}{tabel}{tabel}
@@ -195,25 +227,21 @@
 \tikzstyle{decision} = [diamond, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=green!30]
 \tikzstyle{arrow} = [thick,->,>=stealth]
 
+%untuk if-then
+\usepackage{ifthen}
 
-
-%% =========================
-%% HALAMAN KOSONG (DUPLEX)
-%% =========================
-%% =========================
-%% HALAMAN KOSONG DUPLEX (BENAR)
-%% =========================
+% ===== Halaman kosong dengan teks =====
 \makeatletter
-\renewcommand{\cleardoublepage}{%
+\newcommand{\halamankosong}{%
   \clearpage
   \ifodd\c@page
-    % sudah ganjil → lanjut
+    % sudah ganjil → tidak perlu apa-apa
   \else
-    % halaman genap → sisipkan halaman kosong BERTEKS
+    \thispagestyle{empty}
     \null
     \vfill
     \begin{center}
-      \textit{--- Halaman ini sengaja dikosongkan ---}
+      \textit{-- Halaman ini sengaja dikosongkan --}
     \end{center}
     \vfill
     \clearpage
@@ -221,63 +249,4 @@
 }
 \makeatother
 
-
-%% =========================
-%% BAB SELALU DI HALAMAN GANJIL
-%% =========================
-\let\origchapter\chapter
-\renewcommand{\chapter}{
-    \cleardoublepage
-    \origchapter
-}
-
-
-%untuk if-then
-\usepackage{ifthen}
 %% DILARANG EDIT BAGIAN INI
-
-% ===== Buat Manual Halaman Sengaja Kosong
-\newcommand{\ganjil}{
-  \clearpage
-  \ifodd\value{page}\else
-    \thispagestyle{plain}
-    \null
-    \vfill
-    \begin{center}
-      \textit{--- Halaman ini sengaja dikosongkan ---}
-    \end{center}
-    \vfill
-    \clearpage
-  \fi
-}
-
-
-
-\usepackage{listings}
-
-\lstdefinelanguage{TypeScript}{
-  keywords={const, let, var, function, return, if, else, for, while, import, export, from, class, interface, type, extends, implements, async, await},
-  keywordstyle=\color{blue}\bfseries,
-  ndkeywords={string, number, boolean, any, void},
-  ndkeywordstyle=\color{teal}\bfseries,
-  identifierstyle=\color{black},
-  sensitive=true,
-  comment=[l]{//},
-  morecomment=[s]{/*}{*/},
-  commentstyle=\color{gray}\ttfamily,
-  stringstyle=\color{red}\ttfamily,
-  morestring=[b]',
-  morestring=[b]"
-}
-
-\lstset{
-  language=TypeScript,
-  basicstyle=\ttfamily\small,
-  numbers=left,
-  numberstyle=\tiny\color{gray},
-  stepnumber=1,
-  breaklines=true,
-  frame=single,
-  captionpos=b,
-  showstringspaces=false
-}

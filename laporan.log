@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  21 JAN 2026 22:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  24 JAN 2026 21:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -24,9 +24,7 @@ File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen148
-) (a0-identitas.tex) (untouch/xx-preambles.tex (C:\Program Files\MiKTeX\tex/latex/placeins\placeins.sty
-Package: placeins 2005/04/18  v 2.2
-) (C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
+) (a0-identitas.tex) (untouch/xx-preambles.tex (C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2025/12/11 v25.17 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
 \babel@savecnt=\count284
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2068.
@@ -181,12 +179,14 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 )
 \mylen=\skip99
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 46.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 49.
+\myfiglen=\skip100
+\mytablen=\skip101
  (C:\Program Files\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \ttl@box=\box55
-\beforetitleunit=\skip100
-\aftertitleunit=\skip101
+\beforetitleunit=\skip102
+\aftertitleunit=\skip103
 \ttl@plus=\dimen152
 \ttl@minus=\dimen153
 \ttl@toksa=\toks22
@@ -224,8 +224,8 @@ Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \ar@mcellbox=\box56
 \extrarowheight=\dimen166
 \NC@list=\toks23
-\extratabsurround=\skip102
-\backup@length=\skip103
+\extratabsurround=\skip104
+\backup@length=\skip105
 \ar@cellbox=\box57
 )
 \TX@col@width=\dimen167
@@ -237,10 +237,22 @@ Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \TX@ftn=\toks24
 ) (C:\Program Files\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
-\multirow@colwidth=\skip104
+\multirow@colwidth=\skip106
 \multirow@cntb=\count294
-\multirow@dima=\skip105
+\multirow@dima=\skip107
 \bigstrutjot=\dimen172
+) (C:\Program Files\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
+ (C:\Program Files\MiKTeX\tex/latex/graphics\color.sty
+Package: color 2025/01/14 v1.3e Standard LaTeX Color (DPC)
+ (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+ (C:\Program Files\MiKTeX\tex/latex/graphics\mathcolor.ltx))
+\everycr=\toks25
+\minrowclearance=\skip108
+\rownum=\count295
 ) (C:\Program Files\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty
@@ -248,9 +260,9 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
  (C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
-\Gm@cnth=\count295
-\Gm@cntv=\count296
-\c@Gm@tempcnt=\count297
+\Gm@cnth=\count296
+\Gm@cntv=\count297
+\c@Gm@tempcnt=\count298
 \Gm@bindingoffset=\dimen173
 \Gm@wd@mp=\dimen174
 \Gm@odd@mp=\dimen175
@@ -259,17 +271,17 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layoutheight=\dimen178
 \Gm@layouthoffset=\dimen179
 \Gm@layoutvoffset=\dimen180
-\Gm@dimlist=\toks25
+\Gm@dimlist=\toks26
  (C:\Program Files\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2025/07/09 v2.17z AMS math features
-\@mathmargin=\skip106
+\@mathmargin=\skip109
 
 For additional information on amsmath, use the `?' option.
 (C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2024/11/17 v2.01 AMS text
  (C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks26
+\@emptytoks=\toks27
 \ex@=\dimen181
 )) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
@@ -277,14 +289,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 ) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count298
+\inf@bad=\count299
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count299
-\leftroot@=\count300
+\uproot@=\count300
+\leftroot@=\count301
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count301
-\DOTSCASE@=\count302
+\classnum@=\count302
+\DOTSCASE@=\count303
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
@@ -297,31 +309,31 @@ LaTeX Info: Redefining \Bigg on input line 724.
 \big@size=\dimen183
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count303
+\macc@depth=\count304
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count304
+\c@MaxMatrixCols=\count305
 \dotsspace@=\muskip17
-\c@parentequation=\count305
-\dspbrk@lvl=\count306
-\tag@help=\toks27
-\row@=\count307
-\column@=\count308
-\maxfields@=\count309
-\andhelp@=\toks28
+\c@parentequation=\count306
+\dspbrk@lvl=\count307
+\tag@help=\toks28
+\row@=\count308
+\column@=\count309
+\maxfields@=\count310
+\andhelp@=\toks29
 \eqnshift@=\dimen184
 \alignsep@=\dimen185
 \tagshift@=\dimen186
 \tagwidth@=\dimen187
 \totwidth@=\dimen188
 \lineht@=\dimen189
-\@envbody=\toks29
-\multlinegap=\skip107
-\multlinetaggap=\skip108
-\mathdisplay@stack=\toks30
+\@envbody=\toks30
+\multlinegap=\skip110
+\multlinetaggap=\skip111
+\mathdisplay@stack=\toks31
 LaTeX Info: Redefining \[ on input line 2950.
 LaTeX Info: Redefining \] on input line 2951.
 ) (C:\Program Files\MiKTeX\tex/latex/graphics\rotating.sty
@@ -329,43 +341,45 @@ Package: rotating 2025/01/14 v2.16e rotated objects in LaTeX
  (C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count310
-\rotFPtop=\skip109
-\rotFPbot=\skip110
+\c@r@tfl@t=\count311
+\rotFPtop=\skip112
+\rotFPbot=\skip113
 \rot@float@box=\box60
-\rot@mess@toks=\toks31
+\rot@mess@toks=\toks32
 ) (C:\Program Files\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
-\labelindent=\skip111
+\labelindent=\skip114
 \enit@outerparindent=\dimen190
-\enit@toks=\toks32
+\enit@toks=\toks33
 \enit@inbox=\box61
-\enit@count@id=\count311
-\enitdp@description=\count312
+\enit@count@id=\count312
+\enitdp@description=\count313
 ) (C:\Program Files\MiKTeX\tex/latex/natbib\natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip112
-\bibsep=\skip113
+\bibhang=\skip115
+\bibsep=\skip116
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count313
+\c@NAT@ctr=\count314
 ) (C:\Program Files\MiKTeX\tex/latex/tools\longtable.sty
 Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
-\LTleft=\skip114
-\LTright=\skip115
-\LTpre=\skip116
-\LTpost=\skip117
-\LTchunksize=\count314
+\LTleft=\skip117
+\LTright=\skip118
+\LTpre=\skip119
+\LTpost=\skip120
+\LTchunksize=\count315
 \LTcapwidth=\dimen191
 \LT@head=\box62
 \LT@firsthead=\box63
 \LT@foot=\box64
 \LT@lastfoot=\box65
 \LT@gbox=\box66
-\LT@cols=\count315
-\LT@rows=\count316
-\c@LT@tables=\count317
-\c@LT@chunks=\count318
-\LT@p@ftn=\toks33
+\LT@cols=\count316
+\LT@rows=\count317
+\c@LT@tables=\count318
+\c@LT@chunks=\count319
+\LT@p@ftn=\toks34
+) (C:\Program Files\MiKTeX\tex/latex/placeins\placeins.sty
+Package: placeins 2005/04/18  v 2.2
 ) (C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
  (C:\Program Files\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
@@ -395,16 +409,16 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
  (C:\Program Files\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count319
+\c@section@level=\count320
 ) (C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count320
+\etb@tempcnta=\count321
 ) (C:\Program Files\MiKTeX\tex/generic/stringenc\stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
 \@linkdim=\dimen192
-\Hy@linkcounter=\count321
-\Hy@pagecounter=\count322
+\Hy@linkcounter=\count322
+\Hy@pagecounter=\count323
  (C:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -412,7 +426,7 @@ Now handling font encoding PD1 ...
 ) (C:\Program Files\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count323
+\Hy@SavedSpaceFactor=\count324
  (C:\Program Files\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -425,7 +439,7 @@ Package hyperref Info: Plain pages OFF on input line 4210.
 Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4462.
-\c@Hy@tempcnt=\count324
+\c@Hy@tempcnt=\count325
  (C:\Program Files\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -437,7 +451,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (C:\Program Files\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count325
+\Fld@menulength=\count326
 \Field@Width=\dimen194
 \Fld@charsize=\dimen195
 Package hyperref Info: Hyper figures OFF on input line 6078.
@@ -447,15 +461,15 @@ Package hyperref Info: backreferencing OFF on input line 6093.
 Package hyperref Info: Link coloring OFF on input line 6098.
 Package hyperref Info: Link coloring with OCG OFF on input line 6103.
 Package hyperref Info: PDF/A mode OFF on input line 6108.
-\Hy@abspage=\count326
-\c@Item=\count327
-\c@Hfootnote=\count328
+\Hy@abspage=\count327
+\c@Item=\count328
+\c@Hfootnote=\count329
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (C:\Program Files\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
-\Fld@listcount=\count329
-\c@bookmark@seq@number=\count330
+\Fld@listcount=\count330
+\c@bookmark@seq@number=\count331
  (C:\Program Files\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
  (C:\Program Files\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
@@ -463,7 +477,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
 )
-\Hy@SectionHShift=\skip118
+\Hy@SectionHShift=\skip121
 ) (C:\Program Files\MiKTeX\tex/latex/cleveref\cleveref.sty
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
 Package cleveref Info: `hyperref' support loaded on input line 2370.
@@ -479,62 +493,25 @@ LaTeX Info: Redefining \labelcref on input line 2370.
 LaTeX Info: Redefining \labelcpageref on input line 2370.
 )
 ==> First Aid for cleveref.sty applied!
-(C:\Program Files\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count331
-\lst@gtempboxa=\box67
-\lst@token=\toks34
-\lst@length=\count332
-\lst@currlwidth=\dimen196
-\lst@column=\count333
-\lst@pos=\count334
-\lst@lostspace=\dimen197
-\lst@width=\dimen198
-\lst@newlines=\count335
-\lst@lineno=\count336
-\lst@maxwidth=\dimen199
- (C:\Program Files\MiKTeX\tex/latex/listings\lstpatch.sty
-File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
-) (C:\Program Files\MiKTeX\tex/latex/listings\lstmisc.sty
-File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
-\c@lstnumber=\count337
-\lst@skipnumbers=\count338
-\lst@framebox=\box68
-) (C:\Program Files\MiKTeX\tex/latex/listings\listings.cfg
-File: listings.cfg 2025/11/14 1.11b listings configuration
-))
-Package: listings 2025/11/14 1.11b (Carsten Heinz)
+(C:\Program Files\MiKTeX\tex/latex/fancybox\fancybox.sty
+Package: fancybox 2010/05/15 1.4
 
-==> First Aid for listings.sty no longer applied!
-    Expected:
-        2024/09/23 1.10c (Carsten Heinz)
-    but found:
-        2025/11/14 1.11b (Carsten Heinz)
-    so I'm assuming it got fixed.
-(C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty
-Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
- (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package xcolor Info: Driver file: pdftex.def on input line 274.
- (C:\Program Files\MiKTeX\tex/latex/graphics\mathcolor.ltx)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
-Package xcolor Info: Model `RGB' extended on input line 1365.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-) (C:\Program Files\MiKTeX\tex/latex/colortbl\colortbl.sty
-Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
-\everycr=\toks35
-\minrowclearance=\skip119
-\rownum=\count339
-) (C:\Program Files\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
-\pgfutil@everybye=\toks36
-\pgfutil@tempdima=\dimen256
-\pgfutil@tempdimb=\dimen257
+Style option: `fancybox' v1.4 <2010/05/15> (tvz)
+\@fancybox=\box67
+\shadowsize=\dimen196
+\@Sbox=\box68
+\do@VerbBox=\toks35
+\the@fancyput=\toks36
+\this@fancyput=\toks37
+\EndVerbatimTokens=\toks38
+\Verbatim@Outfile=\write3
+\Verbatim@Infile=\read3
+) (C:\Program Files\MiKTeX\tex/latex/tcolorbox\tcolorbox.sty
+Package: tcolorbox 2025/11/28 version 6.9.0 text color boxes
+ (C:\Program Files\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
+\pgfutil@everybye=\toks39
+\pgfutil@tempdima=\dimen197
+\pgfutil@tempdimb=\dimen198
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
 \pgfutil@abb=\box69
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf\pgf.revision.tex)
@@ -544,31 +521,31 @@ Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
  (C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Program Files\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
 Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
  (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks37
-\pgfkeys@temptoks=\toks38
+\pgfkeys@pathtoks=\toks40
+\pgfkeys@temptoks=\toks41
  (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
-\pgfkeys@tmptoks=\toks39
+\pgfkeys@tmptoks=\toks42
 ))
-\pgf@x=\dimen258
-\pgf@y=\dimen259
-\pgf@xa=\dimen260
-\pgf@ya=\dimen261
-\pgf@xb=\dimen262
-\pgf@yb=\dimen263
-\pgf@xc=\dimen264
-\pgf@yc=\dimen265
-\pgf@xd=\dimen266
-\pgf@yd=\dimen267
-\w@pgf@writea=\write3
-\r@pgf@reada=\read3
-\c@pgf@counta=\count340
-\c@pgf@countb=\count341
-\c@pgf@countc=\count342
-\c@pgf@countd=\count343
-\t@pgf@toka=\toks40
-\t@pgf@tokb=\toks41
-\t@pgf@tokc=\toks42
-\pgf@sys@id@count=\count344
+\pgf@x=\dimen199
+\pgf@y=\dimen256
+\pgf@xa=\dimen257
+\pgf@ya=\dimen258
+\pgf@xb=\dimen259
+\pgf@yb=\dimen260
+\pgf@xc=\dimen261
+\pgf@yc=\dimen262
+\pgf@xd=\dimen263
+\pgf@yd=\dimen264
+\w@pgf@writea=\write4
+\r@pgf@reada=\read4
+\c@pgf@counta=\count332
+\c@pgf@countb=\count333
+\c@pgf@countc=\count334
+\c@pgf@countd=\count335
+\t@pgf@toka=\toks43
+\t@pgf@tokb=\toks44
+\t@pgf@tokc=\toks45
+\pgf@sys@id@count=\count336
  (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
 )
@@ -579,59 +556,76 @@ File: pgfsys-pdftex.def 2025-08-29 v3.1.11a (3.1.11a)
 File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
 ))) (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfsyssoftpath@smallbuffer@items=\count345
-\pgfsyssoftpath@bigbuffer@items=\count346
+\pgfsyssoftpath@smallbuffer@items=\count337
+\pgfsyssoftpath@bigbuffer@items=\count338
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
+)) (C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+ (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+LaTeX Info: Redefining \color on input line 762.
+ (C:\Program Files\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
 Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
  (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
-\pgfmath@dimen=\dimen268
-\pgfmath@count=\count347
+\pgfmath@dimen=\dimen265
+\pgfmath@count=\count339
 \pgfmath@box=\box70
-\pgfmath@toks=\toks43
-\pgfmath@stack@operand=\toks44
-\pgfmath@stack@operation=\toks45
+\pgfmath@toks=\toks46
+\pgfmath@stack@operand=\toks47
+\pgfmath@stack@operation=\toks48
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count348
+\c@pgfmathroundto@lastzeros=\count340
 )) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@picminx=\dimen269
-\pgf@picmaxx=\dimen270
-\pgf@picminy=\dimen271
-\pgf@picmaxy=\dimen272
-\pgf@pathminx=\dimen273
-\pgf@pathmaxx=\dimen274
-\pgf@pathminy=\dimen275
-\pgf@pathmaxy=\dimen276
-\pgf@xx=\dimen277
-\pgf@xy=\dimen278
-\pgf@yx=\dimen279
-\pgf@yy=\dimen280
-\pgf@zx=\dimen281
-\pgf@zy=\dimen282
+\pgf@picminx=\dimen266
+\pgf@picmaxx=\dimen267
+\pgf@picminy=\dimen268
+\pgf@picmaxy=\dimen269
+\pgf@pathminx=\dimen270
+\pgf@pathmaxx=\dimen271
+\pgf@pathminy=\dimen272
+\pgf@pathmaxy=\dimen273
+\pgf@xx=\dimen274
+\pgf@xy=\dimen275
+\pgf@yx=\dimen276
+\pgf@yy=\dimen277
+\pgf@zx=\dimen278
+\pgf@zy=\dimen279
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@path@lastx=\dimen283
-\pgf@path@lasty=\dimen284
+\pgf@path@lastx=\dimen280
+\pgf@path@lasty=\dimen281
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@shorten@end@additional=\dimen285
-\pgf@shorten@start@additional=\dimen286
+\pgf@shorten@end@additional=\dimen282
+\pgf@shorten@start@additional=\dimen283
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfpic=\box71
 \pgf@hbox=\box72
 \pgf@layerbox@main=\box73
-\pgf@picture@serial@count=\count349
+\pgf@picture@serial@count=\count341
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgflinewidth=\dimen287
+\pgflinewidth=\dimen284
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@pt@x=\dimen288
-\pgf@pt@y=\dimen289
-\pgf@pt@temp=\dimen290
+\pgf@pt@x=\dimen285
+\pgf@pt@y=\dimen286
+\pgf@pt@temp=\dimen287
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
@@ -640,12 +634,12 @@ File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfarrowsep=\dimen291
+\pgfarrowsep=\dimen288
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@max=\dimen292
-\pgf@sys@shading@range@num=\count350
-\pgf@shadingcount=\count351
+\pgf@max=\dimen289
+\pgf@sys@shading@range@num=\count342
+\pgf@shadingcount=\count343
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
@@ -666,88 +660,142 @@ File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@nodesepstart=\dimen293
-\pgf@nodesepend=\dimen294
+\pgf@nodesepstart=\dimen290
+\pgf@nodesepend=\dimen291
 ) (C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
 )) (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Program Files\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
 Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
-\pgffor@iter=\dimen295
-\pgffor@skip=\dimen296
-\pgffor@stack=\toks46
-\pgffor@toks=\toks47
+\pgffor@iter=\dimen292
+\pgffor@skip=\dimen293
+\pgffor@stack=\toks49
+\pgffor@toks=\toks50
 )) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
  (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@plot@mark@count=\count352
-\pgfplotmarksize=\dimen297
+\pgf@plot@mark@count=\count344
+\pgfplotmarksize=\dimen294
 )
-\tikz@lastx=\dimen298
-\tikz@lasty=\dimen299
-\tikz@lastxsaved=\dimen300
-\tikz@lastysaved=\dimen301
-\tikz@lastmovetox=\dimen302
-\tikz@lastmovetoy=\dimen303
-\tikzleveldistance=\dimen304
-\tikzsiblingdistance=\dimen305
+\tikz@lastx=\dimen295
+\tikz@lasty=\dimen296
+\tikz@lastxsaved=\dimen297
+\tikz@lastysaved=\dimen298
+\tikz@lastmovetox=\dimen299
+\tikz@lastmovetoy=\dimen300
+\tikzleveldistance=\dimen301
+\tikzsiblingdistance=\dimen302
 \tikz@figbox=\box76
 \tikz@figbox@bg=\box77
 \tikz@tempbox=\box78
 \tikz@tempbox@bg=\box79
-\tikztreelevel=\count353
-\tikznumberofchildren=\count354
-\tikznumberofcurrentchild=\count355
-\tikz@fig@count=\count356
+\tikztreelevel=\count345
+\tikznumberofchildren=\count346
+\tikznumberofcurrentchild=\count347
+\tikz@fig@count=\count348
  (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfmatrixcurrentrow=\count357
-\pgfmatrixcurrentcolumn=\count358
-\pgf@matrix@numberofcolumns=\count359
+\pgfmatrixcurrentrow=\count349
+\pgfmatrixcurrentcolumn=\count350
+\pgf@matrix@numberofcolumns=\count351
 )
-\tikz@expandcount=\count360
+\tikz@expandcount=\count352
  (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))) (C:\Program Files\MiKTeX\tex/latex/pgfplots\pgfplots.sty (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.revision.tex)
+))) (C:\Program Files\MiKTeX\tex/latex/tools\verbatim.sty
+Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks51
+\verbatim@line=\toks52
+\verbatim@in@stream=\read5
+) (C:\Program Files\MiKTeX\tex/latex/environ\environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+ (C:\Program Files\MiKTeX\tex/latex/trimspaces\trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box80
+\tcb@upperbox=\box81
+\tcb@lowerbox=\box82
+\tcb@phantombox=\box83
+\c@tcbbreakpart=\count353
+\c@tcblayer=\count354
+\c@tcolorbox@number=\count355
+\l__tcobox_tmpa_box=\box84
+\l__tcobox_tmpa_dim=\dimen303
+\tcb@temp=\box85
+\tcb@temp=\box86
+\tcb@temp=\box87
+\tcb@temp=\box88
+) (C:\Program Files\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count356
+\lst@gtempboxa=\box89
+\lst@token=\toks53
+\lst@length=\count357
+\lst@currlwidth=\dimen304
+\lst@column=\count358
+\lst@pos=\count359
+\lst@lostspace=\dimen305
+\lst@width=\dimen306
+\lst@newlines=\count360
+\lst@lineno=\count361
+\lst@maxwidth=\dimen307
+ (C:\Program Files\MiKTeX\tex/latex/listings\lstpatch.sty
+File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
+) (C:\Program Files\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
+\c@lstnumber=\count362
+\lst@skipnumbers=\count363
+\lst@framebox=\box90
+) (C:\Program Files\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2025/11/14 1.11b listings configuration
+))
+Package: listings 2025/11/14 1.11b (Carsten Heinz)
+
+==> First Aid for listings.sty no longer applied!
+    Expected:
+        2024/09/23 1.10c (Carsten Heinz)
+    but found:
+        2025/11/14 1.11b (Carsten Heinz)
+    so I'm assuming it got fixed.
+(C:\Program Files\MiKTeX\tex/latex/pgfplots\pgfplots.sty (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.revision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
  (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotscore.code.tex
-\t@pgfplots@toka=\toks48
-\t@pgfplots@tokb=\toks49
-\t@pgfplots@tokc=\toks50
-\pgfplots@tmpa=\dimen306
-\c@pgfplots@coordindex=\count361
-\c@pgfplots@scanlineindex=\count362
+\t@pgfplots@toka=\toks54
+\t@pgfplots@tokb=\toks55
+\t@pgfplots@tokc=\toks56
+\pgfplots@tmpa=\dimen308
+\c@pgfplots@coordindex=\count364
+\c@pgfplots@scanlineindex=\count365
  (C:\Program Files\MiKTeX\tex/generic/pgfplots/sys\pgfplotssysgeneric.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\pgfplotslibrary.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_loader.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryfpu.code.tex)
 Package pgfplots: loading complementary utilities for your pgf version...
-\t@pgf@toka=\toks51
-\t@pgf@tokb=\toks52
-\t@pgf@tokc=\toks53
+\t@pgf@toka=\toks57
+\t@pgf@tokb=\toks58
+\t@pgf@tokc=\toks59
 (C:\Program Files\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_pgfutil-common-lists.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructure.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructureext.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count363
+\c@pgfplotsarray@tmp=\count366
 ) (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsmatrix.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstableshared.code.tex
-\c@pgfplotstable@counta=\count364
-\t@pgfplotstable@a=\toks54
+\c@pgfplotstable@counta=\count367
+\t@pgfplotstable@a=\toks60
 ) (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsdeque.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.data.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.verb.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count365
+\c@pgfplotslibrarysurf@no=\count368
  (C:\Program Files\MiKTeX\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotscolormap.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotscolor.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsstackedplots.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsplothandlers.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplothandler.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplotimage.code.tex))) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.scaling.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotscoordprocessing.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.errorbars.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.markers.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsticks.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.paths.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen307
-\pgfdecoratedremainingdistance=\dimen308
-\pgfdecoratedinputsegmentcompleteddistance=\dimen309
-\pgfdecoratedinputsegmentremainingdistance=\dimen310
-\pgf@decorate@distancetomove=\dimen311
-\pgf@decorate@repeatstate=\count366
-\pgfdecorationsegmentamplitude=\dimen312
-\pgfdecorationsegmentlength=\dimen313
+\pgfdecoratedcompleteddistance=\dimen309
+\pgfdecoratedremainingdistance=\dimen310
+\pgfdecoratedinputsegmentcompleteddistance=\dimen311
+\pgfdecoratedinputsegmentremainingdistance=\dimen312
+\pgf@decorate@distancetomove=\dimen313
+\pgf@decorate@repeatstate=\count369
+\pgfdecorationsegmentamplitude=\dimen314
+\pgfdecorationsegmentlength=\dimen315
 )
-\tikz@lib@dec@box=\box80
+\tikz@lib@dec@box=\box91
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathmorphing.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathreplacing.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.contourlua.code.tex)
-\pgfplots@numplots=\count367
-\pgfplots@xmin@reg=\dimen314
-\pgfplots@xmax@reg=\dimen315
-\pgfplots@ymin@reg=\dimen316
-\pgfplots@ymax@reg=\dimen317
-\pgfplots@zmin@reg=\dimen318
-\pgfplots@zmax@reg=\dimen319
+\pgfplots@numplots=\count370
+\pgfplots@xmin@reg=\dimen316
+\pgfplots@xmax@reg=\dimen317
+\pgfplots@ymin@reg=\dimen318
+\pgfplots@ymax@reg=\dimen319
+\pgfplots@zmin@reg=\dimen320
+\pgfplots@zmax@reg=\dimen321
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryplotmarks.code.tex
 File: tikzlibraryplotmarks.code.tex 2025-08-29 v3.1.11a (3.1.11a)
  (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplotmarks.code.tex
@@ -755,10 +803,10 @@ File: pgflibraryplotmarks.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ))) (C:\Program Files\MiKTeX\tex/latex/pgf-pie\pgf-pie.sty
 Package: pgf-pie 2022/06/14 v0.7 Some LaTeX macros for pie chart by using PGF/Tikz package.
  (C:\Program Files\MiKTeX\tex/latex/pgf-pie\tikzlibrarypie.code.tex (C:\Program Files\MiKTeX\tex/latex/carlisle\scalefnt.sty)
-\pgfpie@angleEnd=\dimen320
-\pgfpie@explodeLength=\count368
-\pgfpie@colorLength=\count369
-\pgfpie@sliceLength=\count370
+\pgfpie@angleEnd=\dimen322
+\pgfpie@explodeLength=\count371
+\pgfpie@colorLength=\count372
+\pgfpie@sliceLength=\count373
 )) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.geometric.code.tex
 File: tikzlibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
  (C:\Program Files\MiKTeX\tex/generic/pgf/libraries/shapes\pgflibraryshapes.geometric.code.tex
@@ -767,48 +815,48 @@ File: pgflibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 File: tikzlibraryarrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
  (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\arrowsize=\dimen321
+\arrowsize=\dimen323
 ))) (a1-database.hyphenate.tex) (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count371
-) (laporan.aux (untouch/xx-sampul-laporan.aux) (untouch/xx-sampuldalam-laporan.aux) (a4-persembahan.aux) (a9-motto.aux) (untouch/xx-pernyataan-poliwangi.aux) (untouch/xx-persetujuan-ujian.aux) (untouch/xx-pengesahan.aux) (a2-abstrak.aux) (a3-abstract.aux) (a5-katapengantar.aux) (untouch/xx-daftar.aux) (b1-bab1.aux) (b2-bab2.aux) (b3-bab3.aux) (b4-bab4.aux) (b5-bab5.aux))
+\l__color_backend_stack_int=\count374
+) (laporan.aux (untouch/xx-sampul-laporan.aux) (untouch/xx-sampuldalam-laporan.aux) (a4-persembahan.aux) (a9-motto.aux) (untouch/xx-pernyataan-poliwangi.aux) (untouch/xx-pengesahan.aux) (a2-abstrak.aux) (a3-abstract.aux) (a5-katapengantar.aux) (untouch/xx-daftar.aux) (b1-bab1.aux) (b2-bab2.aux) (b3-bab3.aux) (b4-bab4.aux) (b5-bab5.aux))
 \openout1 = `laporan.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 20.
-LaTeX Font Info:    Trying to load font information for OMS+pzccm on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 16.
+LaTeX Font Info:    Trying to load font information for OMS+pzccm on input line 16.
  (C:\Program Files\MiKTeX\tex/latex/psnfss\omspzccm.fd
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
  (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count372
-\scratchdimen=\dimen322
-\scratchbox=\box81
-\nofMPsegments=\count373
-\nofMParguments=\count374
-\everyMPshowfont=\toks55
-\MPscratchCnt=\count375
-\MPscratchDim=\dimen323
-\MPnumerator=\count376
-\makeMPintoPDFobject=\count377
-\everyMPtoPDFconversion=\toks56
+\scratchcounter=\count375
+\scratchdimen=\dimen324
+\scratchbox=\box92
+\nofMPsegments=\count376
+\nofMParguments=\count377
+\everyMPshowfont=\toks61
+\MPscratchCnt=\count378
+\MPscratchDim=\dimen325
+\MPnumerator=\count379
+\makeMPintoPDFobject=\count380
+\everyMPtoPDFconversion=\toks62
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -832,7 +880,7 @@ Package caption Info: End \AtBeginDocument code.
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
+* modes: twoside 
 * h-part:(L,W,R)=(85.35826pt, 455.24411pt, 56.9055pt)
 * v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
 * \paperwidth=597.50787pt
@@ -840,13 +888,13 @@ Package caption Info: End \AtBeginDocument code.
 * \textwidth=455.24411pt
 * \textheight=731.23584pt
 * \oddsidemargin=13.08827pt
-* \evensidemargin=13.08827pt
+* \evensidemargin=-15.36449pt
 * \topmargin=-52.36449pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=35.0pt
+* \marginparwidth=85.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
 * \skip\footins=10.8pt plus 4.0pt minus 2.0pt
@@ -854,24 +902,24 @@ Package caption Info: End \AtBeginDocument code.
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
+* \@twosidetrue
+* \@mparswitchtrue
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 20.
+Package hyperref Info: Link coloring OFF on input line 16.
 (laporan.out) (laporan.out)
-\@outlinefile=\write4
-\openout4 = `laporan.out'.
+\@outlinefile=\write5
+\openout5 = `laporan.out'.
 
-\c@lstlisting=\count378
+\c@lstlisting=\count381
 
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 \openout2 = `untouch/xx-sampul-laporan.aux'.
 
 (untouch/xx-sampul-laporan.tex
-<gambar/logo-poliwangi.png, id=281, 72.27pt x 72.27pt>
+<gambar/logo-poliwangi.png, id=265, 72.27pt x 72.27pt>
 File: gambar/logo-poliwangi.png Graphic file (type png)
 <use gambar/logo-poliwangi.png>
 Package pdftex.def Info: gambar/logo-poliwangi.png  used on input line 17.
@@ -882,12 +930,12 @@ Package pdftex.def Info: gambar/logo-poliwangi.png  used on input line 17.
 {C:/Users/Fahmi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc} <./gambar/logo-poliwangi.png>])
 \openout2 = `untouch/xx-sampuldalam-laporan.aux'.
 
- (untouch/xx-sampuldalam-laporan.tex)
-pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.28 \include{untouch/xx-sampuldalam-laporan}
-                                              [1
+ (untouch/xx-sampuldalam-laporan.tex
+File: gambar/logo-poliwangi.png Graphic file (type png)
+<use gambar/logo-poliwangi.png>
+Package pdftex.def Info: gambar/logo-poliwangi.png  used on input line 25.
+(pdftex.def)             Requested size: 113.817pt x 113.817pt.
+) [1
 
 
 
@@ -921,25 +969,25 @@ l.28 \include{untouch/xx-sampuldalam-laporan}
 \openout2 = `untouch/xx-pernyataan-poliwangi.aux'.
 
  (untouch/xx-pernyataan-poliwangi.tex
-LaTeX Font Info:    Trying to load font information for OT1+ptmcm on input line 15.
+LaTeX Font Info:    Trying to load font information for OT1+ptmcm on input line 18.
  (C:\Program Files\MiKTeX\tex/latex/psnfss\ot1ptmcm.fd
 File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
 )
-LaTeX Font Info:    Trying to load font information for OML+ptmcm on input line 15.
+LaTeX Font Info:    Trying to load font information for OML+ptmcm on input line 18.
  (C:\Program Files\MiKTeX\tex/latex/psnfss\omlptmcm.fd
 File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+psycm on input line 15.
+LaTeX Font Info:    Trying to load font information for OMX+psycm on input line 18.
  (C:\Program Files\MiKTeX\tex/latex/psnfss\omxpsycm.fd
 File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
 
-Overfull \hbox (0.434pt too wide) in paragraph at lines 15--21
-[][] 
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
  []
 
 ) [7
@@ -950,14 +998,9 @@ Overfull \hbox (0.434pt too wide) in paragraph at lines 15--21
 
 
 ]
-\openout2 = `untouch/xx-persetujuan-ujian.aux'.
+\openout2 = `untouch/xx-pengesahan.aux'.
 
- (untouch/xx-persetujuan-ujian.tex
-Overfull \hbox (46.76358pt too wide) in paragraph at lines 32--50
- [] 
- []
-
-) [9
+ (untouch/xx-pengesahan.tex) [9
 
 
 ] [10
@@ -965,9 +1008,10 @@ Overfull \hbox (46.76358pt too wide) in paragraph at lines 32--50
 
 
 ]
-\openout2 = `untouch/xx-pengesahan.aux'.
+\openout2 = `a2-abstrak.aux'.
 
- (untouch/xx-pengesahan.tex) [11
+ (a2-abstrak.tex) [11
+
 
 
 ] [12
@@ -975,9 +1019,24 @@ Overfull \hbox (46.76358pt too wide) in paragraph at lines 32--50
 
 
 ]
-\openout2 = `a2-abstrak.aux'.
+\openout2 = `a3-abstract.aux'.
 
- (a2-abstrak.tex) [13
+ (a3-abstract.tex
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--40
+
+ []
+
+) [13
 
 
 
@@ -986,9 +1045,9 @@ Overfull \hbox (46.76358pt too wide) in paragraph at lines 32--50
 
 
 ]
-\openout2 = `a3-abstract.aux'.
+\openout2 = `a5-katapengantar.aux'.
 
- (a3-abstract.tex) [15
+ (a5-katapengantar.tex) [15
 
 
 
@@ -997,83 +1056,165 @@ Overfull \hbox (46.76358pt too wide) in paragraph at lines 32--50
 
 
 ]
-\openout2 = `a5-katapengantar.aux'.
-
- (a5-katapengantar.tex) [17
-
-
-
-] [18
-
-
-
-]
 \openout2 = `untouch/xx-daftar.aux'.
 
  (untouch/xx-daftar.tex (laporan.toc
-Overfull \hbox (2.39996pt too wide) detected at line 30
-\OT1/ptm/m/n/12 2.1.10 
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[19
+ [17
 
 
 
 ])
-\tf@toc=\write5
-\openout5 = `laporan.toc'.
+\tf@toc=\write6
+\openout6 = `laporan.toc'.
 
- (a6-daftarsingkatan.tex [20]) [21
+ (a6-daftarsingkatan.tex [18]) [19
 
-] (laporan.lof)
-\tf@lof=\write6
-\openout6 = `laporan.lof'.
+] (laporan.lof
+Overfull \hbox (2.28003pt too wide) detected at line 16
+\OT1/ptm/b/n/12 Gambar 3.10  
+ []
 
- [22
 
-] (laporan.lot)
-\tf@lot=\write7
-\openout7 = `laporan.lot'.
+Overfull \hbox (2.28003pt too wide) detected at line 17
+\OT1/ptm/b/n/12 Gambar 3.11  
+ []
 
-) [23
+
+Overfull \hbox (2.28003pt too wide) detected at line 18
+\OT1/ptm/b/n/12 Gambar 3.12  
+ []
+
+
+Overfull \hbox (2.28003pt too wide) detected at line 19
+\OT1/ptm/b/n/12 Gambar 3.13  
+ []
+
+
+Overfull \hbox (2.28003pt too wide) detected at line 30
+\OT1/ptm/b/n/12 Gambar 4.10  
+ []
+
+
+Overfull \hbox (2.28003pt too wide) detected at line 31
+\OT1/ptm/b/n/12 Gambar 4.11  
+ []
+
+)
+\tf@lof=\write7
+\openout7 = `laporan.lof'.
+
+ [20
+
+] (laporan.lot
+Overfull \hbox (2.28003pt too wide) detected at line 15
+\OT1/ptm/b/n/12 Tabel 3.10  
+ []
+
+)
+\tf@lot=\write8
+\openout8 = `laporan.lot'.
+
+) [21
+
+] [22
+
+
 
 ]
 \openout2 = `b1-bab1.aux'.
 
  (b1-bab1.tex
 Bab 1.
-[1
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.14 
+      [1
 
 
 
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [2]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-] [2] [3]) [4]
+ [3]) [4]
 \openout2 = `b2-bab2.aux'.
 
  (b2-bab2.tex
 Bab 2.
-[5
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5
 
 
 
 
 
-] [6] [7] [8] [9]
-<gambar/client-data-layer-paradigm.png, id=655, 2770.35pt x 2720.1625pt>
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+<gambar/client-data-layer-paradigm.png, id=631, 2770.35pt x 2720.1625pt>
 File: gambar/client-data-layer-paradigm.png Graphic file (type png)
 <use gambar/client-data-layer-paradigm.png>
 Package pdftex.def Info: gambar/client-data-layer-paradigm.png  used on input line 79.
 (pdftex.def)             Requested size: 364.19667pt x 357.57664pt.
- [10 <./gambar/client-data-layer-paradigm.png>] [11] [12] [13] [14] [15]
-<gambar/fountain-sdlc.jpg, id=702, 1024.82875pt x 2569.6pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10 <./gambar/client-data-layer-paradigm.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15]
+<gambar/fountain-sdlc.jpg, id=679, 1024.82875pt x 2569.6pt>
 File: gambar/fountain-sdlc.jpg Graphic file (type jpg)
 <use gambar/fountain-sdlc.jpg>
 Package pdftex.def Info: gambar/fountain-sdlc.jpg  used on input line 157.
 (pdftex.def)             Requested size: 136.57462pt x 342.41122pt.
- [16] [17 <./gambar/fountain-sdlc.jpg>] [18] [19]
-b2-bab2.tex:248: ignored error: Infinite glue shrinkage found in box being split [20]) [21] [22]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17 <./gambar/fountain-sdlc.jpg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18] [19] [20]) [21] [22
+
+
+
+]
 \openout2 = `b3-bab3.aux'.
 
  (b3-bab3.tex
@@ -1082,190 +1223,284 @@ b3-bab3.tex:89: ignored error: Infinite glue shrinkage found in box being split 
 
 
 
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [24]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [24] [25] [26] [27]
-<gambar/usecase-TA.png, id=772, 573.14125pt x 634.37pt>
+ [25]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26]
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+
+ []
+
+<gambar/usecase-TA.png, id=745, 573.14125pt x 634.37pt>
 File: gambar/usecase-TA.png Graphic file (type png)
 <use gambar/usecase-TA.png>
-Package pdftex.def Info: gambar/usecase-TA.png  used on input line 123.
+Package pdftex.def Info: gambar/usecase-TA.png  used on input line 122.
 (pdftex.def)             Requested size: 318.66948pt x 352.71837pt.
- [28 <./gambar/usecase-TA.png>] [29]
-<gambar/erd.png, id=784, 1032.85875pt x 1022.82124pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28 <./gambar/usecase-TA.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
+
+ []
+
+<gambar/erd.png, id=757, 1032.85875pt x 1022.82124pt>
 File: gambar/erd.png Graphic file (type png)
 <use gambar/erd.png>
-Package pdftex.def Info: gambar/erd.png  used on input line 140.
+Package pdftex.def Info: gambar/erd.png  used on input line 138.
 (pdftex.def)             Requested size: 409.71692pt x 405.73453pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [30 <./gambar/erd.png>]
-<gambar/diagram-sistem-keseluruhan.png, id=792, 4101.3225pt x 1508.63625pt>
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+
+ []
+
+<gambar/diagram-sistem-keseluruhan.png, id=769, 4101.3225pt x 1508.63625pt>
 File: gambar/diagram-sistem-keseluruhan.png Graphic file (type png)
 <use gambar/diagram-sistem-keseluruhan.png>
-Package pdftex.def Info: gambar/diagram-sistem-keseluruhan.png  used on input line 161.
+Package pdftex.def Info: gambar/diagram-sistem-keseluruhan.png  used on input line 159.
 (pdftex.def)             Requested size: 364.19667pt x 133.95284pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [31 <./gambar/diagram-sistem-keseluruhan.png>]
-<gambar/diagram-architecture.png, id=800, 490.33188pt x 748.29562pt>
+<gambar/diagram-architecture.png, id=776, 490.33188pt x 748.29562pt>
 File: gambar/diagram-architecture.png Graphic file (type png)
 <use gambar/diagram-architecture.png>
-Package pdftex.def Info: gambar/diagram-architecture.png  used on input line 178.
+Package pdftex.def Info: gambar/diagram-architecture.png  used on input line 176.
 (pdftex.def)             Requested size: 227.62206pt x 347.37155pt.
- [32] [33 <./gambar/diagram-architecture.png>] [34]
-<gambar/tanstack-works.jpg, id=820, 803.0pt x 451.6875pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33 <./gambar/diagram-architecture.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [34]
+<gambar/tanstack-works.jpg, id=797, 803.0pt x 451.6875pt>
 File: gambar/tanstack-works.jpg Graphic file (type jpg)
 <use gambar/tanstack-works.jpg>
-Package pdftex.def Info: gambar/tanstack-works.jpg  used on input line 198.
+Package pdftex.def Info: gambar/tanstack-works.jpg  used on input line 196.
 (pdftex.def)             Requested size: 227.62206pt x 128.03615pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [35 <./gambar/tanstack-works.jpg (PNG copy)>]
-<gambar/landing-page.jpeg, id=827, 1541.76pt x 1266.23062pt>
+<gambar/landing-page.jpeg, id=804, 1541.76pt x 1266.23062pt>
 File: gambar/landing-page.jpeg Graphic file (type jpg)
 <use gambar/landing-page.jpeg>
-Package pdftex.def Info: gambar/landing-page.jpeg  used on input line 212.
+Package pdftex.def Info: gambar/landing-page.jpeg  used on input line 210.
 (pdftex.def)             Requested size: 318.66948pt x 261.70428pt.
-<gambar/login.jpeg, id=829, 3035.34pt x 1300.86pt>
+<gambar/login.jpeg, id=806, 3035.34pt x 1300.86pt>
 File: gambar/login.jpeg Graphic file (type jpg)
 <use gambar/login.jpeg>
-Package pdftex.def Info: gambar/login.jpeg  used on input line 220.
+Package pdftex.def Info: gambar/login.jpeg  used on input line 218.
 (pdftex.def)             Requested size: 318.66948pt x 136.56456pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [36 <./gambar/landing-page.jpeg>]
-<gambar/register.jpeg, id=836, 3035.34pt x 1300.86pt>
+<gambar/register.jpeg, id=813, 3035.34pt x 1300.86pt>
 File: gambar/register.jpeg Graphic file (type jpg)
 <use gambar/register.jpeg>
-Package pdftex.def Info: gambar/register.jpeg  used on input line 227.
+Package pdftex.def Info: gambar/register.jpeg  used on input line 225.
 (pdftex.def)             Requested size: 318.66948pt x 136.56456pt.
-<gambar/dashboard.jpeg, id=838, 1541.76pt x 1156.32pt>
+<gambar/dashboard.jpeg, id=815, 1541.76pt x 1156.32pt>
 File: gambar/dashboard.jpeg Graphic file (type jpg)
 <use gambar/dashboard.jpeg>
-Package pdftex.def Info: gambar/dashboard.jpeg  used on input line 234.
+Package pdftex.def Info: gambar/dashboard.jpeg  used on input line 232.
 (pdftex.def)             Requested size: 318.66948pt x 238.98798pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [37 <./gambar/login.jpeg> <./gambar/register.jpeg>]
-<gambar/sentiment.png, id=845, 2344.76pt x 1478.52374pt>
+<gambar/sentiment.png, id=821, 2344.76pt x 1478.52374pt>
 File: gambar/sentiment.png Graphic file (type png)
 <use gambar/sentiment.png>
-Package pdftex.def Info: gambar/sentiment.png  used on input line 241.
+Package pdftex.def Info: gambar/sentiment.png  used on input line 239.
 (pdftex.def)             Requested size: 318.66948pt x 200.92316pt.
-<gambar/scraper.png, id=847, 2248.4pt x 1040.88875pt>
+<gambar/scraper.png, id=823, 2248.4pt x 1040.88875pt>
 File: gambar/scraper.png Graphic file (type png)
 <use gambar/scraper.png>
-Package pdftex.def Info: gambar/scraper.png  used on input line 248.
+Package pdftex.def Info: gambar/scraper.png  used on input line 246.
 (pdftex.def)             Requested size: 318.66948pt x 147.51817pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [38 <./gambar/dashboard.jpeg> <./gambar/sentiment.png>]
-<gambar/recomendation.jpeg, id=854, 1541.76pt x 931.22906pt>
+<gambar/recomendation.jpeg, id=831, 1541.76pt x 931.22906pt>
 File: gambar/recomendation.jpeg Graphic file (type jpg)
 <use gambar/recomendation.jpeg>
-Package pdftex.def Info: gambar/recomendation.jpeg  used on input line 255.
+Package pdftex.def Info: gambar/recomendation.jpeg  used on input line 253.
 (pdftex.def)             Requested size: 318.66948pt x 192.46622pt.
-<gambar/chatbot.jpeg, id=856, 1114.91531pt x 1541.76pt>
+<gambar/chatbot.jpeg, id=833, 1114.91531pt x 1541.76pt>
 File: gambar/chatbot.jpeg Graphic file (type jpg)
 <use gambar/chatbot.jpeg>
-Package pdftex.def Info: gambar/chatbot.jpeg  used on input line 262.
+Package pdftex.def Info: gambar/chatbot.jpeg  used on input line 260.
 (pdftex.def)             Requested size: 227.62206pt x 314.74542pt.
- [39 <./gambar/scraper.png> <./gambar/recomendation.jpeg>] [40 <./gambar/chatbot.jpeg>] [41]
-b3-bab3.tex:446: ignored error: Infinite glue shrinkage found in box being split [42]
-b3-bab3.tex:446: ignored error: Infinite glue shrinkage found in box being split [43]
-b3-bab3.tex:542: ignored error: Infinite glue shrinkage found in box being split [44]
-b3-bab3.tex:649: ignored error: Infinite glue shrinkage found in box being split [45] [46]
-b3-bab3.tex:756: ignored error: Infinite glue shrinkage found in box being split [47]
-Overfull \hbox (4.29388pt too wide) in paragraph at lines 787--787
-\OT1/ptm/m/n/12 re-ko-men-da-si 
- []
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Overfull \hbox (4.29388pt too wide) in paragraph at lines 789--789
-\OT1/ptm/m/n/12 re-ko-men-da-si 
- []
+ [39 <./gambar/scraper.png> <./gambar/recomendation.jpeg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Overfull \hbox (4.29388pt too wide) in paragraph at lines 791--791
-\OT1/ptm/m/n/12 re-ko-men-da-si 
- []
-
-b3-bab3.tex:798: ignored error: Infinite glue shrinkage found in box being split [48]
-b3-bab3.tex:890: ignored error: Infinite glue shrinkage found in box being split [49] [50]
-b3-bab3.tex:999: ignored error: Infinite glue shrinkage found in box being split [51]
-b3-bab3.tex:1078: ignored error: Infinite glue shrinkage found in box being split [52]) [53]
+ [40 <./gambar/chatbot.jpeg>] [41]
+b3-bab3.tex:444: ignored error: Infinite glue shrinkage found in box being split [42]
+b3-bab3.tex:444: ignored error: Infinite glue shrinkage found in box being split [43]
+b3-bab3.tex:540: ignored error: Infinite glue shrinkage found in box being split [44]
+b3-bab3.tex:647: ignored error: Infinite glue shrinkage found in box being split [45] [46]
+b3-bab3.tex:753: ignored error: Infinite glue shrinkage found in box being split [47]
+b3-bab3.tex:795: ignored error: Infinite glue shrinkage found in box being split [48]
+b3-bab3.tex:887: ignored error: Infinite glue shrinkage found in box being split [49]
+b3-bab3.tex:993: ignored error: Infinite glue shrinkage found in box being split [50] [51]) [52]
 \openout2 = `b4-bab4.aux'.
 
- (b4-bab4.tex [54
-
-
-
-
-]
+ (b4-bab4.tex
 Bab 4.
-[55
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [53
 
 
-] [56] [57]
-<gambar/ui-landing-page.png, id=1036, 1243.64626pt x 918.43124pt>
+
+
+
+] [54]
+Underfull \vbox (badness 2653) has occurred while \output is active []
+
+ [55]
+<gambar/ui-landing-page.png, id=1004, 1243.64626pt x 918.43124pt>
 File: gambar/ui-landing-page.png Graphic file (type png)
 <use gambar/ui-landing-page.png>
 Package pdftex.def Info: gambar/ui-landing-page.png  used on input line 66.
 (pdftex.def)             Requested size: 409.71692pt x 302.57874pt.
- [58] [59 <./gambar/ui-landing-page.png>]
-<gambar/ui-login-page.png, id=1049, 1243.64626pt x 576.1525pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [56] [57 <./gambar/ui-landing-page.png>]
+<gambar/ui-login-page.png, id=1018, 1243.64626pt x 576.1525pt>
 File: gambar/ui-login-page.png Graphic file (type png)
 <use gambar/ui-login-page.png>
 Package pdftex.def Info: gambar/ui-login-page.png  used on input line 85.
 (pdftex.def)             Requested size: 318.66948pt x 147.63344pt.
-<gambar/ui-register-page.png, id=1051, 1243.64626pt x 576.1525pt>
+<gambar/ui-register-page.png, id=1020, 1243.64626pt x 576.1525pt>
 File: gambar/ui-register-page.png Graphic file (type png)
 <use gambar/ui-register-page.png>
 Package pdftex.def Info: gambar/ui-register-page.png  used on input line 95.
 (pdftex.def)             Requested size: 318.66948pt x 147.63344pt.
- [60 <./gambar/ui-login-page.png> <./gambar/ui-register-page.png>]
-<gambar/ui-dashboard-page.png, id=1060, 1927.95282pt x 1342.2647pt>
+ [58 <./gambar/ui-login-page.png> <./gambar/ui-register-page.png>]
+<gambar/ui-dashboard-page.png, id=1029, 1927.95282pt x 1342.2647pt>
 File: gambar/ui-dashboard-page.png Graphic file (type png)
 <use gambar/ui-dashboard-page.png>
 Package pdftex.def Info: gambar/ui-dashboard-page.png  used on input line 113.
 (pdftex.def)             Requested size: 318.66948pt x 221.85326pt.
- [61 <./gambar/ui-dashboard-page.png>]
-<gambar/ui-scraper-page.png, id=1069, 1243.64626pt x 576.1525pt>
+ [59 <./gambar/ui-dashboard-page.png>]
+<gambar/ui-scraper-page.png, id=1037, 1243.64626pt x 576.1525pt>
 File: gambar/ui-scraper-page.png Graphic file (type png)
 <use gambar/ui-scraper-page.png>
 Package pdftex.def Info: gambar/ui-scraper-page.png  used on input line 132.
 (pdftex.def)             Requested size: 318.66948pt x 147.63344pt.
- [62 <./gambar/ui-scraper-page.png>]
-<gambar/ui-sentiment-page.png, id=1077, 1243.64626pt x 918.43124pt>
+<gambar/ui-sentiment-page.png, id=1039, 1243.64626pt x 918.43124pt>
 File: gambar/ui-sentiment-page.png Graphic file (type png)
 <use gambar/ui-sentiment-page.png>
 Package pdftex.def Info: gambar/ui-sentiment-page.png  used on input line 151.
 (pdftex.def)             Requested size: 318.66948pt x 235.33902pt.
- [63 <./gambar/ui-sentiment-page.png>]
-<gambar/ui-recommendation-content-page.png, id=1085, 1927.95282pt x 1367.1075pt>
+
+Underfull \vbox (badness 3049) has occurred while \output is active []
+
+ [60 <./gambar/ui-scraper-page.png>]
+Underfull \vbox (badness 2735) has occurred while \output is active []
+
+ [61 <./gambar/ui-sentiment-page.png>]
+<gambar/ui-recommendation-content-page.png, id=1053, 1927.95282pt x 1367.1075pt>
 File: gambar/ui-recommendation-content-page.png Graphic file (type png)
 <use gambar/ui-recommendation-content-page.png>
 Package pdftex.def Info: gambar/ui-recommendation-content-page.png  used on input line 169.
 (pdftex.def)             Requested size: 318.66948pt x 225.95935pt.
- [64 <./gambar/ui-recommendation-content-page.png>]
-<gambar/ui-chatbot-page.png, id=1093, 294.09875pt x 460.72125pt>
+ [62 <./gambar/ui-recommendation-content-page.png>]
+<gambar/ui-chatbot-page.png, id=1062, 294.09875pt x 460.72125pt>
 File: gambar/ui-chatbot-page.png Graphic file (type png)
 <use gambar/ui-chatbot-page.png>
 Package pdftex.def Info: gambar/ui-chatbot-page.png  used on input line 189.
 (pdftex.def)             Requested size: 182.09486pt x 285.2646pt.
- [65 <./gambar/ui-chatbot-page.png>]
-b4-bab4.tex:325: ignored error: Infinite glue shrinkage found in box being split [66] [67] [68] [69]
-b4-bab4.tex:547: ignored error: Infinite glue shrinkage found in box being split [70]
-b4-bab4.tex:623: ignored error: Infinite glue shrinkage found in box being split [71]
-b4-bab4.tex:693: ignored error: Infinite glue shrinkage found in box being split [72]
-b4-bab4.tex:769: ignored error: Infinite glue shrinkage found in box being split [73]
-b4-bab4.tex:831: ignored error: Infinite glue shrinkage found in box being split [74] [75]
-<gambar/folder-structure-features.png, id=1151, 130.4875pt x 106.89937pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [63 <./gambar/ui-chatbot-page.png>]
+b4-bab4.tex:325: ignored error: Infinite glue shrinkage found in box being split [64]
+b4-bab4.tex:395: ignored error: Infinite glue shrinkage found in box being split [65]
+b4-bab4.tex:470: ignored error: Infinite glue shrinkage found in box being split [66]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [67] [68]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [69] [70] [71]
+Underfull \vbox (badness 4391) has occurred while \output is active []
+
+ [72]
+<gambar/folder-structure-features.png, id=1115, 218.31563pt x 118.4425pt>
 File: gambar/folder-structure-features.png Graphic file (type png)
 <use gambar/folder-structure-features.png>
 Package pdftex.def Info: gambar/folder-structure-features.png  used on input line 853.
-(pdftex.def)             Requested size: 182.09486pt x 149.18015pt.
- [76 <./gambar/folder-structure-features.png>]
-<gambar/implementasi-arsitektur-tanstackquery.png, id=1160, 789.95125pt x 974.13937pt>
+(pdftex.def)             Requested size: 182.09486pt x 98.79158pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [73 <./gambar/folder-structure-features.png>]
+<gambar/implementasi-arsitektur-tanstackquery.png, id=1124, 789.95125pt x 974.13937pt>
 File: gambar/implementasi-arsitektur-tanstackquery.png Graphic file (type png)
 <use gambar/implementasi-arsitektur-tanstackquery.png>
 Package pdftex.def Info: gambar/implementasi-arsitektur-tanstackquery.png  used on input line 871.
 (pdftex.def)             Requested size: 318.66948pt x 392.96355pt.
- [77] [78 <./gambar/implementasi-arsitektur-tanstackquery.png>]
-<gambar/skema-mutation-tanstack-query.png, id=1171, 580.66937pt x 933.98938pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [74]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [75 <./gambar/implementasi-arsitektur-tanstackquery.png>]
+<gambar/skema-mutation-tanstack-query.png, id=1136, 580.66937pt x 933.98938pt>
 File: gambar/skema-mutation-tanstack-query.png Graphic file (type png)
 <use gambar/skema-mutation-tanstack-query.png>
 Package pdftex.def Info: gambar/skema-mutation-tanstack-query.png  used on input line 884.
 (pdftex.def)             Requested size: 318.66948pt x 512.56989pt.
- [79 <./gambar/skema-mutation-tanstack-query.png>] [80] [81] [82] [83]) [84]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [76 <./gambar/skema-mutation-tanstack-query.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [77]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [78]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [79]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [80])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [81] [82]
 \openout2 = `b5-bab5.aux'.
 
  (b5-bab5.tex
@@ -1273,63 +1508,79 @@ Bab 5.
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 11.
 (C:\Program Files\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)) [85
+)) [83
 
 
 
 
 
-] (untouch/xx-daftarpustaka.tex (laporan.bbl [86
+] [84
 
 
 
+] (untouch/xx-daftarpustaka.tex (laporan.bbl [85
 
-] [87
 
 
-])) (a8-lampiran.tex [88]
+])) [86] (a8-lampiran.tex
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 13.
- (kode/query-client.ts) (kode/query-keys.ts [89
+ (kode/query-client.ts) (kode/query-keys.ts [87
 
 
-]) (kode/scraper.ts [90]) (kode/scraper.repository.tsx
+]) (kode/scraper.ts) (kode/scraper.repository.tsx [88]
 LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 26.
  (C:\Program Files\MiKTeX\tex/latex/psnfss\ts1pcr.fd
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
-)) (kode/useScraperQuery.ts [91]) (kode/useLoginMutation.ts [92]) [93] [94
+)) (kode/useScraperQuery.ts [89]) (kode/useLoginMutation.ts)
+<gambar/bimbingan/b-arum01.jpeg, id=1392, 1541.76pt x 1027.84pt>
+File: gambar/bimbingan/b-arum01.jpeg Graphic file (type jpg)
+<use gambar/bimbingan/b-arum01.jpeg>
+Package pdftex.def Info: gambar/bimbingan/b-arum01.jpeg  used on input line 57.
+(pdftex.def)             Requested size: 182.09486pt x 121.39072pt.
+<gambar/bimbingan/b-arum02.jpeg, id=1393, 1606.0pt x 1204.5pt>
+File: gambar/bimbingan/b-arum02.jpeg Graphic file (type jpg)
+<use gambar/bimbingan/b-arum02.jpeg>
+Package pdftex.def Info: gambar/bimbingan/b-arum02.jpeg  used on input line 58.
+(pdftex.def)             Requested size: 182.09486pt x 136.5572pt.
+<gambar/bimbingan/pak-sep-1.jpeg, id=1394, 1284.8pt x 963.6pt>
+File: gambar/bimbingan/pak-sep-1.jpeg Graphic file (type jpg)
+<use gambar/bimbingan/pak-sep-1.jpeg>
+Package pdftex.def Info: gambar/bimbingan/pak-sep-1.jpeg  used on input line 60.
+(pdftex.def)             Requested size: 182.09486pt x 136.56456pt.
+<gambar/bimbingan/pak-sep-2.jpeg, id=1395, 1284.8pt x 963.6pt>
+File: gambar/bimbingan/pak-sep-2.jpeg Graphic file (type jpg)
+<use gambar/bimbingan/pak-sep-2.jpeg>
+Package pdftex.def Info: gambar/bimbingan/pak-sep-2.jpeg  used on input line 61.
+(pdftex.def)             Requested size: 182.09486pt x 136.56456pt.
 
-]
-File: gambar/logo-poliwangi.png Graphic file (type png)
-<use gambar/logo-poliwangi.png>
-Package pdftex.def Info: gambar/logo-poliwangi.png  used on input line 64.
-(pdftex.def)             Requested size: 28.90747pt x 28.90747pt.
-File: gambar/logo-poliwangi.png Graphic file (type png)
-<use gambar/logo-poliwangi.png>
-Package pdftex.def Info: gambar/logo-poliwangi.png  used on input line 73.
-(pdftex.def)             Requested size: 28.90747pt x 28.90747pt.
-) [95
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-] (laporan.aux (untouch/xx-sampul-laporan.aux) (untouch/xx-sampuldalam-laporan.aux) (a4-persembahan.aux) (a9-motto.aux) (untouch/xx-pernyataan-poliwangi.aux) (untouch/xx-persetujuan-ujian.aux) (untouch/xx-pengesahan.aux) (a2-abstrak.aux) (a3-abstract.aux) (a5-katapengantar.aux) (untouch/xx-daftar.aux) (b1-bab1.aux) (b2-bab2.aux) (b3-bab3.aux) (b4-bab4.aux) (b5-bab5.aux))
+ [90]
+<gambar/sertifikat.jpg, id=1445, 845.559pt x 597.9138pt>
+File: gambar/sertifikat.jpg Graphic file (type jpg)
+<use gambar/sertifikat.jpg>
+Package pdftex.def Info: gambar/sertifikat.jpg  used on input line 72.
+(pdftex.def)             Requested size: 318.66948pt x 225.3393pt.
+) [91 <./gambar/bimbingan/b-arum01.jpeg> <./gambar/bimbingan/b-arum02.jpeg> <./gambar/bimbingan/pak-sep-1.jpeg> <./gambar/bimbingan/pak-sep-2.jpeg> <./gambar/sertifikat.jpg>] (laporan.aux (untouch/xx-sampul-laporan.aux) (untouch/xx-sampuldalam-laporan.aux) (a4-persembahan.aux) (a9-motto.aux) (untouch/xx-pernyataan-poliwangi.aux) (untouch/xx-pengesahan.aux) (a2-abstrak.aux) (a3-abstract.aux) (a5-katapengantar.aux) (untouch/xx-daftar.aux) (b1-bab1.aux) (b2-bab2.aux) (b3-bab3.aux) (b4-bab4.aux) (b5-bab5.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `laporan.out' has not changed.
-(rerunfilecheck)             Checksum: FEC13AE0865E3B1C080A347BDD8C9CF7;12032.
+(rerunfilecheck)             Checksum: A1B4FEE11D7A5FE93F2BE6A2A0E9B897;11101.
  ) 
 Here is how much of TeX's memory you used:
- 41128 strings out of 467871
- 922326 string characters out of 5428444
- 1782693 words of memory out of 5000000
- 68592 multiletter control sequences out of 15000+600000
- 659710 words of font info for 96 fonts, out of 8000000 for 9000
+ 43291 strings out of 467871
+ 979314 string characters out of 5428444
+ 1798851 words of memory out of 5000000
+ 70746 multiletter control sequences out of 15000+600000
+ 658624 words of font info for 94 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 93i,15n,97p,1315b,2015s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on laporan.pdf (119 pages, 5991011 bytes).
+ 107i,15n,121p,1295b,1979s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on laporan.pdf (114 pages, 7428902 bytes).
 PDF statistics:
- 1655 PDF objects out of 1728 (max. 8388607)
- 634 named destinations out of 1000 (max. 500000)
- 700 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1617 PDF objects out of 1728 (max. 8388607)
+ 629 named destinations out of 1000 (max. 500000)
+ 693 words of extra memory for PDF output out of 10000 (max. 10000000)
 
