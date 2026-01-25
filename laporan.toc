@@ -1,7 +1,7 @@
 \babel@toc {indonesian}{}\relax 
 \contentsline {chapter}{HALAMAN SAMPUL}{i}{Doc-Start}%
 \contentsline {chapter}{HALAMAN PERSEMBAHAN}{iii}{section*.1}%
-\contentsline {chapter}{HALAMAN PENGESAHAN}{ix}{section*.1}%
+\contentsline {chapter}{HALAMAN PENGESAHAN}{ix}{Item.9}%
 \contentsline {chapter}{ABSTRAK}{xi}{section*.3}%
 \contentsline {chapter}{ABSTRACT}{xiii}{section*.4}%
 \contentsline {chapter}{KATA PENGANTAR}{xv}{section*.5}%

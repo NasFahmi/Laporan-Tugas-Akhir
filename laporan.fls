@@ -532,10 +532,9 @@ OUTPUT a2-abstrak.aux
 INPUT .\a2-abstrak.tex
 INPUT .\a2-abstrak.tex
 INPUT a2-abstrak.tex
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\zpzccmry.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\zptmcmr.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\symbol\psyr.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\zapfchan\pzcmi8r.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
 INPUT .\a3-abstract.tex
 INPUT .\a3-abstract.tex
 OUTPUT a3-abstract.aux
@@ -932,8 +931,6 @@ INPUT .\b5-bab5.aux
 INPUT b5-bab5.aux
 INPUT .\laporan.out
 INPUT .\laporan.out
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\courier\ucrr8a.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\courier\ucrr8a.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\courier\ucrr8a.pfb
