@@ -7,8 +7,8 @@
 \contentsline {chapter}{KATA PENGANTAR}{xv}{section*.5}%
 \contentsline {chapter}{DAFTAR ISI}{xvii}{section*.6}%
 \contentsline {chapter}{DAFTAR SINGKATAN}{xix}{section*.7}%
-\contentsline {chapter}{DAFTAR GAMBAR}{xx}{section*.9}%
-\contentsline {chapter}{DAFTAR TABEL}{xxi}{section*.10}%
+\contentsline {chapter}{DAFTAR GAMBAR}{xxi}{section*.9}%
+\contentsline {chapter}{DAFTAR TABEL}{xxiii}{section*.10}%
 \contentsline {chapter}{\numberline {1}PENDAHULUAN}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Latar Belakang}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Rumusan Masalah}{2}{section.1.2}%
