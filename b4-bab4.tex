@@ -133,8 +133,8 @@ Pada tahap design, dihasilkan rancangan arsitektur frontend berbasis component-b
 
 Selain perancangan arsitektur, tahap ini juga menghasilkan rancangan penggunaan TanStack Query sebagai implementasi Client Data Layer, serta Desain antarmuka untuk setiap halaman utama sistem. Rancangan tersebut menjadi acuan utama dalam proses implementasi frontend pada tahap selanjutnya.
 % \vspace{-1.3em}
-\subsubsection{Arsitektur \textit{Frontend}}
-% \vspace{-.8em}
+\subsubsection{Arsitektur Frontend}
+
 Arsitektur frontend pada sistem yang diimplementasikan juga ditunjukkan melalui cara penulisan dan pengelompokan file di dalam proyek frontend yang mengikuti arsitektur yang diterapkan. Struktur frontend disusun dengan pemisahan yang jelas antara komponen \textit{view}, logika pengelolaan data, serta definisi \textit{type} atau struktur data dari \textit{response} maupun \textit{payload}, dan aturan validasi atau \textit{schema} yang digunakan sistem. Pemisahan ini bertujuan untuk mendukung penerapan arsitektur frontend yang terstruktur dan mudah dipelihara.
 
 Komponen \textit{view} berperan sebagai lapisan antarmuka pengguna yang bertanggung jawab dalam menampilkan data dan menangani interaksi pengguna dengan sistem. Lapisan ini tidak menangani proses pengambilan data secara langsung, melainkan hanya menerima data yang telah dikelola oleh lapisan pengelolaan data. Dengan pendekatan ini, perubahan pada logika data tidak berdampak langsung terhadap tampilan antarmuka pengguna.
@@ -144,7 +144,7 @@ Lapisan logika pengelolaan data bertugas mengatur proses komunikasi dengan REST 
 Definisi \textit{type} atau struktur data digunakan untuk merepresentasikan bentuk data yang dipertukarkan antara frontend dan backend, baik dalam bentuk \textit{payload} permintaan maupun \textit{response} dari server. Aturan validasi atau \textit{schema} berfungsi untuk memastikan data yang diproses dan dikirimkan oleh sistem telah sesuai dengan format dan ketentuan yang ditetapkan. Pemisahan definisi struktur data dan aturan validasi ini membantu menjaga konsistensi data serta meminimalkan kesalahan pada proses pengolahan data.
 % \vspace{-1.3em}
 \subsubsection{\textit{Client Data Layer}}
-% \vspace{-.8em}
+
 Hasil implementasi menunjukkan bahwa pengelolaan data pada sistem frontend berjalan secara konsisten pada seluruh halaman dashboard. Pada saat data pertama kali diakses oleh aplikasi, sistem mengambil data dari REST API dan menyimpannya sebagai bagian dari pengelolaan data internal. Data yang telah diperoleh tersebut selanjutnya digunakan kembali oleh fitur-fitur lain yang membutuhkan sumber data yang sama tanpa memicu permintaan ulang ke server. Alur pengelolaan data ini ditunjukkan pada Gambar~\ref{fig:tanstack-works}.
 
 Penerapan pengelolaan data terpusat ini memengaruhi perilaku sistem pada saat aplikasi digunakan. Ketika pengguna melakukan navigasi antar-halaman dan kembali ke halaman sebelumnya, data tetap ditampilkan tanpa mengalami pemuatan ulang. Perilaku ini teramati secara konsisten pada halaman dashboard utama dan halaman dashboard sentimen yang menggunakan sumber data yang sama. Kondisi tersebut menunjukkan bahwa data yang telah diperoleh dapat dimanfaatkan kembali selama masih relevan dengan kebutuhan sistem.
@@ -156,19 +156,20 @@ Pengelolaan data melalui \textit{Client Data Layer} juga mendukung konsistensi p
 Secara keseluruhan, penerapan \textit{Client Data Layer} menggunakan TanStack Query menghasilkan perilaku pengelolaan data frontend yang lebih terstruktur, konsisten, dan efisien pada tahap implementasi sistem. Lapisan ini mendukung kebutuhan aplikasi dashboard analisis sentimen yang bersifat data-driven, di mana data yang sama digunakan oleh berbagai komponen dan perlu disajikan secara konsisten selama siklus penggunaan aplikasi.
 % \vspace{-1.3em}
 \subsubsection{Desain Antarmuka}
-% \vspace{-.8em}
+
 Desain antarmuka yang telah disusun pada tahap perancangan sebelumnya digunakan sebagai acuan dalam proses implementasi sistem. Perancangan tersebut bertujuan untuk memastikan penyajian website dapat ditampilkan secara terstruktur, konsisten, dan mudah dipahami oleh pengguna melalui komponen visual seperti grafik, tabel, dan indikator ringkasan data.
 
-Pada tahap desain, rancangan antarmuka disusun menggunakan alat bantu desain seperti Figma. textit{Wireframe} digunakan sebagai panduan konseptual untuk menjaga konsistensi tampilan dan alur navigasi ketika sistem direalisasikan ke dalam website dengan menggunakan framework React.
+Pada tahap desain, rancangan antarmuka disusun menggunakan alat bantu desain seperti Figma. \textit{Wireframe} digunakan sebagai panduan konseptual untuk menjaga konsistensi tampilan dan alur navigasi ketika sistem direalisasikan ke dalam website dengan menggunakan framework React.
 
 Implementasi antarmuka dilakukan dengan menerjemahkan rancangan desain ke dalam komponen antarmuka yang bersifat modular dan reusable. Setiap komponen diintegrasikan dengan arsitektur frontend berbasis data (data-driven), di mana tampilan antarmuka berfungsi sebagai representasi dari state data yang dikelola secara terpusat. Pendekatan ini memastikan bahwa perubahan data yang diperoleh dari backend dapat secara otomatis tercermin pada antarmuka pengguna tanpa memerlukan pengelolaan data secara manual di setiap komponen.
 
 Selanjutnya, arsitektur frontend yang telah dirancang di implementasi dengan mengintegrasikan \textit{Client Data Layer} menggunakan TanStack Query sebagai mekanisme utama dalam pengelolaan server state. Dengan penerapan arsitektur ini, proses pengambilan, penyimpanan sementara, dan sinkronisasi data dari REST API dapat dilakukan secara terstruktur, sehingga komponen antarmuka tidak berinteraksi langsung dengan API. Implementasi ini menjadi dasar bagi pengelolaan data yang konsisten dan efisien pada seluruh bagian dashboard.
 
+Pendekatan ini juga mendukung pemisahan tanggung jawab (separation of concerns) antara lapisan presentasi dan pengelolaan data, sehingga kompleksitas logika aplikasi dapat diminimalkan. Selain itu, arsitektur berbasis \textit{Client Data Layer} mempermudah proses pemeliharaan dan pengembangan lanjutan sistem karena perubahan pada sumber data atau mekanisme pengambilan data tidak berdampak langsung pada komponen antarmuka
+
 \subsection{\textit{Coding/Implementation}}
 \subsubsection{Landing Page}
-\FloatBarrier
-% \vspace{-.4cm}
+
 Landing Page diimplementasikan sebagai titik awal akses pengguna ke sistem sebelum proses autentikasi dilakukan. Pada halaman ini, frontend hanya menyajikan informasi umum mengenai sistem dashboard analisis sentimen tanpa melakukan pengambilan maupun pengolahan data dari backend. Oleh karena itu, halaman ini tidak melibatkan mekanisme \textit{query} maupun \textit{mutation} dalam pengelolaan data menggunakan TanStack Query.
 
 Implementasi Landing Page yang bersifat statis berfungsi untuk menegaskan pemisahan antara area sistem yang tidak bersifat \textit{data-driven} dan area sistem yang bergantung pada pengelolaan data server. Dengan pemisahan ini, aktivasi arsitektur Client Data Layer hanya dilakukan setelah pengguna memasuki bagian sistem yang membutuhkan interaksi dengan backend, seperti proses autentikasi dan dashboard utama. Pendekatan ini menjaga konsistensi arsitektur frontend agar tidak mencampurkan komponen non-data dengan mekanisme pengelolaan server state.
@@ -181,11 +182,10 @@ Implementasi Landing Page yang bersifat statis berfungsi untuk menegaskan pemisa
   \end{figure}
   \FloatBarrier
   
-  Gambar~\ref{fig:implementasi-landing-page} menunjukkan hasil implementasi antarmuka landing page. Halaman ini berfungsi sebagai halaman awal sistem yang memberikan gambaran umum mengenai aplikasi dashboard analisis sentimen. Landing page menyediakan informasi singkat terkait fungsi sistem serta navigasi menuju halaman login dan registrasi bagi pengguna.
+  Gambar~\ref{fig:implementasi-landing-page} menunjukkan hasil implementasi antarmuka landing page. Halaman ini berfungsi sebagai halaman awal sistem yang memberikan gambaran umum mengenai aplikasi dashboard analisis sentimen. Landing page menyediakan informasi singkat terkait fungsi sistem serta navigasi menuju halaman login dan registrasi bagi pengguna. dan juga pengguna bisa mengunjungi \textit{research version} untuk mengunjungi halaman pertama Sentinela ini ketika di perlombakan
 
-\FloatBarrier
+
 \subsubsection{Authentication}
-\FloatBarrier
 Fitur Authentication diimplementasikan untuk mengontrol akses pengguna terhadap sistem dashboard analisis sentimen. Proses autentikasi dilakukan melalui komunikasi frontend dengan REST API backend untuk memvalidasi kredensial pengguna sebelum mengizinkan akses ke fitur yang bersifat data-driven. Pada tahap ini, sistem mulai melibatkan pertukaran data antara frontend dan backend sebagai bagian dari alur penggunaan aplikasi.
 
 Pada sisi frontend, hasil autentikasi menentukan status akses pengguna terhadap Client Data Layer. Pengambilan data menggunakan TanStack Query hanya dapat dilakukan setelah proses autentikasi berhasil, sehingga seluruh data dashboard berada dalam konteks pengguna yang valid. Implementasi ini memastikan bahwa pengelolaan data dan state aplikasi berjalan secara terkontrol serta mencegah akses data oleh pengguna yang tidak terautentikasi.
@@ -663,6 +663,7 @@ Berikut adalah hasil pengujian yang dilakukan pada sistem:
     \end{longtable}
 
 
+    \vspace*{6.5cm}
     \item Rekomendasi Konten
 
     \setlength{\arrayrulewidth}{0.8pt}
@@ -807,8 +808,8 @@ Berikut adalah hasil pengujian yang dilakukan pada sistem:
     \hline
 
     \end{longtable}
-
-
+    
+    \clearpage
     \item Chatbot
 
    \setlength{\arrayrulewidth}{0.8pt}
@@ -884,7 +885,7 @@ Berikut adalah hasil pengujian yang dilakukan pada sistem:
 
     \end{longtable}
 
-    
+     \clearpage
     \item Logout
 
     \setlength{\arrayrulewidth}{0.8pt}

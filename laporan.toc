@@ -47,7 +47,7 @@
 \contentsline {subsection}{\numberline {4.2.1}\textit {Analysis}}{55}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}\textit {Requirement Specification}}{56}{subsection.4.2.2}%
 \contentsline {subsection}{\numberline {4.2.3}\textit {Design}}{56}{subsection.4.2.3}%
-\contentsline {subsubsection}{Arsitektur \textit {Frontend}}{56}{subsubsection*.29}%
+\contentsline {subsubsection}{Arsitektur Frontend}{56}{subsubsection*.29}%
 \contentsline {subsubsection}{\textit {Client Data Layer}}{57}{subsubsection*.30}%
 \contentsline {subsubsection}{Desain Antarmuka}{58}{subsubsection*.31}%
 \contentsline {subsection}{\numberline {4.2.4}\textit {Coding/Implementation}}{59}{subsection.4.2.4}%

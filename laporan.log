@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  26 JAN 2026 23:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  27 JAN 2026 00:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1434,7 +1434,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <gambar/ui-landing-page.png, id=1051, 1243.64626pt x 918.43124pt>
 File: gambar/ui-landing-page.png Graphic file (type png)
 <use gambar/ui-landing-page.png>
-Package pdftex.def Info: gambar/ui-landing-page.png  used on input line 178.
+Package pdftex.def Info: gambar/ui-landing-page.png  used on input line 179.
 (pdftex.def)             Requested size: 364.19667pt x 268.95888pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1505,17 +1505,18 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 b4-bab4.tex:441: ignored error: Infinite glue shrinkage found in box being split [67]
 b4-bab4.tex:511: ignored error: Infinite glue shrinkage found in box being split [68]
 b4-bab4.tex:586: ignored error: Infinite glue shrinkage found in box being split [69]
-b4-bab4.tex:663: ignored error: Infinite glue shrinkage found in box being split [70] [71]
+b4-bab4.tex:663: ignored error: Infinite glue shrinkage found in box being split [70]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [72] [73] [74]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [71] [72] [73] [74
 
- [75]
+] [75
+
+]
 <gambar/folder-structure-features.png, id=1162, 218.31563pt x 118.4425pt>
 File: gambar/folder-structure-features.png Graphic file (type png)
 <use gambar/folder-structure-features.png>
-Package pdftex.def Info: gambar/folder-structure-features.png  used on input line 969.
+Package pdftex.def Info: gambar/folder-structure-features.png  used on input line 970.
 (pdftex.def)             Requested size: 182.09486pt x 98.79158pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1524,7 +1525,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <gambar/implementasi-arsitektur-tanstackquery.png, id=1171, 789.95125pt x 974.13937pt>
 File: gambar/implementasi-arsitektur-tanstackquery.png Graphic file (type png)
 <use gambar/implementasi-arsitektur-tanstackquery.png>
-Package pdftex.def Info: gambar/implementasi-arsitektur-tanstackquery.png  used on input line 987.
+Package pdftex.def Info: gambar/implementasi-arsitektur-tanstackquery.png  used on input line 988.
 (pdftex.def)             Requested size: 318.66948pt x 392.96355pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1536,7 +1537,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <gambar/skema-mutation-tanstack-query.png, id=1183, 580.66937pt x 933.98938pt>
 File: gambar/skema-mutation-tanstack-query.png Graphic file (type png)
 <use gambar/skema-mutation-tanstack-query.png>
-Package pdftex.def Info: gambar/skema-mutation-tanstack-query.png  used on input line 1000.
+Package pdftex.def Info: gambar/skema-mutation-tanstack-query.png  used on input line 1001.
 (pdftex.def)             Requested size: 318.66948pt x 512.56989pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1628,13 +1629,13 @@ Package rerunfilecheck Info: File `laporan.out' has not changed.
 Here is how much of TeX's memory you used:
  43318 strings out of 467871
  979676 string characters out of 5428444
- 1798890 words of memory out of 5000000
+ 1798836 words of memory out of 5000000
  70762 multiletter control sequences out of 15000+600000
  657811 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  107i,15n,121p,1295b,1979s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on laporan.pdf (118 pages, 7633020 bytes).
+Output written on laporan.pdf (118 pages, 7633406 bytes).
 PDF statistics:
  1659 PDF objects out of 1728 (max. 8388607)
  647 named destinations out of 1000 (max. 500000)
