@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  27 JAN 2026 00:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  27 JAN 2026 00:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1559,10 +1559,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  (b5-bab5.tex
 Bab 5.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 11.
-(C:\Program Files\MiKTeX\tex/latex/psnfss\ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)) [85
+) [85
 
 
 
@@ -1588,37 +1585,35 @@ Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on in
 LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 26.
  (C:\Program Files\MiKTeX\tex/latex/psnfss\ts1pcr.fd
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
-)) (kode/useScraperQuery.ts [91]) (kode/useLoginMutation.ts)
-<gambar/bimbingan/b-arum01.jpeg, id=1435, 1541.76pt x 1027.84pt>
+)) (kode/useScraperQuery.ts [91]) (kode/useLoginMutation.ts) [92]
+<gambar/bimbingan/b-arum01.jpeg, id=1485, 1541.76pt x 1027.84pt>
 File: gambar/bimbingan/b-arum01.jpeg Graphic file (type jpg)
 <use gambar/bimbingan/b-arum01.jpeg>
-Package pdftex.def Info: gambar/bimbingan/b-arum01.jpeg  used on input line 57.
-(pdftex.def)             Requested size: 182.09486pt x 121.39072pt.
-<gambar/bimbingan/b-arum02.jpeg, id=1436, 1606.0pt x 1204.5pt>
+Package pdftex.def Info: gambar/bimbingan/b-arum01.jpeg  used on input line 55.
+(pdftex.def)             Requested size: 227.62206pt x 151.73839pt.
+<gambar/bimbingan/b-arum02.jpeg, id=1486, 1606.0pt x 1204.5pt>
 File: gambar/bimbingan/b-arum02.jpeg Graphic file (type jpg)
 <use gambar/bimbingan/b-arum02.jpeg>
-Package pdftex.def Info: gambar/bimbingan/b-arum02.jpeg  used on input line 58.
+Package pdftex.def Info: gambar/bimbingan/b-arum02.jpeg  used on input line 56.
 (pdftex.def)             Requested size: 182.09486pt x 136.5572pt.
-<gambar/bimbingan/pak-sep-1.jpeg, id=1437, 1284.8pt x 963.6pt>
+<gambar/bimbingan/pak-sep-1.jpeg, id=1487, 1284.8pt x 963.6pt>
 File: gambar/bimbingan/pak-sep-1.jpeg Graphic file (type jpg)
 <use gambar/bimbingan/pak-sep-1.jpeg>
-Package pdftex.def Info: gambar/bimbingan/pak-sep-1.jpeg  used on input line 60.
+Package pdftex.def Info: gambar/bimbingan/pak-sep-1.jpeg  used on input line 58.
 (pdftex.def)             Requested size: 182.09486pt x 136.56456pt.
-<gambar/bimbingan/pak-sep-2.jpeg, id=1438, 1284.8pt x 963.6pt>
+<gambar/bimbingan/pak-sep-2.jpeg, id=1488, 1284.8pt x 963.6pt>
 File: gambar/bimbingan/pak-sep-2.jpeg Graphic file (type jpg)
 <use gambar/bimbingan/pak-sep-2.jpeg>
-Package pdftex.def Info: gambar/bimbingan/pak-sep-2.jpeg  used on input line 61.
+Package pdftex.def Info: gambar/bimbingan/pak-sep-2.jpeg  used on input line 59.
 (pdftex.def)             Requested size: 182.09486pt x 136.56456pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [92]
-<gambar/sertifikat.jpg, id=1488, 845.559pt x 597.9138pt>
+<gambar/sertifikat.jpg, id=1489, 845.559pt x 597.9138pt>
 File: gambar/sertifikat.jpg Graphic file (type jpg)
 <use gambar/sertifikat.jpg>
-Package pdftex.def Info: gambar/sertifikat.jpg  used on input line 72.
+Package pdftex.def Info: gambar/sertifikat.jpg  used on input line 70.
 (pdftex.def)             Requested size: 318.66948pt x 225.3393pt.
-) [93 <./gambar/bimbingan/b-arum01.jpeg> <./gambar/bimbingan/b-arum02.jpeg> <./gambar/bimbingan/pak-sep-1.jpeg> <./gambar/bimbingan/pak-sep-2.jpeg> <./gambar/sertifikat.jpg>] (laporan.aux (untouch/xx-sampul-laporan.aux) (untouch/xx-sampuldalam-laporan.aux) (a4-persembahan.aux) (a9-motto.aux) (untouch/xx-pernyataan-poliwangi.aux) (untouch/xx-pengesahan.aux) (a2-abstrak.aux) (a3-abstract.aux) (a5-katapengantar.aux) (untouch/xx-daftar.aux) (b1-bab1.aux) (b2-bab2.aux) (b3-bab3.aux) (b4-bab4.aux) (b5-bab5.aux))
+) [93
+
+ <./gambar/bimbingan/b-arum01.jpeg> <./gambar/bimbingan/b-arum02.jpeg> <./gambar/bimbingan/pak-sep-1.jpeg> <./gambar/bimbingan/pak-sep-2.jpeg> <./gambar/sertifikat.jpg>] (laporan.aux (untouch/xx-sampul-laporan.aux) (untouch/xx-sampuldalam-laporan.aux) (a4-persembahan.aux) (a9-motto.aux) (untouch/xx-pernyataan-poliwangi.aux) (untouch/xx-pengesahan.aux) (a2-abstrak.aux) (a3-abstract.aux) (a5-katapengantar.aux) (untouch/xx-daftar.aux) (b1-bab1.aux) (b2-bab2.aux) (b3-bab3.aux) (b4-bab4.aux) (b5-bab5.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -1627,17 +1622,17 @@ Package rerunfilecheck Info: File `laporan.out' has not changed.
 (rerunfilecheck)             Checksum: 57E6D0E332ABEA1A0F7B9716C0F0A02F;11609.
  ) 
 Here is how much of TeX's memory you used:
- 43318 strings out of 467871
- 979676 string characters out of 5428444
+ 43291 strings out of 467871
+ 979233 string characters out of 5428444
  1798836 words of memory out of 5000000
- 70762 multiletter control sequences out of 15000+600000
- 657811 words of font info for 93 fonts, out of 8000000 for 9000
+ 70737 multiletter control sequences out of 15000+600000
+ 657497 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  107i,15n,121p,1295b,1979s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on laporan.pdf (118 pages, 7633406 bytes).
+Output written on laporan.pdf (118 pages, 7633890 bytes).
 PDF statistics:
- 1659 PDF objects out of 1728 (max. 8388607)
- 647 named destinations out of 1000 (max. 500000)
+ 1664 PDF objects out of 1728 (max. 8388607)
+ 649 named destinations out of 1000 (max. 500000)
  714 words of extra memory for PDF output out of 10000 (max. 10000000)
 

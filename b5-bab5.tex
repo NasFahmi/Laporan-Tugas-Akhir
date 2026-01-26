@@ -7,10 +7,10 @@
 
 \section{Kesimpulan}
 Berdasarkan hasil perancangan, implementasi, serta pengujian sistem yang telah dilakukan pada penelitian ini, maka dapat ditarik beberapa kesimpulan sebagai berikut.
-\begin{itemize}
+\begin{enumerate}
     \item Penerapan arsitektur Client Data Layer pada pengembangan Dashboard Analisis Sentimen UMKM berhasil direalisasikan dengan memanfaatkan TanStack Query sebagai pengelola \textit{server state}. Arsitektur ini memisahkan secara jelas antara proses pengambilan data dari backend dan komponen antarmuka pengguna, sehingga komponen frontend tidak berinteraksi langsung dengan REST API.
     \item Penerapan TanStack Query menghasilkan perilaku pengelolaan data frontend yang lebih terstruktur, khususnya melalui mekanisme caching dan penggunaan query key sebagai identitas data. Data yang sama dapat digunakan secara bersama oleh beberapa komponen dashboard tanpa memicu permintaan ulang ke server, sehingga konsistensi data antar-komponen dapat terjaga.
-\end{itemize}
+\end{enumerate}
 Hasil pengujian menunjukkan bahwa TanStack Query mendukung sinkronisasi data frontend dan backend secara terkontrol, baik pada fase pengambilan data maupun setelah terjadi perubahan data melalui mekanisme \textit{mutation}. Pendekatan ini membantu menjaga kestabilan tampilan dashboard pada aplikasi analitik yang bersifat data-driven.
 \section{Saran}
 Meskipun penelitian ini berhasil mencapai tujuan yang ditetapkan, masih terdapat beberapa keterbatasan yang dapat menjadi bahan pengembangan lebih lanjut. TanStack Query memiliki fokus utama pada pengelolaan \textit{server state} dan belum dirancang untuk menangani \textit{client state} yang bersifat lokal dan tidak bergantung pada data server. Oleh karena itu, pada implementasi sistem ini diperlukan mekanisme tambahan untuk mengelola \textit{client state}, seperti penggunaan pustaka state management yang khusus dirancang untuk menangani \textit{client state}.

@@ -799,11 +799,6 @@ OUTPUT b5-bab5.aux
 INPUT .\b5-bab5.tex
 INPUT .\b5-bab5.tex
 INPUT b5-bab5.tex
-INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\ts1ptm.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\ts1ptm.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\ts1ptm.fd
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8c.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmr8c.vf
 INPUT .\untouch\xx-daftarpustaka.tex
 INPUT .\untouch\xx-daftarpustaka.tex
 INPUT .\untouch\xx-daftarpustaka.tex
