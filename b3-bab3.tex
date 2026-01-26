@@ -9,7 +9,7 @@
 Waktu pelaksanaan penelitian ini direncanakan selama 6 bulan, yaitu dimulai pada bulan Agustus 2025 dan berakhir pada bulan Januari 2026. Rentang waktu tersebut dipilih untuk memastikan seluruh tahapan penelitian dapat dilaksanakan secara sistematis dan terstruktur, mulai dari analisis kebutuhan, perancangan sistem, implementasi, hingga pengujian. Pembagian waktu penelitian disusun secara bertahap agar setiap aktivitas penelitian dapat dilakukan secara optimal sesuai dengan metode yang digunakan, serta memberikan ruang untuk penyesuaian apabila ditemukan kendala selama proses pengembangan sistem.
 % tambahkan beberapa kalimat agar tidak 1 paragarf 1 kalimat
 \subsection{Jadwal Kegiatan Penelitian}
-Berikut adalah serangkaian jadwal kegiatan yang dilakukan selama pelaksanaan penelitian ini, yang diuraikan pada Tabel \ref{tab:jadwal-kegiatan}.
+Berikut adalah serangkaian jadwal kegiatan yang dilakukan selama pelaksanaan penelitian ini, yang diuraikan pada Tabel \ref{tab:jadwal_pelaksanaan}.
 % \vspace{-.3cm}
 \setlength{\arrayrulewidth}{0.8pt}
 \renewcommand{\arraystretch}{1.4}
@@ -40,12 +40,12 @@ Berikut adalah serangkaian jadwal kegiatan yang dilakukan selama pelaksanaan pen
 \multicolumn{1}{c|}{\textbf{2026}} \\ \cline{3-8}
 
 & &
-\textbf{Agustus} &
-\textbf{September} &
-\textbf{Oktober} &
-\textbf{November} &
-\textbf{Desember} &
-\textbf{Januari} \\ \hline
+\textbf{Ags} &
+\textbf{Sep} &
+\textbf{Okt} &
+\textbf{Nov} &
+\textbf{Des} &
+\textbf{Jan} \\ \hline
 \endfirsthead
 
 \hline
@@ -155,7 +155,7 @@ Tahapan penerapan metode fountain dalam penelitian ini terdiri atas beberapa tah
       Setelah berhasil melakukan Login, pengguna dapat mengakses fitur-fitur utama sistem. Salah satu fitur utama adalah Melihat Sentiment, yang digunakan untuk menampilkan hasil analisis sentimen dari data yang telah diproses. Use case Melihat Sentiment memiliki relasi include dengan Menganalisa Data, yang menunjukkan bahwa proses analisis data merupakan bagian yang tidak terpisahkan dari penyajian informasi sentimen. Hasil analisis tersebut kemudian dapat diperluas melalui relasi extend ke use case Melihat Overall Sentiment, Insight Summary, dan Aspect Summary, yang memungkinkan pengguna memperoleh ringkasan sentimen secara keseluruhan, wawasan utama, serta analisis sentimen berbasis aspek.
 
       Selain itu, sistem juga menyediakan fitur Melihat Data Scrapper yang memungkinkan pengguna melihat data hasil proses pengambilan data dari media sosial. Dari use case ini, terdapat relasi extend ke Mengunduh Data, yang menunjukkan bahwa proses pengunduhan bersifat opsional dan hanya dilakukan apabila pengguna membutuhkan data tersebut dalam bentuk berkas. Di sisi lain, pengguna juga dapat mengakses fitur Melihat Rekomendasi Konten, yang disediakan sebagai bagian dari layanan sistem untuk memberikan rekomendasi berdasarkan hasil analisis sentimen. Keseluruhan relasi use case ini menggambarkan alur penggunaan sistem secara terstruktur, mulai dari akses awal hingga pemanfaatan fitur analisis dan penyajian informasi sentimen.
-    
+    \vspace*{3.3cm}
     \item Entity Relationship Diagram \hfill \\
      
       \begin{figure}[H]
@@ -295,12 +295,14 @@ Tahapan penerapan metode fountain dalam penelitian ini terdiri atas beberapa tah
   Dalam mengimplementasikan struktur direktori dan manajemen pengambilan data (data \textit{fetching}), penelitian ini mengadopsi pendekatan arsitektur berlapis (\textit{layered architecture}) yang direkomendasikan dalam praktik produksi React modern \citep{Owusu2025}. Sesuai pola tersebut, implementasi dilakukan dengan memisahkan logika API ke dalam service layer, yang kemudian dibungkus menggunakan custom hooks berbasis TanStack Query. Pendekatan ini memastikan bahwa komponen UI hanya berinteraksi dengan hooks tanpa perlu mengetahui kompleksitas implementasi REST API secara langsung.
 
   Bersamaan dengan itu, dilakukan pula penyiapan komponen pendukung dan integrasi data dengan backend. Seluruh persiapan ini bertujuan untuk menjamin bahwa proses implementasi berjalan secara terstruktur, menjaga konsistensi kode, serta memenuhi spesifikasi kebutuhan sistem yang telah didefinisikan pada tahap sebelumnya.
+
 \subsection{Testing}
   Metode pengujian yang digunakan dalam penelitian ini mengacu pada konsep black-box testing, dengan pendekatan scenario-based testing. Pengujian dilakukan dengan mengamati perilaku sistem berdasarkan skenario penggunaan tanpa memperhatikan struktur internal kode program. Pendekatan ini menempatkan sistem sebagai sebuah kesatuan yang diuji dari sudut pandang pengguna, sehingga pengujian difokuskan pada kesesuaian fungsi dan respons sistem terhadap alur penggunaan yang dirancang.
   Pemilihan pendekatan scenario-based testing didasarkan pada karakteristik sistem yang dikembangkan, yaitu dashboard analitik yang bersifat data-driven dan mengandalkan interaksi antar-komponen antarmuka. Oleh karena itu, pengujian diarahkan pada pengetesan perilaku sistem dalam menampilkan data, menjaga konsistensi informasi, serta merespons pembaruan data sesuai dengan kondisi yang terjadi.
   Ruang lingkup pengujian pada penelitian ini difokuskan pada perilaku sistem frontend, khususnya pada pengelolaan data melalui Client Data Layer dan penyajian data pada antarmuka pengguna. Pengujian tidak mencakup pengetesan terhadap algoritma analisis sentimen maupun proses pengolahan data pada sisi backend.
   Skenario pengujian disusun berdasarkan fitur utama sistem dan merepresentasikan alur penggunaan dari sudut pandang pengguna. Setiap skenario dirancang untuk mengevaluasi perilaku sistem frontend dalam merespons interaksi pengguna serta memastikan kesesuaian fungsi sistem dengan rancangan yang telah ditetapkan. Skenario pengujian dalam penelitian ini terdiri atas beberapa pengujian sebagai berikut:
   \begin{packed_enum}
+      \vspace*{2.5cm}
     \item Landing Page
     % \vspace{-0.5cm}
       \setlength{\arrayrulewidth}{0.8pt}
@@ -1026,7 +1028,7 @@ Tahapan penerapan metode fountain dalam penelitian ini terdiri atas beberapa tah
       \hline
 
       \end{longtable}
-      %  \vspace{5.5cm}
+      \vspace*{1cm}
     \item Logout
       % \vspace{-0.5cm}
       \setlength{\arrayrulewidth}{0.8pt}
