@@ -41,7 +41,8 @@
 \contentsline {subsection}{\numberline {3.2.4}Coding (Implementation)}{40}{subsection.3.2.4}%
 \contentsline {subsection}{\numberline {3.2.5}Testing}{41}{subsection.3.2.5}%
 \contentsline {chapter}{\numberline {4}HASIL DAN PEMBAHASAN}{53}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Capaian Jatim Datathon 2025}{53}{section.4.1}%
+\contentsline {section}{\numberline {4.1}Hasil Jawa Timur Datathon 2025}{53}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Capaian Jawa Timur Datathon 2025 Skema UMKM}{53}{subsection.4.1.1}%
 \contentsline {section}{\numberline {4.2}Hasil}{55}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}\textit {Analysis}}{55}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}\textit {Requirement Specification}}{56}{subsection.4.2.2}%
