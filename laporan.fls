@@ -360,9 +360,6 @@ INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzl
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryarrows.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryarrows.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryarrows.code.tex
-INPUT .\a1-database.hyphenate.tex
-INPUT .\a1-database.hyphenate.tex
-INPUT a1-database.hyphenate.tex
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT .\laporan.aux
@@ -712,6 +709,13 @@ OUTPUT b4-bab4.aux
 INPUT .\b4-bab4.tex
 INPUT .\b4-bab4.tex
 INPUT b4-bab4.tex
+INPUT .\gambar\gambar-juara-3.jpeg
+INPUT .\gambar\gambar-juara-3.jpeg
+INPUT .\gambar\gambar-juara-3.jpeg
+INPUT .\gambar\gambar-juara-3.jpeg
+INPUT .\gambar\gambar-juara-3.jpeg
+INPUT .\gambar\gambar-juara-3.jpeg
+INPUT .\gambar\gambar-juara-3.jpeg
 INPUT .\gambar\ui-landing-page.png
 INPUT .\gambar\ui-landing-page.png
 INPUT .\gambar\ui-landing-page.png

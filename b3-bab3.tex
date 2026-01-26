@@ -10,7 +10,7 @@ Waktu pelaksanaan penelitian ini direncanakan selama 6 bulan, yaitu dimulai pada
 % tambahkan beberapa kalimat agar tidak 1 paragarf 1 kalimat
 \subsection{Jadwal Kegiatan Penelitian}
 Berikut adalah serangkaian jadwal kegiatan yang dilakukan selama pelaksanaan penelitian ini, yang diuraikan pada Tabel \ref{tab:jadwal-kegiatan}.
-\vspace{-.3cm}
+% \vspace{-.3cm}
 \setlength{\arrayrulewidth}{0.8pt}
 \renewcommand{\arraystretch}{1.4}
 \setlength{\tabcolsep}{6pt}
@@ -19,33 +19,43 @@ Berikut adalah serangkaian jadwal kegiatan yang dilakukan selama pelaksanaan pen
 \renewcommand{\arraystretch}{1.4}
 \setlength{\tabcolsep}{6pt}
 \begin{longtable}{|
-c|
-p{3.75cm}|
-p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|
+	c
+	|p{0.22\linewidth}
+	|>{\centering\arraybackslash}p{0.08\linewidth}
+	|>{\centering\arraybackslash}p{0.08\linewidth}
+	|>{\centering\arraybackslash}p{0.08\linewidth}
+	|>{\centering\arraybackslash}p{0.08\linewidth}
+	|>{\centering\arraybackslash}p{0.08\linewidth}
+	|>{\centering\arraybackslash}p{0.08\linewidth}|
 }
-
-\caption{Jadwal Kegiatan Penelitian}
-\label{tab:jadwal-kegiatan} \\
-
+\caption{Jadwal Pelaksanaan Penelitian}
+\label{tab:jadwal_pelaksanaan} \\
 \hline
-\multirow{2}{*}{\textbf{No}} &
-\multirow{2}{*}{\textbf{Nama Kegiatan}} &
-\multicolumn{6}{c|}{\textbf{Bulan}} \\ \cline{3-8}
+\multirow{3}{*}{\textbf{No}} &
+\multirow{3}{*}{\textbf{Nama Kegiatan}} &
+\multicolumn{6}{c|}{\textbf{Waktu Pelaksanaan}} \\ \cline{3-8}
 
 & &
-\textbf{Ags} &
-\textbf{Sep} &
-\textbf{Okt} &
-\textbf{Nov} &
-\textbf{Des} &
-\textbf{Jan} \\ 
-\hline
+\multicolumn{5}{c|}{\textbf{2025}} &
+\multicolumn{1}{c|}{\textbf{2026}} \\ \cline{3-8}
+
+& &
+\textbf{Agustus} &
+\textbf{September} &
+\textbf{Oktober} &
+\textbf{November} &
+\textbf{Desember} &
+\textbf{Januari} \\ \hline
 \endfirsthead
 
 \hline
-\multirow{2}{*}{\textbf{No}} &
-\multirow{2}{*}{\textbf{Nama Kegiatan}} &
-\multicolumn{6}{c|}{\textbf{Bulan}} \\ \cline{3-8}
+\multirow{3}{*}{\textbf{No}} &
+\multirow{3}{*}{\textbf{Nama Kegiatan}} &
+\multicolumn{6}{c|}{\textbf{Waktu Pelaksanaan}} \\ \cline{3-8}
+
+& &
+\multicolumn{5}{c|}{\textbf{2025}} &
+\multicolumn{1}{c|}{\textbf{2026}} \\ \cline{3-8}
 
 & &
 \textbf{Ags} &
@@ -53,8 +63,7 @@ p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|
 \textbf{Okt} &
 \textbf{Nov} &
 \textbf{Des} &
-\textbf{Jan} \\ 
-\hline
+\textbf{Jan} \\ \hline
 \endhead
 
 \hline
@@ -63,41 +72,49 @@ p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|
 \hline
 \endlastfoot
 
-1 &
-Analisis Kebutuhan Sistem &
-\cellcolor{yellow} & & & & & \\ \hline
+1 & Analisis Kebutuhan Sistem
+& \cellcolor{yellow} & & & & & \\ \hline
 
-2 &
-Perancangan Arsitektur Frontend dan Client Data Layer &
-& \cellcolor{yellow} & \cellcolor{yellow} & \cellcolor{yellow} & & \\ \hline
+2 & Perumusan Ide dan Studi Awal Permasalahan
+& \cellcolor{yellow} & & & & & \\ \hline
 
-3 &
-Desain Antarmuka dan Desain Sistem &
-& \cellcolor{yellow} & \cellcolor{yellow} & \cellcolor{yellow} & \cellcolor{yellow} & \\ \hline
+3 & Penyusunan Proposal dan Konsep Solusi
+& \cellcolor{yellow} & & & & & \\ \hline
 
-4 &
-Implementasi Frontend dan TanStack Query &
-& \cellcolor{yellow} & \cellcolor{yellow} & \cellcolor{yellow} & \cellcolor{yellow} & \\ \hline
+4 & Pengumpulan Proposal dan Video Presentasi
+& & \cellcolor{yellow} & & & & \\ \hline
 
-5 &
-Testing &
-& & \cellcolor{yellow} & \cellcolor{yellow} & \cellcolor{yellow} & \cellcolor{yellow} \\ \hline
+5 & Seleksi Proposal dan Penetapan Finalis
+& & \cellcolor{yellow} & & & & \\ \hline
 
-6 &
-Analisis Hasil Pengujian dan Penyusunan Laporan &
-& & & & \cellcolor{yellow} & \cellcolor{yellow} \\ \hline
+6 & Presentasi dan Penjurian Akhir
+& & \cellcolor{yellow} & & & & \\ \hline
+
+7 & Pengembangan Arsitektur Frontend dan Client Data Layer
+& & & \cellcolor{yellow} & \cellcolor{yellow} & \cellcolor{yellow} & \\ \hline
+
+8 & Implementasi Dashboard dan TanStack Query
+& & & \cellcolor{yellow} & \cellcolor{yellow} & \cellcolor{yellow} & \\ \hline
+
+9 & Pengujian Sistem (Black-box Testing)
+& & & & \cellcolor{yellow} & \cellcolor{yellow} & \cellcolor{yellow} \\ \hline
+
+10 & Penyusunan Laporan Tugas Akhir
+& & & & & \cellcolor{yellow} & \cellcolor{yellow} \\ \hline
 
 \end{longtable}
+
 \FloatBarrier
 
 % ini nanti perllu di tambah kan ngapain saja di setiap bulan dan kegiatan
-\vspace{-.3cm}
+% \vspace{-.3cm}
 Berdasarkan jadwal kegiatan penelitian yang telah disusun, pelaksanaan penelitian diawali pada bulan Agustus 2025 dengan tahap analisis kebutuhan sistem. Pada tahap ini dilakukan identifikasi permasalahan, pengumpulan kebutuhan pengguna, serta menyusun kebutuhan terhadap data dan API yang digunakan sebagai sumber data dashboard analisis sentimen. Tahap analisis ini menjadi dasar bagi tahapan penelitian selanjutnya.
 Pada bulan September 2025, kegiatan penelitian difokuskan pada perancangan sistem, yang meliputi perancangan arsitektur frontend, perancangan Client Data Layer, serta perancangan antarmuka pengguna (UI). Tahap perancangan bertujuan untuk menghasilkan rancangan sistem yang terstruktur dan sesuai dengan kebutuhan yang telah dianalisis sebelumnya.
 Pada periode bulan September hingga Desember 2025, kegiatan penelitian difokuskan pada tahapan perancangan dan implementasi sistem yang dilakukan secara iteratif dan saling tumpang tindih. Pada periode ini, proses perancangan antarmuka pengguna (desain antarmuka), perancangan sistem, perancangan arsitektur frontend dan Client Data Layer, serta implementasi frontend menggunakan TanStack Query tidak dilakukan secara terpisah dan linier, melainkan berjalan secara bersamaan sesuai dengan karakteristik metode Fountain yang fleksibel.
 Pendekatan ini memungkinkan hasil dari tahap implementasi frontend untuk secara langsung digunakan sebagai dasar penyesuaian pada tahap perancangan sistem maupun perancangan arsitektur frontend. Sebaliknya, perubahan pada desain antarmuka atau struktur arsitektur juga dapat segera diimplementasikan dan diuji tanpa harus menunggu selesainya seluruh tahapan sebelumnya. Dengan demikian, proses pengembangan sistem dapat berjalan lebih adaptif terhadap kebutuhan dan temuan selama penelitian.
 Pelaksanaan tahapan-tahapan tersebut secara paralel bertujuan untuk menjaga konsistensi antara rancangan arsitektur, mekanisme pengelolaan data pada Client Data Layer, serta implementasi antarmuka pengguna. Pola kerja ini sejalan dengan prinsip metode Fountain yang memungkinkan terjadinya pengulangan dan penyesuaian antar-tahapan pengembangan tanpa mengganggu keseluruhan alur penelitian. 
 Selain itu, pendekatan paralel ini memberikan ruang bagi peneliti untuk melakukan evaluasi teknis secara berkelanjutan terhadap perilaku pengelolaan data frontend, khususnya terkait konsistensi data dan pengendalian pemanggilan API. Dengan adanya evaluasi berulang tersebut, setiap penyesuaian yang dilakukan dapat langsung divalidasi kesesuaiannya terhadap tujuan penelitian.
+
 \section{Metode Fountain}
 Berdasarkan landasan teori dan pembahasan metode penelitian yang telah diuraikan pada Bab II, penelitian ini menggunakan metode Fountain sebagai pendekatan dalam pengembangan sistem. Metode Fountain dipilih karena memiliki karakteristik fleksibel dan iteratif, sehingga memungkinkan tahapan analisis, perancangan, implementasi, dan pengujian dilakukan secara saling tumpang tindih sesuai dengan kebutuhan penelitian. Karakteristik tersebut dinilai sesuai dengan pengembangan aplikasi frontend yang bersifat data-driven dan memerlukan evaluasi berulang terhadap arsitektur dan pengelolaan data.
 Pada Bab III ini, metode Fountain diterapkan secara sistematis pada penelitian yang dilakukan. Pembahasan difokuskan pada tahapan penerapan metode Fountain dalam konteks pengembangan Dashboard Analisis Sentimen, mulai dari tahap analisis hingga tahap testing. Uraian pada setiap tahapan menjelaskan aktivitas yang dilakukan dalam penelitian ini tanpa mengulang pembahasan teoritis yang telah disampaikan pada Bab II.
@@ -120,10 +137,10 @@ Tahapan penerapan metode fountain dalam penelitian ini terdiri atas beberapa tah
   Pada penelitian ini, tahap \textit{design} mencakup beberapa aspek utama, yaitu \textit{use case diagram}, \textit{entity relationship diagram}, alur sistem keseluruhan, perancangan arsitektur frontend, perancangan \textit{Client Data Layer} sebagai mekanisme pengelolaan data dari API, serta perancangan antarmuka pengguna dalam bentuk \textit{wireframe}. Setiap aspek perancangan memiliki peran yang saling berkaitan dalam membangun sistem frontend yang bersifat \textit{data-driven}.
   \begin{packed_enum}
 
-    \vspace{2cm}
+    % \vspace{2cm}
 
     \item Use Case Diagram \hfill \\
-    \vspace{-.5cm}
+    % \vspace{-.5cm}
     
       \begin{figure}[H]
         \centering
@@ -159,7 +176,7 @@ Tahapan penerapan metode fountain dalam penelitian ini terdiri atas beberapa tah
       Selain analisis sentimen, sistem juga menyediakan fitur rekomendasi konten yang dimodelkan melalui entitas recommendation\_result. Entitas ini berelasi dengan sentiment\_result sebagai dasar penyusunan rekomendasi. Detail rekomendasi disimpan pada beberapa entitas turunan, yaitu recommendation\_hashtags, recommendation\_captions, dan recommendation\_best\_posting, yang masing-masing memiliki relasi satu-ke-banyak terhadap recommendation\_result. Struktur ini memungkinkan sistem menyimpan berbagai bentuk rekomendasi secara terpisah namun tetap terhubung pada satu konteks hasil analisis.
 
       Selain itu, entitas langchain\_documents digunakan untuk menyimpan data teks, metadata, dan embedding vektor yang mendukung proses analisis lanjutan atau pemrosesan berbasis kecerdasan buatan. Langchain\_documents berfungsi sebagai penyimpanan dokumen pendukung di luar alur utama pengelolaan data dashboard.
-      \vspace{3.15cm}
+      % \vspace{3.15cm}
     \item Alur Sistem Keseluruhan \hfill \\
   
     
@@ -285,7 +302,7 @@ Tahapan penerapan metode fountain dalam penelitian ini terdiri atas beberapa tah
   Skenario pengujian disusun berdasarkan fitur utama sistem dan merepresentasikan alur penggunaan dari sudut pandang pengguna. Setiap skenario dirancang untuk mengevaluasi perilaku sistem frontend dalam merespons interaksi pengguna serta memastikan kesesuaian fungsi sistem dengan rancangan yang telah ditetapkan. Skenario pengujian dalam penelitian ini terdiri atas beberapa pengujian sebagai berikut:
   \begin{packed_enum}
     \item Landing Page
-    \vspace{-0.5cm}
+    % \vspace{-0.5cm}
       \setlength{\arrayrulewidth}{0.8pt}
       \renewcommand{\arraystretch}{1.4}
       \setlength{\tabcolsep}{4pt}
@@ -340,9 +357,9 @@ Tahapan penerapan metode fountain dalam penelitian ini terdiri atas beberapa tah
       \end{longtable}
 
 
-    \vspace{-0.5cm}
+    % \vspace{-0.5cm}
     \item Login
-    \vspace{-0.5cm}
+    % \vspace{-0.5cm}
       \setlength{\arrayrulewidth}{0.8pt}
       \renewcommand{\arraystretch}{1.4}
       \setlength{\tabcolsep}{4pt}
@@ -453,9 +470,9 @@ Tahapan penerapan metode fountain dalam penelitian ini terdiri atas beberapa tah
       \hline
 
       \end{longtable}
-    \vspace{-0.5cm}
+    % \vspace{-0.5cm}
     \item Register
-     \vspace{-0.5cm}
+    %  \vspace{-0.5cm}
       \setlength{\arrayrulewidth}{0.8pt}
       \renewcommand{\arraystretch}{1.4}
       \setlength{\tabcolsep}{4pt}
@@ -550,9 +567,9 @@ Tahapan penerapan metode fountain dalam penelitian ini terdiri atas beberapa tah
       \hline
 
       \end{longtable}
-          \vspace{-0.5cm}
+          % \vspace{-0.5cm}
     \item Dashboard
-    \vspace{-0.5cm}
+    % \vspace{-0.5cm}
       \setlength{\arrayrulewidth}{0.8pt}
       \renewcommand{\arraystretch}{1.4}
       \setlength{\tabcolsep}{4pt}
@@ -658,9 +675,9 @@ Tahapan penerapan metode fountain dalam penelitian ini terdiri atas beberapa tah
       \hline
 
       \end{longtable}
-        \vspace{4cm}
+        % \vspace{4cm}
     \item Sentiment
-        \vspace{-0.5cm}
+        % \vspace{-0.5cm}
       \setlength{\arrayrulewidth}{0.8pt}
     \renewcommand{\arraystretch}{1.4}
     \setlength{\tabcolsep}{4pt}
@@ -765,9 +782,9 @@ Tahapan penerapan metode fountain dalam penelitian ini terdiri atas beberapa tah
     \hline
 
     \end{longtable}
-    \vspace{-0.5cm}
+    % \vspace{-0.5cm}
     \item Recommendation
-    \vspace{-0.5cm}
+    % \vspace{-0.5cm}
       \setlength{\arrayrulewidth}{0.8pt}
       \renewcommand{\arraystretch}{1.4}
       \setlength{\tabcolsep}{4pt}
@@ -807,9 +824,9 @@ Tahapan penerapan metode fountain dalam penelitian ini terdiri atas beberapa tah
       \hline
 
       \end{longtable}
-        \vspace{-0.5cm}
+        % \vspace{-0.5cm}
     \item Scraper
-        \vspace{-0.5cm}
+        % \vspace{-0.5cm}
       \setlength{\arrayrulewidth}{0.8pt}
       \renewcommand{\arraystretch}{1.4}
       \setlength{\tabcolsep}{4pt}
@@ -901,9 +918,9 @@ Tahapan penerapan metode fountain dalam penelitian ini terdiri atas beberapa tah
       \hline
 
       \end{longtable}
-        \vspace{-0.5cm}
+        % \vspace{-0.5cm}
     \item Chatbot
-        \vspace{-0.5cm}
+        % \vspace{-0.5cm}
       \setlength{\arrayrulewidth}{0.8pt}
       \renewcommand{\arraystretch}{1.4}
       \setlength{\tabcolsep}{4pt}
@@ -1009,9 +1026,9 @@ Tahapan penerapan metode fountain dalam penelitian ini terdiri atas beberapa tah
       \hline
 
       \end{longtable}
-       \vspace{5.5cm}
+      %  \vspace{5.5cm}
     \item Logout
-      \vspace{-0.5cm}
+      % \vspace{-0.5cm}
       \setlength{\arrayrulewidth}{0.8pt}
       \renewcommand{\arraystretch}{1.4}
       \setlength{\tabcolsep}{4pt}
