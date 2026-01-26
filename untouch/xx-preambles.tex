@@ -249,4 +249,13 @@
 }
 \makeatother
 
-%% DILARANG EDIT BAGIAN INI
+% =====================================================
+% Hilangkan jarak antar bab pada Daftar Gambar & Tabel
+% =====================================================
+\setlength{\cftbeforechapskip}{0pt}
+\setlength{\cftbeforefigskip}{0pt}
+\setlength{\cftbeforetabskip}{0pt}
+
+\makeatletter
+\renewcommand{\addvspace}[1]{}
+\makeatother

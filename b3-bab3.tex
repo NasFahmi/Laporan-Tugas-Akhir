@@ -6,10 +6,11 @@
 \chapter[METODOLOGI PENELITIAN]{\\ METODOLOGI PENELITIAN}
 \section{Waktu dan Jadwal penelitian}
 \subsection{Waktu Pelaksanaan Penelitian}
-Waktu pelaksanaan penelitian ini direncanakan selama 6 bulan, yaitu dimulai pada bulan Agustus 2025 dan berakhir pada bulan Januari 2026. Rentang waktu tersebut dipilih untuk memastikan seluruh tahapan penelitian dapat dilaksanakan secara sistematis dan terstruktur, mulai dari analisis kebutuhan, perancangan sistem, implementasi, hingga pengujian dan evaluasi. Pembagian waktu penelitian disusun secara bertahap agar setiap aktivitas penelitian dapat dilakukan secara optimal sesuai dengan metode yang digunakan, serta memberikan ruang untuk penyesuaian apabila ditemukan kendala selama proses pengembangan sistem.
+Waktu pelaksanaan penelitian ini direncanakan selama 6 bulan, yaitu dimulai pada bulan Agustus 2025 dan berakhir pada bulan Januari 2026. Rentang waktu tersebut dipilih untuk memastikan seluruh tahapan penelitian dapat dilaksanakan secara sistematis dan terstruktur, mulai dari analisis kebutuhan, perancangan sistem, implementasi, hingga pengujian. Pembagian waktu penelitian disusun secara bertahap agar setiap aktivitas penelitian dapat dilakukan secara optimal sesuai dengan metode yang digunakan, serta memberikan ruang untuk penyesuaian apabila ditemukan kendala selama proses pengembangan sistem.
 % tambahkan beberapa kalimat agar tidak 1 paragarf 1 kalimat
 \subsection{Jadwal Kegiatan Penelitian}
 Berikut adalah serangkaian jadwal kegiatan yang dilakukan selama pelaksanaan penelitian ini, yang diuraikan pada Tabel \ref{tab:jadwal-kegiatan}.
+\vspace{-.3cm}
 \setlength{\arrayrulewidth}{0.8pt}
 \renewcommand{\arraystretch}{1.4}
 \setlength{\tabcolsep}{6pt}
@@ -87,18 +88,22 @@ Analisis Hasil Pengujian dan Penyusunan Laporan &
 & & & & \cellcolor{yellow} & \cellcolor{yellow} \\ \hline
 
 \end{longtable}
+\FloatBarrier
+
 % ini nanti perllu di tambah kan ngapain saja di setiap bulan dan kegiatan
+\vspace{-.3cm}
 Berdasarkan jadwal kegiatan penelitian yang telah disusun, pelaksanaan penelitian diawali pada bulan Agustus 2025 dengan tahap analisis kebutuhan sistem. Pada tahap ini dilakukan identifikasi permasalahan, pengumpulan kebutuhan pengguna, serta menyusun kebutuhan terhadap data dan API yang digunakan sebagai sumber data dashboard analisis sentimen. Tahap analisis ini menjadi dasar bagi tahapan penelitian selanjutnya.
 Pada bulan September 2025, kegiatan penelitian difokuskan pada perancangan sistem, yang meliputi perancangan arsitektur frontend, perancangan Client Data Layer, serta perancangan antarmuka pengguna (UI). Tahap perancangan bertujuan untuk menghasilkan rancangan sistem yang terstruktur dan sesuai dengan kebutuhan yang telah dianalisis sebelumnya.
 Pada periode bulan September hingga Desember 2025, kegiatan penelitian difokuskan pada tahapan perancangan dan implementasi sistem yang dilakukan secara iteratif dan saling tumpang tindih. Pada periode ini, proses perancangan antarmuka pengguna (desain antarmuka), perancangan sistem, perancangan arsitektur frontend dan Client Data Layer, serta implementasi frontend menggunakan TanStack Query tidak dilakukan secara terpisah dan linier, melainkan berjalan secara bersamaan sesuai dengan karakteristik metode Fountain yang fleksibel.
-Pendekatan ini memungkinkan hasil dari tahap implementasi frontend untuk secara langsung dievaluasi dan digunakan sebagai dasar penyesuaian pada tahap perancangan sistem maupun perancangan arsitektur frontend. Sebaliknya, perubahan pada desain antarmuka atau struktur arsitektur juga dapat segera diimplementasikan dan diuji tanpa harus menunggu selesainya seluruh tahapan sebelumnya. Dengan demikian, proses pengembangan sistem dapat berjalan lebih adaptif terhadap kebutuhan dan temuan selama penelitian.
-Pelaksanaan tahapan-tahapan tersebut secara paralel bertujuan untuk menjaga konsistensi antara rancangan arsitektur, mekanisme pengelolaan data pada Client Data Layer, serta implementasi antarmuka pengguna. Pola kerja ini sejalan dengan prinsip metode Fountain yang memungkinkan terjadinya pengulangan dan penyesuaian antar-tahapan pengembangan tanpa mengganggu keseluruhan alur penelitian.
+Pendekatan ini memungkinkan hasil dari tahap implementasi frontend untuk secara langsung digunakan sebagai dasar penyesuaian pada tahap perancangan sistem maupun perancangan arsitektur frontend. Sebaliknya, perubahan pada desain antarmuka atau struktur arsitektur juga dapat segera diimplementasikan dan diuji tanpa harus menunggu selesainya seluruh tahapan sebelumnya. Dengan demikian, proses pengembangan sistem dapat berjalan lebih adaptif terhadap kebutuhan dan temuan selama penelitian.
+Pelaksanaan tahapan-tahapan tersebut secara paralel bertujuan untuk menjaga konsistensi antara rancangan arsitektur, mekanisme pengelolaan data pada Client Data Layer, serta implementasi antarmuka pengguna. Pola kerja ini sejalan dengan prinsip metode Fountain yang memungkinkan terjadinya pengulangan dan penyesuaian antar-tahapan pengembangan tanpa mengganggu keseluruhan alur penelitian. 
+Selain itu, pendekatan paralel ini memberikan ruang bagi peneliti untuk melakukan evaluasi teknis secara berkelanjutan terhadap perilaku pengelolaan data frontend, khususnya terkait konsistensi data dan pengendalian pemanggilan API. Dengan adanya evaluasi berulang tersebut, setiap penyesuaian yang dilakukan dapat langsung divalidasi kesesuaiannya terhadap tujuan penelitian.
 \section{Metode Fountain}
 Berdasarkan landasan teori dan pembahasan metode penelitian yang telah diuraikan pada Bab II, penelitian ini menggunakan metode Fountain sebagai pendekatan dalam pengembangan sistem. Metode Fountain dipilih karena memiliki karakteristik fleksibel dan iteratif, sehingga memungkinkan tahapan analisis, perancangan, implementasi, dan pengujian dilakukan secara saling tumpang tindih sesuai dengan kebutuhan penelitian. Karakteristik tersebut dinilai sesuai dengan pengembangan aplikasi frontend yang bersifat data-driven dan memerlukan evaluasi berulang terhadap arsitektur dan pengelolaan data.
-Pada Bab III ini, metode Fountain diterapkan secara sistematis pada penelitian yang dilakukan. Pembahasan difokuskan pada tahapan penerapan metode Fountain dalam konteks pengembangan Dashboard Analisis Sentimen, mulai dari tahap analisis hingga tahap evaluasi. Uraian pada setiap tahapan menjelaskan aktivitas yang dilakukan dalam penelitian ini tanpa mengulang pembahasan teoritis yang telah disampaikan pada Bab II.
+Pada Bab III ini, metode Fountain diterapkan secara sistematis pada penelitian yang dilakukan. Pembahasan difokuskan pada tahapan penerapan metode Fountain dalam konteks pengembangan Dashboard Analisis Sentimen, mulai dari tahap analisis hingga tahap testing. Uraian pada setiap tahapan menjelaskan aktivitas yang dilakukan dalam penelitian ini tanpa mengulang pembahasan teoritis yang telah disampaikan pada Bab II.
 Pemilihan metode Software Development Life Cycle (SDLC) yang tepat merupakan langkah strategis yang krusial untuk memastikan keberhasilan proyek serta mencegah pembengkakan biaya dan waktu pengembangan \citep{Aniley2024}. Berdasarkan pertimbangan tersebut, penelitian ini mengadopsi metode Fountain yang dinilai relevan karena memiliki karakteristik fleksibel namun tetap terstruktur. Efektivitas metode ini didukung oleh penelitian \citep{Sastra2023} pada perancangan sistem SIP-PTK, yang menunjukkan bahwa model Fountain mampu memandu tahapan analisis, desain, implementasi, hingga pengujian secara efektif pada sistem yang memiliki kebutuhan pengolahan data yang spesifik.
-Relevansi metode Fountain juga sejalan dengan fokus penelitian ini, yaitu pengembangan aplikasi frontend yang bersifat data-driven dan memiliki ketergantungan tinggi terhadap interaksi antar-komponen. Dalam pengembangan frontend, tahapan perancangan arsitektur, implementasi, dan pengujian tidak berjalan secara linier, melainkan saling berkaitan dan sering memerlukan penyesuaian berdasarkan hasil evaluasi sistem. Penerapan metode Fountain memungkinkan tahapan pengembangan dan evaluasi berjalan secara paralel serta saling tumpang tindih (overlapping) tanpa menghilangkan struktur dan urutan penelitian yang jelas.
-Melalui pendekatan ini, aktivitas analisis kebutuhan, perancangan arsitektur frontend, implementasi Client Data Layer, serta pengujian sistem dapat dilakukan secara berulang dan saling mempengaruhi. Hasil evaluasi pada satu tahapan dapat langsung digunakan sebagai dasar penyesuaian pada tahapan lainnya, seperti perubahan struktur data atau mekanisme sinkronisasi, tanpa harus menunggu seluruh siklus pengembangan selesai. Dengan demikian, proses pengembangan sistem menjadi lebih adaptif dan terkontrol, sehingga diharapkan mampu menghasilkan hasil penelitian yang sesuai dengan tujuan penelitian secara optimal.
+Relevansi metode Fountain juga sejalan dengan fokus penelitian ini, yaitu pengembangan aplikasi frontend yang bersifat data-driven dan memiliki ketergantungan tinggi terhadap interaksi antar-komponen. Dalam pengembangan frontend, tahapan perancangan arsitektur, implementasi, dan pengujian tidak berjalan secara linier, melainkan saling berkaitan dan sering memerlukan penyesuaian berdasarkan hasil evaluasi sistem. Penerapan metode Fountain memungkinkan tahapan pengembangan dan testing berjalan secara paralel serta saling tumpang tindih (overlapping) tanpa menghilangkan struktur dan urutan penelitian yang jelas.
+Melalui pendekatan ini, aktivitas analisis kebutuhan, perancangan arsitektur frontend, implementasi Client Data Layer, serta pengujian sistem dapat dilakukan secara berulang dan saling mempengaruhi. Hasil pada satu tahapan dapat langsung digunakan sebagai dasar penyesuaian pada tahapan lainnya, seperti perubahan struktur data atau mekanisme sinkronisasi, tanpa harus menunggu seluruh siklus pengembangan selesai. Dengan demikian, proses pengembangan sistem menjadi lebih adaptif dan terkontrol, sehingga diharapkan mampu menghasilkan hasil penelitian yang sesuai dengan tujuan penelitian secara optimal.
 Tahapan penerapan metode fountain dalam penelitian ini terdiri atas beberapa tahap sebagai berikut:
 \subsection{Analysis}
   Pada tahap analisis, penelitian ini mengkaji kebutuhan dan permasalahan pada pengembangan aplikasi frontend berbasis web yang berfungsi sebagai dashboard analisis sentimen UMKM. Analisis dilakukan terhadap kebutuhan penyajian hasil analisis sentimen media sosial dalam bentuk visualisasi yang informatif, ringkas, dan mudah dipahami oleh pengguna. Informasi yang dianalisis mencakup kebutuhan penampilan ringkasan sentimen, distribusi sentimen, serta indikator lain yang relevan untuk memantau persepsi konsumen secara umum.
@@ -115,7 +120,10 @@ Tahapan penerapan metode fountain dalam penelitian ini terdiri atas beberapa tah
   Pada penelitian ini, tahap \textit{design} mencakup beberapa aspek utama, yaitu \textit{use case diagram}, \textit{entity relationship diagram}, alur sistem keseluruhan, perancangan arsitektur frontend, perancangan \textit{Client Data Layer} sebagai mekanisme pengelolaan data dari API, serta perancangan antarmuka pengguna dalam bentuk \textit{wireframe}. Setiap aspek perancangan memiliki peran yang saling berkaitan dalam membangun sistem frontend yang bersifat \textit{data-driven}.
   \begin{packed_enum}
 
+    \vspace{2cm}
+
     \item Use Case Diagram \hfill \\
+    \vspace{-.5cm}
     
       \begin{figure}[H]
         \centering
@@ -135,7 +143,7 @@ Tahapan penerapan metode fountain dalam penelitian ini terdiri atas beberapa tah
      
       \begin{figure}[H]
         \centering
-        \includegraphics[width=0.9\textwidth]{gambar/erd.png}
+        \includegraphics[width=0.7\textwidth]{gambar/erd.png}
         \caption{Entity Relationship Diagram}
         \label{fig:ERD}
       \end{figure}
@@ -151,8 +159,9 @@ Tahapan penerapan metode fountain dalam penelitian ini terdiri atas beberapa tah
       Selain analisis sentimen, sistem juga menyediakan fitur rekomendasi konten yang dimodelkan melalui entitas recommendation\_result. Entitas ini berelasi dengan sentiment\_result sebagai dasar penyusunan rekomendasi. Detail rekomendasi disimpan pada beberapa entitas turunan, yaitu recommendation\_hashtags, recommendation\_captions, dan recommendation\_best\_posting, yang masing-masing memiliki relasi satu-ke-banyak terhadap recommendation\_result. Struktur ini memungkinkan sistem menyimpan berbagai bentuk rekomendasi secara terpisah namun tetap terhubung pada satu konteks hasil analisis.
 
       Selain itu, entitas langchain\_documents digunakan untuk menyimpan data teks, metadata, dan embedding vektor yang mendukung proses analisis lanjutan atau pemrosesan berbasis kecerdasan buatan. Langchain\_documents berfungsi sebagai penyimpanan dokumen pendukung di luar alur utama pengelolaan data dashboard.
-    
+      \vspace{3.15cm}
     \item Alur Sistem Keseluruhan \hfill \\
+  
     
       \begin{figure}[H]
         \centering
@@ -257,7 +266,7 @@ Tahapan penerapan metode fountain dalam penelitian ini terdiri atas beberapa tah
       Halaman Recommendation pada Gambar \ref{fig:recomendation} dirancang sebagai antarmuka yang menyajikan rekomendasi berdasarkan hasil analisis sentimen yang telah diproses secara otomatis oleh sistem. Halaman ini menampilkan informasi rekomendasi yang diperoleh dari pengolahan data sentimen, sehingga pengguna dapat memahami insight yang dihasilkan dari data media sosial. Hasil rekomendasi yang ditampilkan pada halaman ini juga disajikan secara lebih detail sebagai bagian dari informasi rekomendasi utama. Halaman ini bertujuan untuk memudahkan pengguna dalam mengakses rekomendasi dan memahami hasil analisis sentimen secara terstruktur.
       \begin{figure}[H]
         \centering
-        \includegraphics[width=0.5\textwidth]{gambar/chatbot.jpeg}
+        \includegraphics[width=0.45\textwidth]{gambar/chatbot.jpeg}
         \caption{Wireframe Halaman Chatbot}
         \label{fig:chatbot}
       \end{figure}
@@ -271,11 +280,12 @@ Tahapan penerapan metode fountain dalam penelitian ini terdiri atas beberapa tah
   Bersamaan dengan itu, dilakukan pula penyiapan komponen pendukung dan integrasi data dengan backend. Seluruh persiapan ini bertujuan untuk menjamin bahwa proses implementasi berjalan secara terstruktur, menjaga konsistensi kode, serta memenuhi spesifikasi kebutuhan sistem yang telah didefinisikan pada tahap sebelumnya.
 \subsection{Testing}
   Metode pengujian yang digunakan dalam penelitian ini mengacu pada konsep black-box testing, dengan pendekatan scenario-based testing. Pengujian dilakukan dengan mengamati perilaku sistem berdasarkan skenario penggunaan tanpa memperhatikan struktur internal kode program. Pendekatan ini menempatkan sistem sebagai sebuah kesatuan yang diuji dari sudut pandang pengguna, sehingga pengujian difokuskan pada kesesuaian fungsi dan respons sistem terhadap alur penggunaan yang dirancang.
-  Pemilihan pendekatan scenario-based testing didasarkan pada karakteristik sistem yang dikembangkan, yaitu dashboard analitik yang bersifat data-driven dan mengandalkan interaksi antar-komponen antarmuka. Oleh karena itu, pengujian diarahkan pada evaluasi perilaku sistem dalam menampilkan data, menjaga konsistensi informasi, serta merespons pembaruan data sesuai dengan kondisi yang terjadi.
-  Ruang lingkup pengujian pada penelitian ini difokuskan pada perilaku sistem frontend, khususnya pada pengelolaan data melalui Client Data Layer dan penyajian data pada antarmuka pengguna. Pengujian tidak mencakup evaluasi terhadap algoritma analisis sentimen maupun proses pengolahan data pada sisi backend.
+  Pemilihan pendekatan scenario-based testing didasarkan pada karakteristik sistem yang dikembangkan, yaitu dashboard analitik yang bersifat data-driven dan mengandalkan interaksi antar-komponen antarmuka. Oleh karena itu, pengujian diarahkan pada pengetesan perilaku sistem dalam menampilkan data, menjaga konsistensi informasi, serta merespons pembaruan data sesuai dengan kondisi yang terjadi.
+  Ruang lingkup pengujian pada penelitian ini difokuskan pada perilaku sistem frontend, khususnya pada pengelolaan data melalui Client Data Layer dan penyajian data pada antarmuka pengguna. Pengujian tidak mencakup pengetesan terhadap algoritma analisis sentimen maupun proses pengolahan data pada sisi backend.
   Skenario pengujian disusun berdasarkan fitur utama sistem dan merepresentasikan alur penggunaan dari sudut pandang pengguna. Setiap skenario dirancang untuk mengevaluasi perilaku sistem frontend dalam merespons interaksi pengguna serta memastikan kesesuaian fungsi sistem dengan rancangan yang telah ditetapkan. Skenario pengujian dalam penelitian ini terdiri atas beberapa pengujian sebagai berikut:
   \begin{packed_enum}
     \item Landing Page
+    \vspace{-0.5cm}
       \setlength{\arrayrulewidth}{0.8pt}
       \renewcommand{\arraystretch}{1.4}
       \setlength{\tabcolsep}{4pt}
@@ -330,8 +340,9 @@ Tahapan penerapan metode fountain dalam penelitian ini terdiri atas beberapa tah
       \end{longtable}
 
 
-
+    \vspace{-0.5cm}
     \item Login
+    \vspace{-0.5cm}
       \setlength{\arrayrulewidth}{0.8pt}
       \renewcommand{\arraystretch}{1.4}
       \setlength{\tabcolsep}{4pt}
@@ -442,8 +453,9 @@ Tahapan penerapan metode fountain dalam penelitian ini terdiri atas beberapa tah
       \hline
 
       \end{longtable}
-
+    \vspace{-0.5cm}
     \item Register
+     \vspace{-0.5cm}
       \setlength{\arrayrulewidth}{0.8pt}
       \renewcommand{\arraystretch}{1.4}
       \setlength{\tabcolsep}{4pt}
@@ -538,8 +550,9 @@ Tahapan penerapan metode fountain dalam penelitian ini terdiri atas beberapa tah
       \hline
 
       \end{longtable}
-
+          \vspace{-0.5cm}
     \item Dashboard
+    \vspace{-0.5cm}
       \setlength{\arrayrulewidth}{0.8pt}
       \renewcommand{\arraystretch}{1.4}
       \setlength{\tabcolsep}{4pt}
@@ -645,8 +658,9 @@ Tahapan penerapan metode fountain dalam penelitian ini terdiri atas beberapa tah
       \hline
 
       \end{longtable}
-    
+        \vspace{4cm}
     \item Sentiment
+        \vspace{-0.5cm}
       \setlength{\arrayrulewidth}{0.8pt}
     \renewcommand{\arraystretch}{1.4}
     \setlength{\tabcolsep}{4pt}
@@ -751,9 +765,9 @@ Tahapan penerapan metode fountain dalam penelitian ini terdiri atas beberapa tah
     \hline
 
     \end{longtable}
-
+    \vspace{-0.5cm}
     \item Recommendation
-
+    \vspace{-0.5cm}
       \setlength{\arrayrulewidth}{0.8pt}
       \renewcommand{\arraystretch}{1.4}
       \setlength{\tabcolsep}{4pt}
@@ -793,7 +807,9 @@ Tahapan penerapan metode fountain dalam penelitian ini terdiri atas beberapa tah
       \hline
 
       \end{longtable}
+        \vspace{-0.5cm}
     \item Scraper
+        \vspace{-0.5cm}
       \setlength{\arrayrulewidth}{0.8pt}
       \renewcommand{\arraystretch}{1.4}
       \setlength{\tabcolsep}{4pt}
@@ -885,7 +901,9 @@ Tahapan penerapan metode fountain dalam penelitian ini terdiri atas beberapa tah
       \hline
 
       \end{longtable}
+        \vspace{-0.5cm}
     \item Chatbot
+        \vspace{-0.5cm}
       \setlength{\arrayrulewidth}{0.8pt}
       \renewcommand{\arraystretch}{1.4}
       \setlength{\tabcolsep}{4pt}
@@ -991,8 +1009,9 @@ Tahapan penerapan metode fountain dalam penelitian ini terdiri atas beberapa tah
       \hline
 
       \end{longtable}
-
+       \vspace{5.5cm}
     \item Logout
+      \vspace{-0.5cm}
       \setlength{\arrayrulewidth}{0.8pt}
       \renewcommand{\arraystretch}{1.4}
       \setlength{\tabcolsep}{4pt}

@@ -13,6 +13,7 @@ Pada tahap \textit{analysis}, hasil yang diperoleh berupa identifikasi kebutuhan
 Hasil analisis juga menunjukkan bahwa pengguna sistem hanya berperan sebagai konsumen informasi, sehingga kebutuhan utama sistem terletak pada stabilitas penyajian data, konsistensi antar-komponen, serta kemudahan navigasi tanpa kehilangan data. Temuan pada tahap ini menjadi dasar pemilihan arsitektur Client Data Layer sebagai solusi pengelolaan data frontend.
 
 \subsection{\textit{Requirement Specification}}
+
 Hasil dari tahap requirement specification adalah tersusunnya kebutuhan fungsional dan non-fungsional sistem frontend. Kebutuhan fungsional mencakup kemampuan sistem untuk menampilkan ringkasan sentimen, visualisasi distribusi sentimen, data rekomendasi, serta data scraper yang bersumber dari REST API backend.
 
 Kebutuhan non-fungsional yang dihasilkan pada tahap ini meliputi konsistensi data antar-komponen, pengendalian permintaan API, serta kemampuan sistem dalam memanfaatkan mekanisme caching. Kebutuhan tersebut menjadi acuan dalam perancangan arsitektur frontend dan pemilihan TanStack Query sebagai pustaka pengelolaan Client Data Layer.
@@ -22,9 +23,9 @@ Kebutuhan non-fungsional yang dihasilkan pada tahap ini meliputi konsistensi dat
 Pada tahap design, dihasilkan rancangan arsitektur frontend berbasis component-based architecture dengan pemisahan antara lapisan presentasi dan lapisan pengelolaan data. Hasil perancangan menunjukkan bahwa Client Data Layer diposisikan sebagai lapisan perantara antara REST API dan komponen antarmuka pengguna.
 
 Selain perancangan arsitektur, tahap ini juga menghasilkan rancangan penggunaan TanStack Query sebagai implementasi Client Data Layer, serta Desain antarmuka untuk setiap halaman utama sistem. Rancangan tersebut menjadi acuan utama dalam proses implementasi frontend pada tahap selanjutnya.
-
+\vspace{-1.3em}
 \subsubsection{Arsitektur \textit{Frontend}}
-
+\vspace{-.8em}
 Arsitektur frontend pada sistem yang diimplementasikan juga ditunjukkan melalui cara penulisan dan pengelompokan file di dalam proyek frontend yang mengikuti arsitektur yang diterapkan. Struktur frontend disusun dengan pemisahan yang jelas antara komponen \textit{view}, logika pengelolaan data, serta definisi \textit{type} atau struktur data dari \textit{response} maupun \textit{payload}, dan aturan validasi atau \textit{schema} yang digunakan sistem. Pemisahan ini bertujuan untuk mendukung penerapan arsitektur frontend yang terstruktur dan mudah dipelihara.
 
 Komponen \textit{view} berperan sebagai lapisan antarmuka pengguna yang bertanggung jawab dalam menampilkan data dan menangani interaksi pengguna dengan sistem. Lapisan ini tidak menangani proses pengambilan data secara langsung, melainkan hanya menerima data yang telah dikelola oleh lapisan pengelolaan data. Dengan pendekatan ini, perubahan pada logika data tidak berdampak langsung terhadap tampilan antarmuka pengguna.
@@ -32,9 +33,9 @@ Komponen \textit{view} berperan sebagai lapisan antarmuka pengguna yang bertangg
 Lapisan logika pengelolaan data bertugas mengatur proses komunikasi dengan REST API, termasuk pengambilan data, pengelolaan status data, serta distribusi data ke komponen \textit{view}. Lapisan ini menjadi perantara antara sumber data eksternal dan antarmuka pengguna, sehingga seluruh pengelolaan data dapat dilakukan secara terpusat dan konsisten.
 
 Definisi \textit{type} atau struktur data digunakan untuk merepresentasikan bentuk data yang dipertukarkan antara frontend dan backend, baik dalam bentuk \textit{payload} permintaan maupun \textit{response} dari server. Aturan validasi atau \textit{schema} berfungsi untuk memastikan data yang diproses dan dikirimkan oleh sistem telah sesuai dengan format dan ketentuan yang ditetapkan. Pemisahan definisi struktur data dan aturan validasi ini membantu menjaga konsistensi data serta meminimalkan kesalahan pada proses pengolahan data.
-
+\vspace{-1.3em}
 \subsubsection{\textit{Client Data Layer}}
-
+\vspace{-.8em}
 Hasil implementasi menunjukkan bahwa pengelolaan data pada sistem frontend berjalan secara konsisten pada seluruh halaman dashboard. Pada saat data pertama kali diakses oleh aplikasi, sistem mengambil data dari REST API dan menyimpannya sebagai bagian dari pengelolaan data internal. Data yang telah diperoleh tersebut selanjutnya digunakan kembali oleh fitur-fitur lain yang membutuhkan sumber data yang sama tanpa memicu permintaan ulang ke server. Alur pengelolaan data ini ditunjukkan pada Gambar~\ref{fig:tanstack-works}.
 
 Penerapan pengelolaan data terpusat ini memengaruhi perilaku sistem pada saat aplikasi digunakan. Ketika pengguna melakukan navigasi antar-halaman dan kembali ke halaman sebelumnya, data tetap ditampilkan tanpa mengalami pemuatan ulang. Perilaku ini teramati secara konsisten pada halaman dashboard utama dan halaman dashboard sentimen yang menggunakan sumber data yang sama. Kondisi tersebut menunjukkan bahwa data yang telah diperoleh dapat dimanfaatkan kembali selama masih relevan dengan kebutuhan sistem.
@@ -44,8 +45,9 @@ Selain itu, implementasi \textit{Client Data Layer} juga berdampak pada efisiens
 Pengelolaan data melalui \textit{Client Data Layer} juga mendukung konsistensi penyajian data antar-komponen frontend. Data yang digunakan oleh beberapa halaman atau komponen tetap berada pada kondisi yang selaras, sehingga tidak terjadi perbedaan informasi yang ditampilkan kepada pengguna. Dengan pendekatan ini, sistem frontend mampu mempertahankan konsistensi data tanpa memerlukan pengelolaan state secara manual pada setiap komponen antarmuka.
 
 Secara keseluruhan, penerapan \textit{Client Data Layer} menggunakan TanStack Query menghasilkan perilaku pengelolaan data frontend yang lebih terstruktur, konsisten, dan efisien pada tahap implementasi sistem. Lapisan ini mendukung kebutuhan aplikasi dashboard analisis sentimen yang bersifat data-driven, di mana data yang sama digunakan oleh berbagai komponen dan perlu disajikan secara konsisten selama siklus penggunaan aplikasi.
+\vspace{-1.3em}
 \subsubsection{Desain Antarmuka}
-
+\vspace{-.8em}
 Desain antarmuka yang telah disusun pada tahap perancangan sebelumnya digunakan sebagai acuan dalam proses implementasi sistem. Perancangan tersebut bertujuan untuk memastikan penyajian website dapat ditampilkan secara terstruktur, konsisten, dan mudah dipahami oleh pengguna melalui komponen visual seperti grafik, tabel, dan indikator ringkasan data.
 
 Pada tahap desain, rancangan antarmuka disusun menggunakan alat bantu desain seperti Figma. textit{Wireframe} digunakan sebagai panduan konseptual untuk menjaga konsistensi tampilan dan alur navigasi ketika sistem direalisasikan ke dalam website dengan menggunakan framework React.
@@ -56,23 +58,25 @@ Selanjutnya, arsitektur frontend yang telah dirancang di implementasi dengan men
 
 \subsection{\textit{Coding/Implementation}}
 \subsubsection{Landing Page}
-
+\FloatBarrier
+\vspace{-.4cm}
 Landing Page diimplementasikan sebagai titik awal akses pengguna ke sistem sebelum proses autentikasi dilakukan. Pada halaman ini, frontend hanya menyajikan informasi umum mengenai sistem dashboard analisis sentimen tanpa melakukan pengambilan maupun pengolahan data dari backend. Oleh karena itu, halaman ini tidak melibatkan mekanisme \textit{query} maupun \textit{mutation} dalam pengelolaan data menggunakan TanStack Query.
 
 Implementasi Landing Page yang bersifat statis berfungsi untuk menegaskan pemisahan antara area sistem yang tidak bersifat \textit{data-driven} dan area sistem yang bergantung pada pengelolaan data server. Dengan pemisahan ini, aktivasi arsitektur Client Data Layer hanya dilakukan setelah pengguna memasuki bagian sistem yang membutuhkan interaksi dengan backend, seperti proses autentikasi dan dashboard utama. Pendekatan ini menjaga konsistensi arsitektur frontend agar tidak mencampurkan komponen non-data dengan mekanisme pengelolaan server state.
 
   \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{gambar/ui-landing-page.png}
+    \includegraphics[width=0.8\textwidth]{gambar/ui-landing-page.png}
     \caption{Implementasi Antarmuka Landing Page}
     \label{fig:implementasi-landing-page}
   \end{figure}
+  \FloatBarrier
   
   Gambar~\ref{fig:implementasi-landing-page} menunjukkan hasil implementasi antarmuka landing page. Halaman ini berfungsi sebagai halaman awal sistem yang memberikan gambaran umum mengenai aplikasi dashboard analisis sentimen. Landing page menyediakan informasi singkat terkait fungsi sistem serta navigasi menuju halaman login dan registrasi bagi pengguna.
 
-
+\FloatBarrier
 \subsubsection{Authentication}
-
+\FloatBarrier
 Fitur Authentication diimplementasikan untuk mengontrol akses pengguna terhadap sistem dashboard analisis sentimen. Proses autentikasi dilakukan melalui komunikasi frontend dengan REST API backend untuk memvalidasi kredensial pengguna sebelum mengizinkan akses ke fitur yang bersifat data-driven. Pada tahap ini, sistem mulai melibatkan pertukaran data antara frontend dan backend sebagai bagian dari alur penggunaan aplikasi.
 
 Pada sisi frontend, hasil autentikasi menentukan status akses pengguna terhadap Client Data Layer. Pengambilan data menggunakan TanStack Query hanya dapat dilakukan setelah proses autentikasi berhasil, sehingga seluruh data dashboard berada dalam konteks pengguna yang valid. Implementasi ini memastikan bahwa pengelolaan data dan state aplikasi berjalan secara terkontrol serta mencegah akses data oleh pengguna yang tidak terautentikasi.
@@ -80,15 +84,17 @@ Pada sisi frontend, hasil autentikasi menentukan status akses pengguna terhadap 
 Hasil implementasi menunjukkan bahwa mekanisme autentikasi berfungsi sebagai gerbang awal sebelum Client Data Layer aktif digunakan. Dengan pendekatan ini, sistem frontend mampu membedakan area publik dan area terproteksi secara jelas, sekaligus menjaga konsistensi pengelolaan data pada seluruh fitur yang bergantung pada hasil autentikasi.
 
 
+\FloatBarrier
   \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{gambar/ui-login-page.png}
     \caption{Implementasi Antarmuka Halaman Login}
     \label{fig:implementasi-login}
   \end{figure}
-
+\FloatBarrier
   Gambar~\ref{fig:implementasi-login} menunjukkan antarmuka halaman login yang digunakan untuk proses autentikasi pengguna. Pada halaman ini, pengguna dapat memasukkan kredensial berupa alamat surel dan kata sandi untuk mengakses sistem. Implementasi halaman login memastikan bahwa hanya pengguna yang terdaftar yang dapat masuk ke dalam dashboard analisis sentimen.
 
+\FloatBarrier
   
   \begin{figure}[H]
     \centering
@@ -96,30 +102,31 @@ Hasil implementasi menunjukkan bahwa mekanisme autentikasi berfungsi sebagai ger
     \caption{Implementasi Antarmuka Halaman Register}
     \label{fig:implementasi-register}
   \end{figure}
-
+\FloatBarrier
   Gambar~\ref{fig:implementasi-register} menampilkan hasil implementasi halaman registrasi pengguna. Halaman ini digunakan untuk proses pendaftaran pengguna baru dengan mengisi data yang diperlukan. Data yang dimasukkan pada halaman ini selanjutnya digunakan sebagai informasi akun untuk proses autentikasi pada sistem.
 
 
-
+\FloatBarrier
 \subsubsection{Dashboard}
+\FloatBarrier
 Dashboard diimplementasikan sebagai halaman ringkasan yang menyajikan sebagian informasi dari data sentimen dan rekomendasi konten. Data yang ditampilkan pada dashboard tidak diambil melalui \textit{query} tersendiri, melainkan memanfaatkan data yang telah tersedia pada \textit{Client Data Layer} dari halaman sentimen dan rekomendasi.
 
 Pada implementasinya, dashboard berperan sebagai \textit{consumer data} yang memetakan sebagian data dari beberapa \textit{query} ke dalam komponen ringkasan. Pendekatan ini memungkinkan dashboard menampilkan informasi tanpa melakukan permintaan API tambahan, karena data telah dikelola secara terpusat oleh \textit{Client Data Layer}.
 
 Hasil implementasi menunjukkan bahwa dashboard mampu menyajikan data yang konsisten dengan halaman sentimen dan rekomendasi. Perubahan data pada salah satu \textit{query} secara otomatis direfleksikan pada dashboard, yang menandakan bahwa pengelolaan \textit{server state} pada frontend berjalan secara terintegrasi dan efisien.
-
+\FloatBarrier
   \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{gambar/ui-dashboard-page.png}
     \caption{Implementasi Antarmuka Halaman Dashboard}
     \label{fig:implementasi-dashboard}
   \end{figure}
-
+\FloatBarrier
   Gambar~\ref{fig:implementasi-dashboard} menunjukkan antarmuka halaman dashboard utama. Halaman ini berfungsi untuk menampilkan ringkasan hasil analisis sentimen dalam bentuk visualisasi dan informasi utama. Dashboard menjadi pusat akses pengguna terhadap fitur analisis sentimen dan rekomendasi konten yang tersedia pada sistem.
 
-
+\FloatBarrier
 \subsubsection{Scraper}
-
+\FloatBarrier
 Halaman Scraper diimplementasikan untuk menampilkan daftar data hasil proses pengambilan data media sosial yang dilakukan di sisi backend. Pada halaman ini, frontend berperan sebagai konsumen data yang bersifat informatif dan tidak melakukan pemrosesan lanjutan terhadap data yang diterima.
 
 Implementasi halaman Scraper hanya melibatkan satu \textit{query} aktif yang dikelola oleh Client Data Layer untuk mengambil daftar data scraping. Pendekatan ini memastikan bahwa halaman Scraper tidak memicu pengambilan data yang tidak relevan serta tetap terpisah dari \textit{query} milik fitur lain.

@@ -1,9 +1,9 @@
 %% DILARANG EDIT BAGIAN INI
 % Daftar Isi
-\clearpage
+\cleardoublepage  % Ganti dari \clearpage
 \phantomsection
 \addcontentsline{toc}{chapter}{DAFTAR ISI}
-%\renewcommand{\cftdotsep}{\cftnodots}
+\renewcommand{\cftdotsep}{1} 
 \setlength{\cftbeforetoctitleskip}{-0.5cm}
 \renewcommand{\cfttoctitlefont}{\hfill\large\bfseries}
 \renewcommand{\cftaftertoctitle}{\hfill\hfill}
@@ -15,7 +15,7 @@
 \input{a6-daftarsingkatan}
 
 % Daftar Gambar
-\clearpage
+\cleardoublepage  % Ganti dari \clearpage
 \phantomsection
 \addcontentsline{toc}{chapter}{DAFTAR GAMBAR}
 \setlength{\cftbeforeloftitleskip}{-0.5cm}
@@ -26,13 +26,13 @@
 \listoffigures
 
 % Daftar Tabel
-\clearpage
+\cleardoublepage  % Ganti dari \clearpage
 \phantomsection
 \addcontentsline{toc}{chapter}{DAFTAR TABEL}
 \setlength{\cftbeforeloftitleskip}{-0.5cm}
 \renewcommand{\cftloftitlefont}{\hfill\large\bfseries}
 \renewcommand{\cftafterloftitle}{\hfill}
 \renewcommand{\cfttableader}{\dotfill}
-\renewcommand\listtablename{\centerline {\large\bfseries  DAFTAR TABEL}}
+\renewcommand\listtablename{\centerline{\large\bfseries DAFTAR TABEL}}
 \listoftables
 %% DILARANG EDIT BAGIAN INI
