@@ -47,7 +47,7 @@
 \contentsline {subsection}{\numberline {4.2.1}\textit {Analysis}}{55}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}\textit {Requirement Specification}}{56}{subsection.4.2.2}%
 \contentsline {subsection}{\numberline {4.2.3}\textit {Design}}{56}{subsection.4.2.3}%
-\contentsline {subsubsection}{Arsitektur Frontend}{56}{subsubsection*.29}%
+\contentsline {subsubsection}{Arsitektur \textit {Frontend}}{56}{subsubsection*.29}%
 \contentsline {subsubsection}{\textit {Client Data Layer}}{57}{subsubsection*.30}%
 \contentsline {subsubsection}{Desain Antarmuka}{58}{subsubsection*.31}%
 \contentsline {subsection}{\numberline {4.2.4}\textit {Coding/Implementation}}{59}{subsection.4.2.4}%
@@ -60,7 +60,7 @@
 \contentsline {subsubsection}{Chatbot}{65}{subsubsection*.45}%
 \contentsline {subsection}{\numberline {4.2.5}\textit {Testing}}{66}{subsection.4.2.5}%
 \contentsline {section}{\numberline {4.3}Pembahasan}{76}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Peran Arsitektur Client Data Layer dalam Pengelolaan Data Frontend}{76}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.1}Peran Arsitektur \textit {Client Data Layer} dalam Pengelolaan Data \textit {Frontend}}{76}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}Analisis Implementasi TanStack Query terhadap Server State}{77}{subsection.4.3.2}%
 \contentsline {subsection}{\numberline {4.3.3}Implikasi Metode Fountain terhadap Iterasi Pengembangan Dashboard}{81}{subsection.4.3.3}%
 \contentsline {subsection}{\numberline {4.3.4}Analisis Hasil dan Temuan Pengujian Sistem}{82}{subsection.4.3.4}%
