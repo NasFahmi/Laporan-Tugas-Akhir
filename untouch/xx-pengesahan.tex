@@ -1,44 +1,50 @@
 %==================================================================
-% Ini adalah lembar pengesahan
+% HALAMAN PENGESAHAN – FIXED
 %==================================================================
 
-%% DILARANG EDIT BAGIAN INI
 \newpage
 \addcontentsline{toc}{chapter}{HALAMAN PENGESAHAN}
-\begin{center}
-    %\begin{doublespace}
-    % \textbf{\large \MakeUppercase{halaman pengesahan}}
-    %\end{doublespace}
-\end{center}
+\thispagestyle{plain}
+\raggedbottom
+\enlargethispage{2\baselineskip}
 
 \begin{center}
-    \begin{spacing}{1}
-        \textbf{\large \MakeUppercase{\judulid}}
-    \end{spacing}
+\singlespacing
+\fontsize{12pt}{14.5pt}\selectfont
+
+% ===== JUDUL =====
+\textbf{\MakeUppercase{\judulid}}
 \end{center}
 
-\vspace{0.5cm}
-\begin{center}
-    \begin{tabular}{c}
-    \\ [-0.5em] % Adjust for top padding if needed, or just let it be. Using strut involves more latex knowledge suitable for user? 
-    % Simply standard tabular spacing + some manual breaks
-    Tugas Akhir ini disusun untuk Memenuhi Salah Satu Syarat Memperoleh\\
-    Gelar Sarjana Terapan Komputer (S.Tr.Kom)\\  % Spasi antar baris jika perlu, tapi user minta "setelah judul" dan "setelah universitas"
-    \universitas % Spasi setelah universitas
-    \end{tabular}
-\end{center}
+\vspace{0.8\baselineskip}
 
 \begin{center}
-    \vspace{1em}
-    Disusun oleh:\\
-    \textbf{\MakeUppercase {\penulis}}\\
-    \textbf{NIM. \nim}\\[1cm]
-
-    \textbf{Tanggal Ujian : {\tglpengesahan}}\\[1cm]
-
-    \textbf{Menyetujui,}
+{\singlespacing\normalsize
+\textbf{Tugas Akhir Ini Disusun Untuk Memenuhi Salah Satu Syarat Memperoleh}\\
+\textbf{Gelar Sarjana Terapan Komputer (S.Tr.Kom) \linebreak \universitas}\\
+}
 \end{center}
 
+
+\vspace{1\baselineskip}
+
+\begin{center}
+oleh:\\
+\textbf{\MakeUppercase{\penulis}}\\
+\textbf{NIM \nim}
+\end{center}
+
+\vspace{1\baselineskip}
+
+\begin{center}
+\textbf{Tanggal Ujian : \tglpengesahan}\\
+\vspace{0.5\baselineskip}
+\textbf{Menyetujui,}
+\end{center}
+
+\vspace{1\baselineskip}
+
+% ===== DAFTAR PENGUJI & PEMBIMBING (DENGAN TANDA TANGAN) =====
 \noindent
 \begin{table}[h!]
     \begin{tabular}{lll}
@@ -49,25 +55,16 @@
     \end{tabular}
 \end{table}
 
-\vspace{1cm}
 
+\begin{singlespace}
 \noindent
-\begin{minipage}[t]{0.45\textwidth}
-    \textbf{Mengesahkan, \\
-    Ketua Jurusan\\
-    Bisnis dan Informatika\\[2cm]
-    \dekan\\
-    NIP. \NIPdekan
-    }
-\end{minipage}
-\hfill
-\begin{minipage}[t]{0.45\textwidth}
-    \textbf{Mengetahui, \\
-    Koordinator Program Studi\\
-    Teknologi Rekayasa Perangkat Lunak\\[2cm]
-    \koorprodi\\
-    NIP. \NIPkoorprodi
-    }
-\end{minipage}
+\begin{tabular}{@{}p{6cm} p{1cm} p{8cm}@{}}
+\textbf{Mengesahkan,} & & \textbf{Mengetahui,} \\[0.3\baselineskip]
+\textbf{Ketua Jurusan} & & \textbf{Koordinator Program Studi} \\[0.3\baselineskip]
+\textbf{Bisnis dan Informatika} & & \textbf{Teknologi Rekayasa Perangkat Lunak} \\[2cm]
 
-%% DILARANG EDIT BAGIAN INI
+\underline{\textbf{\dekan}} & & \underline{\textbf{\koorprodi}} \\[0.1\baselineskip] 
+\textbf{NIP. \NIPdekan} & & \textbf{NIP. \NIPkoorprodi}
+\end{tabular}
+\end{singlespace}
+

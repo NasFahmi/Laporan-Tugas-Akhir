@@ -75,6 +75,6 @@
 \contentsline {section}{Lampiran 1. Kode Program \textit {Query Client}}{89}{section*.53}%
 \contentsline {section}{Lampiran 2. Kode Program \textit {Query Keys}}{89}{section*.54}%
 \contentsline {section}{Lampiran 3. Kode Program \textit {Interface}}{90}{section*.55}%
-\contentsline {section}{Lampiran 4. Kode Program \textit {Repository}}{90}{section*.56}%
+\contentsline {section}{Lampiran 4. Kode Program \textit {Repository}}{91}{section*.56}%
 \contentsline {section}{Lampiran 5. Kode Program \textit {Query}}{91}{section*.57}%
 \contentsline {section}{Lampiran 6. Kode Program \textit {Mutation}}{92}{section*.58}%

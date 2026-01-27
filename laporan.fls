@@ -438,7 +438,6 @@ OUTPUT untouch\xx-sampul-laporan.aux
 INPUT .\untouch\xx-sampul-laporan.tex
 INPUT .\untouch\xx-sampul-laporan.tex
 INPUT untouch\xx-sampul-laporan.tex
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
 INPUT .\gambar\logo-poliwangi.png
 INPUT .\gambar\logo-poliwangi.png
@@ -453,15 +452,12 @@ INPUT C:\Users\Fahmi\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\base\8r.enc
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmbi7t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmbi8r.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT .\untouch\xx-sampuldalam-laporan.tex
 INPUT .\untouch\xx-sampuldalam-laporan.tex
 OUTPUT untouch\xx-sampuldalam-laporan.aux
 INPUT .\untouch\xx-sampuldalam-laporan.tex
 INPUT .\untouch\xx-sampuldalam-laporan.tex
 INPUT untouch\xx-sampuldalam-laporan.tex
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT .\gambar\logo-poliwangi.png
 INPUT .\gambar\logo-poliwangi.png
 INPUT .\gambar\logo-poliwangi.png
@@ -477,6 +473,9 @@ OUTPUT a4-persembahan.aux
 INPUT .\a4-persembahan.tex
 INPUT .\a4-persembahan.tex
 INPUT a4-persembahan.tex
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT .\a9-motto.tex
 INPUT .\a9-motto.tex
 OUTPUT a9-motto.aux
@@ -514,9 +513,6 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmbi7t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmbi8r.tfm
 INPUT .\untouch\xx-pengesahan.tex
 INPUT .\untouch\xx-pengesahan.tex
 OUTPUT untouch\xx-pengesahan.aux
@@ -529,6 +525,9 @@ OUTPUT a2-abstrak.aux
 INPUT .\a2-abstrak.tex
 INPUT .\a2-abstrak.tex
 INPUT a2-abstrak.tex
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmbi7t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmbi8r.tfm
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\zptmcmr.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\symbol\psyr.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
@@ -550,6 +549,7 @@ OUTPUT untouch\xx-daftar.aux
 INPUT .\untouch\xx-daftar.tex
 INPUT .\untouch\xx-daftar.tex
 INPUT untouch\xx-daftar.tex
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT .\laporan.toc
 INPUT .\laporan.toc
 INPUT laporan.toc

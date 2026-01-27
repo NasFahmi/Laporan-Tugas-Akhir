@@ -2,23 +2,25 @@
 % Ini adalah sampul dalam
 %==================================================================
 
+
 \newpage
 \addcontentsline{toc}{chapter}{HALAMAN SAMPUL}
 
-% Makro jarak standar sampul (mudah diubah)
+% Makro jarak (berbasis spasi aktif)
 \newcommand{\coverspace}{\vspace{1.5\baselineskip}}
 
 \begin{center}
-\begin{onehalfspace}
+\onehalfspacing
+\fontsize{12pt}{14.5pt}\selectfont
 
     % ===== Judul =====
-    {\large\bfseries\MakeUppercase{\judulid}}
+    {\normalsize\bfseries\MakeUppercase{\judulid}}
 
     \coverspace\coverspace
 
     % ===== Jenis laporan =====
-    {\large\bfseries\MakeUppercase{LAPORAN \tipe}}\\
-    {\large\bfseries\MakeUppercase{PENGHARGAAN SKEMA JAWA TIMUR DATATHON}}
+    {\normalsize\bfseries\MakeUppercase{LAPORAN \tipe}}\\
+    {\normalsize\bfseries\MakeUppercase{PENGHARGAAN SKEMA JAWA TIMUR DATATHON}}
 
     \coverspace\coverspace
 
@@ -30,24 +32,30 @@
     % ===== Keterangan =====
     Tugas Akhir ini Dibuat dan Diajukan untuk Memenuhi Salah Satu Syarat Kelulusan\\
     Program Studi Sarjana Terapan \prodi\\
-    dan Mencapai Gelar Sarjana Terapan (S.Tr.Kom)
+    dan Mencapai Gelar Sarjana Terapan Komputer (S.Tr.Kom)
 
     \coverspace\coverspace
 
     % ===== Penulis =====
-    Oleh:\\
-    {\bfseries\MakeUppercase{\penulis}}\\
-    NIM.~\nim
-
-\end{onehalfspace}
+  % ===== Penulis =====
+Oleh:\\
+\textbf{\MakeUppercase{\penulis}}\\
+\textbf{NIM \nim}
 
 \vfill
 
+
+\vfill
+
+
+\singlespacing
+\fontsize{12pt}{14.5pt}\selectfont
 % ===== Institusi =====
-{\large\bfseries\MakeUppercase{Program Studi Sarjana Terapan}}\\
-{\large\bfseries\MakeUppercase{\prodi}}\\
-{\large\bfseries\MakeUppercase{\jurusan}}\\
-{\large\bfseries\MakeUppercase{\universitas}}\\
-{\large\bfseries \the\year}
+\textbf{\MakeUppercase{Program Studi Sarjana Terapan}}\\
+\textbf{\MakeUppercase{\prodi}}\\
+\textbf{\MakeUppercase{\jurusan}}\\
+\textbf{\MakeUppercase{\universitas}}\\
+\textbf{\the\year}
+
 
 \end{center}

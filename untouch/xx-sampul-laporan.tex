@@ -1,33 +1,45 @@
 %==================================================================
-% Ini adalah sampul luar (Poliwangi)
+% Sampul luar (Poliwangi) – FIXED
 %==================================================================
 
 %% DILARANG EDIT BAGIAN INI
-
 \begin{titlepage}
-    % \pagecolor[RGB]{\covercolor}
-    \begin{center}
+\begin{center}
 
-        \begin{doublespace}
-            \textbf{\large{\MakeUppercase{\judulid}}}\\[2cm]
-            
-            \textbf{\MakeUppercase{\large{\tipe}}}\\
-            \textbf{\MakeUppercase{\large{PENGHARGAAN SKEMA JAWA TIMUR DATATHON}}}\\[2cm]
-        \end{doublespace}
+% ===============================
+% SET GLOBAL: font 12pt & spasi 1
+% ===============================
+\singlespacing
+\fontsize{12pt}{14.5pt}\selectfont
 
-        \includegraphics[width=0.3\linewidth]{gambar/logo-poliwangi.png}\\[1.5cm]
+% ===== JUDUL =====
+\textbf{\MakeUppercase{\judulid}}\\[4\baselineskip]
+% 4 × spasi 1.0
 
-        \textbf{Oleh:} \\
-        \textbf{\MakeUppercase{{\penulis}}} \\
-        \textbf{NIM} \textbf{{\nim}}\\[2cm]
+% ===== TIPE & PENGHARGAAN =====
+\textbf{\MakeUppercase{\tipe}}\\
+\textbf{\MakeUppercase{PENGHARGAAN SKEMA JAWA TIMUR DATATHON}}\\[2\baselineskip]
+% 2 × spasi 1.0
 
-        \vfill
+% ===== LOGO =====
+\includegraphics[width=4cm,height=4cm,keepaspectratio]{gambar/logo-poliwangi.png}
 
-        \textbf{\large \MakeUppercase{Program Studi Sarjana Terapan}}\\
-        \textbf{\large \MakeUppercase{\prodi}}\\
-        \textbf{\large \MakeUppercase{\jurusan}}\\
-        \textbf{\large \MakeUppercase{\universitas}}\\
-        \textbf{\large \the\year{}}\\
-    \end{center}
+\vspace{2\baselineskip}
+
+% ===== PENULIS =====
+\textbf{Oleh:}\\
+\textbf{\MakeUppercase{\penulis}}\\
+\textbf{NIM \nim}
+
+\vfill
+
+% ===== FOOTER (TETAP 12pt & SPASI 1) =====
+\textbf{\MakeUppercase{Program Studi Sarjana Terapan}}\\
+\textbf{\MakeUppercase{\prodi}}\\
+\textbf{\MakeUppercase{\jurusan}}\\
+\textbf{\MakeUppercase{\universitas}}\\
+\textbf{\the\year}
+
+\end{center}
 \end{titlepage}
 \nopagecolor
