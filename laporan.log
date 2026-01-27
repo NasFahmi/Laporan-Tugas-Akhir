@@ -1336,4 +1336,317 @@ Package pdftex.def Info: gambar/landing-page.jpeg  used on input line 236.
 <gambar/login.jpeg, id=838, 3035.34pt x 1300.86pt>
 File: gambar/login.jpeg Graphic file (type jpg)
 <use gambar/login.jpeg>
-Package pdftex.def Info: gambar/login.jpeg  use
+Package pdftex.def Info: gambar/login.jpeg  used on input line 244.
+(pdftex.def)             Requested size: 318.66948pt x 136.56456pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [36 <./gambar/landing-page.jpeg>]
+<gambar/register.jpeg, id=846, 3035.34pt x 1300.86pt>
+File: gambar/register.jpeg Graphic file (type jpg)
+<use gambar/register.jpeg>
+Package pdftex.def Info: gambar/register.jpeg  used on input line 251.
+(pdftex.def)             Requested size: 318.66948pt x 136.56456pt.
+<gambar/dashboard.jpeg, id=848, 1541.76pt x 1156.32pt>
+File: gambar/dashboard.jpeg Graphic file (type jpg)
+<use gambar/dashboard.jpeg>
+Package pdftex.def Info: gambar/dashboard.jpeg  used on input line 258.
+(pdftex.def)             Requested size: 318.66948pt x 238.98798pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37 <./gambar/login.jpeg> <./gambar/register.jpeg>]
+<gambar/sentiment.png, id=854, 2344.76pt x 1478.52374pt>
+File: gambar/sentiment.png Graphic file (type png)
+<use gambar/sentiment.png>
+Package pdftex.def Info: gambar/sentiment.png  used on input line 265.
+(pdftex.def)             Requested size: 318.66948pt x 200.92316pt.
+<gambar/scraper.png, id=856, 2248.4pt x 1040.88875pt>
+File: gambar/scraper.png Graphic file (type png)
+<use gambar/scraper.png>
+Package pdftex.def Info: gambar/scraper.png  used on input line 272.
+(pdftex.def)             Requested size: 318.66948pt x 147.51817pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38 <./gambar/dashboard.jpeg> <./gambar/sentiment.png>]
+<gambar/recomendation.jpeg, id=863, 1541.76pt x 931.22906pt>
+File: gambar/recomendation.jpeg Graphic file (type jpg)
+<use gambar/recomendation.jpeg>
+Package pdftex.def Info: gambar/recomendation.jpeg  used on input line 279.
+(pdftex.def)             Requested size: 318.66948pt x 192.46622pt.
+<gambar/chatbot.jpeg, id=865, 1114.91531pt x 1541.76pt>
+File: gambar/chatbot.jpeg Graphic file (type jpg)
+<use gambar/chatbot.jpeg>
+Package pdftex.def Info: gambar/chatbot.jpeg  used on input line 286.
+(pdftex.def)             Requested size: 204.85846pt x 283.26852pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39 <./gambar/scraper.png> <./gambar/recomendation.jpeg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40 <./gambar/chatbot.jpeg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41]
+b3-bab3.tex:474: ignored error: Infinite glue shrinkage found in box being split [42]
+b3-bab3.tex:474: ignored error: Infinite glue shrinkage found in box being split [43]
+b3-bab3.tex:571: ignored error: Infinite glue shrinkage found in box being split [44]
+b3-bab3.tex:679: ignored error: Infinite glue shrinkage found in box being split [45] [46]
+b3-bab3.tex:786: ignored error: Infinite glue shrinkage found in box being split [47]
+b3-bab3.tex:828: ignored error: Infinite glue shrinkage found in box being split [48]
+b3-bab3.tex:922: ignored error: Infinite glue shrinkage found in box being split [49]
+b3-bab3.tex:1030: ignored error: Infinite glue shrinkage found in box being split [50]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [51]) [52]
+\openout2 = `b4-bab4.aux'.
+
+ (b4-bab4.tex
+Bab 4.
+b4-bab4.tex:59: ignored error: Infinite glue shrinkage found in box being split [53
+
+
+
+
+
+]
+b4-bab4.tex:105: ignored error: Infinite glue shrinkage found in box being split [54]
+<gambar/gambar-juara-3.jpeg, id=1029, 677.53125pt x 615.80063pt>
+File: gambar/gambar-juara-3.jpeg Graphic file (type jpg)
+<use gambar/gambar-juara-3.jpeg>
+Package pdftex.def Info: gambar/gambar-juara-3.jpeg  used on input line 111.
+(pdftex.def)             Requested size: 273.14923pt x 248.27032pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [55 <./gambar/gambar-juara-3.jpeg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [56]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [57]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [58]
+<gambar/ui-landing-page.png, id=1051, 1243.64626pt x 918.43124pt>
+File: gambar/ui-landing-page.png Graphic file (type png)
+<use gambar/ui-landing-page.png>
+Package pdftex.def Info: gambar/ui-landing-page.png  used on input line 179.
+(pdftex.def)             Requested size: 364.19667pt x 268.95888pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [59 <./gambar/ui-landing-page.png>]
+<gambar/ui-login-page.png, id=1059, 1243.64626pt x 576.1525pt>
+File: gambar/ui-login-page.png Graphic file (type png)
+<use gambar/ui-login-page.png>
+Package pdftex.def Info: gambar/ui-login-page.png  used on input line 199.
+(pdftex.def)             Requested size: 318.66948pt x 147.63344pt.
+<gambar/ui-register-page.png, id=1061, 1243.64626pt x 576.1525pt>
+File: gambar/ui-register-page.png Graphic file (type png)
+<use gambar/ui-register-page.png>
+Package pdftex.def Info: gambar/ui-register-page.png  used on input line 210.
+(pdftex.def)             Requested size: 318.66948pt x 147.63344pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [60 <./gambar/ui-login-page.png>]
+<gambar/ui-dashboard-page.png, id=1070, 1927.95282pt x 1342.2647pt>
+File: gambar/ui-dashboard-page.png Graphic file (type png)
+<use gambar/ui-dashboard-page.png>
+Package pdftex.def Info: gambar/ui-dashboard-page.png  used on input line 229.
+(pdftex.def)             Requested size: 318.66948pt x 221.85326pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [61 <./gambar/ui-register-page.png>]
+<gambar/ui-scraper-page.png, id=1078, 1243.64626pt x 576.1525pt>
+File: gambar/ui-scraper-page.png Graphic file (type png)
+<use gambar/ui-scraper-page.png>
+Package pdftex.def Info: gambar/ui-scraper-page.png  used on input line 248.
+(pdftex.def)             Requested size: 318.66948pt x 147.63344pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [62 <./gambar/ui-dashboard-page.png>]
+<gambar/ui-sentiment-page.png, id=1086, 1243.64626pt x 918.43124pt>
+File: gambar/ui-sentiment-page.png Graphic file (type png)
+<use gambar/ui-sentiment-page.png>
+Package pdftex.def Info: gambar/ui-sentiment-page.png  used on input line 267.
+(pdftex.def)             Requested size: 318.66948pt x 235.33902pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [63 <./gambar/ui-scraper-page.png>]
+<gambar/ui-recommendation-content-page.png, id=1094, 1927.95282pt x 1367.1075pt>
+File: gambar/ui-recommendation-content-page.png Graphic file (type png)
+<use gambar/ui-recommendation-content-page.png>
+Package pdftex.def Info: gambar/ui-recommendation-content-page.png  used on input line 285.
+(pdftex.def)             Requested size: 318.66948pt x 225.95935pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [64 <./gambar/ui-sentiment-page.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [65 <./gambar/ui-recommendation-content-page.png>]
+<gambar/ui-chatbot-page.png, id=1108, 294.09875pt x 460.72125pt>
+File: gambar/ui-chatbot-page.png Graphic file (type png)
+<use gambar/ui-chatbot-page.png>
+Package pdftex.def Info: gambar/ui-chatbot-page.png  used on input line 305.
+(pdftex.def)             Requested size: 182.09486pt x 285.2646pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [66 <./gambar/ui-chatbot-page.png>]
+b4-bab4.tex:441: ignored error: Infinite glue shrinkage found in box being split [67]
+b4-bab4.tex:511: ignored error: Infinite glue shrinkage found in box being split [68]
+b4-bab4.tex:586: ignored error: Infinite glue shrinkage found in box being split [69]
+b4-bab4.tex:663: ignored error: Infinite glue shrinkage found in box being split [70]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [71] [72] [73] [74
+
+] [75
+
+]
+<gambar/folder-structure-features.png, id=1162, 218.31563pt x 118.4425pt>
+File: gambar/folder-structure-features.png Graphic file (type png)
+<use gambar/folder-structure-features.png>
+Package pdftex.def Info: gambar/folder-structure-features.png  used on input line 970.
+(pdftex.def)             Requested size: 182.09486pt x 98.79158pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [76 <./gambar/folder-structure-features.png>]
+<gambar/implementasi-arsitektur-tanstackquery.png, id=1171, 789.95125pt x 974.13937pt>
+File: gambar/implementasi-arsitektur-tanstackquery.png Graphic file (type png)
+<use gambar/implementasi-arsitektur-tanstackquery.png>
+Package pdftex.def Info: gambar/implementasi-arsitektur-tanstackquery.png  used on input line 988.
+(pdftex.def)             Requested size: 318.66948pt x 392.96355pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [77]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [78 <./gambar/implementasi-arsitektur-tanstackquery.png>]
+<gambar/skema-mutation-tanstack-query.png, id=1183, 580.66937pt x 933.98938pt>
+File: gambar/skema-mutation-tanstack-query.png Graphic file (type png)
+<use gambar/skema-mutation-tanstack-query.png>
+Package pdftex.def Info: gambar/skema-mutation-tanstack-query.png  used on input line 1001.
+(pdftex.def)             Requested size: 318.66948pt x 512.56989pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [79 <./gambar/skema-mutation-tanstack-query.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [80]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [81]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [82]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [83]) [84]
+\openout2 = `b5-bab5.aux'.
+
+ (b5-bab5.tex
+Bab 5.
+) [85
+
+
+
+
+
+] [86
+
+
+
+] (untouch/xx-daftarpustaka.tex (laporan.bbl
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [87
+
+
+
+])) [88] (a8-lampiran.tex
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 13.
+ (kode/query-client.ts) (kode/query-keys.ts [89
+
+
+]) (kode/scraper.ts) (kode/scraper.repository.tsx [90]
+LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 26.
+ (C:\Program Files\MiKTeX\tex/latex/psnfss\ts1pcr.fd
+File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
+)) (kode/useScraperQuery.ts [91]) (kode/useLoginMutation.ts) [92]
+<gambar/bimbingan/b-arum01.jpeg, id=1485, 1541.76pt x 1027.84pt>
+File: gambar/bimbingan/b-arum01.jpeg Graphic file (type jpg)
+<use gambar/bimbingan/b-arum01.jpeg>
+Package pdftex.def Info: gambar/bimbingan/b-arum01.jpeg  used on input line 55.
+(pdftex.def)             Requested size: 182.09486pt x 121.39072pt.
+<gambar/bimbingan/b-arum02.jpeg, id=1486, 1606.0pt x 1204.5pt>
+File: gambar/bimbingan/b-arum02.jpeg Graphic file (type jpg)
+<use gambar/bimbingan/b-arum02.jpeg>
+Package pdftex.def Info: gambar/bimbingan/b-arum02.jpeg  used on input line 56.
+(pdftex.def)             Requested size: 159.33821pt x 119.50133pt.
+<gambar/bimbingan/pak-sep-1.jpeg, id=1487, 1284.8pt x 963.6pt>
+File: gambar/bimbingan/pak-sep-1.jpeg Graphic file (type jpg)
+<use gambar/bimbingan/pak-sep-1.jpeg>
+Package pdftex.def Info: gambar/bimbingan/pak-sep-1.jpeg  used on input line 58.
+(pdftex.def)             Requested size: 182.09486pt x 136.56456pt.
+<gambar/bimbingan/pak-sep-2.jpeg, id=1488, 1284.8pt x 963.6pt>
+File: gambar/bimbingan/pak-sep-2.jpeg Graphic file (type jpg)
+<use gambar/bimbingan/pak-sep-2.jpeg>
+Package pdftex.def Info: gambar/bimbingan/pak-sep-2.jpeg  used on input line 59.
+(pdftex.def)             Requested size: 182.09486pt x 136.56456pt.
+<gambar/gambar-penyerahan-hadiah.jpeg, id=1489, 472.01344pt x 365.11406pt>
+File: gambar/gambar-penyerahan-hadiah.jpeg Graphic file (type jpg)
+<use gambar/gambar-penyerahan-hadiah.jpeg>
+Package pdftex.def Info: gambar/gambar-penyerahan-hadiah.jpeg  used on input line 69.
+(pdftex.def)             Requested size: 318.66948pt x 246.50262pt.
+<gambar/gambar-full-team-dospem.jpeg, id=1490, 578.91281pt x 371.13657pt>
+File: gambar/gambar-full-team-dospem.jpeg Graphic file (type jpg)
+<use gambar/gambar-full-team-dospem.jpeg>
+Package pdftex.def Info: gambar/gambar-full-team-dospem.jpeg  used on input line 77.
+(pdftex.def)             Requested size: 318.66948pt x 204.29562pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [93
+
+ <./gambar/bimbingan/b-arum01.jpeg> <./gambar/bimbingan/b-arum02.jpeg> <./gambar/bimbingan/pak-sep-1.jpeg> <./gambar/bimbingan/pak-sep-2.jpeg> <./gambar/gambar-penyerahan-hadiah.jpeg>]
+<gambar/sertifikat.jpg, id=1500, 845.559pt x 597.9138pt>
+File: gambar/sertifikat.jpg Graphic file (type jpg)
+<use gambar/sertifikat.jpg>
+Package pdftex.def Info: gambar/sertifikat.jpg  used on input line 86.
+(pdftex.def)             Requested size: 318.66948pt x 225.3393pt.
+) [94 <./gambar/gambar-full-team-dospem.jpeg> <./gambar/sertifikat.jpg>] (laporan.aux (untouch/xx-sampul-laporan.aux) (untouch/xx-sampuldalam-laporan.aux) (a4-persembahan.aux) (a9-motto.aux) (untouch/xx-pernyataan-poliwangi.aux) (untouch/xx-pengesahan.aux) (a2-abstrak.aux) (a3-abstract.aux) (a5-katapengantar.aux) (untouch/xx-daftar.aux) (b1-bab1.aux) (b2-bab2.aux) (b3-bab3.aux) (b4-bab4.aux) (b5-bab5.aux))
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+ ***********
+Package rerunfilecheck Info: File `laporan.out' has not changed.
+(rerunfilecheck)             Checksum: 57E6D0E332ABEA1A0F7B9716C0F0A02F;11609.
+ ) 
+Here is how much of TeX's memory you used:
+ 43304 strings out of 467871
+ 979818 string characters out of 5428444
+ 1798838 words of memory out of 5000000
+ 70748 multiletter control sequences out of 15000+600000
+ 652602 words of font info for 86 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 107i,15n,121p,1295b,1979s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on laporan.pdf (119 pages, 7867908 bytes).
+PDF statistics:
+ 1674 PDF objects out of 1728 (max. 8388607)
+ 654 named destinations out of 1000 (max. 500000)
+ 724 words of extra memory for PDF output out of 10000 (max. 10000000)
+
