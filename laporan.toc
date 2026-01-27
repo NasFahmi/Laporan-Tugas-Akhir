@@ -78,3 +78,7 @@
 \contentsline {section}{Lampiran 4. Kode Program \textit {Repository}}{91}{section*.56}%
 \contentsline {section}{Lampiran 5. Kode Program \textit {Query}}{91}{section*.57}%
 \contentsline {section}{Lampiran 6. Kode Program \textit {Mutation}}{92}{section*.58}%
+\contentsline {section}{Lampiran 7. Dokumentasi Bimbingan}{93}{section*.59}%
+\contentsline {section}{Lampiran 8. Dokumentasi Penyerahan Hadiah}{94}{section*.61}%
+\contentsline {section}{Lampiran 9. Dokumentasi dengan Dosen Pembimbing}{94}{section*.63}%
+\contentsline {section}{Lampiran 10. Sertifikat}{95}{section*.65}%
