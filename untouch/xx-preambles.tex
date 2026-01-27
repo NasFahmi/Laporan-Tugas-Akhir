@@ -238,14 +238,29 @@
 %untuk if-then
 \usepackage{ifthen}
 
-% ===== Halaman kosong dengan teks =====
 \makeatletter
+% Halaman kosong dengan nomor halaman (plain)
 \newcommand{\halamankosong}{%
   \clearpage
   \ifodd\c@page
-    % sudah ganjil → tidak perlu apa-apa
   \else
     \thispagestyle{plain}
+    \null
+    \vfill
+    \begin{center}
+      \textit{-- Halaman ini sengaja dikosongkan --}
+    \end{center}
+    \vfill
+    \clearpage
+  \fi
+}
+
+% Halaman kosong TANPA nomor halaman (empty)
+\newcommand{\halamankosongempty}{%
+  \clearpage
+  \ifodd\c@page
+  \else
+    \thispagestyle{empty}
     \null
     \vfill
     \begin{center}

@@ -455,8 +455,6 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmbi8r.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT .\untouch\xx-sampuldalam-laporan.tex
 INPUT .\untouch\xx-sampuldalam-laporan.tex
 OUTPUT untouch\xx-sampuldalam-laporan.aux
@@ -467,6 +465,8 @@ INPUT .\gambar\logo-poliwangi.png
 INPUT .\gambar\logo-poliwangi.png
 INPUT .\gambar\logo-poliwangi.png
 INPUT .\gambar\logo-poliwangi.png
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT .\a4-persembahan.tex
 INPUT .\a4-persembahan.tex
 OUTPUT a4-persembahan.aux
