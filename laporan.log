@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  27 JAN 2026 21:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  3 FEB 2026 23:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1168,7 +1168,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has b
 <to be read again> 
                    \relax 
 l.32   \item M
-              enganalisis perilaku pengelolaan data \textit{frontend} setela... [2] [3]) [4]
+              enganalisis mekanisme pengelolaan data \textit{frontend} setel... [2] [3]) [4]
 \openout2 = `b2-bab2.aux'.
 
  (b2-bab2.tex
@@ -1472,7 +1472,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  107i,15n,121p,1302b,1982s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on laporan.pdf (121 pages, 7873779 bytes).
+Output written on laporan.pdf (121 pages, 7873794 bytes).
 PDF statistics:
  1699 PDF objects out of 1728 (max. 8388607)
  655 named destinations out of 1000 (max. 500000)
