@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  3 FEB 2026 23:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  4 FEB 2026 14:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1378,103 +1378,106 @@ File: gambar/folder-structure-features.png Graphic file (type png)
 <use gambar/folder-structure-features.png>
 Package pdftex.def Info: gambar/folder-structure-features.png  used on input line 970.
 (pdftex.def)             Requested size: 182.09486pt x 98.79158pt.
- [76 <./gambar/folder-structure-features.png>]
-<gambar/implementasi-arsitektur-tanstackquery.png, id=1194, 789.95125pt x 974.13937pt>
+ [76 <./gambar/folder-structure-features.png>] [77]
+<gambar/implementasi-arsitektur-tanstackquery.png, id=1205, 789.95125pt x 974.13937pt>
 File: gambar/implementasi-arsitektur-tanstackquery.png Graphic file (type png)
 <use gambar/implementasi-arsitektur-tanstackquery.png>
-Package pdftex.def Info: gambar/implementasi-arsitektur-tanstackquery.png  used on input line 988.
+Package pdftex.def Info: gambar/implementasi-arsitektur-tanstackquery.png  used on input line 1007.
 (pdftex.def)             Requested size: 318.66948pt x 392.96355pt.
- [77] [78 <./gambar/implementasi-arsitektur-tanstackquery.png>]
-<gambar/skema-mutation-tanstack-query.png, id=1206, 580.66937pt x 933.98938pt>
+ [78] [79 <./gambar/implementasi-arsitektur-tanstackquery.png>]
+<gambar/skema-mutation-tanstack-query.png, id=1216, 580.66937pt x 933.98938pt>
 File: gambar/skema-mutation-tanstack-query.png Graphic file (type png)
 <use gambar/skema-mutation-tanstack-query.png>
-Package pdftex.def Info: gambar/skema-mutation-tanstack-query.png  used on input line 1001.
+Package pdftex.def Info: gambar/skema-mutation-tanstack-query.png  used on input line 1020.
 (pdftex.def)             Requested size: 318.66948pt x 512.56989pt.
- [79 <./gambar/skema-mutation-tanstack-query.png>] [80] [81] [82] [83]) [84]
+ [80 <./gambar/skema-mutation-tanstack-query.png>] [81] [82] [83] [84]) [85] [86
+
+
+
+]
 \openout2 = `b5-bab5.aux'.
 
  (b5-bab5.tex
 Bab 5.
-) [85
+) [87
 
 
 
-
-
-] [86
-
-
-
-] (untouch/xx-daftarpustaka.tex (laporan.bbl [87
+] [88
 
 
 
-])) [88] (a8-lampiran.tex
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 13.
- (kode/query-client.ts) (kode/query-keys.ts [89
+] (untouch/xx-daftarpustaka.tex (laporan.bbl [89
 
 
-]) (kode/scraper.ts) [90] (kode/scraper.repository.tsx
+
+])) [90] (a8-lampiran.tex
+\c@lampiran=\count382
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 19.
+ (kode/query-client.ts) (kode/query-keys.ts [91
+
+
+]) (kode/scraper.ts) [92] (kode/scraper.repository.tsx
 LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 26.
  (C:\Program Files\MiKTeX\tex/latex/psnfss\ts1pcr.fd
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
-)) (kode/useScraperQuery.ts [91]) (kode/useLoginMutation.ts [92])
-<gambar/bimbingan/b-arum01.jpeg, id=1506, 1541.76pt x 1027.84pt>
+)) (kode/useScraperQuery.ts [93]) (kode/useLoginMutation.ts [94])
+<gambar/bimbingan/b-arum01.jpeg, id=1525, 1541.76pt x 1027.84pt>
 File: gambar/bimbingan/b-arum01.jpeg Graphic file (type jpg)
 <use gambar/bimbingan/b-arum01.jpeg>
-Package pdftex.def Info: gambar/bimbingan/b-arum01.jpeg  used on input line 57.
+Package pdftex.def Info: gambar/bimbingan/b-arum01.jpeg  used on input line 75.
 (pdftex.def)             Requested size: 182.09486pt x 121.39072pt.
-<gambar/bimbingan/b-arum02.jpeg, id=1507, 1606.0pt x 1204.5pt>
+<gambar/bimbingan/b-arum02.jpeg, id=1526, 1606.0pt x 1204.5pt>
 File: gambar/bimbingan/b-arum02.jpeg Graphic file (type jpg)
 <use gambar/bimbingan/b-arum02.jpeg>
-Package pdftex.def Info: gambar/bimbingan/b-arum02.jpeg  used on input line 58.
+Package pdftex.def Info: gambar/bimbingan/b-arum02.jpeg  used on input line 76.
 (pdftex.def)             Requested size: 159.33821pt x 119.50133pt.
-<gambar/bimbingan/pak-sep-1.jpeg, id=1508, 1284.8pt x 963.6pt>
+<gambar/bimbingan/pak-sep-1.jpeg, id=1527, 1284.8pt x 963.6pt>
 File: gambar/bimbingan/pak-sep-1.jpeg Graphic file (type jpg)
 <use gambar/bimbingan/pak-sep-1.jpeg>
-Package pdftex.def Info: gambar/bimbingan/pak-sep-1.jpeg  used on input line 60.
+Package pdftex.def Info: gambar/bimbingan/pak-sep-1.jpeg  used on input line 78.
 (pdftex.def)             Requested size: 182.09486pt x 136.56456pt.
-<gambar/bimbingan/pak-sep-2.jpeg, id=1509, 1284.8pt x 963.6pt>
+<gambar/bimbingan/pak-sep-2.jpeg, id=1528, 1284.8pt x 963.6pt>
 File: gambar/bimbingan/pak-sep-2.jpeg Graphic file (type jpg)
 <use gambar/bimbingan/pak-sep-2.jpeg>
-Package pdftex.def Info: gambar/bimbingan/pak-sep-2.jpeg  used on input line 61.
+Package pdftex.def Info: gambar/bimbingan/pak-sep-2.jpeg  used on input line 79.
 (pdftex.def)             Requested size: 182.09486pt x 136.56456pt.
-<gambar/gambar-penyerahan-hadiah.jpeg, id=1510, 472.01344pt x 365.11406pt>
+<gambar/gambar-penyerahan-hadiah.jpeg, id=1529, 472.01344pt x 365.11406pt>
 File: gambar/gambar-penyerahan-hadiah.jpeg Graphic file (type jpg)
 <use gambar/gambar-penyerahan-hadiah.jpeg>
-Package pdftex.def Info: gambar/gambar-penyerahan-hadiah.jpeg  used on input line 72.
+Package pdftex.def Info: gambar/gambar-penyerahan-hadiah.jpeg  used on input line 91.
 (pdftex.def)             Requested size: 318.66948pt x 246.50262pt.
- [93 <./gambar/bimbingan/b-arum01.jpeg> <./gambar/bimbingan/b-arum02.jpeg> <./gambar/bimbingan/pak-sep-1.jpeg> <./gambar/bimbingan/pak-sep-2.jpeg>]
-<gambar/gambar-full-team-dospem.jpeg, id=1518, 578.91281pt x 371.13657pt>
+ [95 <./gambar/bimbingan/b-arum01.jpeg> <./gambar/bimbingan/b-arum02.jpeg> <./gambar/bimbingan/pak-sep-1.jpeg> <./gambar/bimbingan/pak-sep-2.jpeg>]
+<gambar/gambar-full-team-dospem.jpeg, id=1541, 578.91281pt x 371.13657pt>
 File: gambar/gambar-full-team-dospem.jpeg Graphic file (type jpg)
 <use gambar/gambar-full-team-dospem.jpeg>
-Package pdftex.def Info: gambar/gambar-full-team-dospem.jpeg  used on input line 81.
+Package pdftex.def Info: gambar/gambar-full-team-dospem.jpeg  used on input line 101.
 (pdftex.def)             Requested size: 318.66948pt x 204.29562pt.
-<gambar/sertifikat.jpg, id=1519, 845.559pt x 597.9138pt>
+<gambar/sertifikat.jpg, id=1542, 845.559pt x 597.9138pt>
 File: gambar/sertifikat.jpg Graphic file (type jpg)
 <use gambar/sertifikat.jpg>
-Package pdftex.def Info: gambar/sertifikat.jpg  used on input line 91.
+Package pdftex.def Info: gambar/sertifikat.jpg  used on input line 112.
 (pdftex.def)             Requested size: 318.66948pt x 225.3393pt.
-) [94 <./gambar/gambar-penyerahan-hadiah.jpeg> <./gambar/gambar-full-team-dospem.jpeg>] [95 <./gambar/sertifikat.jpg>] (laporan.aux (untouch/xx-sampul-laporan.aux) (untouch/xx-sampuldalam-laporan.aux) (a4-persembahan.aux) (a9-motto.aux) (untouch/xx-pernyataan-poliwangi.aux) (untouch/xx-pengesahan.aux) (a2-abstrak.aux) (a3-abstract.aux) (a5-katapengantar.aux) (untouch/xx-daftar.aux) (b1-bab1.aux) (b2-bab2.aux) (b3-bab3.aux) (b4-bab4.aux) (b5-bab5.aux))
+) [96 <./gambar/gambar-penyerahan-hadiah.jpeg> <./gambar/gambar-full-team-dospem.jpeg>] [97 <./gambar/sertifikat.jpg>] (laporan.aux (untouch/xx-sampul-laporan.aux) (untouch/xx-sampuldalam-laporan.aux) (a4-persembahan.aux) (a9-motto.aux) (untouch/xx-pernyataan-poliwangi.aux) (untouch/xx-pengesahan.aux) (a2-abstrak.aux) (a3-abstract.aux) (a5-katapengantar.aux) (untouch/xx-daftar.aux) (b1-bab1.aux) (b2-bab2.aux) (b3-bab3.aux) (b4-bab4.aux) (b5-bab5.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `laporan.out' has not changed.
-(rerunfilecheck)             Checksum: DE8646E071BBDAE8F4943EFB40C5298F;12603.
+(rerunfilecheck)             Checksum: 4E7844EABA1F30EC25894C353A64F022;12594.
  ) 
 Here is how much of TeX's memory you used:
- 43308 strings out of 467871
- 979825 string characters out of 5428444
- 1769824 words of memory out of 5000000
- 70751 multiletter control sequences out of 15000+600000
+ 43338 strings out of 467871
+ 980203 string characters out of 5428444
+ 1765824 words of memory out of 5000000
+ 70769 multiletter control sequences out of 15000+600000
  652602 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  107i,15n,121p,1302b,1982s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on laporan.pdf (121 pages, 7873794 bytes).
+Output written on laporan.pdf (123 pages, 7879747 bytes).
 PDF statistics:
- 1699 PDF objects out of 1728 (max. 8388607)
- 655 named destinations out of 1000 (max. 500000)
+ 1725 PDF objects out of 1728 (max. 8388607)
+ 667 named destinations out of 1000 (max. 500000)
  756 words of extra memory for PDF output out of 10000 (max. 10000000)
 
