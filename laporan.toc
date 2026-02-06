@@ -62,18 +62,18 @@
 \contentsline {section}{\numberline {4.3}Pembahasan}{79}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Peran Arsitektur \textit {Client Data Layer} dalam Pengelolaan Data \textit {Frontend}}{79}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}Analisis Implementasi TanStack Query terhadap Server State}{80}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Implikasi Metode Fountain terhadap Iterasi Pengembangan Dashboard}{85}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}Analisis Hasil dan Temuan Pengujian Sistem}{86}{subsection.4.3.4}%
-\contentsline {subsection}{\numberline {4.3.5}Perbandingan dengan Penelitian Terdahulu dan Landasan Teori}{86}{subsection.4.3.5}%
-\contentsline {subsection}{\numberline {4.3.6}Dampak terhadap Skalabilitas dan Maintainability Sistem}{87}{subsection.4.3.6}%
-\contentsline {subsection}{\numberline {4.3.7}Keterbatasan Penerapan TanStack Query dalam Penelitian}{88}{subsection.4.3.7}%
-\contentsline {chapter}{\numberline {5}KESIMPULAN DAN SARAN}{89}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Kesimpulan}{89}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Saran}{89}{section.5.2}%
-\contentsline {chapter}{DAFTAR PUSTAKA}{91}{section*.50}%
-\contentsline {chapter}{LAMPIRAN}{93}{appendix*.52}%
-\contentsline {section}{Lampiran 1. \textit {Source Code}}{93}{lampiran.1}%
-\contentsline {section}{Lampiran 2. Dokumentasi Bimbingan}{97}{lampiran.2}%
-\contentsline {section}{Lampiran 3. Dokumentasi Penyerahan Hadiah}{97}{lampiran.3}%
-\contentsline {section}{Lampiran 4. Dokumentasi dengan Dosen Pembimbing}{98}{lampiran.4}%
-\contentsline {section}{Lampiran 5. Sertifikat}{98}{lampiran.5}%
+\contentsline {subsection}{\numberline {4.3.3}Implikasi Metode Fountain terhadap Iterasi Pengembangan Dashboard}{87}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Analisis Hasil dan Temuan Pengujian Sistem}{88}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Perbandingan dengan Penelitian Terdahulu dan Landasan Teori}{88}{subsection.4.3.5}%
+\contentsline {subsection}{\numberline {4.3.6}Dampak terhadap Skalabilitas dan Maintainability Sistem}{89}{subsection.4.3.6}%
+\contentsline {subsection}{\numberline {4.3.7}Keterbatasan Penerapan TanStack Query dalam Penelitian}{90}{subsection.4.3.7}%
+\contentsline {chapter}{\numberline {5}KESIMPULAN DAN SARAN}{91}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Kesimpulan}{91}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Saran}{91}{section.5.2}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{93}{section*.56}%
+\contentsline {chapter}{LAMPIRAN}{95}{appendix*.58}%
+\contentsline {section}{Lampiran 1. \textit {Source Code}}{95}{lampiran.1}%
+\contentsline {section}{Lampiran 2. Dokumentasi Bimbingan}{99}{lampiran.2}%
+\contentsline {section}{Lampiran 3. Dokumentasi Penyerahan Hadiah}{99}{lampiran.3}%
+\contentsline {section}{Lampiran 4. Dokumentasi dengan Dosen Pembimbing}{100}{lampiran.4}%
+\contentsline {section}{Lampiran 5. Sertifikat}{100}{lampiran.5}%

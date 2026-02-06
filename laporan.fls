@@ -785,6 +785,33 @@ INPUT .\gambar\folder-structure-features.png
 INPUT .\gambar\folder-structure-features.png
 INPUT .\gambar\folder-structure-features.png
 INPUT .\gambar\folder-structure-features.png
+INPUT .\kode\query-client.ts
+INPUT .\kode\query-client.ts
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\pslatex\pcrr7tn.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\pslatex\pcrr7tn.tfm
+INPUT kode\query-client.ts
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\public\pslatex\pcrr7tn.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\symbol\psyr.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\pslatex\pcrr8rn.tfm
+INPUT .\kode\query-keys-sebagian.ts
+INPUT .\kode\query-keys-sebagian.ts
+INPUT kode\query-keys-sebagian.ts
+INPUT .\kode\scraper.repository-sebagian.tsx
+INPUT .\kode\scraper.repository-sebagian.tsx
+INPUT kode\scraper.repository-sebagian.tsx
+INPUT .\kode\scraper-sebagian.ts
+INPUT .\kode\scraper-sebagian.ts
+INPUT kode\scraper-sebagian.ts
+INPUT .\kode\useLoginMutation-sebagian.ts
+INPUT .\kode\useLoginMutation-sebagian.ts
+INPUT kode\useLoginMutation-sebagian.ts
+INPUT .\kode\useScraperQuery-sebagian.ts
+INPUT .\kode\useScraperQuery-sebagian.ts
+INPUT kode\useScraperQuery-sebagian.ts
 INPUT .\gambar\implementasi-arsitektur-tanstackquery.png
 INPUT .\gambar\implementasi-arsitektur-tanstackquery.png
 INPUT .\gambar\implementasi-arsitektur-tanstackquery.png
@@ -813,7 +840,6 @@ INPUT untouch\xx-daftarpustaka.tex
 INPUT .\laporan.bbl
 INPUT .\laporan.bbl
 INPUT laporan.bbl
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\pslatex\pcrr7tn.tfm
 INPUT C:\Program Files\MiKTeX\fonts\vf\public\pslatex\pcrr7tn.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\pslatex\pcrr8rn.tfm
 INPUT .\a8-lampiran.tex
@@ -823,18 +849,10 @@ INPUT .\a8-lampiran.tex
 INPUT a8-lampiran.tex
 INPUT .\kode\query-client.ts
 INPUT .\kode\query-client.ts
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\pslatex\pcrr7tn.tfm
 INPUT kode\query-client.ts
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT .\kode\query-keys.ts
 INPUT .\kode\query-keys.ts
 INPUT kode\query-keys.ts
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\public\pslatex\pcrr7tn.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\symbol\psyr.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\pslatex\pcrr8rn.tfm
 INPUT .\kode\scraper.ts
 INPUT .\kode\scraper.ts
 INPUT kode\scraper.ts

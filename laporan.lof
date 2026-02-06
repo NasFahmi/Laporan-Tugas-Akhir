@@ -28,6 +28,12 @@
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Implementasi Antarmuka Halaman Rekomendasi Konten}}{67}{figure.caption.44}%
 \contentsline {figure}{\numberline {4.9}{\ignorespaces Desain Komponen Chatbot}}{68}{figure.caption.46}%
 \contentsline {figure}{\numberline {4.10}{\ignorespaces Struktur Folder Per Fitur}}{79}{figure.caption.47}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Diagram Alur Pengelolaan Query menggunakan TanStack Query}}{82}{figure.caption.48}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Diagram Alur Pengelolaan Mutation menggunakan TanStack Query}}{83}{figure.caption.49}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Konfigurasi Query Client}}{80}{figure.caption.48}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Konfigurasi Query Keys}}{81}{figure.caption.49}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Konfigurasi Repository}}{81}{figure.caption.50}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Konfigurasi Scraper}}{82}{figure.caption.51}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Konfigurasi Repository}}{82}{figure.caption.52}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Konfigurasi Scraper}}{83}{figure.caption.53}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Diagram Alur Pengelolaan Query menggunakan TanStack Query}}{84}{figure.caption.54}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Diagram Alur Pengelolaan Mutation menggunakan TanStack Query}}{85}{figure.caption.55}%
 \addvspace {10\p@ }
