@@ -282,3 +282,22 @@
 \makeatletter
 \renewcommand{\addvspace}[1]{}
 \makeatother
+
+
+% Pengaturan jarak antar baris dan penyesuaian kotak teks agar rata kiri
+\usepackage{setspace}
+\usepackage[none]{hyphenat}
+\usepackage{ragged2e}
+\usepackage{microtype}
+
+% Atur paragraf untuk justify tanpa hyphenation
+\setlength{\RaggedRightRightskip}{\fill}
+\setlength{\RaggedRightParfillskip}{\fill}
+
+% Mengatur hyphenation (pemisahan kata) agar lebih rapi
+\tolerance=9999
+\emergencystretch=1em
+\hyphenpenalty=9999
+\hbadness=9999
+\lefthyphenmin=62
+\righthyphenmin=62

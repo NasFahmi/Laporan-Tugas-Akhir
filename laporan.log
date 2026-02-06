@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  4 FEB 2026 20:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  6 FEB 2026 10:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -816,9 +816,38 @@ File: tikzlibraryarrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
  (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \arrowsize=\dimen323
-))) (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+)) (C:\Program Files\MiKTeX\tex/latex/hyphenat\hyphenat.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language80
+LaTeX Info: Redefining \_ on input line 43.
+) (C:\Program Files\MiKTeX\tex/latex/microtype\microtype.sty
+Package: microtype 2025/07/09 v3.2b Micro-typographical refinements (RS)
+\MT@toks=\toks61
+\MT@tempbox=\box92
+\MT@count=\count374
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1087.
+LaTeX Info: Redefining \leftprotrusion on input line 1088.
+\MT@prot@toks=\toks62
+LaTeX Info: Redefining \rightprotrusion on input line 1107.
+LaTeX Info: Redefining \textls on input line 1449.
+\MT@outer@kern=\dimen324
+LaTeX Info: Redefining \microtypecontext on input line 2053.
+LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
+\MT@listname@count=\count375
+ (C:\Program Files\MiKTeX\tex/latex/microtype\microtype-pdftex.def
+File: microtype-pdftex.def 2025/07/09 v3.2b Definitions specific to pdftex (RS)
+LaTeX Info: Redefining \lsstyle on input line 944.
+LaTeX Info: Redefining \lslig on input line 944.
+\MT@outer@space=\skip122
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+ (C:\Program Files\MiKTeX\tex/latex/microtype\microtype.cfg
+File: microtype.cfg 2025/07/09 v3.2b microtype main configuration file (RS)
+)
+LaTeX Info: Redefining \microtypesetup on input line 3065.
+)) (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count374
+\l__color_backend_stack_int=\count376
 ) (laporan.aux (untouch/xx-sampul-laporan.aux) (untouch/xx-sampuldalam-laporan.aux) (a4-persembahan.aux) (a9-motto.aux) (untouch/xx-pernyataan-poliwangi.aux) (untouch/xx-pengesahan.aux) (a2-abstrak.aux) (a3-abstract.aux) (a5-katapengantar.aux) (untouch/xx-daftar.aux) (b1-bab1.aux) (b2-bab2.aux) (b3-bab3.aux) (b4-bab4.aux) (b5-bab5.aux))
 \openout1 = `laporan.aux'.
 
@@ -846,20 +875,26 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
  (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count375
-\scratchdimen=\dimen324
-\scratchbox=\box92
-\nofMPsegments=\count376
-\nofMParguments=\count377
-\everyMPshowfont=\toks61
-\MPscratchCnt=\count378
-\MPscratchDim=\dimen325
-\MPnumerator=\count379
-\makeMPintoPDFobject=\count380
-\everyMPtoPDFconversion=\toks62
+\scratchcounter=\count377
+\scratchdimen=\dimen325
+\scratchbox=\box93
+\nofMPsegments=\count378
+\nofMParguments=\count379
+\everyMPshowfont=\toks63
+\MPscratchCnt=\count380
+\MPscratchDim=\dimen326
+\MPnumerator=\count381
+\makeMPintoPDFobject=\count382
+\everyMPtoPDFconversion=\toks64
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+ (C:\Program Files\MiKTeX\tex/latex/grfext\grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
  (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
@@ -912,14 +947,36 @@ Package hyperref Info: Link coloring OFF on input line 16.
 \@outlinefile=\write5
 \openout5 = `laporan.out'.
 
-\c@lstlisting=\count381
+\c@lstlisting=\count383
 
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
+LaTeX Info: Redefining \microtypecontext on input line 16.
+Package microtype Info: Applying patch `item' on input line 16.
+Package microtype Info: Applying patch `toc' on input line 16.
+
+Package microtype Warning: Unable to apply patch `eqnum' on input line 16.
+
+Package microtype Info: Applying patch `footnote' on input line 16.
+Package microtype Info: Applying patch `verbatim' on input line 16.
+LaTeX Info: Redefining \microtypesetup on input line 16.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+Package microtype Info: Patching command `\showhyphens'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+(C:\Program Files\MiKTeX\tex/latex/microtype\mt-ptm.cfg
+File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
+)
 \openout2 = `untouch/xx-sampul-laporan.aux'.
 
-(untouch/xx-sampul-laporan.tex
-<gambar/logo-poliwangi.png, id=290, 72.27pt x 72.27pt>
+ (untouch/xx-sampul-laporan.tex
+<gambar/logo-poliwangi.png, id=270, 72.27pt x 72.27pt>
 File: gambar/logo-poliwangi.png Graphic file (type png)
 <use gambar/logo-poliwangi.png>
 Package pdftex.def Info: gambar/logo-poliwangi.png  used on input line 25.
@@ -977,6 +1034,10 @@ LaTeX Font Info:    Trying to load font information for OT1+ptmcm on input line 
  (C:\Program Files\MiKTeX\tex/latex/psnfss\ot1ptmcm.fd
 File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
 )
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `ptmcm' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 LaTeX Font Info:    Trying to load font information for OML+ptmcm on input line 18.
  (C:\Program Files\MiKTeX\tex/latex/psnfss\omlptmcm.fd
 File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
@@ -1180,13 +1241,13 @@ Bab 2.
 
 
 ] [6] [7] [8] [9]
-<gambar/client-data-layer-paradigm.png, id=686, 2770.35pt x 2720.1625pt>
+<gambar/client-data-layer-paradigm.png, id=665, 2770.35pt x 2720.1625pt>
 File: gambar/client-data-layer-paradigm.png Graphic file (type png)
 <use gambar/client-data-layer-paradigm.png>
 Package pdftex.def Info: gambar/client-data-layer-paradigm.png  used on input line 79.
 (pdftex.def)             Requested size: 364.19667pt x 357.57664pt.
  [10 <./gambar/client-data-layer-paradigm.png>] [11] [12] [13] [14] [15]
-<gambar/fountain-sdlc.jpg, id=734, 1024.82875pt x 2569.6pt>
+<gambar/fountain-sdlc.jpg, id=712, 1024.82875pt x 2569.6pt>
 File: gambar/fountain-sdlc.jpg Graphic file (type jpg)
 <use gambar/fountain-sdlc.jpg>
 Package pdftex.def Info: gambar/fountain-sdlc.jpg  used on input line 161.
@@ -1209,7 +1270,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--144
 
  []
 
-<gambar/usecase-TA.png, id=804, 594.22pt x 614.295pt>
+<gambar/usecase-TA.png, id=782, 594.22pt x 614.295pt>
 File: gambar/usecase-TA.png Graphic file (type png)
 <use gambar/usecase-TA.png>
 Package pdftex.def Info: gambar/usecase-TA.png  used on input line 147.
@@ -1219,265 +1280,818 @@ Underfull \hbox (badness 10000) in paragraph at lines 159--160
 
  []
 
-[29]
-<gambar/erd.png, id=817, 1032.85875pt x 1022.82124pt>
+<gambar/erd.png, id=790, 1032.85875pt x 1022.82124pt>
 File: gambar/erd.png Graphic file (type png)
 <use gambar/erd.png>
 Package pdftex.def Info: gambar/erd.png  used on input line 163.
 (pdftex.def)             Requested size: 318.66948pt x 315.57303pt.
- [30 <./gambar/erd.png>]
+[29] [30 <./gambar/erd.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
  []
 
-<gambar/diagram-sistem-keseluruhan.png, id=825, 4101.3225pt x 1508.63625pt>
+<gambar/diagram-sistem-keseluruhan.png, id=803, 4101.3225pt x 1508.63625pt>
 File: gambar/diagram-sistem-keseluruhan.png Graphic file (type png)
 <use gambar/diagram-sistem-keseluruhan.png>
 Package pdftex.def Info: gambar/diagram-sistem-keseluruhan.png  used on input line 185.
 (pdftex.def)             Requested size: 364.19667pt x 133.95284pt.
 [31 <./gambar/diagram-sistem-keseluruhan.png>]
-<gambar/diagram-architecture.png, id=832, 490.33188pt x 748.29562pt>
+<gambar/diagram-architecture.png, id=810, 490.33188pt x 748.29562pt>
 File: gambar/diagram-architecture.png Graphic file (type png)
 <use gambar/diagram-architecture.png>
 Package pdftex.def Info: gambar/diagram-architecture.png  used on input line 202.
 (pdftex.def)             Requested size: 227.62206pt x 347.37155pt.
  [32] [33 <./gambar/diagram-architecture.png>] [34]
-<gambar/tanstack-works.jpg, id=852, 803.0pt x 451.6875pt>
+<gambar/tanstack-works.jpg, id=830, 803.0pt x 451.6875pt>
 File: gambar/tanstack-works.jpg Graphic file (type jpg)
 <use gambar/tanstack-works.jpg>
 Package pdftex.def Info: gambar/tanstack-works.jpg  used on input line 222.
 (pdftex.def)             Requested size: 227.62206pt x 128.03615pt.
  [35 <./gambar/tanstack-works.jpg (PNG copy)>]
-<gambar/landing-page.jpeg, id=860, 1541.76pt x 1266.23062pt>
+<gambar/landing-page.jpeg, id=838, 1541.76pt x 1266.23062pt>
 File: gambar/landing-page.jpeg Graphic file (type jpg)
 <use gambar/landing-page.jpeg>
 Package pdftex.def Info: gambar/landing-page.jpeg  used on input line 236.
 (pdftex.def)             Requested size: 318.66948pt x 261.70428pt.
-<gambar/login.jpeg, id=862, 3035.34pt x 1300.86pt>
+<gambar/login.jpeg, id=840, 3035.34pt x 1300.86pt>
 File: gambar/login.jpeg Graphic file (type jpg)
 <use gambar/login.jpeg>
 Package pdftex.def Info: gambar/login.jpeg  used on input line 244.
 (pdftex.def)             Requested size: 318.66948pt x 136.56456pt.
  [36 <./gambar/landing-page.jpeg>]
-<gambar/register.jpeg, id=869, 3035.34pt x 1300.86pt>
+<gambar/register.jpeg, id=847, 3035.34pt x 1300.86pt>
 File: gambar/register.jpeg Graphic file (type jpg)
 <use gambar/register.jpeg>
 Package pdftex.def Info: gambar/register.jpeg  used on input line 251.
 (pdftex.def)             Requested size: 318.66948pt x 136.56456pt.
-<gambar/dashboard.jpeg, id=871, 1541.76pt x 1156.32pt>
+<gambar/dashboard.jpeg, id=849, 1541.76pt x 1156.32pt>
 File: gambar/dashboard.jpeg Graphic file (type jpg)
 <use gambar/dashboard.jpeg>
 Package pdftex.def Info: gambar/dashboard.jpeg  used on input line 258.
 (pdftex.def)             Requested size: 318.66948pt x 238.98798pt.
  [37 <./gambar/login.jpeg> <./gambar/register.jpeg>]
-<gambar/sentiment.png, id=877, 2344.76pt x 1478.52374pt>
+<gambar/sentiment.png, id=855, 2344.76pt x 1478.52374pt>
 File: gambar/sentiment.png Graphic file (type png)
 <use gambar/sentiment.png>
 Package pdftex.def Info: gambar/sentiment.png  used on input line 265.
 (pdftex.def)             Requested size: 318.66948pt x 200.92316pt.
-<gambar/scraper.png, id=879, 2248.4pt x 1040.88875pt>
+<gambar/scraper.png, id=857, 2248.4pt x 1040.88875pt>
 File: gambar/scraper.png Graphic file (type png)
 <use gambar/scraper.png>
 Package pdftex.def Info: gambar/scraper.png  used on input line 272.
 (pdftex.def)             Requested size: 318.66948pt x 147.51817pt.
  [38 <./gambar/dashboard.jpeg> <./gambar/sentiment.png>]
-<gambar/recomendation.jpeg, id=886, 1541.76pt x 931.22906pt>
+<gambar/recomendation.jpeg, id=864, 1541.76pt x 931.22906pt>
 File: gambar/recomendation.jpeg Graphic file (type jpg)
 <use gambar/recomendation.jpeg>
 Package pdftex.def Info: gambar/recomendation.jpeg  used on input line 279.
 (pdftex.def)             Requested size: 318.66948pt x 192.46622pt.
-<gambar/chatbot.jpeg, id=888, 1114.91531pt x 1541.76pt>
+<gambar/chatbot.jpeg, id=866, 1114.91531pt x 1541.76pt>
 File: gambar/chatbot.jpeg Graphic file (type jpg)
 <use gambar/chatbot.jpeg>
 Package pdftex.def Info: gambar/chatbot.jpeg  used on input line 286.
 (pdftex.def)             Requested size: 204.85846pt x 283.26852pt.
- [39 <./gambar/scraper.png> <./gambar/recomendation.jpeg>] [40 <./gambar/chatbot.jpeg>] [41]
+ [39 <./gambar/scraper.png> <./gambar/recomendation.jpeg>] [40 <./gambar/chatbot.jpeg>]
+Overfull \hbox (0.6981pt too wide) in alignment at lines 318--329
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.6981pt too wide) in alignment at lines 329--338
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.6981pt too wide) in alignment at lines 338--340
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.6981pt too wide) in alignment at lines 340--343
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.6981pt too wide) in alignment at lines 343--359
+ [] [] [] [] [] 
+ []
+
+[41]
+Overfull \hbox (0.6981pt too wide) in alignment at lines 375--386
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.6981pt too wide) in alignment at lines 386--395
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.6981pt too wide) in alignment at lines 395--397
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.6981pt too wide) in alignment at lines 397--400
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (1.92769pt too wide) in paragraph at lines 402--402
+ []|\OT1/ptm/m/n/12 (-20) TC-LG-01| 
+ []
+
+
+Overfull \hbox (1.92769pt too wide) in paragraph at lines 416--416
+ []|\OT1/ptm/m/n/12 (-20) TC-LG-02| 
+ []
+
+
+Overfull \hbox (1.92769pt too wide) in paragraph at lines 431--431
+ []|\OT1/ptm/m/n/12 (-20) TC-LG-03| 
+ []
+
+
+Overfull \hbox (1.92769pt too wide) in paragraph at lines 446--446
+ []|\OT1/ptm/m/n/12 (-20) TC-LG-04| 
+ []
+
+
+Overfull \hbox (1.92769pt too wide) in paragraph at lines 460--460
+ []|\OT1/ptm/m/n/12 (-20) TC-LG-05| 
+ []
+
+
+Overfull \hbox (0.6981pt too wide) in alignment at lines 400--474
+ [] [] [] [] [] 
+ []
+
 b3-bab3.tex:474: ignored error: Infinite glue shrinkage found in box being split [42]
 b3-bab3.tex:474: ignored error: Infinite glue shrinkage found in box being split [43]
+Overfull \hbox (0.6981pt too wide) in alignment at lines 488--499
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.6981pt too wide) in alignment at lines 499--508
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.6981pt too wide) in alignment at lines 508--510
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.6981pt too wide) in alignment at lines 510--513
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.58617pt too wide) in paragraph at lines 515--515
+ []|\OT1/ptm/m/n/12 (-20) TC-RG-01| 
+ []
+
+
+Overfull \hbox (2.58617pt too wide) in paragraph at lines 529--529
+ []|\OT1/ptm/m/n/12 (-20) TC-RG-02| 
+ []
+
+
+Overfull \hbox (2.58617pt too wide) in paragraph at lines 543--543
+ []|\OT1/ptm/m/n/12 (-20) TC-RG-03| 
+ []
+
+
+Overfull \hbox (2.58617pt too wide) in paragraph at lines 557--557
+ []|\OT1/ptm/m/n/12 (-20) TC-RG-04| 
+ []
+
+
+Overfull \hbox (0.6981pt too wide) in alignment at lines 513--571
+ [] [] [] [] [] 
+ []
+
 b3-bab3.tex:571: ignored error: Infinite glue shrinkage found in box being split [44]
-b3-bab3.tex:679: ignored error: Infinite glue shrinkage found in box being split [45] [46]
+Overfull \hbox (0.6981pt too wide) in alignment at lines 585--596
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.6981pt too wide) in alignment at lines 596--605
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.6981pt too wide) in alignment at lines 605--607
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.6981pt too wide) in alignment at lines 607--610
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.58617pt too wide) in paragraph at lines 612--612
+ []|\OT1/ptm/m/n/12 (-20) TC-DB-01| 
+ []
+
+
+Overfull \hbox (2.58617pt too wide) in paragraph at lines 625--625
+ []|\OT1/ptm/m/n/12 (-20) TC-DB-02| 
+ []
+
+
+Overfull \hbox (2.58617pt too wide) in paragraph at lines 639--639
+ []|\OT1/ptm/m/n/12 (-20) TC-DB-03| 
+ []
+
+
+Overfull \hbox (2.58617pt too wide) in paragraph at lines 653--653
+ []|\OT1/ptm/m/n/12 (-20) TC-DB-04| 
+ []
+
+
+Overfull \hbox (2.58617pt too wide) in paragraph at lines 666--666
+ []|\OT1/ptm/m/n/12 (-20) TC-DB-05| 
+ []
+
+
+Overfull \hbox (0.6981pt too wide) in alignment at lines 610--679
+ [] [] [] [] [] 
+ []
+
+b3-bab3.tex:679: ignored error: Infinite glue shrinkage found in box being split [45]
+Overfull \hbox (0.6981pt too wide) in alignment at lines 693--704
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.6981pt too wide) in alignment at lines 704--713
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.6981pt too wide) in alignment at lines 713--715
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.6981pt too wide) in alignment at lines 715--718
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.6981pt too wide) in alignment at lines 718--786
+ [] [] [] [] [] 
+ []
+
+[46]
 b3-bab3.tex:786: ignored error: Infinite glue shrinkage found in box being split [47]
+Overfull \hbox (0.6981pt too wide) in alignment at lines 799--806
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.6981pt too wide) in alignment at lines 806--811
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.6981pt too wide) in alignment at lines 811--812
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.6981pt too wide) in alignment at lines 812--815
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (1.93932pt too wide) in paragraph at lines 817--817
+ []|\OT1/ptm/m/n/12 (-20) TC-RC-01| 
+ []
+
+
+Overfull \hbox (1.93932pt too wide) in paragraph at lines 819--819
+ []|\OT1/ptm/m/n/12 (-20) TC-RC-02| 
+ []
+
+
+Overfull \hbox (1.93932pt too wide) in paragraph at lines 821--821
+ []|\OT1/ptm/m/n/12 (-20) TC-RC-03| 
+ []
+
+
+Overfull \hbox (1.93932pt too wide) in paragraph at lines 823--823
+ []|\OT1/ptm/m/n/12 (-20) TC-RC-04| 
+ []
+
+
+Overfull \hbox (1.93932pt too wide) in paragraph at lines 825--825
+ []|\OT1/ptm/m/n/12 (-20) TC-RC-05| 
+ []
+
+
+Overfull \hbox (0.6981pt too wide) in alignment at lines 815--828
+ [] [] [] [] [] 
+ []
+
 b3-bab3.tex:828: ignored error: Infinite glue shrinkage found in box being split [48]
+Overfull \hbox (0.6981pt too wide) in alignment at lines 842--853
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.6981pt too wide) in alignment at lines 853--862
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.6981pt too wide) in alignment at lines 862--864
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.6981pt too wide) in alignment at lines 864--867
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.63397pt too wide) in paragraph at lines 869--869
+ []|\OT1/ptm/m/n/12 (-20) TC-SC-01| 
+ []
+
+
+Overfull \hbox (0.63397pt too wide) in paragraph at lines 882--882
+ []|\OT1/ptm/m/n/12 (-20) TC-SC-02| 
+ []
+
+
+Overfull \hbox (0.63397pt too wide) in paragraph at lines 895--895
+ []|\OT1/ptm/m/n/12 (-20) TC-SC-03| 
+ []
+
+
+Overfull \hbox (0.63397pt too wide) in paragraph at lines 908--908
+ []|\OT1/ptm/m/n/12 (-20) TC-SC-04| 
+ []
+
+
+Overfull \hbox (0.6981pt too wide) in alignment at lines 867--922
+ [] [] [] [] [] 
+ []
+
 b3-bab3.tex:922: ignored error: Infinite glue shrinkage found in box being split [49]
-b3-bab3.tex:1030: ignored error: Infinite glue shrinkage found in box being split [50] [51]) [52]
+Overfull \hbox (0.6981pt too wide) in alignment at lines 936--947
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.6981pt too wide) in alignment at lines 947--956
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.6981pt too wide) in alignment at lines 956--958
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.6981pt too wide) in alignment at lines 958--961
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (1.93932pt too wide) in paragraph at lines 963--963
+ []|\OT1/ptm/m/n/12 (-20) TC-CB-01| 
+ []
+
+
+Overfull \hbox (1.93932pt too wide) in paragraph at lines 977--977
+ []|\OT1/ptm/m/n/12 (-20) TC-CB-02| 
+ []
+
+
+Overfull \hbox (1.93932pt too wide) in paragraph at lines 991--991
+ []|\OT1/ptm/m/n/12 (-20) TC-CB-03| 
+ []
+
+
+Overfull \hbox (1.93932pt too wide) in paragraph at lines 1004--1004
+ []|\OT1/ptm/m/n/12 (-20) TC-CB-04| 
+ []
+
+
+Overfull \hbox (1.93932pt too wide) in paragraph at lines 1017--1017
+ []|\OT1/ptm/m/n/12 (-20) TC-CB-05| 
+ []
+
+
+Overfull \hbox (0.6981pt too wide) in alignment at lines 961--1030
+ [] [] [] [] [] 
+ []
+
+[50]
+b3-bab3.tex:1030: ignored error: Infinite glue shrinkage found in box being split [51]
+Overfull \hbox (0.6981pt too wide) in alignment at lines 1044--1055
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.6981pt too wide) in alignment at lines 1055--1064
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.6981pt too wide) in alignment at lines 1064--1066
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.6981pt too wide) in alignment at lines 1066--1069
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (1.92769pt too wide) in paragraph at lines 1071--1071
+ []|\OT1/ptm/m/n/12 (-20) TC-LO-01| 
+ []
+
+
+Overfull \hbox (1.92769pt too wide) in paragraph at lines 1084--1084
+ []|\OT1/ptm/m/n/12 (-20) TC-LO-02| 
+ []
+
+
+Overfull \hbox (1.92769pt too wide) in paragraph at lines 1097--1097
+ []|\OT1/ptm/m/n/12 (-20) TC-LO-03| 
+ []
+
+
+Overfull \hbox (0.6981pt too wide) in alignment at lines 1069--1110
+ [] [] [] [] [] 
+ []
+
+b3-bab3.tex:1110: ignored error: Infinite glue shrinkage found in box being split [52]) [53] [54
+
+
+
+]
 \openout2 = `b4-bab4.aux'.
 
  (b4-bab4.tex
 Bab 4.
-b4-bab4.tex:59: ignored error: Infinite glue shrinkage found in box being split [53
-
-
+b4-bab4.tex:59: ignored error: Infinite glue shrinkage found in box being split [55
 
 
 
 ]
-b4-bab4.tex:105: ignored error: Infinite glue shrinkage found in box being split [54]
-<gambar/gambar-juara-3.jpeg, id=1052, 677.53125pt x 615.80063pt>
+b4-bab4.tex:105: ignored error: Infinite glue shrinkage found in box being split [56]
+<gambar/gambar-juara-3.jpeg, id=1038, 677.53125pt x 615.80063pt>
 File: gambar/gambar-juara-3.jpeg Graphic file (type jpg)
 <use gambar/gambar-juara-3.jpeg>
 Package pdftex.def Info: gambar/gambar-juara-3.jpeg  used on input line 111.
 (pdftex.def)             Requested size: 273.14923pt x 248.27032pt.
- [55 <./gambar/gambar-juara-3.jpeg>] [56] [57] [58]
-<gambar/ui-landing-page.png, id=1074, 1243.64626pt x 918.43124pt>
+ [57 <./gambar/gambar-juara-3.jpeg>] [58] [59] [60]
+<gambar/ui-landing-page.png, id=1061, 1243.64626pt x 918.43124pt>
 File: gambar/ui-landing-page.png Graphic file (type png)
 <use gambar/ui-landing-page.png>
 Package pdftex.def Info: gambar/ui-landing-page.png  used on input line 179.
 (pdftex.def)             Requested size: 364.19667pt x 268.95888pt.
- [59 <./gambar/ui-landing-page.png>]
-<gambar/ui-login-page.png, id=1083, 1243.64626pt x 576.1525pt>
+ [61] [62 <./gambar/ui-landing-page.png>]
+<gambar/ui-login-page.png, id=1074, 1243.64626pt x 576.1525pt>
 File: gambar/ui-login-page.png Graphic file (type png)
 <use gambar/ui-login-page.png>
 Package pdftex.def Info: gambar/ui-login-page.png  used on input line 199.
 (pdftex.def)             Requested size: 318.66948pt x 147.63344pt.
-<gambar/ui-register-page.png, id=1085, 1243.64626pt x 576.1525pt>
+<gambar/ui-register-page.png, id=1076, 1243.64626pt x 576.1525pt>
 File: gambar/ui-register-page.png Graphic file (type png)
 <use gambar/ui-register-page.png>
 Package pdftex.def Info: gambar/ui-register-page.png  used on input line 210.
 (pdftex.def)             Requested size: 318.66948pt x 147.63344pt.
- [60 <./gambar/ui-login-page.png>]
-<gambar/ui-dashboard-page.png, id=1093, 1927.95282pt x 1342.2647pt>
+ [63 <./gambar/ui-login-page.png> <./gambar/ui-register-page.png>]
+<gambar/ui-dashboard-page.png, id=1085, 1927.95282pt x 1342.2647pt>
 File: gambar/ui-dashboard-page.png Graphic file (type png)
 <use gambar/ui-dashboard-page.png>
 Package pdftex.def Info: gambar/ui-dashboard-page.png  used on input line 229.
 (pdftex.def)             Requested size: 318.66948pt x 221.85326pt.
- [61 <./gambar/ui-register-page.png>]
-<gambar/ui-scraper-page.png, id=1101, 1243.64626pt x 576.1525pt>
+ [64 <./gambar/ui-dashboard-page.png>]
+<gambar/ui-scraper-page.png, id=1093, 1243.64626pt x 576.1525pt>
 File: gambar/ui-scraper-page.png Graphic file (type png)
 <use gambar/ui-scraper-page.png>
 Package pdftex.def Info: gambar/ui-scraper-page.png  used on input line 248.
 (pdftex.def)             Requested size: 318.66948pt x 147.63344pt.
- [62 <./gambar/ui-dashboard-page.png>]
-<gambar/ui-sentiment-page.png, id=1109, 1243.64626pt x 918.43124pt>
+<gambar/ui-sentiment-page.png, id=1095, 1243.64626pt x 918.43124pt>
 File: gambar/ui-sentiment-page.png Graphic file (type png)
 <use gambar/ui-sentiment-page.png>
 Package pdftex.def Info: gambar/ui-sentiment-page.png  used on input line 267.
 (pdftex.def)             Requested size: 318.66948pt x 235.33902pt.
- [63 <./gambar/ui-scraper-page.png>]
-<gambar/ui-recommendation-content-page.png, id=1117, 1927.95282pt x 1367.1075pt>
+ [65 <./gambar/ui-scraper-page.png>]
+<gambar/ui-recommendation-content-page.png, id=1104, 1927.95282pt x 1367.1075pt>
 File: gambar/ui-recommendation-content-page.png Graphic file (type png)
 <use gambar/ui-recommendation-content-page.png>
 Package pdftex.def Info: gambar/ui-recommendation-content-page.png  used on input line 285.
 (pdftex.def)             Requested size: 318.66948pt x 225.95935pt.
- [64 <./gambar/ui-sentiment-page.png>] [65 <./gambar/ui-recommendation-content-page.png>]
-<gambar/ui-chatbot-page.png, id=1132, 294.09875pt x 460.72125pt>
+ [66 <./gambar/ui-sentiment-page.png>] [67 <./gambar/ui-recommendation-content-page.png>]
+<gambar/ui-chatbot-page.png, id=1118, 294.09875pt x 460.72125pt>
 File: gambar/ui-chatbot-page.png Graphic file (type png)
 <use gambar/ui-chatbot-page.png>
 Package pdftex.def Info: gambar/ui-chatbot-page.png  used on input line 305.
 (pdftex.def)             Requested size: 182.09486pt x 285.2646pt.
- [66 <./gambar/ui-chatbot-page.png>]
-b4-bab4.tex:441: ignored error: Infinite glue shrinkage found in box being split [67]
-b4-bab4.tex:511: ignored error: Infinite glue shrinkage found in box being split [68]
-b4-bab4.tex:586: ignored error: Infinite glue shrinkage found in box being split [69]
-b4-bab4.tex:663: ignored error: Infinite glue shrinkage found in box being split [70] [71] [72] [73] [74
+ [68 <./gambar/ui-chatbot-page.png>]
+Overfull \hbox (1.92769pt too wide) in paragraph at lines 406--406
+ []|\OT1/ptm/m/n/12 (-20) TC-LG-01| 
+ []
 
-] [75
+
+Overfull \hbox (1.92769pt too wide) in paragraph at lines 413--413
+ []|\OT1/ptm/m/n/12 (-20) TC-LG-02| 
+ []
+
+
+Overfull \hbox (1.92769pt too wide) in paragraph at lines 420--420
+ []|\OT1/ptm/m/n/12 (-20) TC-LG-03| 
+ []
+
+
+Overfull \hbox (1.92769pt too wide) in paragraph at lines 427--427
+ []|\OT1/ptm/m/n/12 (-20) TC-LG-04| 
+ []
+
+
+Overfull \hbox (1.92769pt too wide) in paragraph at lines 434--434
+ []|\OT1/ptm/m/n/12 (-20) TC-LG-05| 
+ []
+
+b4-bab4.tex:441: ignored error: Infinite glue shrinkage found in box being split [69]
+Overfull \hbox (2.58617pt too wide) in paragraph at lines 483--483
+ []|\OT1/ptm/m/n/12 (-20) TC-RG-01| 
+ []
+
+
+Overfull \hbox (2.58617pt too wide) in paragraph at lines 490--490
+ []|\OT1/ptm/m/n/12 (-20) TC-RG-02| 
+ []
+
+
+Overfull \hbox (2.58617pt too wide) in paragraph at lines 497--497
+ []|\OT1/ptm/m/n/12 (-20) TC-RG-03| 
+ []
+
+
+Overfull \hbox (2.58617pt too wide) in paragraph at lines 504--504
+ []|\OT1/ptm/m/n/12 (-20) TC-RG-04| 
+ []
+
+b4-bab4.tex:511: ignored error: Infinite glue shrinkage found in box being split [70]
+Overfull \hbox (2.58617pt too wide) in paragraph at lines 551--551
+ []|\OT1/ptm/m/n/12 (-20) TC-DB-01| 
+ []
+
+
+Overfull \hbox (2.58617pt too wide) in paragraph at lines 558--558
+ []|\OT1/ptm/m/n/12 (-20) TC-DB-02| 
+ []
+
+
+Overfull \hbox (2.58617pt too wide) in paragraph at lines 565--565
+ []|\OT1/ptm/m/n/12 (-20) TC-DB-03| 
+ []
+
+
+Overfull \hbox (2.58617pt too wide) in paragraph at lines 572--572
+ []|\OT1/ptm/m/n/12 (-20) TC-DB-04| 
+ []
+
+
+Overfull \hbox (2.58617pt too wide) in paragraph at lines 579--579
+ []|\OT1/ptm/m/n/12 (-20) TC-DB-05| 
+ []
+
+b4-bab4.tex:586: ignored error: Infinite glue shrinkage found in box being split [71] [72] [73]
+Overfull \hbox (1.93932pt too wide) in paragraph at lines 705--705
+ []|\OT1/ptm/m/n/12 (-20) TC-RC-01| 
+ []
+
+
+Overfull \hbox (1.93932pt too wide) in paragraph at lines 712--712
+ []|\OT1/ptm/m/n/12 (-20) TC-RC-02| 
+ []
+
+
+Overfull \hbox (1.93932pt too wide) in paragraph at lines 719--719
+ []|\OT1/ptm/m/n/12 (-20) TC-RC-03| 
+ []
+
+
+Overfull \hbox (1.93932pt too wide) in paragraph at lines 726--726
+ []|\OT1/ptm/m/n/12 (-20) TC-RC-04| 
+ []
+
+
+Overfull \hbox (1.93932pt too wide) in paragraph at lines 733--733
+ []|\OT1/ptm/m/n/12 (-20) TC-RC-05| 
+ []
+
+b4-bab4.tex:740: ignored error: Infinite glue shrinkage found in box being split [74]
+Overfull \hbox (0.63397pt too wide) in paragraph at lines 782--782
+ []|\OT1/ptm/m/n/12 (-20) TC-SC-01| 
+ []
+
+
+Overfull \hbox (0.63397pt too wide) in paragraph at lines 789--789
+ []|\OT1/ptm/m/n/12 (-20) TC-SC-02| 
+ []
+
+
+Overfull \hbox (0.63397pt too wide) in paragraph at lines 796--796
+ []|\OT1/ptm/m/n/12 (-20) TC-SC-03| 
+ []
+
+
+Overfull \hbox (0.63397pt too wide) in paragraph at lines 803--803
+ []|\OT1/ptm/m/n/12 (-20) TC-SC-04| 
+ []
+
+b4-bab4.tex:810: ignored error: Infinite glue shrinkage found in box being split [75] [76]
+Overfull \hbox (1.93932pt too wide) in paragraph at lines 851--851
+ []|\OT1/ptm/m/n/12 (-20) TC-CB-01| 
+ []
+
+
+Overfull \hbox (1.93932pt too wide) in paragraph at lines 858--858
+ []|\OT1/ptm/m/n/12 (-20) TC-CB-02| 
+ []
+
+
+Overfull \hbox (1.93932pt too wide) in paragraph at lines 865--865
+ []|\OT1/ptm/m/n/12 (-20) TC-CB-03| 
+ []
+
+
+Overfull \hbox (1.93932pt too wide) in paragraph at lines 872--872
+ []|\OT1/ptm/m/n/12 (-20) TC-CB-04| 
+ []
+
+
+Overfull \hbox (1.93932pt too wide) in paragraph at lines 879--879
+ []|\OT1/ptm/m/n/12 (-20) TC-CB-05| 
+ []
+
+[77
 
 ]
-<gambar/folder-structure-features.png, id=1185, 218.31563pt x 118.4425pt>
+Overfull \hbox (1.92769pt too wide) in paragraph at lines 927--927
+ []|\OT1/ptm/m/n/12 (-20) TC-LO-01| 
+ []
+
+
+Overfull \hbox (1.92769pt too wide) in paragraph at lines 934--934
+ []|\OT1/ptm/m/n/12 (-20) TC-LO-02| 
+ []
+
+
+Overfull \hbox (1.92769pt too wide) in paragraph at lines 941--941
+ []|\OT1/ptm/m/n/12 (-20) TC-LO-03| 
+ []
+
+[78
+
+]
+<gambar/folder-structure-features.png, id=1176, 218.31563pt x 118.4425pt>
 File: gambar/folder-structure-features.png Graphic file (type png)
 <use gambar/folder-structure-features.png>
 Package pdftex.def Info: gambar/folder-structure-features.png  used on input line 970.
 (pdftex.def)             Requested size: 182.09486pt x 98.79158pt.
- [76 <./gambar/folder-structure-features.png>] [77]
-<gambar/implementasi-arsitektur-tanstackquery.png, id=1205, 789.95125pt x 974.13937pt>
+ [79 <./gambar/folder-structure-features.png>]
+
+LaTeX Warning: Reference `app:query-client' on page 80 undefined on input line 984.
+
+
+LaTeX Warning: Reference `app:query-keys' on page 80 undefined on input line 987.
+
+
+LaTeX Warning: Reference `app:repository' on page 80 undefined on input line 992.
+
+
+LaTeX Warning: Reference `app:interface' on page 80 undefined on input line 992.
+
+[80]
+
+LaTeX Warning: Reference `app:query' on page 81 undefined on input line 998.
+
+
+LaTeX Warning: Reference `app:mutation' on page 81 undefined on input line 1000.
+
+<gambar/implementasi-arsitektur-tanstackquery.png, id=1189, 789.95125pt x 974.13937pt>
 File: gambar/implementasi-arsitektur-tanstackquery.png Graphic file (type png)
 <use gambar/implementasi-arsitektur-tanstackquery.png>
 Package pdftex.def Info: gambar/implementasi-arsitektur-tanstackquery.png  used on input line 1007.
 (pdftex.def)             Requested size: 318.66948pt x 392.96355pt.
- [78]
-<gambar/skema-mutation-tanstack-query.png, id=1211, 580.66937pt x 933.98938pt>
+[81]
+<gambar/skema-mutation-tanstack-query.png, id=1195, 580.66937pt x 933.98938pt>
 File: gambar/skema-mutation-tanstack-query.png Graphic file (type png)
 <use gambar/skema-mutation-tanstack-query.png>
 Package pdftex.def Info: gambar/skema-mutation-tanstack-query.png  used on input line 1018.
 (pdftex.def)             Requested size: 318.66948pt x 512.56989pt.
- [79 <./gambar/implementasi-arsitektur-tanstackquery.png>] [80 <./gambar/skema-mutation-tanstack-query.png>] [81] [82] [83] [84]) [85] [86
-
-
-
-]
+ [82 <./gambar/implementasi-arsitektur-tanstackquery.png>] [83 <./gambar/skema-mutation-tanstack-query.png>] [84] [85] [86] [87]) [88]
 \openout2 = `b5-bab5.aux'.
 
  (b5-bab5.tex
 Bab 5.
-) [87
+) [89
 
 
 
-] [88
+
+
+] [90
 
 
 
-] (untouch/xx-daftarpustaka.tex (laporan.bbl [89
+] (untouch/xx-daftarpustaka.tex (laporan.bbl [91
 
 
 
-])) [90] (a8-lampiran.tex
-\c@lampiran=\count382
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 19.
- (kode/query-client.ts) (kode/query-keys.ts [91
+])) [92] (a8-lampiran.tex
+\c@lampiran=\count384
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 21.
+ (kode/query-client.ts) (kode/query-keys.ts [93
 
 
-]) (kode/scraper.ts) [92] (kode/scraper.repository.tsx
+]) (kode/scraper.ts) (kode/scraper.repository.tsx [94]
 LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 26.
  (C:\Program Files\MiKTeX\tex/latex/psnfss\ts1pcr.fd
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
-)) (kode/useScraperQuery.ts [93]) (kode/useLoginMutation.ts [94])
-<gambar/bimbingan/b-arum01.jpeg, id=1525, 1541.76pt x 1027.84pt>
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `pcr' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+) (kode/useScraperQuery.ts [95]) (kode/useLoginMutation.ts)
+<gambar/bimbingan/b-arum01.jpeg, id=1454, 1541.76pt x 1027.84pt>
 File: gambar/bimbingan/b-arum01.jpeg Graphic file (type jpg)
 <use gambar/bimbingan/b-arum01.jpeg>
-Package pdftex.def Info: gambar/bimbingan/b-arum01.jpeg  used on input line 75.
+Package pdftex.def Info: gambar/bimbingan/b-arum01.jpeg  used on input line 43.
 (pdftex.def)             Requested size: 182.09486pt x 121.39072pt.
-<gambar/bimbingan/b-arum02.jpeg, id=1526, 1606.0pt x 1204.5pt>
+<gambar/bimbingan/b-arum02.jpeg, id=1455, 1606.0pt x 1204.5pt>
 File: gambar/bimbingan/b-arum02.jpeg Graphic file (type jpg)
 <use gambar/bimbingan/b-arum02.jpeg>
-Package pdftex.def Info: gambar/bimbingan/b-arum02.jpeg  used on input line 76.
+Package pdftex.def Info: gambar/bimbingan/b-arum02.jpeg  used on input line 44.
 (pdftex.def)             Requested size: 159.33821pt x 119.50133pt.
-<gambar/bimbingan/pak-sep-1.jpeg, id=1527, 1284.8pt x 963.6pt>
+<gambar/bimbingan/pak-sep-1.jpeg, id=1456, 1284.8pt x 963.6pt>
 File: gambar/bimbingan/pak-sep-1.jpeg Graphic file (type jpg)
 <use gambar/bimbingan/pak-sep-1.jpeg>
-Package pdftex.def Info: gambar/bimbingan/pak-sep-1.jpeg  used on input line 78.
+Package pdftex.def Info: gambar/bimbingan/pak-sep-1.jpeg  used on input line 46.
 (pdftex.def)             Requested size: 182.09486pt x 136.56456pt.
-<gambar/bimbingan/pak-sep-2.jpeg, id=1528, 1284.8pt x 963.6pt>
+<gambar/bimbingan/pak-sep-2.jpeg, id=1457, 1284.8pt x 963.6pt>
 File: gambar/bimbingan/pak-sep-2.jpeg Graphic file (type jpg)
 <use gambar/bimbingan/pak-sep-2.jpeg>
-Package pdftex.def Info: gambar/bimbingan/pak-sep-2.jpeg  used on input line 79.
+Package pdftex.def Info: gambar/bimbingan/pak-sep-2.jpeg  used on input line 47.
 (pdftex.def)             Requested size: 182.09486pt x 136.56456pt.
-<gambar/gambar-penyerahan-hadiah.jpeg, id=1529, 472.01344pt x 365.11406pt>
+ [96]
+<gambar/gambar-penyerahan-hadiah.jpeg, id=1515, 472.01344pt x 365.11406pt>
 File: gambar/gambar-penyerahan-hadiah.jpeg Graphic file (type jpg)
 <use gambar/gambar-penyerahan-hadiah.jpeg>
-Package pdftex.def Info: gambar/gambar-penyerahan-hadiah.jpeg  used on input line 91.
+Package pdftex.def Info: gambar/gambar-penyerahan-hadiah.jpeg  used on input line 59.
 (pdftex.def)             Requested size: 318.66948pt x 246.50262pt.
- [95 <./gambar/bimbingan/b-arum01.jpeg> <./gambar/bimbingan/b-arum02.jpeg> <./gambar/bimbingan/pak-sep-1.jpeg> <./gambar/bimbingan/pak-sep-2.jpeg>]
-<gambar/gambar-full-team-dospem.jpeg, id=1541, 578.91281pt x 371.13657pt>
+<gambar/gambar-full-team-dospem.jpeg, id=1516, 578.91281pt x 371.13657pt>
 File: gambar/gambar-full-team-dospem.jpeg Graphic file (type jpg)
 <use gambar/gambar-full-team-dospem.jpeg>
-Package pdftex.def Info: gambar/gambar-full-team-dospem.jpeg  used on input line 101.
+Package pdftex.def Info: gambar/gambar-full-team-dospem.jpeg  used on input line 69.
 (pdftex.def)             Requested size: 318.66948pt x 204.29562pt.
-<gambar/sertifikat.jpg, id=1542, 845.559pt x 597.9138pt>
+ [97 <./gambar/bimbingan/b-arum01.jpeg> <./gambar/bimbingan/b-arum02.jpeg> <./gambar/bimbingan/pak-sep-1.jpeg> <./gambar/bimbingan/pak-sep-2.jpeg> <./gambar/gambar-penyerahan-hadiah.jpeg>]
+<gambar/sertifikat.jpg, id=1525, 845.559pt x 597.9138pt>
 File: gambar/sertifikat.jpg Graphic file (type jpg)
 <use gambar/sertifikat.jpg>
-Package pdftex.def Info: gambar/sertifikat.jpg  used on input line 112.
+Package pdftex.def Info: gambar/sertifikat.jpg  used on input line 80.
 (pdftex.def)             Requested size: 318.66948pt x 225.3393pt.
-) [96 <./gambar/gambar-penyerahan-hadiah.jpeg> <./gambar/gambar-full-team-dospem.jpeg>] [97 <./gambar/sertifikat.jpg>] (laporan.aux (untouch/xx-sampul-laporan.aux) (untouch/xx-sampuldalam-laporan.aux) (a4-persembahan.aux) (a9-motto.aux) (untouch/xx-pernyataan-poliwangi.aux) (untouch/xx-pengesahan.aux) (a2-abstrak.aux) (a3-abstract.aux) (a5-katapengantar.aux) (untouch/xx-daftar.aux) (b1-bab1.aux) (b2-bab2.aux) (b3-bab3.aux) (b4-bab4.aux) (b5-bab5.aux))
+) [98 <./gambar/gambar-full-team-dospem.jpeg> <./gambar/sertifikat.jpg>] (laporan.aux (untouch/xx-sampul-laporan.aux) (untouch/xx-sampuldalam-laporan.aux) (a4-persembahan.aux) (a9-motto.aux) (untouch/xx-pernyataan-poliwangi.aux) (untouch/xx-pengesahan.aux) (a2-abstrak.aux) (a3-abstract.aux) (a5-katapengantar.aux) (untouch/xx-daftar.aux) (b1-bab1.aux) (b2-bab2.aux) (b3-bab3.aux) (b4-bab4.aux) (b5-bab5.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `laporan.out' has not changed.
-(rerunfilecheck)             Checksum: 4E7844EABA1F30EC25894C353A64F022;12594.
+(rerunfilecheck)             Checksum: 2724E695339E8722E29E2C2D91EA7751;11329.
  ) 
 Here is how much of TeX's memory you used:
- 43338 strings out of 467871
- 980203 string characters out of 5428444
- 1765824 words of memory out of 5000000
- 70769 multiletter control sequences out of 15000+600000
- 652602 words of font info for 86 fonts, out of 8000000 for 9000
+ 45611 strings out of 467871
+ 1017390 string characters out of 5428444
+ 1842605 words of memory out of 5000000
+ 72693 multiletter control sequences out of 15000+600000
+ 668559 words of font info for 293 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 107i,15n,121p,1302b,1982s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 107i,15n,121p,1308b,2133s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on laporan.pdf (123 pages, 7879243 bytes).
+Output written on laporan.pdf (124 pages, 7887119 bytes).
 PDF statistics:
- 1725 PDF objects out of 1728 (max. 8388607)
- 667 named destinations out of 1000 (max. 500000)
- 756 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1701 PDF objects out of 1728 (max. 8388607)
+ 664 named destinations out of 1000 (max. 500000)
+ 52940 words of extra memory for PDF output out of 61914 (max. 10000000)
 
