@@ -23,57 +23,57 @@
 \contentsline {subsection}{\numberline {2.1.4}Dashboard Analitik dan Visualisasi Data}{7}{subsection.2.1.4}%
 \contentsline {subsection}{\numberline {2.1.5}\textit {Blackbox Testing}}{9}{subsection.2.1.5}%
 \contentsline {subsection}{\numberline {2.1.6}Arsitektur \textit {Client Data Layer}}{9}{subsection.2.1.6}%
-\contentsline {subsection}{\numberline {2.1.7}\textit {REST API}}{13}{subsection.2.1.7}%
-\contentsline {subsection}{\numberline {2.1.8}React}{14}{subsection.2.1.8}%
-\contentsline {subsection}{\numberline {2.1.9}TanStack Query (React Query)}{15}{subsection.2.1.9}%
-\contentsline {subsection}{\numberline {2.1.10}Metode Fountain}{16}{subsection.2.1.10}%
-\contentsline {subsubsection}{Tahapan Metode Fountain}{18}{subsubsection*.13}%
-\contentsline {subsubsection}{Alasan Pemilihan Metode Fountain}{19}{subsubsection*.14}%
-\contentsline {section}{\numberline {2.2}Penelitian Terkait}{19}{section.2.2}%
-\contentsline {chapter}{\numberline {3}METODOLOGI PENELITIAN}{23}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Waktu dan Jadwal penelitian}{23}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Waktu Pelaksanaan Penelitian}{23}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Jadwal Kegiatan Penelitian}{23}{subsection.3.1.2}%
-\contentsline {section}{\numberline {3.2}Metode Fountain}{25}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Analysis}{26}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Requirement Specification}{27}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}\textit {Design}}{28}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Coding (Implementation)}{40}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}Testing}{41}{subsection.3.2.5}%
-\contentsline {chapter}{\numberline {4}HASIL DAN PEMBAHASAN}{55}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Hasil Jawa Timur Datathon 2025}{55}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Capaian Jawa Timur Datathon 2025 Skema UMKM}{55}{subsection.4.1.1}%
-\contentsline {section}{\numberline {4.2}Hasil}{58}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}\textit {Analysis}}{58}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}\textit {Requirement Specification}}{58}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}\textit {Design}}{58}{subsection.4.2.3}%
-\contentsline {subsubsection}{Arsitektur \textit {Frontend}}{59}{subsubsection*.29}%
-\contentsline {subsubsection}{\textit {Client Data Layer}}{59}{subsubsection*.30}%
-\contentsline {subsubsection}{Desain Antarmuka}{60}{subsubsection*.31}%
-\contentsline {subsection}{\numberline {4.2.4}\textit {Coding/Implementation}}{61}{subsection.4.2.4}%
-\contentsline {subsubsection}{Landing Page}{61}{subsubsection*.32}%
-\contentsline {subsubsection}{Authentication}{62}{subsubsection*.34}%
-\contentsline {subsubsection}{Dashboard}{63}{subsubsection*.37}%
-\contentsline {subsubsection}{Scraper}{64}{subsubsection*.39}%
-\contentsline {subsubsection}{Sentiment}{65}{subsubsection*.41}%
-\contentsline {subsubsection}{Rekomendasi Konten}{66}{subsubsection*.43}%
-\contentsline {subsubsection}{Chatbot}{67}{subsubsection*.45}%
-\contentsline {subsection}{\numberline {4.2.5}\textit {Testing}}{68}{subsection.4.2.5}%
-\contentsline {section}{\numberline {4.3}Pembahasan}{79}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Peran Arsitektur \textit {Client Data Layer} dalam Pengelolaan Data \textit {Frontend}}{79}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Analisis Implementasi TanStack Query terhadap Server State}{80}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Implikasi Metode Fountain terhadap Iterasi Pengembangan Dashboard}{87}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}Analisis Hasil dan Temuan Pengujian Sistem}{88}{subsection.4.3.4}%
-\contentsline {subsection}{\numberline {4.3.5}Perbandingan dengan Penelitian Terdahulu dan Landasan Teori}{88}{subsection.4.3.5}%
-\contentsline {subsection}{\numberline {4.3.6}Dampak terhadap Skalabilitas dan Maintainability Sistem}{89}{subsection.4.3.6}%
-\contentsline {subsection}{\numberline {4.3.7}Keterbatasan Penerapan TanStack Query dalam Penelitian}{90}{subsection.4.3.7}%
-\contentsline {chapter}{\numberline {5}KESIMPULAN DAN SARAN}{91}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Kesimpulan}{91}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Saran}{91}{section.5.2}%
-\contentsline {chapter}{DAFTAR PUSTAKA}{93}{section*.56}%
-\contentsline {chapter}{LAMPIRAN}{95}{appendix*.58}%
-\contentsline {section}{Lampiran 1. \textit {Source Code}}{95}{lampiran.1}%
-\contentsline {section}{Lampiran 2. Dokumentasi Bimbingan}{99}{lampiran.2}%
-\contentsline {section}{Lampiran 3. Dokumentasi Penyerahan Hadiah}{99}{lampiran.3}%
-\contentsline {section}{Lampiran 4. Dokumentasi dengan Dosen Pembimbing}{100}{lampiran.4}%
-\contentsline {section}{Lampiran 5. Sertifikat}{100}{lampiran.5}%
+\contentsline {subsection}{\numberline {2.1.7}\textit {REST API}}{14}{subsection.2.1.7}%
+\contentsline {subsection}{\numberline {2.1.8}React}{16}{subsection.2.1.8}%
+\contentsline {subsection}{\numberline {2.1.9}TanStack Query (React Query)}{16}{subsection.2.1.9}%
+\contentsline {subsection}{\numberline {2.1.10}Metode Fountain}{18}{subsection.2.1.10}%
+\contentsline {subsubsection}{Tahapan Metode Fountain}{20}{subsubsection*.13}%
+\contentsline {subsubsection}{Alasan Pemilihan Metode Fountain}{21}{subsubsection*.14}%
+\contentsline {section}{\numberline {2.2}Penelitian Terkait}{21}{section.2.2}%
+\contentsline {chapter}{\numberline {3}METODOLOGI PENELITIAN}{25}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Waktu dan Jadwal penelitian}{25}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Waktu Pelaksanaan Penelitian}{25}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Jadwal Kegiatan Penelitian}{25}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Metode Fountain}{27}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Analysis}{28}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Requirement Specification}{29}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}\textit {Design}}{30}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Coding (Implementation)}{42}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Testing}{43}{subsection.3.2.5}%
+\contentsline {chapter}{\numberline {4}HASIL DAN PEMBAHASAN}{57}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Hasil Jawa Timur Datathon 2025}{57}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Capaian Jawa Timur Datathon 2025 Skema UMKM}{57}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}Hasil}{60}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}\textit {Analysis}}{60}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}\textit {Requirement Specification}}{60}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}\textit {Design}}{60}{subsection.4.2.3}%
+\contentsline {subsubsection}{Arsitektur \textit {Frontend}}{61}{subsubsection*.29}%
+\contentsline {subsubsection}{\textit {Client Data Layer}}{61}{subsubsection*.30}%
+\contentsline {subsubsection}{Desain Antarmuka}{62}{subsubsection*.31}%
+\contentsline {subsection}{\numberline {4.2.4}\textit {Coding/Implementation}}{63}{subsection.4.2.4}%
+\contentsline {subsubsection}{Landing Page}{63}{subsubsection*.32}%
+\contentsline {subsubsection}{Authentication}{64}{subsubsection*.34}%
+\contentsline {subsubsection}{Dashboard}{65}{subsubsection*.37}%
+\contentsline {subsubsection}{Scraper}{66}{subsubsection*.39}%
+\contentsline {subsubsection}{Sentiment}{67}{subsubsection*.41}%
+\contentsline {subsubsection}{Rekomendasi Konten}{68}{subsubsection*.43}%
+\contentsline {subsubsection}{Chatbot}{69}{subsubsection*.45}%
+\contentsline {subsection}{\numberline {4.2.5}\textit {Testing}}{70}{subsection.4.2.5}%
+\contentsline {section}{\numberline {4.3}Pembahasan}{81}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Peran Arsitektur \textit {Client Data Layer} dalam Pengelolaan Data \textit {Frontend}}{81}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Analisis Implementasi TanStack Query terhadap Server State}{82}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Implikasi Metode Fountain terhadap Iterasi Pengembangan Dashboard}{89}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Analisis Hasil dan Temuan Pengujian Sistem}{90}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Perbandingan dengan Penelitian Terdahulu dan Landasan Teori}{90}{subsection.4.3.5}%
+\contentsline {subsection}{\numberline {4.3.6}Dampak terhadap Skalabilitas dan Maintainability Sistem}{91}{subsection.4.3.6}%
+\contentsline {subsection}{\numberline {4.3.7}Keterbatasan Penerapan TanStack Query dalam Penelitian}{92}{subsection.4.3.7}%
+\contentsline {chapter}{\numberline {5}KESIMPULAN DAN SARAN}{93}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Kesimpulan}{93}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Saran}{93}{section.5.2}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{95}{section*.56}%
+\contentsline {chapter}{LAMPIRAN}{97}{appendix*.58}%
+\contentsline {section}{Lampiran 1. \textit {Source Code}}{97}{lampiran.1}%
+\contentsline {section}{Lampiran 2. Dokumentasi Bimbingan}{101}{lampiran.2}%
+\contentsline {section}{Lampiran 3. Dokumentasi Penyerahan Hadiah}{101}{lampiran.3}%
+\contentsline {section}{Lampiran 4. Dokumentasi dengan Dosen Pembimbing}{102}{lampiran.4}%
+\contentsline {section}{Lampiran 5. Sertifikat}{102}{lampiran.5}%
