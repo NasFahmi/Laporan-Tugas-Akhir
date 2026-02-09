@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  9 FEB 2026 20:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  9 FEB 2026 21:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1293,7 +1293,7 @@ Package pdftex.def Info: gambar/client-data-layer-paradigm.png  used on input li
 <gambar/fountain-sdlc.jpg, id=738, 1024.82875pt x 2569.6pt>
 File: gambar/fountain-sdlc.jpg Graphic file (type jpg)
 <use gambar/fountain-sdlc.jpg>
-Package pdftex.def Info: gambar/fountain-sdlc.jpg  used on input line 184.
+Package pdftex.def Info: gambar/fountain-sdlc.jpg  used on input line 194.
 (pdftex.def)             Requested size: 136.57462pt x 342.41122pt.
  [18] [19 <./gambar/fountain-sdlc.jpg>] [20] [21] [22]) [23] [24
 
@@ -1442,27 +1442,27 @@ Overfull \hbox (0.6981pt too wide) in alignment at lines 397--400
 
 
 Overfull \hbox (1.92769pt too wide) in paragraph at lines 402--402
- []|\OT1/ptm/m/n/12 (-20) TC-LG-01| 
+[]|\OT1/ptm/m/n/12 (-20) TC-LG-01|  
  []
 
 
 Overfull \hbox (1.92769pt too wide) in paragraph at lines 416--416
- []|\OT1/ptm/m/n/12 (-20) TC-LG-02| 
+[]|\OT1/ptm/m/n/12 (-20) TC-LG-02|  
  []
 
 
 Overfull \hbox (1.92769pt too wide) in paragraph at lines 431--431
- []|\OT1/ptm/m/n/12 (-20) TC-LG-03| 
+[]|\OT1/ptm/m/n/12 (-20) TC-LG-03|  
  []
 
 
 Overfull \hbox (1.92769pt too wide) in paragraph at lines 446--446
- []|\OT1/ptm/m/n/12 (-20) TC-LG-04| 
+[]|\OT1/ptm/m/n/12 (-20) TC-LG-04|  
  []
 
 
 Overfull \hbox (1.92769pt too wide) in paragraph at lines 460--460
- []|\OT1/ptm/m/n/12 (-20) TC-LG-05| 
+[]|\OT1/ptm/m/n/12 (-20) TC-LG-05|  
  []
 
 
@@ -1493,22 +1493,22 @@ Overfull \hbox (0.6981pt too wide) in alignment at lines 510--513
 
 
 Overfull \hbox (2.58617pt too wide) in paragraph at lines 515--515
- []|\OT1/ptm/m/n/12 (-20) TC-RG-01| 
+[]|\OT1/ptm/m/n/12 (-20) TC-RG-01|  
  []
 
 
 Overfull \hbox (2.58617pt too wide) in paragraph at lines 529--529
- []|\OT1/ptm/m/n/12 (-20) TC-RG-02| 
+[]|\OT1/ptm/m/n/12 (-20) TC-RG-02|  
  []
 
 
 Overfull \hbox (2.58617pt too wide) in paragraph at lines 543--543
- []|\OT1/ptm/m/n/12 (-20) TC-RG-03| 
+[]|\OT1/ptm/m/n/12 (-20) TC-RG-03|  
  []
 
 
 Overfull \hbox (2.58617pt too wide) in paragraph at lines 557--557
- []|\OT1/ptm/m/n/12 (-20) TC-RG-04| 
+[]|\OT1/ptm/m/n/12 (-20) TC-RG-04|  
  []
 
 
@@ -1538,27 +1538,27 @@ Overfull \hbox (0.6981pt too wide) in alignment at lines 607--610
 
 
 Overfull \hbox (2.58617pt too wide) in paragraph at lines 612--612
- []|\OT1/ptm/m/n/12 (-20) TC-DB-01| 
+[]|\OT1/ptm/m/n/12 (-20) TC-DB-01|  
  []
 
 
 Overfull \hbox (2.58617pt too wide) in paragraph at lines 625--625
- []|\OT1/ptm/m/n/12 (-20) TC-DB-02| 
+[]|\OT1/ptm/m/n/12 (-20) TC-DB-02|  
  []
 
 
 Overfull \hbox (2.58617pt too wide) in paragraph at lines 639--639
- []|\OT1/ptm/m/n/12 (-20) TC-DB-03| 
+[]|\OT1/ptm/m/n/12 (-20) TC-DB-03|  
  []
 
 
 Overfull \hbox (2.58617pt too wide) in paragraph at lines 653--653
- []|\OT1/ptm/m/n/12 (-20) TC-DB-04| 
+[]|\OT1/ptm/m/n/12 (-20) TC-DB-04|  
  []
 
 
 Overfull \hbox (2.58617pt too wide) in paragraph at lines 666--666
- []|\OT1/ptm/m/n/12 (-20) TC-DB-05| 
+[]|\OT1/ptm/m/n/12 (-20) TC-DB-05|  
  []
 
 
@@ -1614,27 +1614,27 @@ Overfull \hbox (0.6981pt too wide) in alignment at lines 812--815
 
 
 Overfull \hbox (1.93932pt too wide) in paragraph at lines 817--817
- []|\OT1/ptm/m/n/12 (-20) TC-RC-01| 
+[]|\OT1/ptm/m/n/12 (-20) TC-RC-01|  
  []
 
 
 Overfull \hbox (1.93932pt too wide) in paragraph at lines 819--819
- []|\OT1/ptm/m/n/12 (-20) TC-RC-02| 
+[]|\OT1/ptm/m/n/12 (-20) TC-RC-02|  
  []
 
 
 Overfull \hbox (1.93932pt too wide) in paragraph at lines 821--821
- []|\OT1/ptm/m/n/12 (-20) TC-RC-03| 
+[]|\OT1/ptm/m/n/12 (-20) TC-RC-03|  
  []
 
 
 Overfull \hbox (1.93932pt too wide) in paragraph at lines 823--823
- []|\OT1/ptm/m/n/12 (-20) TC-RC-04| 
+[]|\OT1/ptm/m/n/12 (-20) TC-RC-04|  
  []
 
 
 Overfull \hbox (1.93932pt too wide) in paragraph at lines 825--825
- []|\OT1/ptm/m/n/12 (-20) TC-RC-05| 
+[]|\OT1/ptm/m/n/12 (-20) TC-RC-05|  
  []
 
 
@@ -1664,22 +1664,22 @@ Overfull \hbox (0.6981pt too wide) in alignment at lines 864--867
 
 
 Overfull \hbox (0.63397pt too wide) in paragraph at lines 869--869
- []|\OT1/ptm/m/n/12 (-20) TC-SC-01| 
+[]|\OT1/ptm/m/n/12 (-20) TC-SC-01|  
  []
 
 
 Overfull \hbox (0.63397pt too wide) in paragraph at lines 882--882
- []|\OT1/ptm/m/n/12 (-20) TC-SC-02| 
+[]|\OT1/ptm/m/n/12 (-20) TC-SC-02|  
  []
 
 
 Overfull \hbox (0.63397pt too wide) in paragraph at lines 895--895
- []|\OT1/ptm/m/n/12 (-20) TC-SC-03| 
+[]|\OT1/ptm/m/n/12 (-20) TC-SC-03|  
  []
 
 
 Overfull \hbox (0.63397pt too wide) in paragraph at lines 908--908
- []|\OT1/ptm/m/n/12 (-20) TC-SC-04| 
+[]|\OT1/ptm/m/n/12 (-20) TC-SC-04|  
  []
 
 
@@ -1687,98 +1687,99 @@ Overfull \hbox (0.6981pt too wide) in alignment at lines 867--922
  [] [] [] [] [] 
  []
 
-b3-bab3.tex:922: ignored error: Infinite glue shrinkage found in box being split [51]
-Overfull \hbox (0.6981pt too wide) in alignment at lines 936--947
+b3-bab3.tex:922: ignored error: Infinite glue shrinkage found in box being split [51] [52]
+Overfull \hbox (0.6981pt too wide) in alignment at lines 937--948
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (0.6981pt too wide) in alignment at lines 947--956
+Overfull \hbox (0.6981pt too wide) in alignment at lines 948--957
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (0.6981pt too wide) in alignment at lines 956--958
+Overfull \hbox (0.6981pt too wide) in alignment at lines 957--959
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (0.6981pt too wide) in alignment at lines 958--961
+Overfull \hbox (0.6981pt too wide) in alignment at lines 959--962
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (1.93932pt too wide) in paragraph at lines 963--963
- []|\OT1/ptm/m/n/12 (-20) TC-CB-01| 
+Overfull \hbox (1.93932pt too wide) in paragraph at lines 964--964
+[]|\OT1/ptm/m/n/12 (-20) TC-CB-01|  
  []
 
 
-Overfull \hbox (1.93932pt too wide) in paragraph at lines 977--977
- []|\OT1/ptm/m/n/12 (-20) TC-CB-02| 
+Overfull \hbox (1.93932pt too wide) in paragraph at lines 978--978
+[]|\OT1/ptm/m/n/12 (-20) TC-CB-02|  
  []
 
 
-Overfull \hbox (1.93932pt too wide) in paragraph at lines 991--991
- []|\OT1/ptm/m/n/12 (-20) TC-CB-03| 
+Overfull \hbox (1.93932pt too wide) in paragraph at lines 992--992
+[]|\OT1/ptm/m/n/12 (-20) TC-CB-03|  
  []
 
 
-Overfull \hbox (1.93932pt too wide) in paragraph at lines 1004--1004
- []|\OT1/ptm/m/n/12 (-20) TC-CB-04| 
+Overfull \hbox (1.93932pt too wide) in paragraph at lines 1005--1005
+[]|\OT1/ptm/m/n/12 (-20) TC-CB-04|  
  []
 
 
-Overfull \hbox (1.93932pt too wide) in paragraph at lines 1017--1017
- []|\OT1/ptm/m/n/12 (-20) TC-CB-05| 
+Overfull \hbox (1.93932pt too wide) in paragraph at lines 1018--1018
+[]|\OT1/ptm/m/n/12 (-20) TC-CB-05|  
  []
 
 
-Overfull \hbox (0.6981pt too wide) in alignment at lines 961--1030
+Overfull \hbox (0.6981pt too wide) in alignment at lines 962--1031
  [] [] [] [] [] 
  []
 
-[52]
-b3-bab3.tex:1030: ignored error: Infinite glue shrinkage found in box being split [53]
-Overfull \hbox (0.6981pt too wide) in alignment at lines 1044--1055
- [] [] [] [] [] 
- []
+b3-bab3.tex:1031: ignored error: Infinite glue shrinkage found in box being split [53
 
-
-Overfull \hbox (0.6981pt too wide) in alignment at lines 1055--1064
+]
+Overfull \hbox (0.6981pt too wide) in alignment at lines 1045--1056
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (0.6981pt too wide) in alignment at lines 1064--1066
+Overfull \hbox (0.6981pt too wide) in alignment at lines 1056--1065
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (0.6981pt too wide) in alignment at lines 1066--1069
+Overfull \hbox (0.6981pt too wide) in alignment at lines 1065--1067
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (1.92769pt too wide) in paragraph at lines 1071--1071
- []|\OT1/ptm/m/n/12 (-20) TC-LO-01| 
- []
-
-
-Overfull \hbox (1.92769pt too wide) in paragraph at lines 1084--1084
- []|\OT1/ptm/m/n/12 (-20) TC-LO-02| 
- []
-
-
-Overfull \hbox (1.92769pt too wide) in paragraph at lines 1097--1097
- []|\OT1/ptm/m/n/12 (-20) TC-LO-03| 
- []
-
-
-Overfull \hbox (0.6981pt too wide) in alignment at lines 1069--1110
+Overfull \hbox (0.6981pt too wide) in alignment at lines 1067--1070
  [] [] [] [] [] 
  []
 
-b3-bab3.tex:1110: ignored error: Infinite glue shrinkage found in box being split [54]) [55] [56
+
+Overfull \hbox (1.92769pt too wide) in paragraph at lines 1072--1072
+[]|\OT1/ptm/m/n/12 (-20) TC-LO-01|  
+ []
+
+
+Overfull \hbox (1.92769pt too wide) in paragraph at lines 1085--1085
+[]|\OT1/ptm/m/n/12 (-20) TC-LO-02|  
+ []
+
+
+Overfull \hbox (1.92769pt too wide) in paragraph at lines 1098--1098
+[]|\OT1/ptm/m/n/12 (-20) TC-LO-03|  
+ []
+
+
+Overfull \hbox (0.6981pt too wide) in alignment at lines 1070--1111
+ [] [] [] [] [] 
+ []
+
+b3-bab3.tex:1111: ignored error: Infinite glue shrinkage found in box being split [54]) [55] [56
 
 
 
@@ -1846,181 +1847,178 @@ Package pdftex.def Info: gambar/ui-chatbot-page.png  used on input line 305.
 (pdftex.def)             Requested size: 182.09486pt x 285.2646pt.
  [70 <./gambar/ui-chatbot-page.png>]
 Overfull \hbox (1.92769pt too wide) in paragraph at lines 406--406
- []|\OT1/ptm/m/n/12 (-20) TC-LG-01| 
+[]|\OT1/ptm/m/n/12 (-20) TC-LG-01|  
  []
 
 
 Overfull \hbox (1.92769pt too wide) in paragraph at lines 413--413
- []|\OT1/ptm/m/n/12 (-20) TC-LG-02| 
+[]|\OT1/ptm/m/n/12 (-20) TC-LG-02|  
  []
 
 
 Overfull \hbox (1.92769pt too wide) in paragraph at lines 420--420
- []|\OT1/ptm/m/n/12 (-20) TC-LG-03| 
+[]|\OT1/ptm/m/n/12 (-20) TC-LG-03|  
  []
 
 
 Overfull \hbox (1.92769pt too wide) in paragraph at lines 427--427
- []|\OT1/ptm/m/n/12 (-20) TC-LG-04| 
+[]|\OT1/ptm/m/n/12 (-20) TC-LG-04|  
  []
 
 
 Overfull \hbox (1.92769pt too wide) in paragraph at lines 434--434
- []|\OT1/ptm/m/n/12 (-20) TC-LG-05| 
+[]|\OT1/ptm/m/n/12 (-20) TC-LG-05|  
  []
 
 b4-bab4.tex:441: ignored error: Infinite glue shrinkage found in box being split [71]
 Overfull \hbox (2.58617pt too wide) in paragraph at lines 483--483
- []|\OT1/ptm/m/n/12 (-20) TC-RG-01| 
+[]|\OT1/ptm/m/n/12 (-20) TC-RG-01|  
  []
 
 
 Overfull \hbox (2.58617pt too wide) in paragraph at lines 490--490
- []|\OT1/ptm/m/n/12 (-20) TC-RG-02| 
+[]|\OT1/ptm/m/n/12 (-20) TC-RG-02|  
  []
 
 
 Overfull \hbox (2.58617pt too wide) in paragraph at lines 497--497
- []|\OT1/ptm/m/n/12 (-20) TC-RG-03| 
+[]|\OT1/ptm/m/n/12 (-20) TC-RG-03|  
  []
 
 
 Overfull \hbox (2.58617pt too wide) in paragraph at lines 504--504
- []|\OT1/ptm/m/n/12 (-20) TC-RG-04| 
+[]|\OT1/ptm/m/n/12 (-20) TC-RG-04|  
  []
 
 b4-bab4.tex:511: ignored error: Infinite glue shrinkage found in box being split [72]
 Overfull \hbox (2.58617pt too wide) in paragraph at lines 551--551
- []|\OT1/ptm/m/n/12 (-20) TC-DB-01| 
+[]|\OT1/ptm/m/n/12 (-20) TC-DB-01|  
  []
 
 
 Overfull \hbox (2.58617pt too wide) in paragraph at lines 558--558
- []|\OT1/ptm/m/n/12 (-20) TC-DB-02| 
+[]|\OT1/ptm/m/n/12 (-20) TC-DB-02|  
  []
 
 
 Overfull \hbox (2.58617pt too wide) in paragraph at lines 565--565
- []|\OT1/ptm/m/n/12 (-20) TC-DB-03| 
+[]|\OT1/ptm/m/n/12 (-20) TC-DB-03|  
  []
 
 
 Overfull \hbox (2.58617pt too wide) in paragraph at lines 572--572
- []|\OT1/ptm/m/n/12 (-20) TC-DB-04| 
+[]|\OT1/ptm/m/n/12 (-20) TC-DB-04|  
  []
 
 
 Overfull \hbox (2.58617pt too wide) in paragraph at lines 579--579
- []|\OT1/ptm/m/n/12 (-20) TC-DB-05| 
+[]|\OT1/ptm/m/n/12 (-20) TC-DB-05|  
  []
 
-b4-bab4.tex:586: ignored error: Infinite glue shrinkage found in box being split [73] [74] [75]
+b4-bab4.tex:586: ignored error: Infinite glue shrinkage found in box being split [73] [74]
+b4-bab4.tex:663: ignored error: Infinite glue shrinkage found in box being split [75]
 Overfull \hbox (1.93932pt too wide) in paragraph at lines 705--705
- []|\OT1/ptm/m/n/12 (-20) TC-RC-01| 
+[]|\OT1/ptm/m/n/12 (-20) TC-RC-01|  
  []
 
 
 Overfull \hbox (1.93932pt too wide) in paragraph at lines 712--712
- []|\OT1/ptm/m/n/12 (-20) TC-RC-02| 
+[]|\OT1/ptm/m/n/12 (-20) TC-RC-02|  
  []
 
 
 Overfull \hbox (1.93932pt too wide) in paragraph at lines 719--719
- []|\OT1/ptm/m/n/12 (-20) TC-RC-03| 
+[]|\OT1/ptm/m/n/12 (-20) TC-RC-03|  
  []
 
 
 Overfull \hbox (1.93932pt too wide) in paragraph at lines 726--726
- []|\OT1/ptm/m/n/12 (-20) TC-RC-04| 
+[]|\OT1/ptm/m/n/12 (-20) TC-RC-04|  
  []
 
 
 Overfull \hbox (1.93932pt too wide) in paragraph at lines 733--733
- []|\OT1/ptm/m/n/12 (-20) TC-RC-05| 
+[]|\OT1/ptm/m/n/12 (-20) TC-RC-05|  
  []
 
 b4-bab4.tex:740: ignored error: Infinite glue shrinkage found in box being split [76]
 Overfull \hbox (0.63397pt too wide) in paragraph at lines 782--782
- []|\OT1/ptm/m/n/12 (-20) TC-SC-01| 
+[]|\OT1/ptm/m/n/12 (-20) TC-SC-01|  
  []
 
 
 Overfull \hbox (0.63397pt too wide) in paragraph at lines 789--789
- []|\OT1/ptm/m/n/12 (-20) TC-SC-02| 
+[]|\OT1/ptm/m/n/12 (-20) TC-SC-02|  
  []
 
 
 Overfull \hbox (0.63397pt too wide) in paragraph at lines 796--796
- []|\OT1/ptm/m/n/12 (-20) TC-SC-03| 
+[]|\OT1/ptm/m/n/12 (-20) TC-SC-03|  
  []
 
 
 Overfull \hbox (0.63397pt too wide) in paragraph at lines 803--803
- []|\OT1/ptm/m/n/12 (-20) TC-SC-04| 
+[]|\OT1/ptm/m/n/12 (-20) TC-SC-04|  
  []
 
-b4-bab4.tex:810: ignored error: Infinite glue shrinkage found in box being split [77] [78]
+b4-bab4.tex:810: ignored error: Infinite glue shrinkage found in box being split [77]
 Overfull \hbox (1.93932pt too wide) in paragraph at lines 851--851
- []|\OT1/ptm/m/n/12 (-20) TC-CB-01| 
+[]|\OT1/ptm/m/n/12 (-20) TC-CB-01|  
  []
 
 
 Overfull \hbox (1.93932pt too wide) in paragraph at lines 858--858
- []|\OT1/ptm/m/n/12 (-20) TC-CB-02| 
+[]|\OT1/ptm/m/n/12 (-20) TC-CB-02|  
  []
 
 
 Overfull \hbox (1.93932pt too wide) in paragraph at lines 865--865
- []|\OT1/ptm/m/n/12 (-20) TC-CB-03| 
+[]|\OT1/ptm/m/n/12 (-20) TC-CB-03|  
  []
 
 
 Overfull \hbox (1.93932pt too wide) in paragraph at lines 872--872
- []|\OT1/ptm/m/n/12 (-20) TC-CB-04| 
+[]|\OT1/ptm/m/n/12 (-20) TC-CB-04|  
  []
 
 
 Overfull \hbox (1.93932pt too wide) in paragraph at lines 879--879
- []|\OT1/ptm/m/n/12 (-20) TC-CB-05| 
+[]|\OT1/ptm/m/n/12 (-20) TC-CB-05|  
  []
 
-[79
-
-]
-Overfull \hbox (1.92769pt too wide) in paragraph at lines 927--927
- []|\OT1/ptm/m/n/12 (-20) TC-LO-01| 
- []
-
-
-Overfull \hbox (1.92769pt too wide) in paragraph at lines 934--934
- []|\OT1/ptm/m/n/12 (-20) TC-LO-02| 
+b4-bab4.tex:886: ignored error: Infinite glue shrinkage found in box being split [78]
+Overfull \hbox (1.92769pt too wide) in paragraph at lines 926--926
+[]|\OT1/ptm/m/n/12 (-20) TC-LO-01|  
  []
 
 
-Overfull \hbox (1.92769pt too wide) in paragraph at lines 941--941
- []|\OT1/ptm/m/n/12 (-20) TC-LO-03| 
+Overfull \hbox (1.92769pt too wide) in paragraph at lines 933--933
+[]|\OT1/ptm/m/n/12 (-20) TC-LO-02|  
  []
 
-[80
 
-]
+Overfull \hbox (1.92769pt too wide) in paragraph at lines 940--940
+[]|\OT1/ptm/m/n/12 (-20) TC-LO-03|  
+ []
+
+b4-bab4.tex:947: ignored error: Infinite glue shrinkage found in box being split [79] [80]
 <gambar/folder-structure-features.png, id=1201, 218.31563pt x 118.4425pt>
 File: gambar/folder-structure-features.png Graphic file (type png)
 <use gambar/folder-structure-features.png>
-Package pdftex.def Info: gambar/folder-structure-features.png  used on input line 970.
+Package pdftex.def Info: gambar/folder-structure-features.png  used on input line 969.
 (pdftex.def)             Requested size: 182.09486pt x 98.79158pt.
- [81 <./gambar/folder-structure-features.png>]
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 985.
- (kode/query-client.ts) [82] (kode/query-keys-sebagian.ts) (kode/scraper.repository-sebagian.tsx) (kode/scraper-sebagian.ts) [83] (kode/useLoginMutation-sebagian.ts) (kode/useScraperQuery-sebagian.ts) [84] [85]
-<gambar/implementasi-arsitektur-tanstackquery.png, id=1340, 789.95125pt x 974.13937pt>
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 984.
+ (kode/query-client.ts) [81 <./gambar/folder-structure-features.png>] (kode/query-keys-sebagian.ts) [82] (kode/scraper.repository-sebagian.tsx) (kode/scraper-sebagian.ts) [83] (kode/useLoginMutation-sebagian.ts) (kode/useScraperQuery-sebagian.ts) [84]
+<gambar/implementasi-arsitektur-tanstackquery.png, id=1336, 789.95125pt x 974.13937pt>
 File: gambar/implementasi-arsitektur-tanstackquery.png Graphic file (type png)
 <use gambar/implementasi-arsitektur-tanstackquery.png>
-Package pdftex.def Info: gambar/implementasi-arsitektur-tanstackquery.png  used on input line 1053.
+Package pdftex.def Info: gambar/implementasi-arsitektur-tanstackquery.png  used on input line 1052.
 (pdftex.def)             Requested size: 318.66948pt x 392.96355pt.
+ [85]
 <gambar/skema-mutation-tanstack-query.png, id=1342, 580.66937pt x 933.98938pt>
 File: gambar/skema-mutation-tanstack-query.png Graphic file (type png)
 <use gambar/skema-mutation-tanstack-query.png>
-Package pdftex.def Info: gambar/skema-mutation-tanstack-query.png  used on input line 1064.
+Package pdftex.def Info: gambar/skema-mutation-tanstack-query.png  used on input line 1063.
 (pdftex.def)             Requested size: 318.66948pt x 512.56989pt.
  [86 <./gambar/implementasi-arsitektur-tanstackquery.png>] [87 <./gambar/skema-mutation-tanstack-query.png>] [88] [89] [90] [91]) [92]
 \openout2 = `b5-bab5.aux'.
@@ -2114,7 +2112,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  107i,15n,121p,1308b,2133s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on laporan.pdf (128 pages, 7915819 bytes).
+Output written on laporan.pdf (128 pages, 7915792 bytes).
 PDF statistics:
  1869 PDF objects out of 2073 (max. 8388607)
  779 named destinations out of 1000 (max. 500000)

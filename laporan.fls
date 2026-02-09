@@ -792,14 +792,14 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\pslatex\pcrr7tn.tfm
 INPUT kode\query-client.ts
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT .\kode\query-keys-sebagian.ts
+INPUT .\kode\query-keys-sebagian.ts
+INPUT kode\query-keys-sebagian.ts
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Program Files\MiKTeX\fonts\vf\public\pslatex\pcrr7tn.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\symbol\psyr.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\pslatex\pcrr8rn.tfm
-INPUT .\kode\query-keys-sebagian.ts
-INPUT .\kode\query-keys-sebagian.ts
-INPUT kode\query-keys-sebagian.ts
 INPUT .\kode\scraper.repository-sebagian.tsx
 INPUT .\kode\scraper.repository-sebagian.tsx
 INPUT kode\scraper.repository-sebagian.tsx

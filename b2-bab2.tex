@@ -114,18 +114,28 @@ Dalam konteks pengembangan aplikasi \textit{frontend} yang bersifat \textit{data
 Definisi tersebut menekankan bahwa keterstrukturan data \textit{frontend} ditentukan oleh arsitektur dan mekanisme pengelolaannya. Dengan demikian, struktur data \textit{frontend} berkaitan erat dengan bagaimana data diambil, disimpan sementara, disinkronkan, dan disajikan pada komponen antarmuka.
 
 Berdasarkan definisi tersebut, pengelolaan data \textit{frontend} dapat dikatakan terstruktur apabila memenuhi beberapa kriteria berikut:
-\begin{enumerate}
-  \item Pengelolaan Data Terpusat \textit{(Single Source of Truth)}
+\begin{packed_enum}
+  \item Pengelolaan Data Terpusat \textit{(Single Source of Truth)} 
+  
   Data yang bersumber dari server dikelola melalui satu lapisan pengelolaan data di sisi \textit{frontend}, sehingga komponen antarmuka tidak melakukan pengambilan data secara langsung ke API. Pendekatan ini menghindari duplikasi data dan memastikan seluruh komponen menggunakan sumber data yang sama.
+  
   \item Konsistensi Bentuk dan Representasi Data
+  
   Data yang digunakan oleh komponen antarmuka memiliki struktur dan representasi yang konsisten, baik dari segi skema, \textit{interface} maupun nilai yang ditampilkan. Dengan konsistensi ini, perbedaan tampilan informasi antar-komponen dapat dihindari meskipun data digunakan pada konteks visualisasi yang berbeda.
+  
   \item Siklus Hidup Data
+  
   Data \textit{frontend} memiliki status yang terdefinisi dengan jelas, seperti \textit{loading}, \textit{success}, dan \textit{error}. Kejelasan siklus hidup ini memungkinkan sistem untuk memberikan umpan balik yang tepat kepada pengguna serta memudahkan pengelolaan data yang bersifat asinkron.
+  
   \item Pemanfaatan Mekanisme \textit{Caching}
+  
   Data hasil pengambilan dari server disimpan sementara di sisi frontend dan dapat digunakan kembali oleh komponen lain tanpa harus melakukan permintaan ulang ke API. Mekanisme \textit{caching} berperan penting dalam mengurangi permintaan data yang berulang serta meningkatkan efisiensi pengelolaan data.
+  
   \item Sinkronisasi Data Antar-Komponen
+  
   Perubahan data yang terjadi akibat pembaruan atau refetch dapat tercermin secara otomatis pada seluruh komponen yang menggunakan data tersebut. Dengan adanya sinkronisasi, informasi yang ditampilkan pada dashboard tetap konsisten meskipun terjadi interaksi pengguna atau navigasi antar-halaman.
-\end{enumerate}
+
+\end{packed_enum}
 
 Pengelolaan data \textit{frontend} yang terstruktur menuntut adanya mekanisme pengelolaan \textit{server state} yang mampu mengatur proses pengambilan, penyimpanan sementara, dan pembaruan data secara konsisten. Dalam konteks ini, pemanfaatan mekanisme \textit{caching} memungkinkan data yang diperoleh dari server digunakan ulang oleh berbagai komponen tanpa menimbulkan permintaan API berulang, sekaligus tetap mendukung pembaruan data ketika diperlukan. Selain itu, pengelolaan data secara terpusat dan adanya mekanisme sinkronisasi memastikan konsistensi data antar-komponen, sehingga seluruh antarmuka menampilkan informasi yang selaras. Dengan demikian, keterstrukturan data \textit{frontend} dalam penelitian ini dipahami sebagai integrasi antara pengelolaan \textit{server state}, penerapan \textit{caching}, dan sinkronisasi data antar-komponen, yang menjadi fondasi penerapan arsitektur \textit{Client Data Layer} untuk menghasilkan pengelolaan data \textit{frontend} yang konsisten, dan efisien.
 

@@ -59,9 +59,9 @@
 \contentsline {subsubsection}{Rekomendasi Konten}{68}{subsubsection*.43}%
 \contentsline {subsubsection}{Chatbot}{69}{subsubsection*.45}%
 \contentsline {subsection}{\numberline {4.2.5}\textit {Testing}}{70}{subsection.4.2.5}%
-\contentsline {section}{\numberline {4.3}Pembahasan}{81}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Peran Arsitektur \textit {Client Data Layer} dalam Pengelolaan Data \textit {Frontend}}{81}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Analisis Implementasi TanStack Query terhadap Server State}{82}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.3}Pembahasan}{80}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Peran Arsitektur \textit {Client Data Layer} dalam Pengelolaan Data \textit {Frontend}}{80}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Analisis Implementasi TanStack Query terhadap Server State}{81}{subsection.4.3.2}%
 \contentsline {subsection}{\numberline {4.3.3}Implikasi Metode Fountain terhadap Iterasi Pengembangan Dashboard}{89}{subsection.4.3.3}%
 \contentsline {subsection}{\numberline {4.3.4}Analisis Hasil dan Temuan Pengujian Sistem}{90}{subsection.4.3.4}%
 \contentsline {subsection}{\numberline {4.3.5}Perbandingan dengan Penelitian Terdahulu dan Landasan Teori}{90}{subsection.4.3.5}%
