@@ -35,44 +35,44 @@ Reallocating 'name_of_file' (item size: 1) to 12 items.
 A level-1 auxiliary file: b5-bab5.aux
 Reallocating 'name_of_file' (item size: 1) to 11 items.
 Database file #1: a7-pustaka.bib
-You've used 22 entries,
+You've used 24 entries,
             1935 wiz_defined-function locations,
-            623 strings with 7953 characters,
-and the built_in function-call counts, 8123 in all, are:
-= -- 814
-> -- 317
-< -- 13
-+ -- 104
-- -- 104
-* -- 702
-:= -- 1458
-add.period$ -- 67
-call.type$ -- 22
-change.case$ -- 162
-chr.to.int$ -- 22
-cite$ -- 22
-duplicate$ -- 287
-empty$ -- 555
-format.name$ -- 134
-if$ -- 1547
+            633 strings with 8203 characters,
+and the built_in function-call counts, 8703 in all, are:
+= -- 873
+> -- 331
+< -- 16
++ -- 108
+- -- 108
+* -- 737
+:= -- 1564
+add.period$ -- 73
+call.type$ -- 24
+change.case$ -- 174
+chr.to.int$ -- 24
+cite$ -- 24
+duplicate$ -- 316
+empty$ -- 595
+format.name$ -- 140
+if$ -- 1663
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 17
-newline$ -- 114
-num.names$ -- 66
-pop$ -- 104
+missing$ -- 18
+newline$ -- 124
+num.names$ -- 72
+pop$ -- 113
 preamble$ -- 1
-purify$ -- 162
+purify$ -- 174
 quote$ -- 0
-skip$ -- 225
+skip$ -- 250
 stack$ -- 0
-substring$ -- 597
-swap$ -- 17
-text.length$ -- 0
+substring$ -- 625
+swap$ -- 23
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 132
+type$ -- 144
 warning$ -- 0
-while$ -- 72
+while$ -- 77
 width$ -- 0
-write$ -- 285
+write$ -- 310

@@ -23,9 +23,9 @@
 \contentsline {subsection}{\numberline {2.1.4}Dashboard Analitik dan Visualisasi Data}{7}{subsection.2.1.4}%
 \contentsline {subsection}{\numberline {2.1.5}\textit {Blackbox Testing}}{9}{subsection.2.1.5}%
 \contentsline {subsection}{\numberline {2.1.6}Arsitektur \textit {Client Data Layer}}{9}{subsection.2.1.6}%
-\contentsline {subsection}{\numberline {2.1.7}\textit {REST API}}{14}{subsection.2.1.7}%
+\contentsline {subsection}{\numberline {2.1.7}\textit {REST API}}{15}{subsection.2.1.7}%
 \contentsline {subsection}{\numberline {2.1.8}React}{16}{subsection.2.1.8}%
-\contentsline {subsection}{\numberline {2.1.9}TanStack Query (React Query)}{16}{subsection.2.1.9}%
+\contentsline {subsection}{\numberline {2.1.9}TanStack Query (React Query)}{17}{subsection.2.1.9}%
 \contentsline {subsection}{\numberline {2.1.10}Metode Fountain}{18}{subsection.2.1.10}%
 \contentsline {subsubsection}{Tahapan Metode Fountain}{20}{subsubsection*.13}%
 \contentsline {subsubsection}{Alasan Pemilihan Metode Fountain}{21}{subsubsection*.14}%

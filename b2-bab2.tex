@@ -105,19 +105,19 @@ Pada aplikasi \textit{frontend} modern yang bersifat data-driven, pengelolaan da
 
   Beberapa penelitian menunjukkan bahwa penerapan mekanisme \textit{caching} pada aplikasi \textit{frontend} dapat meningkatkan performa dan responsivitas sistem. \textit{Caching} memungkinkan data hasil pemanggilan API disimpan sementara di sisi klien sehingga dapat digunakan kembali tanpa melakukan permintaan ulang ke server. Pendekatan ini terbukti mampu mengurangi duplikasi permintaan API dan mempercepat waktu respons aplikasi. Pemanfaatan pustaka seperti TanStack Query dalam mengelola \textit{caching} dan prefetching data juga dinilai efektif dalam meningkatkan efisiensi pengelolaan data di sisi \textit{frontend} serta pengalaman pengguna secara keseluruhan \citep{Rahman2024}. Dalam konteks penelitian ini, peningkatan performa dipahami sebagai perubahan mekanisme pengelolaan data \textit{frontend} yang diamati melalui mekanisme \textit{caching} dan pengendalian permintaan data, tanpa dilakukan pengukuran performa numerik.
 
+  Melalui fitur-fitur seperti \textit{smart caching}, \textit{refetching}, dan dukungan terhadap penanganan data asinkron, pendekatan ini membantu menyederhanakan kompleksitas pengelolaan data yang bersumber dari API serta mendukung peningkatan efisiensi pengelolaan data di sisi frontend. Selain itu, dukungan terhadap TypeScript memungkinkan konsistensi struktur data tetap terjaga tanpa mencampurkan pengelolaan server state dengan \textit{client state}, sehingga sesuai dengan kebutuhan aplikasi \textit{frontend} modern yang bersifat data-driven \citep{Highlights2025}.
+
 \end{packed_enum}
 
-Perlu dibedakan secara konseptual antara \textit{client state} dan \textit{server state} dalam pengembangan aplikasi \textit{frontend} modern. \textit{Client state} mengacu pada state yang sepenuhnya berada di sisi klien dan berkaitan langsung dengan antarmuka pengguna, seperti status tampilan, input formulir, filter, atau kondisi navigasi. State ini bersifat sinkron, berumur pendek, dan hanya relevan dalam konteks sesi interaksi pengguna. Sebaliknya, \textit{server state} merepresentasikan data yang bersumber dari sistem eksternal seperti API atau layanan backend, bersifat asinkron, dapat berubah di luar kendali aplikasi klien, serta memerlukan penanganan khusus terkait proses pengambilan data, status pemuatan, penanganan kesalahan, dan sinkronisasi. Perbedaan karakteristik tersebut menjadikan pengelolaan \textit{server state} tidak efektif apabila disamakan dengan \textit{client state}, sehingga diperlukan pendekatan arsitektural tersendiri berupa \textit{Client Data Layer} untuk mengelola data server secara terpusat, konsisten, dan terstruktur.
+Perlu dibedakan secara konseptual antara \textit{client state} dan \textit{server state} dalam pengembangan aplikasi \textit{frontend} modern. \textit{Client state} mengacu pada state yang sepenuhnya berada di sisi klien dan berkaitan langsung dengan antarmuka pengguna, seperti status tampilan, input formulir, filter, atau kondisi navigasi. \textit{Server state} merepresentasikan data yang bersumber dari sistem eksternal seperti API atau layanan backend, bersifat asinkron, dapat berubah di luar kendali aplikasi klien, serta memerlukan penanganan khusus terkait proses pengambilan data, status pemuatan, penanganan kesalahan, dan sinkronisasi. 
 
-Dalam konteks pengembangan aplikasi \textit{frontend} yang bersifat \textit{data-driven}, istilah data \textit{frontend} terstruktur merujuk pada cara data yang bersumber dari server dikelola, didistribusikan, dan digunakan di sisi klien secara sistematis. Data yang bersumber dari server dan dikelola melalui mekanisme terpusat di sisi \textit{frontend}, memiliki bentuk dan siklus hidup yang konsisten, serta dapat digunakan ulang oleh berbagai komponen antarmuka tanpa menimbulkan inkonsistensi informasi maupun permintaan data yang tidak terkontrol.
-
-Definisi tersebut menekankan bahwa keterstrukturan data \textit{frontend} ditentukan oleh arsitektur dan mekanisme pengelolaannya. Dengan demikian, struktur data \textit{frontend} berkaitan erat dengan bagaimana data diambil, disimpan sementara, disinkronkan, dan disajikan pada komponen antarmuka.
+Dalam konteks pengembangan aplikasi frontend yang bersifat data-driven, istilah data frontend terstruktur pada penelitian ini merujuk pada cara data yang bersumber dari server dikelola, didistribusikan, dan digunakan di sisi klien. Data yang dikelola melalui mekanisme terpusat di sisi \textit{frontend} memiliki bentuk dan siklus hidup yang konsisten, serta dapat digunakan ulang oleh berbagai komponen antarmuka tanpa menimbulkan inkonsistensi informasi maupun permintaan data yang tidak terkontrol. Definisi ini selaras dengan prinsip \textit{frontend state management} yang dikemukakan oleh \citep{Evergreen2023}, di mana keterstrukturan data ditentukan oleh bagaimana data dikendalikan, dipertahankan, dan disinkronkan di dalam aplikasi.
 
 Berdasarkan definisi tersebut, pengelolaan data \textit{frontend} dapat dikatakan terstruktur apabila memenuhi beberapa kriteria berikut:
 \begin{packed_enum}
   \item Pengelolaan Data Terpusat \textit{(Single Source of Truth)} 
   
-  Data yang bersumber dari server dikelola melalui satu lapisan pengelolaan data di sisi \textit{frontend}, sehingga komponen antarmuka tidak melakukan pengambilan data secara langsung ke API. Pendekatan ini menghindari duplikasi data dan memastikan seluruh komponen menggunakan sumber data yang sama.
+  Data yang bersumber dari server dikelola melalui satu lapisan pengelolaan data di sisi \textit{frontend}, sehingga komponen antarmuka tidak melakukan pengambilan data secara langsung ke API. Pendekatan ini menghindari duplikasi data dan memastikan seluruh komponen menggunakan sumber data yang sama, sehingga menciptakan prediksi yang lebih baik terhadap perubahan state \citep{Evergreen2023}.
   
   \item Konsistensi Bentuk dan Representasi Data
   
@@ -125,18 +125,25 @@ Berdasarkan definisi tersebut, pengelolaan data \textit{frontend} dapat dikataka
   
   \item Siklus Hidup Data
   
-  Data \textit{frontend} memiliki status yang terdefinisi dengan jelas, seperti \textit{loading}, \textit{success}, dan \textit{error}. Kejelasan siklus hidup ini memungkinkan sistem untuk memberikan umpan balik yang tepat kepada pengguna serta memudahkan pengelolaan data yang bersifat asinkron.
+  Data \textit{frontend} memiliki status yang terdefinisi dengan jelas, seperti \textit{loading}, \textit{success}, dan \textit{error}. Kejelasan siklus hidup ini memungkinkan sistem untuk memberikan umpan balik yang tepat kepada pengguna serta memudahkan pengelolaan data yang bersifat asinkron, termasuk klasifikasi state berdasarkan umur panjangnya \textit{(persistent vs non-persistent)} \citep{Evergreen2023}.
   
   \item Pemanfaatan Mekanisme \textit{Caching}
   
-  Data hasil pengambilan dari server disimpan sementara di sisi frontend dan dapat digunakan kembali oleh komponen lain tanpa harus melakukan permintaan ulang ke API. Mekanisme \textit{caching} berperan penting dalam mengurangi permintaan data yang berulang serta meningkatkan efisiensi pengelolaan data.
+  Data hasil pengambilan dari server disimpan sementara di sisi frontend dan dapat digunakan kembali oleh komponen lain tanpa harus melakukan permintaan ulang ke API. Mekanisme \textit{caching} berperan penting dalam mengurangi permintaan data yang berulang serta meningkatkan efisiensi pengelolaan data, sekaligus mendukung persistensi data untuk menghindari kehilangan informasi saat reload \citep{Evergreen2023}.
   
   \item Sinkronisasi Data Antar-Komponen
   
-  Perubahan data yang terjadi akibat pembaruan atau refetch dapat tercermin secara otomatis pada seluruh komponen yang menggunakan data tersebut. Dengan adanya sinkronisasi, informasi yang ditampilkan pada dashboard tetap konsisten meskipun terjadi interaksi pengguna atau navigasi antar-halaman.
+  Perubahan data yang terjadi akibat pembaruan atau refetch dapat tercermin secara otomatis pada seluruh komponen yang menggunakan data tersebut. Dengan adanya sinkronisasi, informasi yang ditampilkan pada dashboard tetap konsisten meskipun terjadi interaksi pengguna atau navigasi antar-halaman, sehingga mengoptimalkan performa seperti minimisasi re-render yang tidak perlu \citep{Evergreen2023}.
+    
+  \item \textit{Readability} (Keterbacaan Struktur)
+  
+  Sistem pengelolaan data harus terorganisir dengan baik untuk memudahkan pemeliharaan dan pengembangan, menghindari redundansi data atau modifikasi state yang tidak perlu, sehingga meningkatkan kemudahan kolaborasi antar-komponen \citep{Evergreen2023}.
+  
+  \item \textit{Scalability} (Skalabilitas)
+  
+  Pengelolaan data harus mendukung pertumbuhan aplikasi dengan menangani peningkatan volume data dan state secara efisien, tanpa membatasi ekstensi fitur atau menimbulkan bottleneck performa \citep{Evergreen2023}.
 
 \end{packed_enum}
-
 Pengelolaan data \textit{frontend} yang terstruktur menuntut adanya mekanisme pengelolaan \textit{server state} yang mampu mengatur proses pengambilan, penyimpanan sementara, dan pembaruan data secara konsisten. Dalam konteks ini, pemanfaatan mekanisme \textit{caching} memungkinkan data yang diperoleh dari server digunakan ulang oleh berbagai komponen tanpa menimbulkan permintaan API berulang, sekaligus tetap mendukung pembaruan data ketika diperlukan. Selain itu, pengelolaan data secara terpusat dan adanya mekanisme sinkronisasi memastikan konsistensi data antar-komponen, sehingga seluruh antarmuka menampilkan informasi yang selaras. Dengan demikian, keterstrukturan data \textit{frontend} dalam penelitian ini dipahami sebagai integrasi antara pengelolaan \textit{server state}, penerapan \textit{caching}, dan sinkronisasi data antar-komponen, yang menjadi fondasi penerapan arsitektur \textit{Client Data Layer} untuk menghasilkan pengelolaan data \textit{frontend} yang konsisten, dan efisien.
 
 Pengelolaan data \textit{frontend} yang tidak terstruktur terjadi ketika data yang bersumber dari server dikelola secara langsung oleh masing-masing komponen antarmuka tanpa mekanisme pengelolaan terpusat di sisi frontend. Pada pendekatan ini, proses pengambilan, penyimpanan, dan pembaruan data dilakukan secara terpisah di setiap komponen. Akibatnya, data tidak memiliki siklus hidup yang konsisten, seperti status loading, success, dan error dikelola secara terpisah, serta data yang sama berpotensi diambil ulang dari API dan tidak adanya mekanisme \textit{caching}.
