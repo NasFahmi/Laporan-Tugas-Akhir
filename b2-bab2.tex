@@ -141,7 +141,7 @@ Berdasarkan definisi tersebut, pengelolaan data \textit{frontend} dapat dikataka
   
   \item \textit{Scalability} (Skalabilitas)
   
-  Pengelolaan data harus mendukung pertumbuhan aplikasi dengan menangani peningkatan volume data dan state secara efisien, tanpa membatasi ekstensi fitur atau menimbulkan bottleneck performa \citep{Evergreen2023}.
+  Pengelolaan data harus mendukung pertumbuhan aplikasi dengan menangani peningkatan volume data dan state secara efisien, tanpa membatasi ekstensi fitur atau menimbulkan \textit{bottleneck} performa \citep{Evergreen2023}.
 
 \end{packed_enum}
 Pengelolaan data \textit{frontend} yang terstruktur menuntut adanya mekanisme pengelolaan \textit{server state} yang mampu mengatur proses pengambilan, penyimpanan sementara, dan pembaruan data secara konsisten. Dalam konteks ini, pemanfaatan mekanisme \textit{caching} memungkinkan data yang diperoleh dari server digunakan ulang oleh berbagai komponen tanpa menimbulkan permintaan API berulang, sekaligus tetap mendukung pembaruan data ketika diperlukan. Selain itu, pengelolaan data secara terpusat dan adanya mekanisme sinkronisasi memastikan konsistensi data antar-komponen, sehingga seluruh antarmuka menampilkan informasi yang selaras. Dengan demikian, keterstrukturan data \textit{frontend} dalam penelitian ini dipahami sebagai integrasi antara pengelolaan \textit{server state}, penerapan \textit{caching}, dan sinkronisasi data antar-komponen, yang menjadi fondasi penerapan arsitektur \textit{Client Data Layer} untuk menghasilkan pengelolaan data \textit{frontend} yang konsisten, dan efisien.
