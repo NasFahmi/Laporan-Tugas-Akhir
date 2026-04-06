@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  2 APR 2026 19:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  6 APR 2026 12:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1105,17 +1105,7 @@ Overfull \hbox (7.14653pt too wide) in paragraph at lines 66--66
 \openout2 = `a3-abstract.aux'.
 
  (a3-abstract.tex
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--40
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
 
  []
 
@@ -2110,9 +2100,9 @@ Here is how much of TeX's memory you used:
  72716 multiletter control sequences out of 15000+600000
  668559 words of font info for 293 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 107i,15n,121p,1308b,2133s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 107i,15n,121p,2454b,2133s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on laporan.pdf (128 pages, 7920728 bytes).
+Output written on laporan.pdf (128 pages, 7920719 bytes).
 PDF statistics:
  1890 PDF objects out of 2073 (max. 8388607)
  783 named destinations out of 1000 (max. 500000)
