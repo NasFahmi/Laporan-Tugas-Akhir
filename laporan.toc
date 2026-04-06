@@ -77,3 +77,4 @@
 \contentsline {section}{Lampiran 3. Dokumentasi Penyerahan Hadiah}{101}{lampiran.3}%
 \contentsline {section}{Lampiran 4. Dokumentasi dengan Dosen Pembimbing}{102}{lampiran.4}%
 \contentsline {section}{Lampiran 5. Sertifikat}{102}{lampiran.5}%
+\contentsline {section}{Lampiran 6. Biodata Penulis}{103}{lampiran.6}%
